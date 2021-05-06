@@ -1,0 +1,1898 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blggn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-19 11:27+0000\n"
+"PO-Revision-Date: 2020-09-08 11:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.3; wp-5.5.1"
+
+#: inc/widgets/widget-about.php:7
+msgid " - About"
+msgstr "- Sobre"
+
+#: inc/theme-options/theme_mods.php:3365
+msgid " - All Rights Reserved."
+msgstr "- Todos os Direitos Reservados"
+
+#: inc/widgets/widget-facebook.php:7
+msgid " - Facebook Like Box"
+msgstr " - Facebook Like Box"
+
+#: inc/widgets/widget-newsletter.php:7
+msgid " - Newsletter"
+msgstr " - Newsletter"
+
+#: inc/widgets/widget-posts.php:7
+msgid " - Posts"
+msgstr " - Posts"
+
+#: inc/widgets/widget-social.php:7
+msgid " - Social Media"
+msgstr " - Social Media"
+
+#: searchform.php:2
+msgid " Search and hit enter..."
+msgstr "Digite o que busca e aperte enter..."
+
+#: inc/theme-options/theme_mods.php:3190
+msgid "\"To Top\" Arrow"
+msgstr "Seta \"Para Cima\""
+
+#: inc/theme-options/theme_mods.php:3161
+msgid "\"To Top\" Button"
+msgstr "Seta \"Para Baixo\""
+
+#: inc/theme_functions.php:149 inc/theme_functions.php:615
+#, php-format
+msgid "%d"
+msgid_plural "%d"
+msgstr[0] "%d"
+msgstr[1] "%d"
+
+#: parts/archive/archive-header.php:6 parts/archive/archive-header.php:10
+#: parts/archive/archive-header.php:14 parts/archive/archive-header.php:18
+#: parts/archive/archive-header.php:27 parts/archive/cat-header.php:6
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/widgets/widget-posts.php:7 inc/widgets/widget-social.php:7
+#: inc/widgets/widget-about.php:7 inc/widgets/widget-facebook.php:7
+#: inc/widgets/widget-newsletter.php:7
+msgid "* "
+msgstr "* "
+
+#: parts/footer/footer-v2.php:14 parts/footer/footer-v1.php:14
+msgid ". All Rights Reserved."
+msgstr ".Todos os direitos reservados"
+
+#: inc/theme-options/theme_mods.php:364
+msgid "1 Column"
+msgstr "1 coluna"
+
+#: parts/post/post-meta.php:25 parts/post/post-meta.php:46
+msgid "1 Comment"
+msgstr "1 comentário"
+
+#: inc/theme-options/theme_mods.php:2561
+msgid "100"
+msgstr "100"
+
+#: inc/theme-options/theme_mods.php:2562
+msgid "100italic"
+msgstr "100italic"
+
+#: inc/theme-options/theme_mods.php:365
+msgid "2 Columns"
+msgstr "2 Colunas"
+
+#: inc/theme-options/theme_mods.php:2563
+msgid "200"
+msgstr "20"
+
+#: inc/theme-options/theme_mods.php:2564
+msgid "200italic"
+msgstr "200italico"
+
+#: inc/theme-options/theme_mods.php:2565
+msgid "300"
+msgstr "300"
+
+#: inc/theme-options/theme_mods.php:2566
+msgid "300italic"
+msgstr "300italico"
+
+#: inc/theme-options/theme_mods.php:2569
+msgid "500"
+msgstr "500"
+
+#: inc/theme-options/theme_mods.php:2570
+msgid "500italic"
+msgstr "500italico"
+
+#: inc/theme-options/theme_mods.php:2571
+msgid "600"
+msgstr "600"
+
+#: inc/theme-options/theme_mods.php:2572
+msgid "600italic"
+msgstr "600italico"
+
+#: inc/theme-options/theme_mods.php:2573
+msgid "700"
+msgstr "700"
+
+#: inc/theme-options/theme_mods.php:2574
+msgid "700italic"
+msgstr "700italico"
+
+#: inc/theme-options/theme_mods.php:2575
+msgid "800"
+msgstr "800"
+
+#: inc/theme-options/theme_mods.php:2576
+msgid "800italic"
+msgstr "800italico"
+
+#: inc/theme-options/theme_mods.php:2577
+msgid "900"
+msgstr "900"
+
+#: inc/theme-options/theme_mods.php:2578
+msgid "900italic"
+msgstr "900italico"
+
+#: inc/widgets/widget-about.php:100
+msgid "About Widget"
+msgstr "Sobre o Widget"
+
+#: inc/theme-setup/tgm-plugin-activation/tgm-init.php:55
+msgid "ACF PRO"
+msgstr "ACF PRO"
+
+#: inc/theme-options/theme_mods.php:366
+msgid "Ad"
+msgstr "Ad"
+
+#: inc/theme-options/theme_mods.php:431
+msgid "Ad Code"
+msgstr "Código de Ad"
+
+#: inc/theme-options/theme_mods.php:405
+msgid "Ad Image"
+msgstr "Ad Imagem"
+
+#: inc/theme-options/theme_mods.php:380
+msgid "Ad Type"
+msgstr "Ad Tipo"
+
+#: inc/visualcomposer/visualcomposer-extend.php:257
+msgid "Adjust slider overlay transparency"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:80
+#: inc/visualcomposer/visualcomposer-extend.php:322
+msgid "Advanced Post Source"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1486
+msgid "After Content"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1506
+msgid ""
+"All global page header options are listed here. (there are also many options "
+"located in your page header metabox available on every edit page screen "
+"which are configured on a per-page basis)."
+msgstr ""
+
+#: inc/widgets/widget-about.php:8
+msgid "An About Widget."
+msgstr ""
+
+#: inc/widgets/widget-social.php:8
+msgid "An Social Media Widget."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:350
+msgid "Animation"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:363
+msgid "Any Time"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:908
+msgid "Appearing"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:909
+msgid "Appearing on scroll up"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:36
+msgid "Archive Settings"
+msgstr ""
+
+#: parts/archive/archive-header.php:30
+msgid "Archives"
+msgstr "Categorias"
+
+#: inc/theme-meta/theme_meta.php:130
+msgid "Audio Embed"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1235
+msgid "Author below featured image"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:408
+msgid "Autoplay:"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2748 inc/theme-options/theme_mods.php:3105
+msgid "Background Color"
+msgstr ""
+
+#. Name of the theme
+msgid "Blggn"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2611
+msgid "Body Background"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1789
+msgid "Body Font"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1420 inc/theme-options/theme_mods.php:2082
+msgid "Button"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3080
+msgid "Button \"View Post\""
+msgstr "Botão \"Ver Post\""
+
+#: inc/theme-options/theme_mods.php:2059
+msgid "Button Style:"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2052
+msgid "Buttons & Links"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2655
+msgid "Buttons Color"
+msgstr ""
+
+#: parts/post/content-single.php:15
+msgid "By"
+msgstr "Por"
+
+#: inc/theme-options/theme_mods.php:978 inc/theme-options/theme_mods.php:1000
+msgid "Cart"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:153
+msgid "Categories / Archives Layout"
+msgstr "Layout de Categorias / Arquivos"
+
+#: inc/theme-options/theme_mods.php:46
+msgid "Category Header Style"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2183 inc/theme-options/theme_mods.php:2836
+msgid "Category Link"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:108
+msgid "Category Pagination"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:421
+msgid "Category Posts"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:94
+msgid "Category Posts Layout"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:270
+msgid "Category:"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1189
+msgid "Center"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:385
+msgid "Code"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2598
+msgid "Color Settings"
+msgstr ""
+
+#: parts/post/post-meta.php:25 parts/post/post-meta.php:46
+msgid "Comments"
+msgstr ""
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:12
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Responder à &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Respostas à &ldquo;%2$s&rdquo;"
+
+#: comments.php:9
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/theme-setup/tgm-plugin-activation/tgm-init.php:74
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:457
+msgid "Content"
+msgstr ""
+
+#: parts/post/content-full.php:43 parts/post/content-list.php:41
+#: parts/post/content-grid.php:41
+#: inc/visualcomposer/vc_templates/category/style-1.php:39
+msgid "Continue Reading"
+msgstr "Saiba mais"
+
+#: inc/theme-options/theme_mods.php:2105 inc/theme-options/theme_mods.php:2990
+msgid "Continue Reading Link"
+msgstr "Link de Saiba mais"
+
+#: inc/theme-options/theme_mods.php:464 inc/theme-options/theme_mods.php:483
+#: inc/theme-options/theme_mods.php:516 inc/theme-options/theme_mods.php:535
+msgid "Custom Content"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2627
+msgid "Customize the link, hover & visited color"
+msgstr ""
+
+#: parts/archive/archive-header.php:5
+msgid "Daily Archives"
+msgstr "Arquivos Diários"
+
+#: inc/theme-options/theme_mods.php:2631 inc/theme-options/theme_mods.php:2659
+#: inc/theme-options/theme_mods.php:2766 inc/theme-options/theme_mods.php:2840
+#: inc/theme-options/theme_mods.php:2868 inc/theme-options/theme_mods.php:2896
+#: inc/theme-options/theme_mods.php:2966 inc/theme-options/theme_mods.php:2994
+#: inc/theme-options/theme_mods.php:3022 inc/theme-options/theme_mods.php:3123
+#: inc/theme-options/theme_mods.php:3165
+msgid "Default"
+msgstr "Padrão"
+
+#: inc/theme-options/theme_mods.php:154
+msgid "Default layout of categories and archives"
+msgstr "Layout padrão de categorias e arquivos"
+
+#: inc/theme-options/theme_mods.php:170
+msgid "Default layout of pages"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:138
+msgid "Default layout of single post"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:173
+msgid "Delay between transitions."
+msgstr ""
+
+#: inc/widgets/widget-newsletter.php:105
+msgid "Description:"
+msgstr "Descrição:"
+
+#: inc/theme-options/theme_mods.php:907
+msgid "Disable"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:469
+msgid "Display category title."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:414
+#: inc/visualcomposer/visualcomposer-extend.php:472
+msgid "Display the latest posts from all or specific category"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:125
+msgid "Distance between slides in px."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3644 inc/widgets/widget-newsletter.php:25
+msgid "Download your subscribers list"
+msgstr "Baixar sua lista de assinaturas"
+
+#: inc/theme-options/theme_mods.php:260
+msgid "Edit Category/Archives Width"
+msgstr "Editar Categoria/Arquivos tamanho"
+
+#: inc/theme-options/theme_mods.php:186
+msgid "Edit Homepage Width"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:223
+msgid "Edit Single Post Width"
+msgstr ""
+
+#: functions.php:120
+msgid "Edit your footer menu content in Appearance > Menus and set as"
+msgstr ""
+
+#: functions.php:104
+msgid "Edit your topbar menu content in Appearance > Menus and set as"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1356
+msgid "Enable \"Pin It\" Button"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2510
+msgid "Enable Typekit"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2540
+msgid "Enter your Typekit Font Name. For example: futura-pt, aktiv-grotesk."
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:33
+msgid "Example URL: http://www.facebook.com/vossenthemes"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2307 inc/theme-options/theme_mods.php:2920
+msgid "Excerpt"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1383
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:31
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:878
+msgid "Fade"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:404
+msgid "First Post Featured"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:910
+msgid "Fixed"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2410 inc/theme-options/theme_mods.php:3097
+msgid "Footer"
+msgstr ""
+
+#: functions.php:214
+msgid "Footer Bottom"
+msgstr ""
+
+#: functions.php:184
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:194
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:204
+msgid "Footer Column 3"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3362
+msgid "Footer copyright"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2417
+msgid "Footer Info"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3329
+msgid "Footer layout"
+msgstr ""
+
+#: functions.php:28
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:120
+msgid "Footer Menu."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3209
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3334
+msgid "Footer v1"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3335
+msgid "Footer v2"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2479
+msgid "Form Inputs"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:485 parts/header/topbar.php:10
+msgid "FREE SHIPPING ON ORDERS OVER $50.00"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1391
+msgid "Full Content"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:53 inc/theme-options/theme_mods.php:1158
+#: inc/theme-options/theme_mods.php:1521
+msgid "Fullscreen"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:52 inc/theme-options/theme_mods.php:1157
+#: inc/theme-options/theme_mods.php:1520
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/theme-meta/theme_meta.php:45
+msgid "Gallery Images"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:26 inc/theme-options/theme_mods.php:1782
+#: inc/theme-options/theme_mods.php:2604
+msgid "General"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:296
+msgid "Grid Layout Thumbnail Size"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:832 inc/theme-options/theme_mods.php:1952
+#: inc/theme-options/theme_mods.php:2711
+msgid "Header"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:332
+msgid "Header & Logo"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:859
+msgid "Header Background (Homepage)"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:886
+msgid "Header Banner"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:961
+msgid "Header Icons"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:970
+msgid "Header Icons Left"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:992
+msgid "Header Icons Right"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:842
+msgid "Header Layout"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:847
+msgid "Header v1"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:848
+msgid "Header v2"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:849
+msgid "Header v3"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:850
+msgid "Header v4"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:851
+msgid "Header v5"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:852
+msgid "Header v6"
+msgstr ""
+
+#: inc/widgets/widget-about.php:143
+msgid "Heading"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1820
+msgid "Heading 1"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1842
+msgid "Heading 2"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1864
+msgid "Heading 3"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1886
+msgid "Heading 4"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1908
+msgid "Heading 5"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1929
+msgid "Heading 6"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1813 inc/theme-options/theme_mods.php:2686
+msgid "Headings"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2693
+msgid "Headings Color"
+msgstr ""
+
+#: inc/widgets/widget-about.php:146
+msgid "Hi"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:77
+msgid "Hide Category List"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:60
+msgid "Hide Category Title"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:40
+msgid "Hide Cover Photo"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:48
+msgid "Hide Page Posts"
+msgstr ""
+
+#: woocommerce.php:21 inc/theme_functions.php:238
+msgid "Home"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2632 inc/theme-options/theme_mods.php:2660
+#: inc/theme-options/theme_mods.php:2767 inc/theme-options/theme_mods.php:2841
+#: inc/theme-options/theme_mods.php:2869 inc/theme-options/theme_mods.php:2897
+#: inc/theme-options/theme_mods.php:2967 inc/theme-options/theme_mods.php:2995
+#: inc/theme-options/theme_mods.php:3023 inc/theme-options/theme_mods.php:3124
+#: inc/theme-options/theme_mods.php:3166
+msgid "Hover"
+msgstr ""
+
+#. URI of the theme
+msgid "https://blggn.thememeister.com"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/vossendesign/portfolio"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2550
+msgid "ID"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:148
+msgid "If enabled, the slider will autoplay."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:186
+msgid "If enabled, the slider will be in continuous loop mode."
+msgstr "Se ativo, o slider será exibido em modo de loop contínuo"
+
+#: inc/visualcomposer/visualcomposer-extend.php:137
+msgid ""
+"If enabled, then active slides will be centered, not always on the left side."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:218
+msgid "If enabled, this will allow you to add a title above the slider."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:235
+msgid "If enabled, this will allow you to adjust or add a slider overlay."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:208
+msgid "If enabled, this will show navigation arrows on the sides."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:197
+msgid "If enabled, this will show pagination dots underneath."
+msgstr ""
+
+#: parts/post/content-archive.php:34
+msgid "If you are not happy with the results above please do another search."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:384 inc/theme-options/theme_mods.php:594
+#: inc/theme-options/theme_mods.php:3413
+msgid "Image"
+msgstr ""
+
+#: inc/widgets/widget-about.php:121
+msgid "Image Style"
+msgstr ""
+
+#: inc/widgets/widget-about.php:104
+msgid "Image:"
+msgstr ""
+
+#: inc/theme-setup/one-click-demo/one-click-demo-import.php:7
+msgid "Import Demo Content"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:298 inc/theme-options/theme_mods.php:314
+msgid "Important! Make sure to"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:314
+msgid "in order to have consistent thumbnails size."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:298
+msgid ""
+"in order to have consistent thumbnails size. The size of uploaded featured "
+"images should be at least 600 pixels in width/height."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Incredibly powerful, blog/magazine WordPress theme for creatives. Features a "
+"modern mulitple layouts, bold typography and a minimalistic style that "
+"allows you to create a timeless website."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:116
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3214
+msgid "Instagram"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3234
+msgid "Instagram Username"
+msgstr ""
+
+#: parts/post/content-none.php:14
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2568
+msgid "italic"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:303 inc/theme-options/theme_mods.php:319
+msgid "Landscape"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:51 inc/theme-options/theme_mods.php:1156
+#: inc/theme-options/theme_mods.php:1522
+msgid "Large"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:359
+msgid "Last 2 Months"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:356
+msgid "Last 24 Hours"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:360
+msgid "Last 3 Months"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:358
+msgid "Last 30 Days"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:361
+msgid "Last 6 Months"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:357
+msgid "Last 7 Days"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:362
+msgid "Last Year"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:286
+msgid "Latest"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:16
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:249
+msgid "Latest Widget"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3318
+msgid "Layout"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:126
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:256
+msgid "Layout:"
+msgstr ""
+
+#: parts/post/post-meta.php:25 parts/post/post-meta.php:46
+msgid "Leave a comment"
+msgstr "Deixe um comentário"
+
+#: inc/theme-options/theme_mods.php:1188
+msgid "Left"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:864
+msgid "Light"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1421
+msgid "Link"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:114
+msgid "Links"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2626
+msgid "Links Color"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:258
+msgid "List"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:259
+msgid "List Large"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:312
+msgid "List Layout Thumbnail Size"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:344
+msgid ""
+"List those posts that have been the most popular within a specific time "
+"range:"
+msgstr ""
+
+#: inc/theme_functions.php:341
+msgid "Load More"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:115
+msgid "Load More Button"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:977 inc/theme-options/theme_mods.php:999
+msgid "Login"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:563 inc/theme-options/theme_mods.php:610
+#: inc/theme-options/theme_mods.php:3380
+msgid "Logo"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:730
+msgid "Logo Font Size"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3541
+msgid "Logo font size"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3428
+msgid "Logo image"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:631
+msgid "Logo Light"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3449
+msgid "Logo max width"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:763 inc/theme-options/theme_mods.php:3574
+msgid "Logo spacing"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:589
+msgid "Logo Type"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3408
+msgid "Logo type"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:653
+msgid "Logo Width"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1390
+msgid "Long"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1389
+msgid "Medium"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1959
+msgid "Menu"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2811
+msgid "Menu Arrow Color"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2763
+msgid "Menu Color"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:872
+msgid "Menu Hover Animation"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:934
+msgid "Menu spacing"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3236
+msgid "mija_mija"
+msgstr ""
+
+#: parts/post/post-meta.php:20 parts/post/post-meta.php:41
+msgid "Minute Read"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2443
+msgid "Misc"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2450
+msgid "Miscellaneous"
+msgstr ""
+
+#: parts/archive/archive-header.php:9
+msgid "Monthly Archives"
+msgstr "Arquivos Mensais"
+
+#: inc/theme-options/theme_mods.php:27 inc/theme-options/theme_mods.php:333
+msgid "My panel description"
+msgstr ""
+
+#: inc/theme_functions.php:332
+msgid "Newer Posts"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3632
+msgid "Newsletter"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3674
+msgid "Newsletter bottom text"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1107 inc/theme-options/theme_mods.php:3653
+msgid "Newsletter title"
+msgstr ""
+
+#: inc/widgets/widget-newsletter.php:88
+msgid "Newsletter Widget"
+msgstr ""
+
+#: inc/widgets/widget-newsletter.php:8
+msgid "Newsletter widget to add subscription form on sidebar."
+msgstr ""
+"Widget de Newsletter para adicionar formulário de assinatura na sidebar"
+
+#: inc/theme_functions.php:354
+msgid "Next"
+msgstr "Próximo"
+
+#: page.php:39
+msgid "Next Page"
+msgstr "Próxima Página"
+
+#: parts/post/post-pagination.php:30
+msgid "Next Post"
+msgstr "Próximo Post"
+
+#: inc/theme-options/theme_mods.php:877
+msgid "No Animation"
+msgstr ""
+
+#. Name of the template
+msgid "No Header & Footer"
+msgstr ""
+
+#: inc/theme_functions.php:339 inc/theme_functions.php:346
+msgid "No more pages to load"
+msgstr ""
+
+#: inc/widgets/widget-social.php:37
+msgid "Note: Set your social links in the Customizer/Social Media Settings"
+msgstr ""
+
+#: parts/post/content-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3298
+msgid "Number of Photos: "
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:96
+#: inc/visualcomposer/visualcomposer-extend.php:299
+#: inc/visualcomposer/visualcomposer-extend.php:454
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:297
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:113
+msgid "Numeric"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:411
+msgid "Off"
+msgstr ""
+
+#: 404.php:8
+msgid "Oh Snap..."
+msgstr "Opsss..."
+
+#: inc/theme_functions.php:333
+msgid "Older Posts"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:410
+msgid "On"
+msgstr ""
+
+#: inc/theme-setup/tgm-plugin-activation/tgm-init.php:61
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:374 inc/widgets/widget-newsletter.php:118
+msgid "Overlay"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1580
+msgid "Padding Bottom"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1552
+msgid "Padding Top"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1487
+msgid "Page Bottom"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1505
+msgid "Page Header"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1515
+msgid "Page Header Style"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:169
+msgid "Page Layout"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1497
+msgid "Page Settings"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1536
+msgid "Page Title"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3018
+msgid "Pagination"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2150
+msgid "Pagination Links"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2128
+msgid "Pagination Numbers"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2285 inc/theme-options/theme_mods.php:2934
+msgid "Paragraphs"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2522
+msgid "Paste the provided Typekit Kit ID. Usually 6-7 random letters"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:16
+msgid "Popular Posts"
+msgstr "Posts Populares"
+
+#: inc/theme-options/theme_mods.php:304 inc/theme-options/theme_mods.php:320
+msgid "Portrait"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1481
+msgid "Post Comments Position"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1245
+msgid "Post date below featured image"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1225
+msgid "Post date below title"
+msgstr ""
+
+#: inc/theme-meta/theme_meta.php:170
+msgid "Post Header Content"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1150
+msgid "Post Header Style"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1183
+msgid "Post Header Text Position"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:137
+msgid "Post Layout"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2962
+msgid "Post Links"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2262 inc/theme-options/theme_mods.php:2892
+msgid "Post Meta"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1142
+msgid "Post Settings"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:26
+msgid "Post Slider"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:89
+#: inc/visualcomposer/visualcomposer-extend.php:331
+msgid "Post Source"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2864
+msgid "Post Title"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2205
+msgid "Post Title / Full Layout"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2243
+msgid "Post Title / Grid Layout"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2224
+msgid "Post Title / List Layout"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:268
+#: inc/theme-options/theme_mods.php:2176 inc/theme-options/theme_mods.php:2829
+msgid "Posts"
+msgstr ""
+
+#: parts/archive/archive-header.php:21
+msgid "Posts By"
+msgstr ""
+
+#: inc/theme_functions.php:353
+msgid "Previous"
+msgstr "Anterior"
+
+#: page.php:40
+msgid "Previous Page"
+msgstr "Página Anterior"
+
+#: parts/post/post-pagination.php:15
+msgid "Previous Post"
+msgstr "Post Anterior"
+
+#: functions.php:25
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:72
+msgid "Primary Menu."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2328 inc/theme-options/theme_mods.php:2948
+msgid "Quotes"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2523
+msgid "Read More"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1415
+msgid "Read More Style"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:299 inc/theme-options/theme_mods.php:315
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:298 inc/theme-options/theme_mods.php:314
+msgid "regenerate thumbnails"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2567
+msgid "regular"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1190
+msgid "Right"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:509
+msgid "Right Content"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2067 inc/widgets/widget-about.php:123
+msgid "Round"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:976 inc/theme-options/theme_mods.php:998
+msgid "Search"
+msgstr ""
+
+#: parts/archive/archive-header.php:26
+msgid "Search results for"
+msgstr ""
+
+#: inc/theme_functions.php:248
+msgid "Search Results for..."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:971
+msgid "Select icons to display on the left side of the header"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:993
+msgid "Select icons to display on the right side of the header"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:67
+msgid "Select the layout."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:317
+msgid "Select the number of columns."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:443
+msgid "Select the style of category posts."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:51
+msgid "Select the style of slider posts."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:91
+msgid "Set your custom post source by clicking on Build Query button."
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:333
+msgid "Set your post source by clicking on Build Query button."
+msgstr ""
+
+#: inc/theme_functions.php:870
+msgid "Share"
+msgstr "Compartilhar"
+
+#: inc/theme_functions.php:904 inc/theme_functions.php:905
+msgid "Share by Email"
+msgstr "Compartilhar por E-mail"
+
+#: inc/theme_functions.php:876 inc/theme_functions.php:877
+msgid "Share on Facebook"
+msgstr "Compartilhar no Facebook"
+
+#: inc/theme_functions.php:914 inc/theme_functions.php:915
+msgid "Share on Google+"
+msgstr "Compartilhar no Google+"
+
+#: inc/theme_functions.php:895 inc/theme_functions.php:896
+msgid "Share on Pinterest"
+msgstr "Compartilhar no Pinterest"
+
+#: inc/theme_functions.php:886 inc/theme_functions.php:887
+msgid "Share on Twitter"
+msgstr "Compartilhar no Twitter"
+
+#: inc/theme-options/theme_mods.php:1388
+msgid "Short"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3372
+msgid "Show \"back to top\" button"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1398
+msgid "Show \"Read More\" Link/Button"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1234
+msgid "Show Author"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1445
+msgid "Show Author Section"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:359
+msgid "Show Category"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1166
+msgid "Show Category Link"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1089
+msgid "Show close button (X)"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3266
+msgid "Show Comments Count"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:395
+#: inc/theme-options/theme_mods.php:1215
+msgid "Show Comments Link"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:368
+msgid "Show Date"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3282
+msgid "Show Description"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1324
+msgid "Show E-mail"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1292
+msgid "Show Facebook"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3391
+msgid "Show footer logo"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3352
+msgid "Show footer menu"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:44
+msgid "Show Friends Faces"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1340
+msgid "Show Google+"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3225
+msgid "Show Instagram"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3250
+msgid "Show Likes Count"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:572
+msgid "Show Logo"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1080
+msgid "Show logo"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1098
+msgid "Show newsletter"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3643
+msgid "Show newsletter form"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1019 inc/theme-options/theme_mods.php:1048
+msgid "Show on all screens"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1020 inc/theme-options/theme_mods.php:1049
+msgid "Show on mobile only"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1308
+msgid "Show Pinterest"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1472
+msgid "Show Post Comments"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1224 inc/theme-options/theme_mods.php:1244
+msgid "Show Post Date"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1366
+msgid "Show Post Excerpt"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1454
+msgid "Show Post Pagination"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1436
+msgid "Show Post Tags"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:386
+msgid "Show Read Count"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1206
+msgid "Show Read Counter"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1463
+msgid "Show Related Posts"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1254
+msgid "Show Share Links"
+msgstr "Exibir Links de Compartilhamentos"
+
+#: inc/theme-options/theme_mods.php:687 inc/theme-options/theme_mods.php:3482
+msgid "Show Site Title"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1127
+msgid "Show social icons"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3342 inc/widgets/widget-about.php:169
+msgid "Show social media icons"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:917
+msgid "Show Sticky Header Logo"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:708 inc/theme-options/theme_mods.php:3511
+msgid "Show Tagline"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:350
+msgid "Show Topbar"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1263
+msgid "Show Twitter"
+msgstr ""
+
+#: inc/visualcomposer/visualcomposer-extend.php:377
+msgid "Show Views Count"
+msgstr "Exibir Contador de Posts"
+
+#: inc/theme-options/theme_mods.php:1197
+msgid "Show Views Counter"
+msgstr "Exibir Contador de Visualizações"
+
+#: functions.php:26 inc/theme-options/theme_mods.php:1071
+#: inc/theme-options/theme_mods.php:2005
+msgid "Side Menu"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1014 inc/theme-options/theme_mods.php:1043
+msgid "Side Menu Icon"
+msgstr ""
+
+#: functions.php:174
+msgid "Side Menu Widgets"
+msgstr ""
+
+#: functions.php:88
+msgid "Side Menu."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2028
+msgid "Side Sub-Menu"
+msgstr ""
+
+#: functions.php:154
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:164
+msgid "Sidebar 2"
+msgstr ""
+
+#: inc/widgets/widget-newsletter.php:66
+msgid "Sign Up"
+msgstr "Assinar"
+
+#: inc/theme-options/theme_mods.php:3659 parts/footer/footer-v2.php:12
+#: parts/footer/footer-v1.php:12
+msgid "Sign up for our weekly newsletter"
+msgstr "Assinar nossa Newsletter Semanal"
+
+#: inc/widgets/widget-about.php:187
+msgid "Signature Image:"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:879
+msgid "Slide"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:260
+msgid "Slider"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3073
+msgid "Sliders"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3119
+msgid "Social Icons"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:463 inc/theme-options/theme_mods.php:515
+msgid "Social Media"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1611
+msgid "Social Media Settings"
+msgstr ""
+
+#: parts/post/content-none.php:9
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/widgets/widget-posts.php:284
+msgid "Sort by:"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:305 inc/theme-options/theme_mods.php:321
+#: inc/theme-options/theme_mods.php:2066 inc/widgets/widget-about.php:124
+msgid "Square"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1155
+msgid "Standard"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:902
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1982
+msgid "Sub-Menu"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1113 parts/header/side-menu.php:6
+msgid "Subscribe to our newsletter"
+msgstr "Assine nossa Newsletter"
+
+#: inc/widgets/widget-newsletter.php:108
+msgid "Subscribe to Weekly Newsletter."
+msgstr "Assine nossa Newsletter Semanal"
+
+#: parts/archive/archive-header.php:17
+msgid "Tag"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:791
+msgid "Tagline Space Top"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3601
+msgid "Tagline spacing"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2351
+msgid "Tags"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:595 inc/theme-options/theme_mods.php:2554
+#: inc/theme-options/theme_mods.php:3147 inc/theme-options/theme_mods.php:3414
+msgid "Text"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:709 inc/theme-options/theme_mods.php:3512
+msgid ""
+"The \"Site title\" and the \"Tagline\" can be changed in your Dashboard > "
+"Settings > General"
+msgstr ""
+
+#: 404.php:9
+msgid ""
+"The page you are looking for cannot be found.. Perhaps searching can help."
+msgstr ""
+"A página ou o conteúdo que você procura não existe ou não está mais "
+"disponível. \n"
+"Por favor, tente buscar com outro termo."
+
+#: inc/theme-setup/tgm-plugin-activation/tgm-init.php:49
+msgid "Theme Options"
+msgstr ""
+
+#: inc/theme_functions.php:338 inc/theme_functions.php:345
+msgid "There are no more posts to show right now"
+msgstr ""
+
+#: functions.php:166
+msgid ""
+"This is additional sidebar which can only be used with page builder on your "
+"homepage."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:632
+msgid "This logo will be used for transparent header."
+msgstr ""
+
+#: inc/widgets/widget-posts.php:343
+msgid "Time Range:"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1159
+msgid "Title Top"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:3343
+msgid "To set social media icons, go to Social Media Settings section."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:341
+msgid "Topbar"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2718
+msgid "Topbar Background Color"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:359
+msgid "Topbar Layout"
+msgstr ""
+
+#: functions.php:27 inc/theme-options/theme_mods.php:462
+#: inc/theme-options/theme_mods.php:514
+msgid "Topbar Menu"
+msgstr ""
+
+#: functions.php:104
+msgid "Topbar Menu."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2733
+msgid "Topbar Text Color"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:865
+msgid "Transparent"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:287
+msgid "Trending"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2501
+msgid "Typekit"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2545
+msgid "Typekit Font"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2539 inc/theme-options/theme_mods.php:3732
+msgid "Typekit Fonts"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2521
+msgid "Typekit ID"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:1776
+msgid "Typography Settings"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:36
+msgid "Use Small Header"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2558
+msgid "Variants"
+msgstr ""
+
+#: inc/theme-meta/theme_meta.php:90
+msgid "Video Embed"
+msgstr ""
+
+#: parts/post/post-meta.php:16 parts/post/post-meta.php:36
+msgid "View"
+msgstr "Visualização"
+
+#: inc/widgets/widget-posts.php:125 parts/post/content-full.php:9
+#: parts/post/content-featured.php:7 parts/post/content-list.php:9
+#: parts/post/content-grid.php:9
+#: inc/visualcomposer/vc_templates/category/style-1.php:16
+#: inc/visualcomposer/vc_templates/slider/style-2.php:7
+#: inc/visualcomposer/vc_templates/slider/style-1.php:7
+#: inc/visualcomposer/vc_templates/slider/style-5.php:8
+#: inc/visualcomposer/vc_templates/slider/style-10.php:14
+msgid "View Post"
+msgstr "Saiba mais"
+
+#: inc/theme_functions.php:147
+msgid "View your shopping cart"
+msgstr "Ver o seu carrinho de compra"
+
+#: parts/post/post-meta.php:16 parts/post/post-meta.php:36
+msgid "Views"
+msgstr "Visualizações"
+
+#: inc/theme-setup/tgm-plugin-activation/tgm-init.php:43
+msgid "Visual Composer"
+msgstr ""
+
+#. Author of the theme
+msgid "Vossen Themes"
+msgstr ""
+
+#: inc/widgets/widget-about.php:157
+msgid ""
+"Welcome to my blog. I document my adventures in travel, style, and food. "
+"Hope you have a nice stay!"
+msgstr ""
+
+#: inc/widgets/widget-facebook.php:8
+msgid "Widget for promoting Facebook Page."
+msgstr ""
+
+#: inc/widgets/widget-posts.php:8
+msgid ""
+"Widget for showing latest or trending posts from all or specific categories."
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2384 inc/theme-options/theme_mods.php:3056
+msgid "Widget Title"
+msgstr ""
+
+#: inc/widgets/widget-posts.php:232 inc/widgets/widget-social.php:34
+#: inc/widgets/widget-about.php:21 inc/widgets/widget-facebook.php:27
+#: inc/widgets/widget-newsletter.php:21
+msgid "Widget Title:"
+msgstr ""
+
+#: inc/theme-options/theme_mods.php:2377 inc/theme-options/theme_mods.php:3049
+msgid "Widgets"
+msgstr ""
+
+#: functions.php:186
+msgid ""
+"Widgets in this area will be shown in 1st footer column on all posts and "
+"pages."
+msgstr ""
+
+#: functions.php:196
+msgid ""
+"Widgets in this area will be shown in 2nd footer columns on all posts and "
+"pages."
+msgstr ""
+
+#: functions.php:206
+msgid ""
+"Widgets in this area will be shown in 3rd footer columns on all posts and "
+"pages."
+msgstr ""
+
+#: functions.php:216
+msgid "Widgets in this area will be shown in the bottom part of the footer."
+msgstr ""
+
+#: functions.php:176
+msgid ""
+"Widgets in this area will be shown in the side menu on all posts and pages."
+msgstr ""
+
+#: functions.php:156
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+
+#: parts/footer/footer-v2.php:13
+msgid "Will be used in accordance with our User Agreement and Privacy Policy"
+msgstr ""
+
+#: parts/archive/archive-header.php:13
+msgid "Year Archives"
+msgstr "Arquivos Anuais"
+
+#: functions.php:72
+msgid "You can edit your menu content in Appearance > Menus and set as"
+msgstr ""
+
+#: functions.php:88
+msgid "You can edit your side menu content in Appearance > Menus and set as"
+msgstr ""
+"Você pode editar o conteúdo do seu menu lateral em: Aparência > Menus e mude "
+"para"
+
+#: parts/post/post-related.php:7
+msgid "You May Also Like"
+msgstr "Você também pode gostar"
+
+#: inc/widgets/widget-newsletter.php:65
+msgid "Your Email Address"
+msgstr "Seu endereço de e-mail"

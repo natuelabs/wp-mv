@@ -1,0 +1,91 @@
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+.vc_btn3 {
+    background-image: none;
+}
+
+.btn,
+.vc_btn3,
+button,
+.button,
+.btn[type="submit"],
+.button[type="submit"],
+input[type="reset"],
+input[type="submit"],
+.wpcf7-submit,
+.mc4wp-form input[type="submit"],
+.widget_wysija input[type="submit"],
+.post-password-form input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    display: inline-block;
+	width: auto;
+	font-size: 13px;
+	font-weight: 700;
+    letter-spacing: 3px;
+	line-height: 14px;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	border-radius: 0;
+	margin: 20px 0;
+	padding: 17px 41px;
+	background: #000;
+	color: #fff;
+
+	-webkit-transition: background .3s, color .3s;
+	-moz-transition: background .3s, color .3s;
+	transition: background .3s, color .3s;
+}
+
+.btn:hover,
+.vc_btn3:hover,
+.btn:hover i,
+button:hover,
+.button:hover,
+.btn[type="submit"]:hover,
+.button[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  color: #fff;
+  outline: none;
+}
+
+.btn:focus,
+.vc_btn3:focus,
+button:focus,
+.button:focus,
+.btn[type="submit"]:focus,
+.button[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+  outline: 1px dotted #959595;
+  outline-offset: -4px;
+}
+
+.btn:active,
+.vc_btn3:active,
+button:active,
+.button:active,
+.btn[type="submit"]:active,
+.button[type="submit"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+  -webkit-transform: translate(0, 1px);
+      -ms-transform: translate(0, 1px);
+          transform: translate(0, 1px);
+}
+
+.btn a,
+button a,
+.button a,
+.btn[type="submit"] a,
+.button[type="submit"] a,
+input[type="reset"] a,
+input[type="submit"] a {
+  box-shadow: 0 0 0;
+  color: #fff;
+}

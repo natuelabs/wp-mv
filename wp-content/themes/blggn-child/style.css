@@ -1,0 +1,23 @@
+/*
+Theme Name: Blggn Child
+Theme URI: https://bloggin.thememeister.com
+Description: Incredibly powerful, blog/magazine WordPress theme for creatives. Features a modern mulitple layouts, bold typography and a minimalistic style that allows you to create a timeless website.
+Author: Vossen Themes
+Author URI: https://themeforest.net/user/vossendesign/
+Template: blggn
+Text Domain: blggn-child
+*/
+
+/*--------------------------------------------------------------
+Theme customization starts here
+----------------------------------------------------------------*/
+@media (min-width: 992px){
+	.main-navigation li a {
+		padding: 0 1em;
+	}
+}
+@media (max-width: 1150px) and (min-width: 992px){
+	.header-layout-v1 .main-navigation .nav-menu > li > a {
+	    padding: 0 .5em;
+	}
+}
