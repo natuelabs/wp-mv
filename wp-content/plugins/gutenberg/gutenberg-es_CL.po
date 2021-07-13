@@ -1,5 +1,5 @@
-# Translation of Plugins - Gutenberg - Development (trunk) in Spanish (Chile)
-# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+# Translation of Plugins - Gutenberg - Stable (latest release) in Spanish (Chile)
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2018-12-18 14:28:55+0000\n"
@@ -9,39 +9,51 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: es_CL\n"
-"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
 
-#: lib/editor-settings.php:31 build/block-editor/index.js:1
+#: lib/compat/wordpress-5.8/block-editor.php:186
+#: build/block-editor/index.js:7402
 msgid "Full Size"
 msgstr "Tamaño completo"
 
-#: lib/editor-settings.php:28 build/block-editor/index.js:1
+#: lib/compat/wordpress-5.8/block-editor.php:183
+#: build/block-editor/index.js:7393
 msgid "Thumbnail"
 msgstr "Imagen en miniatura"
 
-#: lib/full-site-editing/default-template-types.php:69
-#: build/block-editor/index.js:66 build/blocks/index.js:1
-#: build/core-data/index.js:1
+#: lib/full-site-editing/default-template-types.php:65
+#: build/block-editor/index.js:35022 build/blocks/index.js:7071
+#: build/core-data/index.js:1887
 msgid "Media"
 msgstr "Media"
 
-#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
-#: lib/editor-settings.php:29 build/block-editor/index.js:1
-#: build/block-editor/index.js:9 build/components/index.js:10
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "Clásico"
+
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "Embebido"
+
+#: lib/full-site-editing/template-parts.php:174 build/edit-post/index.js:13313
+msgid "General"
+msgstr "General"
+
+#: lib/compat/wordpress-5.8/block-editor.php:184
+#: build/block-editor/index.js:7396 build/block-editor/index.js:15741
+#: build/components/index.js:38018
 msgid "Medium"
 msgstr "Mediano"
 
-#: build/block-library/blocks/archives.php:97
+#: build/block-library/blocks/archives.php:101
 msgid "No archives to show."
 msgstr "No hay archivos que mostrar."
 
 #: post-content.php:41
 msgid "Beautiful landscape"
 msgstr "Paisaje hermoso"
-
-#: post-content.php:67
-msgid "Galleries"
-msgstr "Galerías"
 
 #: post-content.php:89
 msgid "Matt Mullenweg, 2017"
@@ -108,6 +120,14 @@ msgstr "La información correspondiente al origen de la cita es un campo de text
 msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
 msgstr "El editor se esforzará por crear una experiencia rica al crear una nueva entrada o página, lo que hace que la escritura sea sin esfuerzo, disponibilizando \"bloques\" para que sea aún más fácil lo que hoy se hace con shortcodes, HTML personalizado, o “la parte misteriosa\" al incrustar código."
 
+#: post-content.php:159
+msgid "Code is Poetry"
+msgstr "El Código es Poesía"
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "Galerías"
+
 #: post-content.php:83
 msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
 msgstr "Un gran beneficio de los bloques es que puedes editarlos en su lugar y manipular su contenido directamente. En lugar de tener campos para editar cosas como el origen de una cita, o el texto de un botón; puedes cambiar directamente el contenido. Intenta editar la siguiente cita:"
@@ -136,10 +156,6 @@ msgstr "Texto y Encabezados"
 msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
 msgstr "Dale una oportunidad, puedes descubrir cosas que WordPress ya añade a tus mensajes y que aún no sabías. Aquí hay una breve lista de lo que puedes encontrar actualmente:"
 
-#: post-content.php:56
-msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
-msgstr "Imagina que todo aquello que WordPress puede hacer esté disponible para ti rápidamente y en el mismo lugar en la interfaz. Ya no necesitarás descifrar las etiquetas HTML, las clases o recordar la sintaxis complicada de código. Ese el espíritu detrás del insertador — el botón <code> (+) </code> que verás alrededor del editor — te permitirá navegar por todos los bloques de contenido disponibles y agregarlos a su entrada. Los plugins y los temas son capaces de registrar sus propios, abriendo todo tipo de posibilidades para la edición y publicación."
-
 #: post-content.php:52
 msgid "The <em>Inserter</em> Tool"
 msgstr "La Herramienta <em>Insertador</em>"
@@ -155,6 +171,10 @@ msgstr "Si el tema lo soporta, verás el botón “Ancho” en la barra de herra
 #: post-content.php:36
 msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
 msgstr "El manejo de imágenes y medios con el máximo cuidado es uno de los focos principales del nuevo editor. Afortunadamente, encontrarás de un modo más fácil y robusto que antes aspectos como la adición de subtítulos o ir a toda el ancho con sus imágenes."
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "Imagina que todo aquello que WordPress puede hacer esté disponible para ti rápidamente y en el mismo lugar en la interfaz. Ya no necesitarás descifrar las etiquetas HTML, las clases o recordar la sintaxis complicada de código. Ese el espíritu detrás del insertador — el botón <code> (+) </code> que verás alrededor del editor — te permitirá navegar por todos los bloques de contenido disponibles y agregarlos a su entrada. Los plugins y los temas son capaces de registrar sus propios, abriendo todo tipo de posibilidades para la edición y publicación."
 
 #: post-content.php:32
 msgid "A Picture is Worth a Thousand Words"
@@ -180,17 +200,13 @@ msgstr "El objetivo de este nuevo editor es hacer que la creación de contenido 
 msgid "Of Mountains &amp; Printing Presses"
 msgstr "De Montañas e Imprentas"
 
-#: post-content.php:68
-msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
-msgstr "Contenido Embebido, como YouTube, Tuits, u otras entradas de WordPress."
-
-#: post-content.php:159 build/block-library/index.js:8
-msgid "Code is Poetry"
-msgstr "El Código es Poesía"
-
 #: lib/demo.php:59
 msgid "Welcome to the Gutenberg Editor"
 msgstr "Bienvenido al Editor Gutenberg"
+
+#: post-content.php:68
+msgid "Embeds, like YouTube, Tweets, or other WordPress posts."
+msgstr "Contenido Embebido, como YouTube, Tuits, u otras entradas de WordPress."
 
 #: lib/class-wp-rest-menu-items-controller.php:862
 msgid "The title for the object."
@@ -207,7 +223,7 @@ msgstr "Identificador único para el objeto."
 msgid "%1$s on %2$s"
 msgstr "%1$s en %2$s"
 
-#: gutenberg.php:73 gutenberg.php:74
+#: lib/init.php:64 lib/init.php:65
 msgid "Support"
 msgstr "Soporte"
 
@@ -215,23 +231,23 @@ msgstr "Soporte"
 msgid "No comments to show."
 msgstr "No hay comentarios para mostrar."
 
-#: build/block-library/blocks/archives.php:57
+#: build/block-library/blocks/archives.php:61
 msgid "Select Post"
 msgstr "Seleccionar Entrada"
 
-#: build/block-library/blocks/archives.php:54
+#: build/block-library/blocks/archives.php:58
 msgid "Select Week"
 msgstr "Seleccionar Semana"
 
-#: build/block-library/blocks/archives.php:51
+#: build/block-library/blocks/archives.php:55
 msgid "Select Day"
 msgstr "Seleccionar Día"
 
-#: build/block-library/blocks/archives.php:48
+#: build/block-library/blocks/archives.php:52
 msgid "Select Month"
 msgstr "Seleccionar mes"
 
-#: build/block-library/blocks/archives.php:45
+#: build/block-library/blocks/archives.php:49
 msgid "Select Year"
 msgstr "Seleccionar Año"
 
@@ -239,49 +255,12 @@ msgstr "Seleccionar Año"
 msgid "Archives"
 msgstr "Archivos"
 
-#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
-#: lib/editor-settings.php:30 build/block-editor/index.js:1
-#: build/block-library/index.js:68 build/components/index.js:10
+#: lib/compat/wordpress-5.8/block-editor.php:185
+#: build/block-editor/index.js:7399 build/components/index.js:38021
 msgid "Large"
 msgstr "Largo"
 
-#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
-msgid "Cyan bluish gray"
-msgstr "Gris azulado cian"
-
-#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
-msgid "Light green cyan"
-msgstr "Verde claro cian"
-
-#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
-msgid "Luminous vivid amber"
-msgstr "Ámbar vivo luminoso"
-
-#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
-msgid "Luminous vivid orange"
-msgstr "Anaranjado vivo luminoso"
-
-#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
-msgid "Pale cyan blue"
-msgstr "Azul cian pálido"
-
-#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
-msgid "Pale pink"
-msgstr "Rosa pálido"
-
-#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
-msgid "Vivid cyan blue"
-msgstr "Azul ciánico vivo"
-
-#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
-msgid "Vivid green cyan"
-msgstr "Verde vivo ciánico"
-
-#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
-msgid "Vivid red"
-msgstr "Rojo vivo"
-
-#: gutenberg.php:112
+#: lib/init.php:103
 msgid "beta"
 msgstr "beta"
 
@@ -289,60 +268,62 @@ msgstr "beta"
 msgid "The ID for the parent of the object."
 msgstr "El ID del superior del objeto."
 
-#: build/block-library/blocks/rss.php:31
 #: build/block-library/blocks/latest-comments.php:31
-#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
-#: build/editor/index.js:35 build/block-library/index.js:30
-#: build/block-library/index.js:48 build/edit-navigation/index.js:6
-#: build/edit-post/index.js:40 build/edit-site/index.js:30
+#: build/block-library/blocks/latest-posts.php:103
+#: build/block-library/blocks/rss.php:31 build/core-data/index.js:4903
+#: build/edit-post/index.js:15957 build/editor/index.js:9573
 msgid "(no title)"
 msgstr "(sin título)"
 
-#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+#: build/block-library/blocks/categories.php:31 build/components/index.js:46191
+msgid "Categories"
+msgstr "Categorías"
+
+#: lib/block-patterns.php:19 build/editor/index.js:7452
+msgid "Standard"
+msgstr "Estándar"
+
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:7455
 msgid "Status"
 msgstr "Estado"
 
-#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
-#: build/edit-widgets/index.js:24 build/blocks/index.js:1
-#: build/core-data/index.js:1
-msgid "Widgets"
-msgstr "Widgets"
-
 #. translators: ARIA label for the Block Settings Sidebar tab, not selected.
 #. translators: Text label for the Block Settings Sidebar tab.
-#. translators: Text label for the Template Settings Sidebar tab.
-#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
-#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
-#: build/edit-post/index.js:38 build/edit-site/index.js:28
-#: build/edit-site/index.js:29 build/edit-site/index.js:30
+#: lib/class-wp-widget-block.php:49 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-navigation/index.js:3533 build/edit-navigation/index.js:3548
+#: build/edit-navigation/index.js:3550 build/edit-post/index.js:14854
+#: build/edit-post/index.js:14873 build/edit-post/index.js:14875
+#: build/edit-widgets/index.js:3466
 msgid "Block"
 msgstr "Bloque"
+
+#: lib/init.php:39 lib/init.php:40 build/blocks/index.js:7077
+#: build/core-data/index.js:1918 build/customize-widgets/index.js:2030
+#: build/edit-widgets/index.js:4086 build/edit-widgets/index.js:4089
+#: build/edit-widgets/index.js:4366
+msgid "Widgets"
+msgstr "Widgets"
 
 #. Description of the plugin
 msgid "Printing since 1440. This is the development plugin for the new block editor in core."
 msgstr "Imprimiendo desde 1440. Este es el plugin en desarrollo del nuevo editor de bloques del núcleo."
 
-#. translators: button label text should, if possible, be under 16 characters.
-#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
-#: build/components/index.js:5
-msgid "Slug"
-msgstr "Slug"
-
-#: gutenberg.php:80 gutenberg.php:81
-msgid "Documentation"
-msgstr "Documentación"
-
-#: build/block-library/blocks/categories.php:30
-msgid "Select Category"
-msgstr "Seleccionar categoría"
-
-#: gutenberg.php:41 gutenberg.php:42
+#: lib/init.php:27 lib/init.php:28
 msgid "Demo"
 msgstr "Demo"
+
+#: lib/init.php:71 lib/init.php:72
+msgid "Documentation"
+msgstr "Documentación"
 
 #. Plugin Name of the plugin
 msgid "Gutenberg"
 msgstr "Gutenberg"
+
+#: lib/full-site-editing/templates-utils.php:15 build/components/index.js:32330
+#: build/editor/index.js:10146
+msgid "Slug"
+msgstr "Slug"
 
 #. Author of the plugin
 msgid "Gutenberg Team"
@@ -351,3 +332,7 @@ msgstr "El equipo de Gutenberg"
 #. Plugin URI of the plugin
 msgid "https://github.com/WordPress/gutenberg"
 msgstr "https://github.com/WordPress/gutenberg"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Seleccionar categoría"

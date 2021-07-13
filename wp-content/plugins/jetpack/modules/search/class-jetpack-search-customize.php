@@ -126,7 +126,7 @@ class Jetpack_Search_Customize {
 		$wp_customize->add_setting(
 			$id,
 			array(
-				'default'   => 'results',
+				'default'   => Jetpack_Search_Options::OVERLAY_TRIGGER_IMMEDIATE,
 				'transport' => 'postMessage',
 				'type'      => 'option',
 			)
@@ -139,8 +139,9 @@ class Jetpack_Search_Customize {
 				'section'     => $section_id,
 				'type'        => 'select',
 				'choices'     => array(
-					'immediate' => __( 'Open when the user starts typing', 'jetpack' ),
-					'results'   => __( 'Open when results are available', 'jetpack' ),
+					Jetpack_Search_Options::OVERLAY_TRIGGER_IMMEDIATE => __( 'Open when user starts typing', 'jetpack' ),
+					Jetpack_Search_Options::OVERLAY_TRIGGER_RESULTS   => __( 'Open when results are available', 'jetpack' ),
+					Jetpack_Search_Options::OVERLAY_TRIGGER_SUBMIT    => __( 'Open when user submits the form', 'jetpack' ),
 				),
 			)
 		);
@@ -158,7 +159,7 @@ class Jetpack_Search_Customize {
 				$wp_customize,
 				$id,
 				array(
-					'description' => __( 'Choose post types to exclude from search results.', 'jetpack' ),
+					'description' => __( 'Choose post types to exclude from search results. You must leave at least one post type unchecked.', 'jetpack' ),
 					'label'       => __( 'Excluded Post Types', 'jetpack' ),
 					'section'     => $section_id,
 				)

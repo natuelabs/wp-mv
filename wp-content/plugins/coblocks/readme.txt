@@ -5,7 +5,7 @@ Tags: page builder, Gutenberg blocks, WordPress blocks, gutenberg, blocks
 Requires at least: 5.0
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 2.11.0
+Stable tag: 2.13.0
 License: GPL-2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,11 +18,6 @@ CoBlocks is the most innovative collection of page building WordPress blocks for
 With additional blocks and true row and column building, CoBlocks gives you a true page builder experience for Gutenberg.
 
 CoBlocks is powerful but lightweight: it adds functionality to the WordPress editor without bloat. This is the plugin you've been waiting for, and it will make you rethink what WordPress is capable of.
-
-
-= See For Yourself =
-https://www.youtube.com/watch?v=SfWoVX_uJ0M
-
 
 ## Make Beautiful Web Pages With Gutenberg & CoBlocks
 CoBlocks is the last page builder you’ll ever need: you get a winning mix of additional WordPress blocks, and page builder functionality. With CoBlocks you have everything you need to make beautiful web pages with the new block editor:
@@ -116,11 +111,7 @@ Developers can also apply minor style touch-ups to their themes if necessary. If
 == Changelog ==
 
 ### Enhancements
-* Enhance Services block extensibility and UX  [#1866](https://github.com/godaddy-wordpress/coblocks/pull/1866)
-* Enhance Collage Gallery consistency with default alignment [#1891](https://github.com/godaddy-wordpress/coblocks/pull/1891)
+* Introduce WordPress 5.8 compatibility [#1923](https://github.com/godaddy-wordpress/coblocks/pull/1923)
 
 ### Bug Fixes
-* Fix Gallery gutter controls missing values [#1883](https://github.com/godaddy-wordpress/coblocks/pull/1883)
-* Fix regression with getPhrasingContentSchema using pre 5.6 WordPress [#1882](https://github.com/godaddy-wordpress/coblocks/pull/1882)
-* Fix Stacked Gallery preview margins [#1884](https://github.com/godaddy-wordpress/coblocks/pull/1884)
-* Fix Services block selected state box shadow [#1886](https://github.com/godaddy-wordpress/coblocks/pull/1886)
+* Fix accordion items caret display in editor [#1915](https://github.com/godaddy-wordpress/coblocks/pull/1915)

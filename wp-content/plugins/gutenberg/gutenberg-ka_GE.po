@@ -1,5 +1,5 @@
-# Translation of Plugins - Gutenberg - Development (trunk) in Georgian
-# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+# Translation of Plugins - Gutenberg - Stable (latest release) in Georgian
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2018-12-18 07:03:01+0000\n"
@@ -9,39 +9,51 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ka_GE\n"
-"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
 
-#: lib/editor-settings.php:28 build/block-editor/index.js:1
+#: lib/compat/wordpress-5.8/block-editor.php:183
+#: build/block-editor/index.js:7393
 msgid "Thumbnail"
 msgstr "ესკიზი"
 
-#: lib/editor-settings.php:31 build/block-editor/index.js:1
+#: lib/compat/wordpress-5.8/block-editor.php:186
+#: build/block-editor/index.js:7402
 msgid "Full Size"
 msgstr "სრული ზომა"
 
-#: lib/full-site-editing/default-template-types.php:69
-#: build/block-editor/index.js:66 build/blocks/index.js:1
-#: build/core-data/index.js:1
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "ჩაშენებული"
+
+#: lib/full-site-editing/default-template-types.php:65
+#: build/block-editor/index.js:35022 build/blocks/index.js:7071
+#: build/core-data/index.js:1887
 msgid "Media"
 msgstr "მედია"
 
-#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
-#: lib/editor-settings.php:29 build/block-editor/index.js:1
-#: build/block-editor/index.js:9 build/components/index.js:10
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "კლასიკური"
+
+#: lib/full-site-editing/template-parts.php:174 build/edit-post/index.js:13313
+msgid "General"
+msgstr "საერთო"
+
+#: lib/compat/wordpress-5.8/block-editor.php:184
+#: build/block-editor/index.js:7396 build/block-editor/index.js:15741
+#: build/components/index.js:38018
 msgid "Medium"
 msgstr "საშუალო"
 
-#: build/block-library/blocks/archives.php:97
+#: build/block-library/blocks/archives.php:101
 msgid "No archives to show."
 msgstr "არ არის არქივი, რომ გაჩვენოთ."
 
 #: post-content.php:41
 msgid "Beautiful landscape"
 msgstr "შესანიშნავი პეიზაჟი"
-
-#: post-content.php:67
-msgid "Galleries"
-msgstr "გალერეა"
 
 #: post-content.php:185
 msgid "Thanks for testing Gutenberg!"
@@ -60,7 +72,7 @@ msgstr "თუ გსურთ გაიგოთ მეტი, თუ როგ
 msgid "The WordPress community"
 msgstr "WordPress-ის გუნდი"
 
-#: post-content.php:159 build/block-library/index.js:8
+#: post-content.php:159
 msgid "Code is Poetry"
 msgstr "კოდი პოეზიაა"
 
@@ -100,6 +112,22 @@ msgstr "შეგიძლიათ შეცვალოთ სვეტებ�
 msgid "Matt Mullenweg, 2017"
 msgstr "მეთ მულენვეგი, 2017"
 
+#: post-content.php:98
+msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
+msgstr "ბლოკი შეიძლება იყოს ნებისმიერი. მაგალითად, შეგიძლიათ დაამატოთ ციტატა, როგორც თქვენი ტექსტის კომპოზიციის ნაწილი, ან შეგიძლიათ აჩვენოთ გიგანტური სტილიზებული ტექსტი. ეს ყველაფერი ხელმისაწვდომია პარამეტრებში."
+
+#: post-content.php:94
+msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
+msgstr "ინფორმაცია ციტატის წყაროს შესახებ წარმოადგენს ცალკეულ ტექსტურ ველს, რომელიც სურათის წარწერის მსგავსია. ამიტომ ციტატის სტრუქტურა უცვლელია, მაშინაც კი, როდესაც ირჩევთ, ცვლით, ან შლით წყაროს. წყაროს ხელახლა დამატება ნებისმიერ დროს შეიძლება."
+
+#: post-content.php:88
+msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
+msgstr "რედაქტორი ცდილობს გაგაცნოთ სტატიებისა და გვერდების შექმნის ახალი გამოცდილება, რაც საშუალებას მოგცემთ შექმნათ მდიდარი სტატიები ბლოკების საშუალებით — ახლანდელი მალსახმობების, html, ან კოდის ჩასმის სხვადასხვანაირი მაქინაციების მაგივრად."
+
+#: post-content.php:67
+msgid "Galleries"
+msgstr "გალერეა"
+
 #: post-content.php:79
 msgid "Visual Editing"
 msgstr "ვიზუალური ჩასწორება"
@@ -120,29 +148,21 @@ msgstr "YouTube-ის ვიდეოები, ტვიტები, ან W
 msgid "Images &amp; Videos"
 msgstr "სურათები და ვიდეო"
 
-#: post-content.php:98
-msgid "Blocks can be anything you need. For instance, you may want to add a subdued quote as part of the composition of your text, or you may prefer to display a giant stylized one. All of these options are available in the inserter."
-msgstr "ბლოკი შეიძლება იყოს ნებისმიერი. მაგალითად, შეგიძლიათ დაამატოთ ციტატა, როგორც თქვენი ტექსტის კომპოზიციის ნაწილი, ან შეგიძლიათ აჩვენოთ გიგანტური სტილიზებული ტექსტი. ეს ყველაფერი ხელმისაწვდომია პარამეტრებში."
-
-#: post-content.php:94
-msgid "The information corresponding to the source of the quote is a separate text field, similar to captions under images, so the structure of the quote is protected even if you select, modify, or remove the source. It&#8217;s always easy to add it back."
-msgstr "ინფორმაცია ციტატის წყაროს შესახებ წარმოადგენს ცალკეულ ტექსტურ ველს, რომელიც სურათის წარწერის მსგავსია. ამიტომ ციტატის სტრუქტურა უცვლელია, მაშინაც კი, როდესაც ირჩევთ, ცვლით, ან შლით წყაროს. წყაროს ხელახლა დამატება ნებისმიერ დროს შეიძლება."
-
-#: post-content.php:88
-msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
-msgstr "რედაქტორი ცდილობს გაგაცნოთ სტატიებისა და გვერდების შექმნის ახალი გამოცდილება, რაც საშუალებას მოგცემთ შექმნათ მდიდარი სტატიები ბლოკების საშუალებით — ახლანდელი მალსახმობების, html, ან კოდის ჩასმის სხვადასხვანაირი მაქინაციების მაგივრად."
+#: post-content.php:65
+msgid "Text &amp; Headings"
+msgstr "ტექსტი და სათაურები"
 
 #: post-content.php:83
 msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
 msgstr "ბლოკების უდიდესი უპირატესობა იმაში მდგომარეობს, რომ თქვენ შეგიძლიათ ერთდოულად ჩაასწოროთ ისინი და ამავდროულად მართოთ შიგთავსი. იმის ნაცვლად, რომ შეცვალოთ ციტატების წყაროების, ან ღილაკის წარწერის ველები, თქვენ შეგიძლიათ პირდაპირ შეცვალოთ შიგთავსი. სცადეთ ჩაასწოროთ შემდეგი ციტატა:"
 
-#: post-content.php:65
-msgid "Text &amp; Headings"
-msgstr "ტექსტი და სათაურები"
-
 #: post-content.php:60
 msgid "Go give it a try, you may discover things WordPress can already add into your posts that you didn&#8217;t know about. Here&#8217;s a short list of what you can currently find there:"
 msgstr "სცადეთ, WordPress-ს უკვე შეუძლია დაამატოთ თქვენს ჩანაწერებში ბლოკები, რომლებიც თქვენ არ იცოდით. აი მოკლე სია იმისა, თუ რისი ნახვა შეგიძლიათ ამჟამად:"
+
+#: post-content.php:56
+msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
+msgstr "წარმოიდგინეთ, რომ ყველაფერი, რისი გაკეთებაც შეუძლია WordPress-ს, ხელმისაწვდომია სწრაფად და ერთიანი ადგილიდან. არ არის აუცილებელი HTML-ტეგების გაწერა, ან მალსახმობების რთული სინტაქსის დამახსოვრება, რომლებსაც დაინახავთ რედაქტორის სარკმელში. ღილაკი <code>(+)</code>, რომელსაც დაინახავთ რედაქტორში, საშუალებას მოგცემთ ნახოთ შიგთავსის ხელმისაწვდომი ბლოკები და დაამატოთ ისინი თქვენს სტატიაში. პლაგინებს და თემებს შეუძლიათ დაარეგისტრირონ საკუთარი ბლოკები."
 
 #: post-content.php:52
 msgid "The <em>Inserter</em> Tool"
@@ -160,6 +180,10 @@ msgstr "... ისივე როგორც ეს, რომელიც გ
 msgid "Of Mountains &amp; Printing Presses"
 msgstr "მთისა და ზღვის წიგნი"
 
+#: lib/demo.php:59
+msgid "Welcome to the Gutenberg Editor"
+msgstr "მოგესალმებით Gutenberg-ის რედაქტორში"
+
 #: post-content.php:48
 msgid "Try selecting and removing or editing the caption, now you don&#8217;t have to be careful about selecting the image or other text by mistake and ruining the presentation."
 msgstr "შეეცადეთ აირჩიოთ, წაშალოთ, ან ჩაასწოროთ სათაური. ახლა აღარ მოგიწევთ სიფრთხილე სურათის, ან სხვა ტექსტის არჩევისას, რათა არ დაუშვათ შეცდომა."
@@ -167,10 +191,6 @@ msgstr "შეეცადეთ აირჩიოთ, წაშალოთ, �
 #: post-content.php:42
 msgid "If your theme supports it, you&#8217;ll see the \"wide\" button on the image toolbar. Give it a try."
 msgstr "თუ თქვენი თემა მხარს უჭერს „სრულ ეკრანზე“ რეჟიმს, თქვენ დაინახავთ ღილაკს „სრულ ეკრანზე“ ხელსაწყოთა ზოლზე. სცადეთ."
-
-#: post-content.php:56
-msgid "Imagine everything that WordPress can do is available to you quickly and in the same place on the interface. No need to figure out HTML tags, classes, or remember complicated shortcode syntax. That&#8217;s the spirit behind the inserter—the <code>(+)</code> button you&#8217;ll see around the editor—which allows you to browse all available content blocks and add them into your post. Plugins and themes are able to register their own, opening up all sort of possibilities for rich editing and publishing."
-msgstr "წარმოიდგინეთ, რომ ყველაფერი, რისი გაკეთებაც შეუძლია WordPress-ს, ხელმისაწვდომია სწრაფად და ერთიანი ადგილიდან. არ არის აუცილებელი HTML-ტეგების გაწერა, ან მალსახმობების რთული სინტაქსის დამახსოვრება, რომლებსაც დაინახავთ რედაქტორის სარკმელში. ღილაკი <code>(+)</code>, რომელსაც დაინახავთ რედაქტორში, საშუალებას მოგცემთ ნახოთ შიგთავსის ხელმისაწვდომი ბლოკები და დაამატოთ ისინი თქვენს სტატიაში. პლაგინებს და თემებს შეუძლიათ დაარეგისტრირონ საკუთარი ბლოკები."
 
 #: post-content.php:36
 msgid "Handling images and media with the utmost care is a primary focus of the new editor. Hopefully, you&#8217;ll find aspects of adding captions or going full-width with your pictures much easier and robust than before."
@@ -188,10 +208,6 @@ msgstr "ის, რასაც ახლა კითხულობთ, წა
 msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
 msgstr "ახალი რედაქტორის მიზანია — გახადოს შიგთავსის დამატება WordPress-ში მარტივი და სასიამოვნო. ეს ჩანაწერი შედგება <em>შიგთავსის ფრაგმენტებისგან</em>, რაც ძალიან ჰგავს LEGO-ს აგურებს, რომლებიც შეგიძლიათ რაგინდარად გამოიყენოთ. გადაადგილეთ მაუსის მიმთითებელი და თქვენ შეამჩნევთ, რომ სხვადასხვა ბლოკები აინთება კონტურებით და ისრებით. დააჭირეთ ისრებზე, რათა სწრაფად გადაადგილოთ ბლოკები და ნუ იფიქრებთ იმაზე, რომ შესაძლოა დაკარგოთ შიგთავსი კოპირებისა და ჩასმის პროცესში."
 
-#: lib/demo.php:59
-msgid "Welcome to the Gutenberg Editor"
-msgstr "მოგესალმებით Gutenberg-ის რედაქტორში"
-
 #: lib/class-wp-rest-menu-items-controller.php:862
 msgid "The title for the object."
 msgstr "ობიეტის სათაური."
@@ -201,7 +217,7 @@ msgstr "ობიეტის სათაური."
 msgid "Unique identifier for the object."
 msgstr "ობიექტის უნიკალური იდენტიფიკატორი."
 
-#: gutenberg.php:73 gutenberg.php:74
+#: lib/init.php:64 lib/init.php:65
 msgid "Support"
 msgstr "მხარდაჭერა"
 
@@ -211,23 +227,23 @@ msgstr "მხარდაჭერა"
 msgid "%1$s on %2$s"
 msgstr "%1$s კომენტარი %2$s ჩანაწერზე"
 
-#: build/block-library/blocks/archives.php:57
+#: build/block-library/blocks/archives.php:61
 msgid "Select Post"
 msgstr "აირჩიეთ ჩანაწერი"
 
-#: build/block-library/blocks/archives.php:54
+#: build/block-library/blocks/archives.php:58
 msgid "Select Week"
 msgstr "აირჩიეთ კვირა"
 
-#: build/block-library/blocks/archives.php:51
+#: build/block-library/blocks/archives.php:55
 msgid "Select Day"
 msgstr "აირჩიეთ დღე"
 
-#: build/block-library/blocks/archives.php:48
+#: build/block-library/blocks/archives.php:52
 msgid "Select Month"
 msgstr "აირჩიეთ თვე"
 
-#: build/block-library/blocks/archives.php:45
+#: build/block-library/blocks/archives.php:49
 msgid "Select Year"
 msgstr "აირჩიეთ წელი"
 
@@ -239,98 +255,54 @@ msgstr "არქივები"
 msgid "No comments to show."
 msgstr "არ არის კომენტარი, რომ გაჩვენოთ."
 
-#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
-#: lib/editor-settings.php:30 build/block-editor/index.js:1
-#: build/block-library/index.js:68 build/components/index.js:10
+#: lib/compat/wordpress-5.8/block-editor.php:185
+#: build/block-editor/index.js:7399 build/components/index.js:38021
 msgid "Large"
 msgstr "დიდი"
-
-#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
-msgid "Cyan bluish gray"
-msgstr "მოციფრო-ნაცრისფერი"
-
-#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
-msgid "Vivid cyan blue"
-msgstr "კაშკაშა ლურჯი"
-
-#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
-msgid "Pale cyan blue"
-msgstr "ფერკმთალი ლურჯი"
-
-#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
-msgid "Vivid green cyan"
-msgstr "კაშკაშა მწვანე"
-
-#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
-msgid "Light green cyan"
-msgstr "ღია მწვანე"
-
-#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
-msgid "Luminous vivid amber"
-msgstr "ქარვისფერი"
-
-#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
-msgid "Luminous vivid orange"
-msgstr "ფორთოხლისფერი"
-
-#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
-msgid "Vivid red"
-msgstr "კაშკაშა წითელი"
-
-#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
-msgid "Pale pink"
-msgstr "ფერკმთალი ვარდისფერი"
 
 #: lib/class-wp-rest-menu-items-controller.php:919
 msgid "The ID for the parent of the object."
 msgstr "ობიექტის მშობელის ID."
 
-#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:7455
 msgid "Status"
 msgstr "სტატუსი"
 
+#: lib/block-patterns.php:19 build/editor/index.js:7452
+msgid "Standard"
+msgstr "სტანდარტული"
+
 #. translators: ARIA label for the Block Settings Sidebar tab, not selected.
 #. translators: Text label for the Block Settings Sidebar tab.
-#. translators: Text label for the Template Settings Sidebar tab.
-#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
-#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
-#: build/edit-post/index.js:38 build/edit-site/index.js:28
-#: build/edit-site/index.js:29 build/edit-site/index.js:30
+#: lib/class-wp-widget-block.php:49 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-navigation/index.js:3533 build/edit-navigation/index.js:3548
+#: build/edit-navigation/index.js:3550 build/edit-post/index.js:14854
+#: build/edit-post/index.js:14873 build/edit-post/index.js:14875
+#: build/edit-widgets/index.js:3466
 msgid "Block"
 msgstr "ბლოკი"
 
-#: build/block-library/blocks/rss.php:31
 #: build/block-library/blocks/latest-comments.php:31
-#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
-#: build/editor/index.js:35 build/block-library/index.js:30
-#: build/block-library/index.js:48 build/edit-navigation/index.js:6
-#: build/edit-post/index.js:40 build/edit-site/index.js:30
+#: build/block-library/blocks/latest-posts.php:103
+#: build/block-library/blocks/rss.php:31 build/core-data/index.js:4903
+#: build/edit-post/index.js:15957 build/editor/index.js:9573
 msgid "(no title)"
 msgstr "(უსათაურო)"
 
-#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
-#: build/edit-widgets/index.js:24 build/blocks/index.js:1
-#: build/core-data/index.js:1
+#: build/block-library/blocks/categories.php:31 build/components/index.js:46191
+msgid "Categories"
+msgstr "კატეგორიები"
+
+#: lib/init.php:39 lib/init.php:40 build/blocks/index.js:7077
+#: build/core-data/index.js:1918 build/customize-widgets/index.js:2030
+#: build/edit-widgets/index.js:4086 build/edit-widgets/index.js:4089
+#: build/edit-widgets/index.js:4366
 msgid "Widgets"
 msgstr "ვიჯეტები"
 
 #. Description of the plugin
 msgid "Printing since 1440. This is the development plugin for the new block editor in core."
 msgstr "ვბეჭდავთ 1440 წლიდან. ეს არის ბირთვში ბლოკების რედაქტორის პლაგინის შექმნის პროცესი."
-
-#. translators: button label text should, if possible, be under 16 characters.
-#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
-#: build/components/index.js:5
-msgid "Slug"
-msgstr "იარლიყი"
-
-#: gutenberg.php:80 gutenberg.php:81
-msgid "Documentation"
-msgstr "დოკუმენტაცია"
-
-#: build/block-library/blocks/categories.php:30
-msgid "Select Category"
-msgstr "კატეგორიის არჩევა"
 
 #. Author of the plugin
 msgid "Gutenberg Team"
@@ -344,6 +316,19 @@ msgstr "https://github.com/WordPress/gutenberg"
 msgid "Gutenberg"
 msgstr "Gutenberg"
 
-#: gutenberg.php:41 gutenberg.php:42
+#: lib/init.php:27 lib/init.php:28
 msgid "Demo"
 msgstr "დემო"
+
+#: lib/full-site-editing/templates-utils.php:15 build/components/index.js:32330
+#: build/editor/index.js:10146
+msgid "Slug"
+msgstr "იარლიყი"
+
+#: lib/init.php:71 lib/init.php:72
+msgid "Documentation"
+msgstr "დოკუმენტაცია"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "კატეგორიის არჩევა"

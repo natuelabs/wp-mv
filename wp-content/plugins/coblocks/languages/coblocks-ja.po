@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-11 02:28:15+0000\n"
+"PO-Revision-Date: 2021-06-08 14:22:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,7 @@ msgstr "次"
 msgid "Previous"
 msgstr "前"
 
-#: includes/class-block-patterns.php:47 dist/coblocks.js:58
+#: includes/class-block-patterns.php:47
 msgid "Description"
 msgstr "説明"
 
@@ -39,11 +39,11 @@ msgstr "ホーム"
 msgid "About"
 msgstr "このサイトについて"
 
-#: src/extensions/layout-selector/index.php:25 dist/coblocks.js:58
+#: src/extensions/layout-selector/index.php:25
 msgid "Contact"
 msgstr "お問い合わせ"
 
-#: includes/class-coblocks-form.php:1036 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:1036
 msgid "name"
 msgstr "名前"
 
@@ -52,24 +52,23 @@ msgstr "名前"
 msgid "Form submission from [%1$s]"
 msgstr "[%1$s] からのフォーム送信"
 
-#: includes/class-coblocks-form.php:382 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:382
 msgid "Text"
 msgstr "テキスト"
 
-#: includes/class-coblocks-form.php:1048 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:1048
 msgid "email"
 msgstr "メール"
 
-#: includes/class-coblocks-form.php:722 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:722
 msgid "Hidden"
 msgstr "非表示"
 
-#: includes/class-coblocks-form.php:688 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:688
 msgid "Website"
 msgstr "サイト"
 
 #: includes/class-coblocks-form.php:557 includes/class-coblocks-form.php:606
-#: dist/coblocks.js:58
 msgid "Select"
 msgstr "選択"
 
@@ -77,40 +76,40 @@ msgstr "選択"
 msgid "Something went wrong."
 msgstr "何かがうまくいかなかったようです。"
 
-#: src/blocks/posts/index.php:171 src/blocks/post-carousel/index.php:184
+#: src/blocks/post-carousel/index.php:191 src/blocks/posts/index.php:171
 msgctxt "placeholder when a post has no title"
 msgid "(no title)"
 msgstr "(タイトルなし)"
 
-#: src/blocks/posts/index.php:51 src/blocks/post-carousel/index.php:51
+#: src/blocks/post-carousel/index.php:51 src/blocks/posts/index.php:51
 msgid "An error has occurred, which probably means the feed is down. Try again later."
 msgstr "エラーが発生しました。フィードの配信が停止している可能性があります。再度お試しください。"
 
-#: src/blocks/posts/index.php:40 src/blocks/post-carousel/index.php:40
+#: src/blocks/post-carousel/index.php:40 src/blocks/posts/index.php:40
 msgid "RSS error:"
 msgstr "RSS エラー:"
 
-#: includes/class-coblocks-form.php:493 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:493
 msgid "Choose one"
 msgstr "1つ選択"
 
-#: includes/class-coblocks-form.php:454 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:454
 msgid "Phone"
 msgstr "電話"
 
-#: includes/class-coblocks-form.php:423 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:423
 msgid "Date"
 msgstr "日付"
 
-#: src/blocks/social-profiles/index.php:97 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:97
 msgid "Houzz"
 msgstr "Houzz"
 
-#: src/blocks/social-profiles/index.php:93 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:93
 msgid "Yelp"
 msgstr "Yelp"
 
-#: src/blocks/social-profiles/index.php:89 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:89
 msgid "YouTube"
 msgstr "YouTube"
 
@@ -118,35 +117,35 @@ msgstr "YouTube"
 msgid "Linkedin"
 msgstr "LinkedIn"
 
-#: src/blocks/social-profiles/index.php:80 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:80
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: src/blocks/social-profiles/index.php:76 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:76
 msgid "Instagram"
 msgstr "Instagram"
 
-#: src/blocks/social-profiles/index.php:72 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:72
 msgid "Twitter"
 msgstr "Twitter"
 
-#: src/blocks/social-profiles/index.php:68 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:68
 msgid "Facebook"
 msgstr "Facebook"
 
-#: src/blocks/share/index.php:160 dist/coblocks.js:58
+#: src/blocks/share/index.php:160
 msgid "Share on Reddit"
 msgstr "Reddit でシェア"
 
-#: src/blocks/share/index.php:156 dist/coblocks.js:58
+#: src/blocks/share/index.php:156
 msgid "Share on Google"
 msgstr "Google でシェア"
 
-#: src/blocks/share/index.php:152 dist/coblocks.js:58
+#: src/blocks/share/index.php:152
 msgid "Share on Tumblr"
 msgstr "Tumblr でシェア"
 
-#: src/blocks/share/index.php:148 dist/coblocks.js:58
+#: src/blocks/share/index.php:148
 msgid "Share via Email"
 msgstr "メールでシェア"
 
@@ -154,15 +153,15 @@ msgstr "メールでシェア"
 msgid "Share on Linkedin"
 msgstr "LinkedIn でシェア"
 
-#: src/blocks/share/index.php:140 dist/coblocks.js:58
+#: src/blocks/share/index.php:140
 msgid "Share on Pinterest"
 msgstr "Pinterest でシェア"
 
-#: src/blocks/share/index.php:136 dist/coblocks.js:58
+#: src/blocks/share/index.php:136
 msgid "Share on Twitter"
 msgstr "‌‌Twitter でシェア"
 
-#: src/blocks/share/index.php:132 dist/coblocks.js:58
+#: src/blocks/share/index.php:132
 msgid "Share on Facebook"
 msgstr "Facebook でシェア"
 
@@ -178,32 +177,31 @@ msgstr "レビューを書く"
 msgid "Google Map API key for map rendering"
 msgstr "マップレンダリングの Google マップ API キー"
 
-#: includes/class-coblocks-form.php:63 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:63
 msgid "Your message was sent:"
 msgstr "メッセージを送信しました:"
 
-#: includes/class-coblocks-form.php:803 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:803
 msgid "Submit"
 msgstr "送信"
 
-#: includes/class-coblocks-form.php:351 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:351
 msgid "Message"
 msgstr "メッセージ"
 
-#: includes/class-coblocks-form.php:263 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:263
 msgid "Last"
 msgstr "姓"
 
-#: includes/class-coblocks-form.php:262 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:262
 msgid "First"
 msgstr "名"
 
-#: includes/class-coblocks-form.php:258 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:258
 msgid "Name"
 msgstr "名前"
 
 #: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
-#: dist/coblocks.js:58
 msgid "Email"
 msgstr "メール"
 
@@ -226,3 +224,7 @@ msgstr "GoDaddy"
 #. Description of the plugin
 msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
 msgstr "CoBlocks は、ブロックエディターの WordPress Gutenberg 向けに、プロフェッショナルな<strong>ページ作成用のコンテンツブロック</strong>を豊富にそろえたツールです。WordPress で美しくてリッチなページを作成する方のニーズにフォーカスしたブロックをご用意しています。"
+
+#. Plugin Name of the plugin
+msgid "CoBlocks"
+msgstr "CoBlocks"

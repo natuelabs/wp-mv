@@ -12,9 +12,8 @@ msgstr ""
 "Project-Id-Version: Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release)\n"
 
 #: modules/widgets/class-jetpack-instagram-widget.php:566
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Images"
 msgstr "Imágenes"
 
@@ -113,7 +112,7 @@ msgid "If this solves the problem, something in your theme is probably broken �
 msgstr "Si esto resuelve el problema, probablemente algo está dañado en tu tema - contacta al autor del tema."
 
 #. translators: %s is the name of a form field
-#: modules/contact-form/grunion-contact-form.php:3393
+#: modules/contact-form/grunion-contact-form.php:3428
 msgid "%s requires at least one selection"
 msgstr "%s requiere al menos una selección"
 
@@ -138,7 +137,7 @@ msgstr "Debe especificar un option_value"
 msgid "Comments are not allowed."
 msgstr "No está permitido comentar."
 
-#: modules/protect.php:619
+#: modules/protect.php:620
 msgid "Your IP (%1$s) has been flagged for potential security violations."
 msgstr "Tu IP (%1$s) fue marcada como potencial en violaciones de seguridad."
 
@@ -151,7 +150,7 @@ msgstr "Todas las páginas"
 msgid "%s username:"
 msgstr "Nombre de usuario de %s:"
 
-#: modules/search/class-jetpack-search-customize.php:66
+#: modules/search/class-jetpack-search-customize.php:67
 msgid "Theme"
 msgstr "Temas"
 
@@ -193,7 +192,7 @@ msgstr "Lista de etiquetas de proyectos"
 msgid "Filter Testimonials list"
 msgstr "Filtrar lista de testimonios"
 
-#: modules/custom-post-types/nova.php:232
+#: modules/custom-post-types/nova.php:237
 msgid "Menu items list"
 msgstr "Lista de elementos del menú"
 
@@ -213,23 +212,23 @@ msgstr "Lista de proyectos"
 msgid "Project type list navigation"
 msgstr "Navegación por la lista de tipos de proyectos"
 
-#: modules/custom-post-types/nova.php:150
+#: modules/custom-post-types/nova.php:155
 msgid "Menu item labels list"
 msgstr "Lista de etiquetas del elemento de menú"
 
-#: modules/custom-post-types/nova.php:182
+#: modules/custom-post-types/nova.php:187
 msgid "Menu section list navigation"
 msgstr "Navegación por la lista de secciones del menú"
 
-#: modules/custom-post-types/nova.php:183
+#: modules/custom-post-types/nova.php:188
 msgid "Menu section list"
 msgstr "Lista de las secciones del menú"
 
-#: modules/custom-post-types/nova.php:230
+#: modules/custom-post-types/nova.php:235
 msgid "Filter menu items list"
 msgstr "Filtrar lista de elementos de menú"
 
-#: modules/custom-post-types/nova.php:231
+#: modules/custom-post-types/nova.php:236
 msgid "Menu item list navigation"
 msgstr "Navegación por la lista de elementos del menú"
 
@@ -245,7 +244,7 @@ msgstr "Navegación por la lista de cómics"
 msgid "Comics list"
 msgstr "Lista de cómics"
 
-#: modules/custom-post-types/nova.php:149
+#: modules/custom-post-types/nova.php:154
 msgid "Menu item label list navigation"
 msgstr "Navegación por la lista de etiquetas del elemento de menú"
 
@@ -302,17 +301,14 @@ msgstr "Permite a los administradores de sitio individuales gestionar sus propia
 msgid "Protect whitelist"
 msgstr "Lista blanca de Protect"
 
-#. Description of the plugin
-msgid "Bring the power of the WordPress.com cloud to your self-hosted WordPress. Jetpack enables you to connect your blog to a WordPress.com account to use the powerful features normally only available to WordPress.com users."
-msgstr "Lleva el poder de WordPress.com a tu propia copia de WordPress.org. Jetpack te permite conectar su blog a una cuenta de WordPress.com para utilizar las poderosas características que normalmente sólo están disponibles para los usuarios de WordPress.com."
-
 #: views/admin/must-connect-main-blog.php:6
 msgid "Get started managing your Multisite install of Jetpack by connecting."
 msgstr "Comienza conectando tu instalación multisitio de Jetpack para gestionarlo."
 
-#: modules/plugin-search.php:569 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: modules/plugin-search.php:583 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:52 _inc/build/admin.js:61
 msgid "Learn more"
 msgstr "Aprender más"
 
@@ -328,17 +324,16 @@ msgstr "Rosado"
 msgid "Recent Posts"
 msgstr "Entradas recientes"
 
-#: modules/widgets/authors.php:223 modules/widgets/blog-stats.php:93
+#: modules/widgets/social-icons.php:254 modules/widgets/rsslinks-widget.php:96
+#: modules/widgets/google-translate.php:173 modules/widgets/authors.php:223
 #: modules/widgets/twitter-timeline.php:401
+#: modules/widgets/contact-info.php:246 modules/widgets/goodreads.php:137
+#: modules/widgets/flickr/form.php:3 modules/widgets/upcoming-events.php:42
 #: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:224
-#: modules/widgets/google-translate.php:173 modules/widgets/search.php:1008
-#: modules/widgets/upcoming-events.php:42
-#: modules/widgets/social-media-icons.php:246
-#: modules/widgets/contact-info.php:246 modules/widgets/social-icons.php:254
-#: modules/widgets/rsslinks-widget.php:96 modules/widgets/top-posts.php:94
-#: modules/widgets/flickr/form.php:3 modules/widgets/my-community.php:88
-#: modules/widgets/gallery/templates/form.php:2
-#: modules/widgets/goodreads.php:137
+#: modules/widgets/social-media-icons.php:246 modules/widgets/top-posts.php:94
+#: modules/widgets/blog-stats.php:93
+#: modules/widgets/gallery/templates/form.php:2 modules/widgets/search.php:995
+#: modules/widgets/my-community.php:88
 msgid "Title:"
 msgstr "Título:"
 
@@ -347,15 +342,15 @@ msgid "Delete"
 msgstr "Borrar"
 
 #: modules/widget-visibility/widget-conditions.php:383 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
-#: _inc/build/instant-search/jp-search-main.bundle.js:9
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/instant-search/jp-search.chunk-main-payload-a35aa49a0dfc317ef141.js:1
 msgid "Category"
 msgstr "Categoría"
 
 #: modules/widget-visibility/widget-conditions.php:360 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Visibility"
 msgstr "Visibilidad"
 
@@ -526,8 +521,8 @@ msgid "Carousel"
 msgstr "Carrusel"
 
 #: modules/widgets/gallery.php:379 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Media File"
 msgstr "Archivo multimedia"
 
@@ -699,7 +694,7 @@ msgid "RSS Links"
 msgstr "Enlaces RSS"
 
 #: modules/widgets/rsslinks-widget.php:101
-#: modules/widgets/rsslinks-widget.php:177 _inc/build/admin.js:52
+#: modules/widgets/rsslinks-widget.php:177 _inc/build/admin.js:61
 msgid "Posts"
 msgstr "Entradas"
 
@@ -873,8 +868,8 @@ msgid "%s (Jetpack)"
 msgstr "%s (Jetpack)"
 
 #: modules/widgets/gallery.php:378 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Attachment Page"
 msgstr "Página de adjuntos"
 
@@ -882,167 +877,167 @@ msgstr "Página de adjuntos"
 msgid "Open links in new window/tab:"
 msgstr "Abre el enlace en una nueva ventana/pestaña:"
 
-#: modules/stats.php:892 modules/stats.php:1621
-#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:181
-#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:191
-#: modules/masterbar/admin-menu/class-admin-menu.php:180
-#: modules/masterbar/masterbar/class-masterbar.php:916
+#: modules/stats.php:925 modules/stats.php:1649
+#: modules/masterbar/masterbar/class-masterbar.php:1001
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:219
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:229
+#: modules/masterbar/admin-menu/class-admin-menu.php:161
 msgid "Stats"
 msgstr "Estadísticas"
 
-#: modules/videopress/class.videopress-player.php:305 modules/stats.php:1111
-#: modules/contact-form/grunion-contact-form.php:1962
-#: modules/contact-form/grunion-editor-view.php:92 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/stats.php:1134 modules/contact-form/grunion-contact-form.php:1983
+#: modules/contact-form/grunion-editor-view.php:92
+#: modules/videopress/class.videopress-player.php:305 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Submit"
 msgstr "Enviar"
 
-#: modules/stats.php:613
+#: modules/stats.php:620
 msgid "Your Site Stats work better with JavaScript enabled."
 msgstr "Las Estadísticas de tu Sitio funcionan mejor con Javascript activado."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2679
+#: _inc/lib/class.core-rest-api-endpoints.php:2829
 msgid "Count the page views of registered users who are logged in."
 msgstr "Cuenta las p&#225;ginas vista de los usuarios registrados logueados."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2703
+#: _inc/lib/class.core-rest-api-endpoints.php:2853
 msgid "Hide the stats smiley face image."
 msgstr "Ocultar la imagen Smiley agregada por las estadísticas."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2668
+#: _inc/lib/class.core-rest-api-endpoints.php:2818
 msgid "Select the roles that will be able to view stats reports."
 msgstr "Selecciona los roles que podr&#225;n ver los informes de estad&#237;sticas."
 
-#: modules/stats.php:894
+#: modules/stats.php:927
 msgid "Views over 48 hours. Click for more Site Stats."
 msgstr "Visitas de 48 horas. Haz clic para m&#225;s Estad&#237;sticas del Sitio."
 
-#: modules/stats.php:1027
+#: modules/stats.php:1049
 msgid "day"
 msgstr "día"
 
-#: modules/stats.php:1028
+#: modules/stats.php:1050
 msgid "week"
 msgstr "semana"
 
-#: modules/stats.php:1029
+#: modules/stats.php:1051
 msgid "month"
 msgstr "mes"
 
-#: modules/stats.php:1032
+#: modules/stats.php:1054
 msgid "the past day"
 msgstr "ayer"
 
-#: modules/stats.php:1033
+#: modules/stats.php:1055
 msgid "the past week"
 msgstr "la semana pasada"
 
-#: modules/stats.php:1034
+#: modules/stats.php:1056
 msgid "the past month"
 msgstr "el mes pasado"
 
-#: modules/stats.php:1035
+#: modules/stats.php:1057
 msgid "the past quarter"
 msgstr "el trimestre pasado"
 
-#: modules/stats.php:1036
+#: modules/stats.php:1058
 msgid "the past year"
 msgstr "el año pasado"
 
-#: modules/stats.php:1059
+#: modules/stats.php:1082
 msgid "Chart stats by"
 msgstr "Gráfica de estadísticas por"
 
-#: modules/stats.php:1072
+#: modules/stats.php:1095
 msgid "Show top posts over"
 msgstr "Mostrar las entradas más populares sobre"
 
-#: modules/stats.php:1085
+#: modules/stats.php:1108
 msgid "Show top search terms over"
 msgstr "Mostrar términos de búsqueda populares sobre"
 
 #. Translators: Stats dashboard widget postviews list: "$post_title $views
 #. Views".
-#: modules/stats.php:1249
+#: modules/stats.php:1308
 msgid "%1$s %2$s Views"
 msgstr "%1$s %2$s Vistas"
 
-#: modules/stats.php:1274
+#: modules/stats.php:1292
 msgid "Top Posts"
 msgstr "Posts Más Vistos"
 
-#: modules/stats.php:1278 modules/stats.php:1303
+#: modules/stats.php:1296 modules/stats.php:1326
 msgid "Sorry, nothing to report."
 msgstr "Lo sentimos, nada que mostrar."
 
-#: modules/stats.php:1299
+#: modules/stats.php:1322
 msgid "Top Searches"
 msgstr "Lo más buscado"
 
-#: modules/stats.php:1349
+#: modules/stats.php:1372
 msgid "We were unable to get your stats just now. Please reload this page to try again."
 msgstr "No hemos sido capaces de obtener sus estadísticas en este momento. Por favor actualice la página para intentarlo nuevamente."
 
-#: modules/subscriptions.php:149
+#: modules/subscriptions.php:150
 msgid "Jetpack Subscriptions:"
 msgstr "Suscripciones a Jetpack:"
 
-#: modules/subscriptions.php:151
+#: modules/subscriptions.php:152
 msgid "Don&#8217;t send this to subscribers"
 msgstr "No enviar esto a los suscriptores"
 
-#: modules/subscriptions.php:270
+#: modules/subscriptions.php:271
 msgid "Jetpack Subscriptions Settings"
 msgstr "Ajustes de Suscripciones Jetpack"
 
-#: modules/subscriptions.php:279 modules/subscriptions/views.php:40
+#: modules/subscriptions.php:280 modules/subscriptions/views.php:40
 msgid "Follow Blog"
 msgstr "Seguir Blog"
 
-#: modules/subscriptions.php:294
+#: modules/subscriptions.php:295
 msgid "Follow Comments"
 msgstr "Seguir comentarios"
 
-#: modules/subscriptions.php:339
+#: modules/subscriptions.php:340
 msgid "Follower Settings"
 msgstr "Configuración de Seguidores"
 
-#: modules/subscriptions.php:346
+#: modules/subscriptions.php:347
 msgid "Blog follow email text"
 msgstr "Texto de correo electrónico de seguimiento de blog"
 
-#: modules/subscriptions.php:354
+#: modules/subscriptions.php:355
 msgid "Comment follow email text"
 msgstr "Comentar el siguiente texto de correo electrónico"
 
-#: modules/subscriptions.php:367
+#: modules/subscriptions.php:368
 msgid "Change whether your visitors can subscribe to your posts or comments or both."
 msgstr "Elige si tus visitas pueden subscribir a tus entradas, comentarios o ambos."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2477
-#: modules/subscriptions.php:382
+#: _inc/lib/class.core-rest-api-endpoints.php:2620
+#: modules/subscriptions.php:383
 msgid "Show a <em>'follow blog'</em> option in the comment form"
 msgstr "Mostrar la opción <em>'seguir blog'</em> en el formulario de comentario"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2484
-#: modules/subscriptions.php:397
+#: _inc/lib/class.core-rest-api-endpoints.php:2627
+#: modules/subscriptions.php:398
 msgid "Show a <em>'follow comments'</em> option in the comment form"
 msgstr "Mostrar la opción <em>'seguir los comentarios'</em> en el formulario de comentarios"
 
-#: modules/subscriptions.php:486
+#: modules/subscriptions.php:487
 msgid "These settings change emails sent from your blog to followers."
 msgstr "Estos ajustes modifican los correos electrónicos enviados desde tu blog a los seguidores."
 
-#: modules/subscriptions.php:493
+#: modules/subscriptions.php:494
 msgid "Introduction text sent when someone follows your blog. (Site and confirmation details will be automatically added for you.)"
 msgstr "Texto de introducción que se envía cuando alguien sigue tu blog. (Se añadirán automáticamente la información del sitio y de confirmación)."
 
-#: modules/subscriptions.php:499
+#: modules/subscriptions.php:500
 msgid "Introduction text sent when someone follows a post on your blog. (Site and confirmation details will be automatically added for you.)"
 msgstr "Texto de introducción que se envía cuando alguien sigue una entrada de tu blog. (La información del sitio y de la confirmación se añadirán automáticamente por ti)."
 
-#: modules/subscriptions.php:505
+#: modules/subscriptions.php:506
 msgid ""
 "Howdy.\n"
 "\n"
@@ -1073,62 +1068,62 @@ msgid "There was an error when subscribing. Please try again."
 msgstr "Se produjo un error al suscribirse. Inténtalo de nuevo."
 
 #. translators: %s: number of folks following the blog
-#: modules/subscriptions/views.php:401 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/subscriptions/views.php:402 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Join %s other subscriber"
 msgid_plural "Join %s other subscribers"
 msgstr[0] "Únete a %s suscriptor"
 msgstr[1] "Únete a otros %s suscriptores "
 
-#: modules/subscriptions/views.php:595
+#: modules/subscriptions/views.php:600
 msgid "Subscribe to Blog via Email"
 msgstr "Suscríbete al blog por correo electrónico"
 
-#: modules/subscriptions/views.php:596
+#: modules/subscriptions/views.php:601
 msgid "Enter your email address to subscribe to this blog and receive notifications of new posts by email."
 msgstr "Introduce tu correo electrónico para suscribirte a este blog y recibir notificaciones de nuevas entradas."
 
-#: modules/subscriptions/views.php:690 modules/widgets/image-widget.php:226
+#: modules/widgets/image-widget.php:226 modules/subscriptions/views.php:695
 msgid "Widget title:"
 msgstr "Título de la aplicación:"
 
-#: modules/subscriptions/views.php:698
+#: modules/subscriptions/views.php:703
 msgid "Optional text to display to your readers:"
 msgstr "Texto opcional para mostrar a tus lectores:"
 
-#: modules/subscriptions/views.php:706
+#: modules/subscriptions/views.php:711
 msgid "Subscribe Placeholder:"
 msgstr "Suscribirse a marcador de posición:"
 
-#: modules/subscriptions/views.php:714
+#: modules/subscriptions/views.php:719
 msgid "Subscribe Button:"
 msgstr "Botón de suscripción"
 
-#: modules/subscriptions/views.php:722
+#: modules/subscriptions/views.php:727
 msgid "Success Message Text:"
 msgstr "Texto del mensaje de operación correcta:"
 
-#: modules/subscriptions/views.php:733
+#: modules/subscriptions/views.php:738
 msgid "Show total number of subscribers? (%s subscriber)"
 msgid_plural "Show total number of subscribers? (%s subscribers)"
 msgstr[0] "¿Mostrar numéro total de suscriptores? (%s suscriptor)"
 msgstr[1] "¿Mostrar numéro total de suscriptores? (%s suscriptores)"
 
-#: modules/theme-tools/featured-content.php:480
-#: modules/theme-tools/featured-content.php:495
+#: modules/theme-tools/featured-content.php:486
+#: modules/theme-tools/featured-content.php:501
 msgid "Featured Content"
 msgstr "Contenido Destacado"
 
-#: modules/theme-tools/featured-content.php:496
+#: modules/theme-tools/featured-content.php:502
 msgid "Easily feature all posts with the <a href=\"%1$s\">\"featured\" tag</a> or a tag of your choice. Your theme supports up to %2$s posts in its featured content area."
 msgstr "Destaca de manera fácil todas las entradas con la <a href=\"%1$s\">etiqueta \"featured\"</a> o la etiqueta de tu elección. Su tema soporta hasta %2$s entradas en el area de contenido destacado."
 
-#: modules/theme-tools/featured-content.php:536
+#: modules/theme-tools/featured-content.php:542
 msgid "Tag name"
 msgstr "Nombre de la etiqueta"
 
-#: modules/theme-tools/featured-content.php:575
+#: modules/theme-tools/featured-content.php:581
 msgid "The settings for Featured Content have <a href=\"%s\">moved to Appearance &rarr; Customize</a>."
 msgstr "La configuración de Contenido Destacado se ha movido a <a href=\"%s\">Apariencia &rarr; Personalizar</a>."
 
@@ -1184,12 +1179,12 @@ msgstr "Círculos"
 msgid "Tiled Columns"
 msgstr "Columnas de mosaicos"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2249
+#: _inc/lib/class.core-rest-api-endpoints.php:2392
 #: modules/tiled-gallery/tiled-gallery.php:294
 msgid "Display all your gallery pictures in a cool mosaic."
 msgstr "Mostrar todas las fotos de tu galería en un mosaico moderno."
 
-#: modules/verification-tools/blog-verification-tools.php:78
+#: modules/verification-tools/blog-verification-tools.php:84
 msgid "Website Verification Services"
 msgstr "Servicios de Verificación del Sitio Web "
 
@@ -1257,7 +1252,7 @@ msgstr "Dirección del archivo OGG"
 msgid "Location of the Ogg video file."
 msgstr "Ubicación del archivo de video en formato Ogg."
 
-#: modules/videopress/class.videopress-edit-attachment.php:354
+#: modules/videopress/class.videopress-edit-attachment.php:297
 msgid "Display share menu and allow viewers to embed or download this video"
 msgstr "Mostrar el menú de compartir y permitir a los espectadores insertar o descargar este vídeo"
 
@@ -1297,7 +1292,7 @@ msgstr "Archivos mensuales."
 msgid "Yearly archives"
 msgstr "Archivo anual"
 
-#: modules/widget-visibility/widget-conditions.php:133 _inc/build/admin.js:52
+#: modules/widget-visibility/widget-conditions.php:133 _inc/build/admin.js:61
 msgid "Front page"
 msgstr "Portada"
 
@@ -1314,7 +1309,7 @@ msgid "404 error page"
 msgstr "página con error 404"
 
 #: modules/widget-visibility/widget-conditions.php:137
-#: _inc/build/instant-search/jp-search-main.bundle.js:9
+#: _inc/build/instant-search/jp-search.chunk-main-payload-a35aa49a0dfc317ef141.js:1
 msgid "Search results"
 msgstr "Buscar resultados"
 
@@ -1330,27 +1325,27 @@ msgstr "Página estática:"
 msgid "All taxonomy pages"
 msgstr "Todas las páginas de taxonomía "
 
-#: modules/stats.php:599
+#: modules/stats.php:618
 msgid "Loading&hellip;"
 msgstr "Cargando&hellip;"
 
-#: modules/stats.php:612
+#: modules/stats.php:619
 msgid "View stats on WordPress.com right now"
 msgstr "Mira las estadísticas en WordPress.com ahora."
 
-#: modules/subscriptions.php:727
+#: modules/subscriptions.php:728
 msgid "Notify me of follow-up comments by email."
 msgstr "Recibir un email con los siguientes comentarios a esta entrada."
 
-#: modules/subscriptions.php:746
+#: modules/subscriptions.php:747
 msgid "Notify me of new posts by email."
 msgstr "Recibir un email con cada nueva entrada."
 
+#: modules/subscriptions/views.php:603
 #: extensions/blocks/premium-content/_inc/legacy-buttons.php:55
-#: extensions/blocks/revue/revue.php:149 modules/subscriptions/views.php:598
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: extensions/blocks/revue/revue.php:149 _inc/blocks/editor.js:28
 #: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Subscribe"
 msgstr "Suscribir"
 
@@ -1358,12 +1353,12 @@ msgstr "Suscribir"
 msgid "Logo"
 msgstr "Logotipo"
 
-#: modules/subscriptions/views.php:320 modules/subscriptions/views.php:412
-#: modules/widgets/contact-info.php:311
+#: modules/widgets/contact-info.php:311 modules/subscriptions/views.php:317
+#: modules/subscriptions/views.php:413
 msgid "Email Address:"
 msgstr "Dirección de Correo:"
 
-#: modules/subscriptions.php:504
+#: modules/subscriptions.php:505
 msgid ""
 "Howdy.\n"
 "\n"
@@ -1376,7 +1371,7 @@ msgstr ""
 "\n"
 "Para activar, pincha confirmar abajo. Si crees que esto es un error, ignora este mensaje y no te molestaremos nuevamente."
 
-#: modules/stats.php:614
+#: modules/stats.php:621
 msgid "View Site Stats without JavaScript"
 msgstr "Ver las estadísticas de tu sitio sin Javascript"
 
@@ -1384,38 +1379,38 @@ msgstr "Ver las estadísticas de tu sitio sin Javascript"
 msgid "Print"
 msgstr "Imprimir"
 
-#: extensions/blocks/eventbrite/eventbrite.php:196
-#: modules/sharedaddy/sharing-sources.php:621
 #: modules/wordads/php/class-wordads-california-privacy.php:261
+#: modules/sharedaddy/sharing-sources.php:621
+#: extensions/blocks/eventbrite/eventbrite.php:196
 msgid "Close"
 msgstr "Cerrar"
 
-#: modules/sharedaddy/sharing-sources.php:1465
 #: modules/sitemaps/sitemap-stylist.php:68
+#: modules/sharedaddy/sharing-sources.php:1465
 msgid "URL"
 msgstr "URL"
 
-#: modules/related-posts/jetpack-related-posts.php:620 _inc/build/admin.js:52
+#: modules/related-posts/jetpack-related-posts.php:629 _inc/build/admin.js:61
 msgid "Show related content after posts"
 msgstr "Mostrar contenido relacionado después de las entradas"
 
-#: modules/related-posts/jetpack-related-posts.php:1259
+#: modules/related-posts/jetpack-related-posts.php:1268
 msgid "Untitled Post"
 msgstr "Entrada sin título"
 
-#: modules/related-posts/jetpack-related-posts.php:1550
-#: modules/related-posts/jetpack-related-posts.php:1573
+#: modules/related-posts/jetpack-related-posts.php:1559
+#: modules/related-posts/jetpack-related-posts.php:1582
 msgctxt "in {category/tag name}"
 msgid "In \"%s\""
 msgstr "En \"%s\""
 
-#: modules/related-posts/jetpack-related-posts.php:1594
+#: modules/related-posts/jetpack-related-posts.php:1603
 msgid "With 1 comment"
 msgid_plural "With %s comments"
 msgstr[0] "Con 1 comentario"
 msgstr[1] "Con %s comentarios"
 
-#: modules/related-posts/jetpack-related-posts.php:1599
+#: modules/related-posts/jetpack-related-posts.php:1608
 msgid "Similar post"
 msgstr "Entrada similar "
 
@@ -1453,7 +1448,7 @@ msgstr "Entrada compartida"
 msgid "%1$s (%2$s) thinks you may be interested in the following post:"
 msgstr "%1$s (%2$s) cree que puedes estar interesado en la siguiente entrada:"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2433
+#: _inc/lib/class.core-rest-api-endpoints.php:2576
 #: modules/sharedaddy/sharedaddy.php:246
 msgid "Disable CSS and JS"
 msgstr "Desactiva CSS y JS"
@@ -1526,7 +1521,8 @@ msgid "Sorry, your blog cannot share posts by email."
 msgstr "Lo sentimos, tu blog no puede compartir entradas por correo electrónico."
 
 #: modules/sharedaddy/sharing-sources.php:735 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Twitter"
 msgstr "Twitter"
 
@@ -1566,7 +1562,8 @@ msgid "Click to share on LinkedIn"
 msgstr "Haz clic aquí para compartir en LinkedIn"
 
 #: modules/sharedaddy/sharing-sources.php:1107 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -1629,8 +1626,9 @@ msgid "Click to share on Tumblr"
 msgstr "Haz clic para compartir en Tumblr"
 
 #: modules/sharedaddy/sharing-sources.php:1635 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Pinterest"
 msgstr "Pinterest"
 
@@ -1705,22 +1703,22 @@ msgstr "Compartir está desactivado. Añade servicios arriba para activarlo."
 msgid "Button style"
 msgstr "Estilo de botón"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2398
+#: _inc/lib/class.core-rest-api-endpoints.php:2541
 #: modules/sharedaddy/sharing.php:390
 msgid "Icon + text"
 msgstr "Icono + texto"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2399
+#: _inc/lib/class.core-rest-api-endpoints.php:2542
 #: modules/sharedaddy/sharing.php:391
 msgid "Icon only"
 msgstr "Sólo el icono"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2400
+#: _inc/lib/class.core-rest-api-endpoints.php:2543
 #: modules/sharedaddy/sharing.php:392
 msgid "Text only"
 msgstr "Sólo texto"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2401
+#: _inc/lib/class.core-rest-api-endpoints.php:2544
 #: modules/sharedaddy/sharing.php:393
 msgid "Official buttons"
 msgstr "Botones oficiales"
@@ -1775,16 +1773,14 @@ msgid "Click to autoplay the presentation!"
 msgstr "¡Haga clic para activar la reproducción automática de la presentación!"
 
 #: modules/widgets/milestone/class-milestone-widget.php:693
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Time"
 msgstr "Hora"
 
 #: modules/shortcodes/slideshow.php:74 modules/widgets/gallery.php:373
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Slideshow"
 msgstr "Presentación"
 
@@ -1801,19 +1797,19 @@ msgstr "El pase de diapositivas requiere JavaScript."
 msgid "Tweets by @%s"
 msgstr "Tweets de @%s"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2461 modules/sso.php:252
+#: _inc/lib/class.core-rest-api-endpoints.php:2604 modules/sso.php:253
 msgid "Require Two-Step Authentication"
 msgstr "La autentificación en dos pasos es obligatoria"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2468 modules/sso.php:282
+#: _inc/lib/class.core-rest-api-endpoints.php:2611 modules/sso.php:283
 msgid "Match by Email"
 msgstr "Correspondencia por correo electrónico"
 
-#: modules/sso.php:422
+#: modules/sso.php:423
 msgid "Cannot deal with cookie redirects, as headers are already sent."
 msgstr "No se puede negociar con subpeticiones de cookies, ya que los encabezados ya han sido enviados."
 
-#: modules/sso.php:535 modules/sso.php:887
+#: modules/sso.php:536 modules/sso.php:888
 msgid "Log in with WordPress.com"
 msgstr "Accede con WordPress.com"
 
@@ -1825,30 +1821,29 @@ msgstr "Su Nombre"
 msgid "Live Preview"
 msgstr "Vista previa"
 
-#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:115
-#: modules/masterbar/admin-menu/class-admin-menu.php:424
-#: modules/masterbar/masterbar/class-masterbar.php:1194
+#: modules/masterbar/masterbar/class-masterbar.php:1279
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:192
 msgid "Themes"
 msgstr "Temas"
 
-#: modules/widgets/facebook-likebox.php:167
-#: modules/widgets/gravatar-profile.php:277
-#: modules/widgets/milestone/class-milestone-widget.php:656
 #: modules/sitemaps/sitemap-stylist.php:307
 #: modules/sitemaps/sitemap-stylist.php:447
 #: modules/sitemaps/sitemap-stylist.php:588
+#: modules/widgets/gravatar-profile.php:277
+#: modules/widgets/facebook-likebox.php:167
+#: modules/widgets/milestone/class-milestone-widget.php:656
 msgid "Title"
 msgstr "Título"
 
 #. translators: %s: Number of pending plugin updates.
-#: modules/masterbar/admin-menu/class-admin-menu.php:509
-#: modules/masterbar/masterbar/class-masterbar.php:1278
-#: modules/calypsoify/class-jetpack-calypsoify.php:256
+#: modules/masterbar/masterbar/class-masterbar.php:1363
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:358
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:204
 msgid "Plugins"
 msgstr "Plugins"
 
 #: modules/sharedaddy/sharing-sources.php:1477
-#: modules/widgets/simple-payments/form.php:181 _inc/build/admin.js:52
+#: modules/widgets/simple-payments/form.php:181 _inc/build/admin.js:61
 msgid "Save"
 msgstr "Guardar"
 
@@ -1863,8 +1858,8 @@ msgstr "Última modificación"
 msgid "Enable Post By Email"
 msgstr "Activar Publicar por Correo Electrónico"
 
-#: modules/videopress/class.videopress-player.php:308
 #: modules/post-by-email/class-jetpack-post-by-email.php:117
+#: modules/videopress/class.videopress-player.php:308
 msgid "More information"
 msgstr "Más información"
 
@@ -1881,13 +1876,13 @@ msgstr "Desactivar Publicar por Correo Electrónico"
 msgid "To use Post By Email, you need to link your %s account to your WordPress.com account."
 msgstr "Para utilizar Publicar por Correo Electrónico, es necesario vincular tu cuenta %s con su cuenta de WordPress.com."
 
-#: modules/publicize/publicize-jetpack.php:84
 #: modules/post-by-email/class-jetpack-post-by-email.php:138
+#: modules/publicize/publicize-jetpack.php:84
 msgid "If you don't have a WordPress.com account yet, you can sign up for free in just a few seconds."
 msgstr "Si todavía no tiene una cuenta de WordPress.com, puede registrarse gratis en sólo unos segundos."
 
-#: modules/publicize/publicize-jetpack.php:90
 #: modules/post-by-email/class-jetpack-post-by-email.php:141
+#: modules/publicize/publicize-jetpack.php:90
 msgid "Link account with WordPress.com"
 msgstr "Enlaza la cuenta con WordPress.com"
 
@@ -1903,11 +1898,11 @@ msgstr "No hemos podido regenerar su dirección Publicar por Correo Electrónico
 msgid "Unable to disable your Post By Email address. Please try again later."
 msgstr "No se puede desactivar su dirección de Publicar por Correo Electrónico. Por favor inténtelo de nuevo más tarde."
 
-#: views/admin/network-settings.php:8 modules/protect/shared-functions.php:143
+#: modules/protect/shared-functions.php:143 views/admin/network-settings.php:8
 msgid "One of your IP addresses was not valid."
 msgstr "Una de tus direcciones IP no era válida."
 
-#: views/admin/network-settings.php:38 _inc/build/admin.js:52
+#: views/admin/network-settings.php:38 _inc/build/admin.js:61
 msgid "Your current IP: %s"
 msgstr "Tu IP actual: %s"
 
@@ -1955,19 +1950,19 @@ msgstr "Error al conectar con WordPress.com. Código: %1$s, %2$s"
 msgid "No reply from Jetpack servers"
 msgstr "No hay respuesta de los servidores de Jetpack"
 
-#: modules/protect.php:622
+#: modules/protect.php:623
 msgid "Login Blocked by Jetpack"
 msgstr "Jetpack ha bloqueado el acceso"
 
-#: modules/protect.php:691
+#: modules/protect.php:692
 msgid "Your API key is invalid"
 msgstr "Tu clave API no es válida"
 
-#: modules/protect.php:695
+#: modules/protect.php:696
 msgid "No API key"
 msgstr "No hay clave API"
 
-#: modules/protect.php:699
+#: modules/protect.php:700
 msgid "There was an error contacting Jetpack servers."
 msgstr "Se ha producido un error al establecer contacto con los servidores de Jetpack."
 
@@ -2026,21 +2021,22 @@ msgid "This connection is working correctly."
 msgstr "Esta conexión funciona adecuadamente."
 
 #: class.jetpack-network-sites-list-table.php:105
-#: class.jetpack-network-sites-list-table.php:122 _inc/build/admin.js:71
+#: class.jetpack-network-sites-list-table.php:122 _inc/build/admin.js:52
 msgid "Disconnect"
 msgstr "Desconectar"
 
-#: extensions/blocks/premium-content/premium-content.php:94
 #: class.jetpack-network-sites-list-table.php:116
 #: class.jetpack-network-sites-list-table.php:121
-#: modules/theme-tools/social-links.php:125 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/theme-tools/social-links.php:125
+#: extensions/blocks/premium-content/premium-content.php:95
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:80
 msgid "Connect"
 msgstr "Conectar"
 
 #: modules/publicize/ui.php:300 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Before you hit Publish, please refresh the following connection(s) to make sure we can Publicize your post:"
 msgstr "Antes que hagas clic en Publicar, por favor, actualiza la(s) siguiente(s) conexion(es) para asegurarte que podamos utilizar Publicize con tu entrada:"
 
@@ -2068,22 +2064,24 @@ msgstr "Conectarse y compartir tus entradas en %s"
 msgid "Related posts"
 msgstr "Entradas relacionadas"
 
+#: modules/related-posts/jetpack-related-posts.php:486
+#: modules/related-posts/jetpack-related-posts.php:546
+#: modules/related-posts/jetpack-related-posts.php:655
 #: modules/related-posts/class.related-posts-customize.php:178
-#: modules/related-posts/jetpack-related-posts.php:477
-#: modules/related-posts/jetpack-related-posts.php:537
-#: modules/related-posts/jetpack-related-posts.php:646 _inc/build/admin.js:52
+#: _inc/build/admin.js:61
 msgid "Related"
 msgstr "Relacionado"
 
-#: modules/related-posts/jetpack-related-posts.php:591
+#: modules/related-posts/jetpack-related-posts.php:600
 msgid "Preview:"
 msgstr "Previsualizar:"
 
-#: modules/related-posts/jetpack-related-posts.php:618
+#: modules/related-posts/jetpack-related-posts.php:627
 msgid "Hide related content after posts"
 msgstr "Ocultar el contenido relacionado después de la entrada"
 
 #: modules/post-by-email/class-jetpack-post-by-email.php:98
+#: _inc/build/admin.js:61
 msgid "Post by Email"
 msgstr "Publicar por Correo Electrónico"
 
@@ -2092,30 +2090,26 @@ msgid "Tiled Galleries"
 msgstr "Galerías de mosaicos"
 
 #: modules/related-posts/class.related-posts-customize.php:50
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Related Posts"
 msgstr "Entradas relacionadas"
 
-#: modules/masterbar/admin-menu/class-admin-menu.php:466
-msgid "Menus"
-msgstr "Menús"
-
-#: _inc/lib/class.core-rest-api-endpoints.php:2331
+#: _inc/lib/class.core-rest-api-endpoints.php:2474
 msgid "Receive Monitor Email Notifications."
 msgstr "Recibir Notificaciones por Correos del Monitor."
 
-#: modules/masterbar/admin-menu/class-admin-menu.php:247 _inc/build/admin.js:52
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:91
+#: _inc/build/admin.js:61
 msgid "Media"
 msgstr "Medios"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2340
-#: modules/subscriptions/views.php:597
+#: _inc/lib/class.core-rest-api-endpoints.php:2483
 #: modules/post-by-email/class-jetpack-post-by-email.php:101
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: modules/subscriptions/views.php:602 _inc/blocks/editor.js:28
 #: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Email Address"
 msgstr "Dirección de email"
 
@@ -2204,21 +2198,20 @@ msgid "Site Stats"
 msgstr "Estadísticas del sitio"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:163
-#: modules/stats.php:439 modules/stats.php:582 modules/stats.php:991
-#: _inc/build/admin.js:80
+#: modules/stats.php:446 modules/stats.php:589 _inc/build/admin.js:80
 msgid "Site Stats"
 msgstr "Estadísticas del sitio"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:266
-#: modules/publicize/ui.php:97
+#: modules/publicize/ui.php:97 _inc/build/admin.js:61
 msgid "Publicize"
 msgstr "Difundir"
 
-#: modules/notes.php:199 modules/masterbar/masterbar/class-masterbar.php:413
-#: modules/masterbar/masterbar/class-masterbar.php:419
-#: modules/masterbar/masterbar/class-masterbar.php:723 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/notes.php:200 modules/masterbar/masterbar/class-masterbar.php:500
+#: modules/masterbar/masterbar/class-masterbar.php:506
+#: modules/masterbar/masterbar/class-masterbar.php:810 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Notifications"
 msgstr "Notificaciones"
 
@@ -2324,7 +2317,7 @@ msgstr "Gestionado con WordPress"
 msgid "Theme: %1$s."
 msgstr "Tema: %1$s."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2282
+#: _inc/lib/class.core-rest-api-endpoints.php:2425
 #: modules/infinite-scroll.php:76
 msgid "Use Google Analytics with Infinite Scroll"
 msgstr "Utilice Google Analytics con Scroll Infinito"
@@ -2333,41 +2326,41 @@ msgstr "Utilice Google Analytics con Scroll Infinito"
 msgid "Likes and Shares"
 msgstr "\"Me gusta\" y comparticiones"
 
-#: modules/likes.php:434 modules/likes/jetpack-likes-settings.php:46
-#: modules/widgets/top-posts.php:107
+#: modules/widgets/top-posts.php:107 modules/likes.php:456
+#: modules/likes/jetpack-likes-settings.php:46
 msgid "Likes"
 msgstr "Me gusta"
 
 #: modules/likes/jetpack-likes-settings.php:80 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Show likes."
 msgstr "Mostrar \"me gusta\"."
 
 #: modules/sharedaddy/sharedaddy.php:169
 #: modules/likes/jetpack-likes-settings.php:170 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Show sharing buttons."
 msgstr "Mostrar botones de compartir."
 
-#: modules/likes.php:196
+#: modules/likes.php:203
 msgid "Likes Notifications"
 msgstr "Notificaciones de \"Me gusta\""
 
-#: modules/likes.php:236
+#: modules/likes.php:249
 msgid "Someone likes one of my posts"
 msgstr "A alguien le gusta una de mis entradas"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2291
+#: _inc/lib/class.core-rest-api-endpoints.php:2434
 #: modules/likes/jetpack-likes-settings.php:492
 msgid "WordPress.com Likes are"
 msgstr "Los \"Me gusta\" de WordPress.com son"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2299
+#: _inc/lib/class.core-rest-api-endpoints.php:2442
 #: modules/likes/jetpack-likes-settings.php:498
 msgid "On for all posts"
 msgstr "En todas las entradas"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2300
+#: _inc/lib/class.core-rest-api-endpoints.php:2443
 #: modules/likes/jetpack-likes-settings.php:504
 msgid "Turned on per post"
 msgstr "Activado por entrada"
@@ -2402,20 +2395,18 @@ msgstr "Mostrar botones"
 msgid "Front Page, Archive Pages, and Search Results"
 msgstr "Página inicial, Páginas de archivo y Resultados de búsqueda"
 
-#: modules/publicize/ui.php:55 modules/publicize/ui.php:73
 #: modules/sharedaddy/sharing.php:99 modules/sharedaddy/sharing.php:232
-#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:234
+#: modules/publicize/ui.php:55 modules/publicize/ui.php:73
 #: modules/likes/jetpack-likes-settings.php:181
 #: modules/likes/jetpack-likes-settings.php:193
 msgid "Sharing Settings"
 msgstr "Configuración de Compartir"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:277
-#: modules/publicize/ui.php:56 modules/sharedaddy/sharing.php:100
-#: modules/sharedaddy/sharedaddy.php:143
-#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:234
-#: modules/masterbar/masterbar/class-masterbar.php:1240
-#: modules/likes/jetpack-likes-settings.php:181 _inc/build/admin.js:52
+#: modules/masterbar/masterbar/class-masterbar.php:1325
+#: modules/sharedaddy/sharing.php:100 modules/sharedaddy/sharedaddy.php:143
+#: modules/publicize/ui.php:56 modules/likes/jetpack-likes-settings.php:181
+#: _inc/build/admin.js:61
 msgid "Sharing"
 msgstr "Compartir"
 
@@ -2429,16 +2420,16 @@ msgstr "La configuración se ha guardado"
 msgid "Sharing Buttons"
 msgstr "Botones de compartir"
 
-#: modules/likes.php:470 modules/likes.php:471
+#: modules/likes.php:498 modules/likes.php:499
 msgid "Like this:"
 msgstr "Me gusta:"
 
-#: modules/likes.php:476
+#: modules/likes.php:504
 msgid "Like"
 msgstr "Me gusta"
 
-#: modules/likes.php:476 modules/comment-likes.php:188
-#: class.jetpack-connection-banner.php:200
+#: modules/comment-likes.php:228 modules/likes.php:504
+#: class.jetpack-connection-banner.php:229
 msgid "Loading..."
 msgstr "Cargando..."
 
@@ -2449,8 +2440,8 @@ msgstr "A <span>%d</span> blogueros les gusta esto:"
 
 #: modules/markdown/easy-markdown.php:256
 #: modules/markdown/easy-markdown.php:258 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Markdown"
 msgstr "Markdown"
 
@@ -2463,7 +2454,7 @@ msgstr "Usar Markdown para posts y páginas."
 msgid "Learn more about Markdown."
 msgstr "Más información sobre Markdown."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2315
+#: _inc/lib/class.core-rest-api-endpoints.php:2458
 #: modules/markdown/easy-markdown.php:296
 msgid "Use Markdown for comments."
 msgstr "Usar Markdown para comentarios."
@@ -2476,7 +2467,7 @@ msgstr "Contenido Markdown"
 msgid "Gallery"
 msgstr "Galería"
 
-#: modules/masterbar/masterbar/class-masterbar.php:1356
+#: modules/masterbar/masterbar/class-masterbar.php:1441
 msgid "Menu"
 msgstr "Menu"
 
@@ -2489,8 +2480,7 @@ msgctxt "Module Name"
 msgid "Carousel"
 msgstr "Carrusel"
 
-#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:118
-#: modules/masterbar/admin-menu/class-admin-menu.php:425
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:193
 #: modules/custom-post-types/testimonial.php:446
 msgid "Customize"
 msgstr "Personalizar"
@@ -2503,7 +2493,7 @@ msgstr "Tu archivo de testimonios no cuenta con ninguna entrada hasta el momento
 msgid "Gravatar Hovercards"
 msgstr "Gravatar Hovercards"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2257
+#: _inc/lib/class.core-rest-api-endpoints.php:2400
 #: modules/gravatar-hovercards.php:62
 msgid "View people's profiles when you mouse over their Gravatars"
 msgstr "Muestra los perfiles de la gente cuando pasas el ratón por encima de sus Gravatares."
@@ -2512,13 +2502,13 @@ msgstr "Muestra los perfiles de la gente cuando pasas el ratón por encima de su
 msgid "Put your mouse over your Gravatar to check out your profile."
 msgstr "Sitúa el ratón sobre tu Gravatar para ver tu perfil."
 
-#: modules/theme-tools/compat/twentynineteen.php:203
 #: modules/theme-tools/compat/twentytwenty.php:268
+#: modules/theme-tools/compat/twentynineteen.php:203
 #: modules/infinite-scroll/infinity.php:840
 msgid "Older posts"
 msgstr "Entradas antiguas"
 
-#: modules/subscriptions.php:317 modules/likes.php:197
+#: modules/subscriptions.php:318 modules/likes.php:204
 msgid "Email me whenever"
 msgstr "Envíeme correo electrónico cada vez"
 
@@ -2532,7 +2522,7 @@ msgstr "Guardar cambios"
 msgid "%1$s at %2$s"
 msgstr "%1$s a las %2$s"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2275
+#: _inc/lib/class.core-rest-api-endpoints.php:2418
 msgid "To infinity and beyond"
 msgstr "Al infinito y más allá"
 
@@ -2542,21 +2532,21 @@ msgstr "Elige entre las etiquetas más utilizadas"
 
 #: modules/custom-css/custom-css.php:1267
 #: modules/custom-post-types/comics.php:272 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Preview"
 msgstr "Vista previa"
 
-#: views/admin/deactivation-dialog.php:53
-#: modules/sharedaddy/sharing-sources.php:699
 #: modules/custom-css/custom-css.php:1117
 #: modules/custom-css/custom-css.php:1208
 #: modules/custom-css/custom-css.php:1249
+#: modules/sharedaddy/sharing-sources.php:699
+#: modules/widgets/simple-payments/form.php:182
 #: modules/contact-form/grunion-editor-view.php:290
-#: modules/widgets/simple-payments/form.php:182 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
-#: _inc/build/admin.js:71
+#: views/admin/deactivation-dialog.php:53 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:52 _inc/build/admin.js:61
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -2565,7 +2555,7 @@ msgstr "Cancelar"
 msgid "Projects"
 msgstr "Proyectos"
 
-#: modules/custom-post-types/portfolios.php:873
+#: modules/custom-post-types/portfolios.php:873 _inc/build/admin.js:61
 msgid "Tags"
 msgstr "Etiquetas"
 
@@ -2651,17 +2641,17 @@ msgstr "No Comics found in Trash"
 msgid "Comic updated. <a href=\"%s\">View comic</a>"
 msgstr "Comic actualizado. <a href=\"%s\">Ver comic</a>"
 
-#: modules/custom-post-types/testimonial.php:347
-#: modules/custom-post-types/portfolios.php:379
-#: modules/custom-post-types/nova.php:269
 #: modules/custom-post-types/comics.php:311
+#: modules/custom-post-types/portfolios.php:379
+#: modules/custom-post-types/testimonial.php:347
+#: modules/custom-post-types/nova.php:274
 msgid "Custom field updated."
 msgstr "Campo personalizado actualizado."
 
-#: modules/custom-post-types/testimonial.php:348
-#: modules/custom-post-types/portfolios.php:380
-#: modules/custom-post-types/nova.php:270
 #: modules/custom-post-types/comics.php:312
+#: modules/custom-post-types/portfolios.php:380
+#: modules/custom-post-types/testimonial.php:348
+#: modules/custom-post-types/nova.php:275
 msgid "Custom field deleted."
 msgstr "Campo personalizado borrado."
 
@@ -2691,10 +2681,10 @@ msgid "Comic scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%
 msgstr "Comic agendado para: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Vista previa de comic</a>"
 
 #. translators: Publish box date format, see https://php.net/date
-#: modules/custom-post-types/testimonial.php:357
-#: modules/custom-post-types/portfolios.php:389
-#: modules/custom-post-types/nova.php:284
 #: modules/custom-post-types/comics.php:321
+#: modules/custom-post-types/portfolios.php:389
+#: modules/custom-post-types/testimonial.php:357
+#: modules/custom-post-types/nova.php:289
 msgid "M j, Y @ G:i"
 msgstr "j F Y G:i a"
 
@@ -2708,331 +2698,331 @@ msgid "Invalid or expired nonce."
 msgstr "Nonce invalido o caduco."
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:128
+#: modules/custom-post-types/nova.php:133
 msgid "Menu Item Labels"
 msgstr "Etiquetas de elemento de menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:130
+#: modules/custom-post-types/nova.php:135
 msgid "Menu Item Label"
 msgstr "Etiqueta de elemento de menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:132
+#: modules/custom-post-types/nova.php:137
 msgid "Search Menu Item Labels"
 msgstr "Etiquetas de los elementos en el menú de búsqueda"
 
-#: modules/custom-post-types/nova.php:133
+#: modules/custom-post-types/nova.php:138
 msgid "Popular Labels"
 msgstr "Etiquetas populares"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:135
+#: modules/custom-post-types/nova.php:140
 msgid "All Menu Item Labels"
 msgstr "Todas las etiquetas de los elementos del menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:137
+#: modules/custom-post-types/nova.php:142
 msgid "Edit Menu Item Label"
 msgstr "Editar etiqueta de elemento de menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:139
+#: modules/custom-post-types/nova.php:144
 msgid "View Menu Item Label"
 msgstr "Ver etiqueta de elemento de menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:141
+#: modules/custom-post-types/nova.php:146
 msgid "Update Menu Item Label"
 msgstr "Actualizar la etiqueta del elemento de menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:143
+#: modules/custom-post-types/nova.php:148
 msgid "Add New Menu Item Label"
 msgstr "Añadir nueva etiqueta del elemento de menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:145
+#: modules/custom-post-types/nova.php:150
 msgid "New Menu Item Label Name"
 msgstr "Nombre de etiqueta de elemento de menú nuevo"
 
-#: modules/custom-post-types/nova.php:146
+#: modules/custom-post-types/nova.php:151
 msgid "For example, spicy, favorite, etc. <br /> Separate Labels with commas"
 msgstr "Por ejemplo picante, favorito, etc. <br /> Separa etiquetas con comas. "
 
-#: modules/custom-post-types/nova.php:147
+#: modules/custom-post-types/nova.php:152
 msgid "Add or remove Labels"
 msgstr "Añadir o eliminar etiquetas"
 
-#: modules/custom-post-types/nova.php:148
+#: modules/custom-post-types/nova.php:153
 msgid "Choose from the most used Labels"
 msgstr "Elige una de las etiquetas más utilizadas"
 
-#: modules/custom-post-types/nova.php:152
+#: modules/custom-post-types/nova.php:157
 msgid "No Labels found"
 msgstr "No se encontró ninguna etiqueta"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:161
+#: modules/custom-post-types/nova.php:166
 msgid "Menu Sections"
 msgstr "Secciones del menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:163
+#: modules/custom-post-types/nova.php:168
 msgid "Menu Section"
 msgstr "Sección del menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:165
+#: modules/custom-post-types/nova.php:170
 msgid "Search Menu Sections"
 msgstr "Buscar secciones del menú "
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:167
+#: modules/custom-post-types/nova.php:172
 msgid "All Menu Sections"
 msgstr "Todas las secciones del menú "
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:169
+#: modules/custom-post-types/nova.php:174
 msgid "Parent Menu Section"
 msgstr "Sección superior del menú "
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:171
+#: modules/custom-post-types/nova.php:176
 msgid "Parent Menu Section:"
 msgstr "Sección superior del menú:"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:173
+#: modules/custom-post-types/nova.php:178
 msgid "Edit Menu Section"
 msgstr "Editar Menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:175
+#: modules/custom-post-types/nova.php:180
 msgid "View Menu Section"
 msgstr "Ver Menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:177
+#: modules/custom-post-types/nova.php:182
 msgid "Update Menu Section"
 msgstr "Actualizar sección del Menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:179
+#: modules/custom-post-types/nova.php:184
 msgid "Add New Menu Section"
 msgstr "Agregar nueva sección del menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:181
+#: modules/custom-post-types/nova.php:186
 msgid "New Menu Sections Name"
 msgstr "Nuevo nombre de menú"
 
-#: modules/custom-post-types/nova.php:203
+#: modules/custom-post-types/nova.php:208
 msgid "Items on your restaurant's menu"
 msgstr "Elementos en tu menú de restaurantes"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:207
-#: modules/custom-post-types/nova.php:213
+#: modules/custom-post-types/nova.php:212
+#: modules/custom-post-types/nova.php:218
 msgid "Menu Items"
 msgstr "Elementos del menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:209
+#: modules/custom-post-types/nova.php:214
 msgid "Menu Item"
 msgstr "Elemento del menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:211
+#: modules/custom-post-types/nova.php:216
 msgid "Food Menus"
 msgstr "Menús de comida"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:215
+#: modules/custom-post-types/nova.php:220
 msgid "Add One Item"
 msgstr "Añadir un elemento"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:217
+#: modules/custom-post-types/nova.php:222
 msgid "Add Menu Item"
 msgstr "Agregar Elemento en el Menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:219
+#: modules/custom-post-types/nova.php:224
 msgid "Edit Menu Item"
 msgstr "Editar elemento del menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:221
+#: modules/custom-post-types/nova.php:226
 msgid "New Menu Item"
 msgstr "Elemento de menú nuevo"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:223
+#: modules/custom-post-types/nova.php:228
 msgid "View Menu Item"
 msgstr "Elemento del menú Ver"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:227
+#: modules/custom-post-types/nova.php:232
 msgid "No Menu Items found"
 msgstr "No se encontró ningún elemento de menú"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:229
+#: modules/custom-post-types/nova.php:234
 msgid "No Menu Items found in Trash"
 msgstr "No se encontró elementos de menú en la papelera"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:268
+#: modules/custom-post-types/nova.php:273
 msgid "Menu item updated. <a href=\"%s\">View item</a>"
 msgstr "Elemento de menú actualizado. <a href=\"%s\">Ver elemento</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:272
+#: modules/custom-post-types/nova.php:277
 msgid "Menu item updated."
 msgstr "Elemento del menú actualizado."
 
 #. translators: %s: date and time of the revision
-#: modules/custom-post-types/nova.php:274
+#: modules/custom-post-types/nova.php:279
 msgid "Menu item restored to revision from %s"
 msgstr "Elemento de menú restaurado desde la revisión de %s"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:276
+#: modules/custom-post-types/nova.php:281
 msgid "Menu item published. <a href=\"%s\">View item</a>"
 msgstr "Elemento del menú publicado. <a href=\"%s\">Ver elemento</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:278
+#: modules/custom-post-types/nova.php:283
 msgid "Menu item saved."
 msgstr "Elemento del menú guardado."
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:280
+#: modules/custom-post-types/nova.php:285
 msgid "Menu item submitted. <a target=\"_blank\" href=\"%s\">Preview item</a>"
 msgstr "Elemento de menú enviado. <a target=\"_blank\" href=\"%s\">Previsualizar elemento</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:282
+#: modules/custom-post-types/nova.php:287
 msgid "Menu item scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview item</a>"
 msgstr "Elemento de menú programado para: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Previsualizar elemento</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:286
+#: modules/custom-post-types/nova.php:291
 msgid "Menu item draft updated. <a target=\"_blank\" href=\"%s\">Preview item</a>"
 msgstr "Borrador de elemento de menú actualizado. <a target=\"_blank\" href=\"%s\">Previsualizar elemento</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:314
+#: modules/custom-post-types/nova.php:319
 msgid "Enter the menu item's name here"
 msgstr "Pone el nombre del elemento de menú aquí."
 
 #. translators: Placehoder is a number of items.
-#: modules/custom-post-types/nova.php:338
-#: modules/custom-post-types/nova.php:352
+#: modules/custom-post-types/nova.php:343
+#: modules/custom-post-types/nova.php:357
 msgid "%1$d Food Menu Item"
 msgid_plural "%1$d Food Menu Items"
 msgstr[0] "%1$d elemento del menú de comidas"
 msgstr[1] "%1$d elementos del menú de comidas"
 
-#: modules/custom-post-types/nova.php:445
-#: modules/custom-post-types/nova.php:446
-#: modules/custom-post-types/nova.php:961
+#: modules/custom-post-types/nova.php:450
+#: modules/custom-post-types/nova.php:451
+#: modules/custom-post-types/nova.php:966
 msgid "Add Many Items"
 msgstr "Añadir muchos elementos"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:508
+#: modules/custom-post-types/nova.php:513
 msgid "Menu Items re-ordered."
 msgstr "Los objetos del menú han sido reorganizados. "
 
-#: modules/custom-post-types/nova.php:527 modules/widgets/flickr/form.php:77
 #: modules/sitemaps/sitemap-stylist.php:306
-#: modules/sitemaps/sitemap-stylist.php:446
+#: modules/sitemaps/sitemap-stylist.php:446 modules/widgets/flickr/form.php:77
+#: modules/custom-post-types/nova.php:532
 msgid "Thumbnail"
 msgstr "Miniatura"
 
-#: modules/custom-post-types/nova.php:528
+#: modules/custom-post-types/nova.php:533
 msgid "Labels"
 msgstr "Etiquetas"
 
-#: modules/custom-post-types/nova.php:529
-#: modules/custom-post-types/nova.php:978
-#: modules/custom-post-types/nova.php:1023
-#: modules/custom-post-types/nova.php:1029
-#: modules/widgets/simple-payments/form.php:113 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/widgets/simple-payments/form.php:113
+#: modules/custom-post-types/nova.php:534
+#: modules/custom-post-types/nova.php:983
+#: modules/custom-post-types/nova.php:1028
+#: modules/custom-post-types/nova.php:1034 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Price"
 msgstr "Precio"
 
-#: modules/custom-post-types/nova.php:530
+#: modules/custom-post-types/nova.php:535
 msgid "Order"
 msgstr "Orden"
 
-#: modules/custom-post-types/nova.php:596
-#: modules/custom-post-types/nova.php:657
+#: modules/custom-post-types/nova.php:601
+#: modules/custom-post-types/nova.php:662
 msgid "Save New Order"
 msgstr "Guardar nueva clasificación"
 
-#: modules/custom-post-types/nova.php:860
+#: modules/custom-post-types/nova.php:865
 msgid "edit"
 msgstr "Editar"
 
-#: modules/custom-post-types/nova.php:863
+#: modules/custom-post-types/nova.php:868
 msgid "Uncategorized"
 msgstr "Sin categoría"
 
-#: modules/custom-post-types/nova.php:869
+#: modules/custom-post-types/nova.php:874
 msgid "Move menu section up"
 msgstr "Mover hacia arriba la sección de menú"
 
-#: modules/custom-post-types/nova.php:869
+#: modules/custom-post-types/nova.php:874
 msgid "UP"
 msgstr "ARRIBA"
 
-#: modules/custom-post-types/nova.php:871
+#: modules/custom-post-types/nova.php:876
 msgid "Move menu section down"
 msgstr "Mueve la sección del menú hacia abajo"
 
-#: modules/custom-post-types/nova.php:871
+#: modules/custom-post-types/nova.php:876
 msgid "DOWN"
 msgstr "ABAJO"
 
-#: modules/custom-post-types/nova.php:963
+#: modules/custom-post-types/nova.php:968
 msgid "Use the <kbd>TAB</kbd> key on your keyboard to move between colums and the <kbd>ENTER</kbd> or <kbd>RETURN</kbd> key to save each row and move on to the next."
 msgstr "Usa la tecla <kbd>TAB</kbd> de tu teclado para desplazarte entre columnas y la tecla <kbd>INTRO</kbd> o <kbd>VOLVER</kbd> para guardar cada fila o moverte a la siguiente."
 
-#: modules/custom-post-types/nova.php:966
+#: modules/custom-post-types/nova.php:971
 msgid "Add to section:"
 msgstr "Agregar a la sección:"
 
-#: modules/custom-post-types/nova.php:979
+#: modules/custom-post-types/nova.php:984
 msgid "Labels: <small>spicy, favorite, etc. <em>Separate Labels with commas</em></small>"
 msgstr "Etiquetas: <small>picantes, favoritos, etc. <em>Separar las etiquetas con comas</em></small>"
 
-#: _inc/lib/icalendar-reader.php:775 modules/custom-post-types/nova.php:980
-#: modules/widgets/simple-payments/form.php:103
+#: _inc/lib/icalendar-reader.php:775 modules/sitemaps/sitemap-stylist.php:449
 #: modules/widgets/milestone/class-milestone-widget.php:661
-#: modules/sitemaps/sitemap-stylist.php:449
+#: modules/widgets/simple-payments/form.php:103
+#: modules/custom-post-types/nova.php:985
 msgid "Description"
 msgstr "Descripción"
 
-#: modules/custom-post-types/nova.php:1001
+#: modules/custom-post-types/nova.php:1006
 msgid "New Row"
 msgstr "Nueva Fila"
 
-#: modules/custom-post-types/nova.php:1010
+#: modules/custom-post-types/nova.php:1015
 msgid "Add These New Menu Items"
 msgstr "Añadir estos elementos del menú nuevos"
 
-#: modules/custom-post-types/nova.php:1097
-#: modules/custom-post-types/nova.php:1116
+#: modules/custom-post-types/nova.php:1102
+#: modules/custom-post-types/nova.php:1121
 msgctxt "Nova label separator"
 msgid ", "
 msgstr ","
 
-#: modules/custom-post-types/nova.php:1118
+#: modules/custom-post-types/nova.php:1123
 msgid "No Labels"
 msgstr "Sin etiquetas"
 
@@ -3060,8 +3050,8 @@ msgstr "Las páginas de porfolio mostrarán, como máximo, %1$s proyectos"
 msgid "Project"
 msgstr "Proyecto"
 
-#: modules/masterbar/masterbar/class-masterbar.php:1115
-#: modules/masterbar/masterbar/class-masterbar.php:1128
+#: modules/masterbar/masterbar/class-masterbar.php:1200
+#: modules/masterbar/masterbar/class-masterbar.php:1213
 #: modules/custom-post-types/portfolios.php:267
 #: modules/custom-post-types/portfolios.php:445
 msgid "Portfolio"
@@ -3223,13 +3213,13 @@ msgstr "Tu archivo de Porfolio no tiene entradas todavía. Puedes empezar a crea
 msgid "Types"
 msgstr "Tipos"
 
-#: modules/masterbar/masterbar/class-masterbar.php:1079
-#: modules/masterbar/masterbar/class-masterbar.php:1092
+#: modules/masterbar/masterbar/class-masterbar.php:1164
+#: modules/masterbar/masterbar/class-masterbar.php:1177
 #: modules/custom-post-types/testimonial.php:120
 #: modules/custom-post-types/testimonial.php:295
 #: modules/custom-post-types/testimonial.php:297
 #: modules/custom-post-types/testimonial.php:462
-#: modules/custom-post-types/testimonial.php:468 _inc/build/admin.js:52
+#: modules/custom-post-types/testimonial.php:468 _inc/build/admin.js:61
 msgid "Testimonials"
 msgstr "Testimonios"
 
@@ -3354,12 +3344,6 @@ msgstr "Vista previa: los cambios deben ser guardados o se perderán"
 
 #: modules/custom-css/custom-css-4.7.php:138
 #: modules/custom-css/custom-css-4.7.php:141
-#: modules/custom-css/custom-css.php:904
-msgid "Edit CSS"
-msgstr "Editar CSS"
-
-#: modules/custom-css/custom-css-4.7.php:138
-#: modules/custom-css/custom-css-4.7.php:141
 #: modules/custom-css/custom-css-4.7.php:181
 #: modules/custom-css/custom-css-4.7.php:279
 #: modules/custom-css/custom-css.php:917
@@ -3405,9 +3389,8 @@ msgstr "Preprocesador:"
 #: modules/custom-css/custom-css-4.7.php:757
 #: modules/custom-css/custom-css.php:1191
 #: modules/custom-css/custom-css.php:1196 modules/widgets/image-widget.php:243
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "None"
 msgstr "Ninguna"
 
@@ -3439,11 +3422,11 @@ msgstr "Guardar &amp; Comprar Actualización"
 msgid "Save Stylesheet"
 msgstr "Guardar hoja de estilo"
 
-#: modules/masterbar/admin-menu/class-admin-menu.php:541
-#: modules/custom-post-types/testimonial.php:299
-#: modules/custom-post-types/portfolios.php:269
-#: modules/custom-post-types/comics.php:230
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:300
 #: modules/widgets/simple-payments/form.php:46
+#: modules/custom-post-types/comics.php:230
+#: modules/custom-post-types/portfolios.php:269
+#: modules/custom-post-types/testimonial.php:299
 msgid "Add New"
 msgstr "Añadir nuevo"
 
@@ -3466,7 +3449,7 @@ msgstr[0] "Entrada convertida."
 msgstr[1] "%s entradas convertidas."
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:225
+#: modules/custom-post-types/nova.php:230
 msgid "Search Menu Items"
 msgstr "Buscar elementos de menú"
 
@@ -3474,35 +3457,34 @@ msgstr "Buscar elementos de menú"
 msgid "Separate tags with commas"
 msgstr "Separa las etiquetas con comas."
 
-#: modules/theme-tools/content-options/customizer.php:74
 #: modules/custom-css/custom-css.php:1060
+#: modules/theme-tools/content-options/customizer.php:74
 #: modules/widgets/eu-cookie-law/form.php:19
 #: modules/widgets/eu-cookie-law/form.php:56
 msgid "Default"
 msgstr "Por Defecto"
 
-#: modules/publicize/publicize-jetpack.php:531
-#: modules/publicize/publicize-jetpack.php:634 modules/publicize/ui.php:625
-#: modules/publicize/ui.php:653 modules/custom-css/custom-css.php:1116
+#: modules/custom-css/custom-css.php:1116
 #: modules/custom-css/custom-css.php:1207
-#: modules/custom-css/custom-css.php:1248
+#: modules/custom-css/custom-css.php:1248 modules/publicize/ui.php:625
+#: modules/publicize/ui.php:653 modules/publicize/publicize-jetpack.php:531
+#: modules/publicize/publicize-jetpack.php:634
 msgid "OK"
 msgstr "Aceptar"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2210
-#: modules/comments/admin.php:55
-#: modules/search/class-jetpack-search-customize.php:72
+#: _inc/lib/class.core-rest-api-endpoints.php:2353
+#: modules/search/class-jetpack-search-customize.php:73
 #: modules/widgets/twitter-timeline.php:574
-#: modules/widgets/eu-cookie-law/form.php:237
+#: modules/widgets/eu-cookie-law/form.php:237 modules/comments/admin.php:55
 msgid "Dark"
 msgstr "Oscuro"
 
-#: modules/contact-form/grunion-contact-form.php:3593
-#: modules/contact-form/grunion-contact-form.php:3613
-#: modules/contact-form/grunion-contact-form.php:3615
+#: modules/contact-form/grunion-contact-form.php:3628
+#: modules/contact-form/grunion-contact-form.php:3648
+#: modules/contact-form/grunion-contact-form.php:3650
 #: modules/contact-form/grunion-editor-view.php:156 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Yes"
 msgstr "Sí"
 
@@ -3510,38 +3492,44 @@ msgstr "Sí"
 msgid "Leave a Reply to %s"
 msgstr "Responder a %s"
 
-#: modules/contact-form/admin.php:322
+#: modules/contact-form/admin.php:315
 msgid "Restore"
 msgstr "Restaurar"
 
-#: modules/contact-form/grunion-contact-form.php:916
+#: modules/contact-form/grunion-contact-form.php:937
 msgid "Download"
 msgstr "Descargar"
+
+#: modules/masterbar/masterbar/class-masterbar.php:478 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+msgid "Language"
+msgstr "Idioma"
 
 #: modules/contact-form/grunion-form-view.php:170
 msgid "Email notifications"
 msgstr "Notificaciones por correo electrónico"
 
-#: modules/contact-form/admin.php:238
-#: modules/contact-form/grunion-contact-form.php:2479
-#: modules/contact-form/grunion-editor-view.php:227
-#: modules/widgets/search.php:939 modules/widgets/search.php:977
 #: modules/widgets/milestone/class-milestone-widget.php:666
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: modules/widgets/search.php:926 modules/widgets/search.php:964
+#: modules/contact-form/admin.php:231
+#: modules/contact-form/grunion-contact-form.php:2501
+#: modules/contact-form/grunion-editor-view.php:227 _inc/blocks/editor.js:28
 #: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Date"
 msgstr "Fecha"
 
-#: extensions/blocks/revue/revue.php:72
-#: modules/contact-form/grunion-contact-form.php:3708
-#: modules/contact-form/grunion-editor-view.php:94 _inc/blocks/editor.js:14
-#: _inc/blocks/editor-beta.js:14 _inc/blocks/editor-no-post-editor.js:14
-#: _inc/blocks/editor-experimental.js:14
+#: modules/contact-form/grunion-contact-form.php:3743
+#: modules/contact-form/grunion-editor-view.php:94
+#: extensions/blocks/revue/revue.php:72 _inc/blocks/editor.js:14
+#: _inc/blocks/editor-no-post-editor.js:14
+#: _inc/blocks/editor-experimental.js:14 _inc/blocks/editor-beta.js:14
 msgid "(required)"
 msgstr "(requerido)"
 
-#: modules/contact-form/admin.php:226 modules/contact-form/admin.php:720
+#: modules/contact-form/admin.php:219 modules/contact-form/admin.php:713
 msgid "Messages"
 msgstr "Mensajes"
 
@@ -3554,19 +3542,18 @@ msgstr "Opciones"
 msgid "Field type"
 msgstr "Tipo de campo"
 
-#: modules/carousel/jetpack-carousel.php:792
-#: modules/masterbar/admin-menu/class-admin-menu.php:389
-#: modules/masterbar/masterbar/class-masterbar.php:1064
-#: modules/comments/admin.php:72 modules/widgets/rsslinks-widget.php:102
-#: modules/widgets/rsslinks-widget.php:180 _inc/build/admin.js:52
+#: modules/masterbar/masterbar/class-masterbar.php:1149
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:138
+#: modules/widgets/rsslinks-widget.php:102
+#: modules/widgets/rsslinks-widget.php:180 modules/comments/admin.php:72
+#: modules/carousel/jetpack-carousel.php:966 _inc/build/admin.js:52
 msgid "Comments"
 msgstr "Comentarios"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2209
-#: modules/comments/admin.php:54
-#: modules/search/class-jetpack-search-customize.php:71
+#: _inc/lib/class.core-rest-api-endpoints.php:2352
+#: modules/search/class-jetpack-search-customize.php:72
 #: modules/widgets/twitter-timeline.php:571
-#: modules/widgets/eu-cookie-law/form.php:226
+#: modules/widgets/eu-cookie-law/form.php:226 modules/comments/admin.php:54
 msgid "Light"
 msgstr "Claro"
 
@@ -3576,177 +3563,179 @@ msgstr "Claro"
 msgid "Label"
 msgstr "Etiqueta"
 
-#: modules/contact-form/grunion-contact-form.php:1987
+#: modules/contact-form/grunion-contact-form.php:2009
 msgid "Subject"
 msgstr "Asunto"
 
-#: modules/carousel/jetpack-carousel.php:262
+#: modules/carousel/jetpack-carousel.php:261
 msgid "Write a Comment..."
 msgstr "Escribir un Comentario..."
 
-#: modules/carousel/jetpack-carousel.php:263
+#: modules/carousel/jetpack-carousel.php:262
 msgid "Loading Comments..."
 msgstr "Cargando comentarios..."
 
-#: modules/carousel/jetpack-carousel.php:264
+#: modules/carousel/jetpack-carousel.php:263
 msgid "View full size <span class=\"photo-size\">%1$s<span class=\"photo-size-times\">&times;</span>%2$s</span>"
 msgstr "Ver tamaño completo <span class=\"photo-size\">%1$s<span class=\"photo-size-times\">&times;</span>%2$s</span>"
 
-#: modules/carousel/jetpack-carousel.php:266
+#: modules/carousel/jetpack-carousel.php:265
 msgid "Please provide an email address to comment."
 msgstr "Por favor, proporciona una dirección de correo electrónico para comentar."
 
-#: modules/carousel/jetpack-carousel.php:267
+#: modules/carousel/jetpack-carousel.php:266
 msgid "Please provide your name to comment."
 msgstr "Por favor, añade tu nombre al comentario."
 
-#: modules/carousel/jetpack-carousel.php:268
+#: modules/carousel/jetpack-carousel.php:267
 msgid "Sorry, but there was an error posting your comment. Please try again later."
 msgstr "Lo sentimos, pero hubo un error al publicar tu comentario. Por favor, vuelve a intentarlo más tarde."
 
-#: modules/carousel/jetpack-carousel.php:269
+#: modules/carousel/jetpack-carousel.php:268
 msgid "Your comment was approved."
 msgstr "Se aprobó tu comentario."
 
-#: modules/carousel/jetpack-carousel.php:270
+#: modules/carousel/jetpack-carousel.php:269
 msgid "Your comment is in moderation."
 msgstr "Tu comentario está en moderación."
 
-#: modules/carousel/jetpack-carousel.php:271
+#: modules/carousel/jetpack-carousel.php:270
 msgid "Camera"
 msgstr "Cámara"
 
-#: modules/carousel/jetpack-carousel.php:272
+#: modules/carousel/jetpack-carousel.php:271
 msgid "Aperture"
 msgstr "Abertura"
 
-#: modules/carousel/jetpack-carousel.php:273
+#: modules/carousel/jetpack-carousel.php:272
 msgid "Shutter Speed"
 msgstr "Velocidad de obturación"
 
-#: modules/carousel/jetpack-carousel.php:274
+#: modules/carousel/jetpack-carousel.php:273
 msgid "Focal Length"
 msgstr "Longitud focal"
 
-#: modules/carousel/jetpack-carousel.php:288
+#. translators: %s is replaced with the user's display name
+#: modules/carousel/jetpack-carousel.php:414
 msgid "Commenting as %s"
 msgstr "Comentando como %s"
 
-#: modules/carousel/jetpack-carousel.php:291
+#: modules/carousel/jetpack-carousel.php:387
 msgid "You must be <a href=\"#\" class=\"jp-carousel-comment-login\">logged in</a> to post a comment."
 msgstr "Debe estar <a href=\"#\" class=\"jp-carousel-comment-login\">conectado</a> para enviar un comentario."
 
-#: modules/carousel/jetpack-carousel.php:293
+#. translators: %s is replaced with a field name in the form, e.g. "Email"
+#: modules/carousel/jetpack-carousel.php:357
 msgid "%s (Required)"
 msgstr "%s (Obligatorio)"
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
-#: modules/carousel/jetpack-carousel.php:295
-#: modules/contact-form/grunion-contact-form.php:1982
-#: modules/contact-form/grunion-contact-form.php:2473
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1081
+#: modules/widgets/social-icons.php:556
+#: modules/widgets/simple-payments/form.php:147
+#: modules/carousel/jetpack-carousel.php:421
+#: modules/contact-form/grunion-contact-form.php:2004
+#: modules/contact-form/grunion-contact-form.php:2495
 #: modules/contact-form/grunion-form-view.php:215
 #: modules/contact-form/grunion-editor-view.php:88
-#: modules/contact-form/grunion-editor-view.php:220
-#: modules/widgets/simple-payments/form.php:147
-#: modules/widgets/social-icons.php:556 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/contact-form/grunion-editor-view.php:220 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
-#: modules/carousel/jetpack-carousel.php:299
-#: modules/contact-form/grunion-contact-form.php:1983
-#: modules/contact-form/grunion-contact-form.php:2476
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1081
+#: modules/carousel/jetpack-carousel.php:429
+#: modules/contact-form/grunion-contact-form.php:2005
+#: modules/contact-form/grunion-contact-form.php:2498
 #: modules/contact-form/grunion-form-view.php:220
 #: modules/contact-form/grunion-editor-view.php:89
 #: modules/contact-form/grunion-editor-view.php:221 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Website"
 msgstr "Web"
 
-#: modules/carousel/jetpack-carousel.php:613
+#: modules/carousel/jetpack-carousel.php:727
 msgid "Missing attachment ID."
 msgstr "Falta el ID adjunto."
 
-#: modules/carousel/jetpack-carousel.php:658
+#: modules/carousel/jetpack-carousel.php:832
 msgid "Nonce verification failed."
 msgstr "Verificación del Nonce falló."
 
-#: modules/carousel/jetpack-carousel.php:666
+#: modules/carousel/jetpack-carousel.php:840
 msgid "Missing target blog ID."
 msgstr "Falta el ID de blog de destino."
 
-#: modules/carousel/jetpack-carousel.php:674
+#: modules/carousel/jetpack-carousel.php:848
 msgid "No comment text was submitted."
 msgstr "Se envió sin texto de comentario."
 
-#: modules/carousel/jetpack-carousel.php:691
+#: modules/carousel/jetpack-carousel.php:865
 msgid "Comments on this post are closed."
 msgstr "Los comentarios para esta entrada están cerrados."
 
-#: modules/carousel/jetpack-carousel.php:705
+#: modules/carousel/jetpack-carousel.php:879
 msgid "Sorry, but we could not authenticate your request."
 msgstr "Lo sentimos, pero no pudimos autentificar tu solicitud."
 
-#: modules/carousel/jetpack-carousel.php:718
+#: modules/carousel/jetpack-carousel.php:892
 msgid "Please provide your name."
 msgstr "Por favor, proporciona tu nombre."
 
-#: modules/carousel/jetpack-carousel.php:725
+#: modules/carousel/jetpack-carousel.php:899
 msgid "Please provide an email address."
 msgstr "Por favor, proporciona una dirección de correo electrónico."
 
-#: modules/carousel/jetpack-carousel.php:732
+#: modules/carousel/jetpack-carousel.php:906
 msgid "Please provide a valid email address."
 msgstr "Por favor, proporciona una dirección de correo electrónica válida."
 
-#: modules/carousel/jetpack-carousel.php:779
+#: modules/carousel/jetpack-carousel.php:953
 msgid "Image Gallery Carousel"
 msgstr "Carrusel de galería de imágenes"
 
-#: modules/carousel/jetpack-carousel.php:782
+#: modules/carousel/jetpack-carousel.php:956
 msgid "Enable carousel"
 msgstr "Habilitar carrusel"
 
-#: modules/carousel/jetpack-carousel.php:786
+#: modules/carousel/jetpack-carousel.php:960
 msgid "Background color"
 msgstr "Color de fondo"
 
-#: modules/carousel/jetpack-carousel.php:789
+#: modules/carousel/jetpack-carousel.php:963
 msgid "Metadata"
 msgstr "Metadatos"
 
-#: modules/carousel/jetpack-carousel.php:880
+#: modules/carousel/jetpack-carousel.php:1054
 msgid "Show map of photo location in carousel, when available."
 msgstr "Mostrar el mapa con la localización de las fotos en el carrusel, cuando esté disponible."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2170
-#: modules/carousel/jetpack-carousel.php:890
+#: _inc/lib/class.core-rest-api-endpoints.php:2305
+#: modules/carousel/jetpack-carousel.php:1064
 msgid "Black"
 msgstr "Negro"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2171
-#: modules/carousel/jetpack-carousel.php:891
+#: _inc/lib/class.core-rest-api-endpoints.php:2306
+#: modules/carousel/jetpack-carousel.php:1065
 msgid "White"
 msgstr "Blanco"
 
-#: modules/carousel/jetpack-carousel.php:901
+#: modules/carousel/jetpack-carousel.php:1075
 msgid "Display images in full-size carousel slideshow."
 msgstr "Mostrar las imágenes en tamaño completo en la presentación en carrusel."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2195
+#: _inc/lib/class.core-rest-api-endpoints.php:2338
 #: modules/comments/admin.php:50 modules/comments/comments.php:247
 msgid "Leave a Reply"
 msgstr "Deja un comentario"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2211
+#: _inc/lib/class.core-rest-api-endpoints.php:2354
 #: modules/comments/admin.php:56
 msgid "Transparent"
 msgstr "Transparente"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2193
+#: _inc/lib/class.core-rest-api-endpoints.php:2336
 #: modules/comments/admin.php:81
 msgid "Greeting Text"
 msgstr "Texto de Bienvenida"
@@ -3796,11 +3785,11 @@ msgstr "Enviando comentario%s"
 msgid "Add Contact Form"
 msgstr "Añadir Formulario de Contacto"
 
-#: modules/contact-form/admin.php:820
+#: modules/contact-form/admin.php:813
 msgid "Empty Spam"
 msgstr "Vaciar spam"
 
-#: modules/contact-form/admin.php:163 modules/contact-form/admin.php:597
+#: modules/contact-form/admin.php:163 modules/contact-form/admin.php:590
 msgid "You are not allowed to manage this item."
 msgstr "No se te está permitido administrar este elemento."
 
@@ -3808,141 +3797,125 @@ msgstr "No se te está permitido administrar este elemento."
 msgid "Feedback(s) marked as spam"
 msgstr "Feedback(s) marcado(s) como spam"
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
-#: modules/contact-form/admin.php:237
-#: modules/contact-form/grunion-contact-form.php:1991
-#: modules/contact-form/grunion-contact-form.php:2485
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1081
+#: modules/contact-form/admin.php:230
+#: modules/contact-form/grunion-contact-form.php:2013
+#: modules/contact-form/grunion-contact-form.php:2507
 #: modules/contact-form/grunion-editor-view.php:90 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Message"
 msgstr "Mensaje"
 
-#: modules/contact-form/admin.php:320
+#: modules/contact-form/admin.php:313
 msgid "Restore this item from the Trash"
 msgstr "Restaurar este elemento desde la papelera"
 
-#: modules/contact-form/admin.php:325 modules/contact-form/admin.php:424
+#: modules/contact-form/admin.php:318 modules/contact-form/admin.php:417
 msgid "Delete this item permanently"
 msgstr "Borrar este elemento permanentemente"
 
-#: modules/contact-form/admin.php:358
+#: modules/contact-form/admin.php:351
 msgid "Mark this message as spam"
 msgstr "Marcar este mensaje como spam"
 
-#: modules/contact-form/admin.php:418
+#: modules/contact-form/admin.php:411
 msgid "Mark this message as NOT spam"
 msgstr "Marca este mensaje como NO spam"
 
-#: modules/contact-form/admin.php:457
-#: modules/contact-form/grunion-contact-form.php:2867
+#: modules/contact-form/admin.php:450
+#: modules/contact-form/grunion-contact-form.php:2895
 msgctxt "{$date_format} \\a\\t {$time_format}"
 msgid "%1$s \\a\\t %2$s"
 msgstr "%1$s a las %2$s"
 
-#: modules/contact-form/admin.php:683
+#: modules/contact-form/admin.php:676
 msgid "You are not allowed to move this item out of the Trash."
 msgstr "No te está permitido mover este elemento fuera de la Papelera."
 
-#: modules/contact-form/admin.php:687
+#: modules/contact-form/admin.php:680
 msgid "Error in restoring from Trash."
 msgstr "Error al restaurar de la papelera."
 
-#: modules/contact-form/admin.php:695
+#: modules/contact-form/admin.php:688
 msgid "Error in moving to Trash."
 msgstr "Error moviendo a la papelera."
 
-#: modules/contact-form/admin.php:746
+#: modules/contact-form/admin.php:739
 msgid "Spam"
 msgstr "Spam"
 
-#: modules/contact-form/admin.php:836
+#: modules/contact-form/admin.php:829
 msgid "Check for Spam"
 msgstr "Comprobar la lista de spam"
 
-#: modules/contact-form/grunion-contact-form.php:176
-msgid "Search Feedback"
-msgstr "Buscar feedback"
-
-#: modules/contact-form/grunion-contact-form.php:177
-#: modules/contact-form/grunion-contact-form.php:178
-msgid "No feedback found"
-msgstr "No se encontró ningún feedback"
-
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-instagram-gallery.php:115
-#: modules/contact-form/grunion-contact-form.php:592 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/contact-form/grunion-contact-form.php:613 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "An error occurred. Please try again later."
 msgstr "Se ha producido un error. Por favor, inténtelo de nuevo más tarde."
 
-#: modules/contact-form/grunion-contact-form.php:600
-#: modules/contact-form/grunion-contact-form.php:2112
+#: modules/contact-form/grunion-contact-form.php:621
+#: modules/contact-form/grunion-contact-form.php:1986 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Message Sent"
 msgstr "Mensaje Enviado"
 
-#: modules/contact-form/grunion-contact-form.php:839
+#: modules/contact-form/grunion-contact-form.php:860
 msgid "Feedback discarded."
 msgstr "Sugerencias descartadas."
 
-#: modules/contact-form/grunion-contact-form.php:442
-#: modules/contact-form/grunion-contact-form.php:903
-msgid "Export feedback as CSV"
-msgstr "Exportar comentarios como CSV"
-
-#: modules/contact-form/grunion-contact-form.php:909
-msgid "Select feedback to download"
-msgstr "Seleccionar los comentarios para descargar"
-
-#: modules/contact-form/grunion-contact-form.php:911
+#: modules/contact-form/grunion-contact-form.php:932
 msgid "All posts"
 msgstr "Todas las entradas"
 
-#: modules/contact-form/grunion-contact-form.php:1945
+#: modules/contact-form/grunion-contact-form.php:1966
 msgctxt "%1$s = blog name"
 msgid "%1$s Sidebar"
 msgstr "Barra lateral de %1$s"
 
-#: modules/contact-form/grunion-contact-form.php:1948
+#: modules/contact-form/grunion-contact-form.php:1969
 msgctxt "%1$s = blog name, %2$s = post title"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: modules/contact-form/grunion-contact-form.php:2094
+#: modules/contact-form/grunion-contact-form.php:2116
 msgid "Error!"
 msgstr "¡Error!"
 
-#: modules/contact-form/grunion-contact-form.php:2113
+#: modules/contact-form/grunion-contact-form.php:2135
 msgid "go back"
 msgstr "volver"
 
-#: modules/contact-form/grunion-contact-form.php:2950
+#: modules/contact-form/grunion-contact-form.php:2978
 msgid "Time:"
 msgstr "Hora:"
 
-#: modules/contact-form/grunion-contact-form.php:2951
+#: modules/contact-form/grunion-contact-form.php:2979
 msgid "IP Address:"
 msgstr "Dirección IP:"
 
-#: modules/contact-form/grunion-contact-form.php:2952
+#: modules/contact-form/grunion-contact-form.php:2980
 msgid "Contact Form URL:"
 msgstr "URL del formulario de contacto:"
 
-#: modules/contact-form/grunion-contact-form.php:2959
+#: modules/contact-form/grunion-contact-form.php:2987
 msgid "Sent by a verified %s user."
 msgstr "Enviado por un usuario %s verificado."
 
-#: modules/contact-form/grunion-contact-form.php:2965
+#: modules/contact-form/grunion-contact-form.php:2993
 msgid "Sent by an unverified visitor to your site."
 msgstr "Enviado a tu sitio por un visitante no verificado."
 
 #. translators: %s is the name of a form field
-#: modules/contact-form/grunion-contact-form.php:3386
+#: modules/contact-form/grunion-contact-form.php:3421
 msgid "%s requires a valid email address"
 msgstr "%s necesita una dirección válida de correo electrónico"
 
 #. translators: %s is the name of a form field
-#: modules/contact-form/grunion-contact-form.php:3400
+#: modules/contact-form/grunion-contact-form.php:3435
 msgid "%s is required"
 msgstr "%s es necesario"
 
@@ -4084,11 +4057,11 @@ msgstr "Editar este campo nuevo"
 msgid "New field"
 msgstr "Campo nuevo"
 
-#: modules/contact-form/grunion-contact-form.php:2488
+#: modules/contact-form/grunion-contact-form.php:2510
 #: modules/contact-form/grunion-form-view.php:212
 #: modules/contact-form/grunion-editor-view.php:223 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Checkbox"
 msgstr "Casilla de verificación"
 
@@ -4099,23 +4072,23 @@ msgstr "Desplegable"
 
 #: modules/contact-form/grunion-form-view.php:217
 #: modules/contact-form/grunion-editor-view.php:226 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Radio"
 msgstr "Radio"
 
-#: modules/contact-form/grunion-contact-form.php:2467
+#: modules/contact-form/grunion-contact-form.php:2489
 #: modules/contact-form/grunion-form-view.php:218
 #: modules/contact-form/grunion-editor-view.php:218 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Text"
 msgstr "Texto"
 
 #: modules/contact-form/grunion-form-view.php:219
 #: modules/contact-form/grunion-editor-view.php:222 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Textarea"
 msgstr "Área de texto"
 
@@ -4152,10 +4125,10 @@ msgstr "Añadir este formulario en mi entrada"
 msgid "Email settings"
 msgstr "Configuración de correo electrónico"
 
-#: extensions/blocks/revue/revue.php:151 modules/subscriptions/views.php:342
-#: modules/contact-form/grunion-form-view.php:259 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/contact-form/grunion-form-view.php:259
+#: modules/subscriptions/views.php:339 extensions/blocks/revue/revue.php:151
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Enter your email address"
 msgstr "Introduce tu dirección de correo electrónico"
 
@@ -4173,24 +4146,24 @@ msgstr "Añadir"
 msgid "Jetpack's Carousel has been disabled, because another plugin or your theme is overriding the [gallery] shortcode."
 msgstr "Se ha desactivado el carrusel de Jetpack porque otro plugin o un tema han reemplazado el código abreviado [gallery]."
 
-#: modules/carousel/jetpack-carousel.php:260
+#: modules/carousel/jetpack-carousel.php:259
 msgid "Comment"
 msgstr "Comentario"
 
-#: modules/carousel/jetpack-carousel.php:261
+#: modules/carousel/jetpack-carousel.php:260
 msgid "Post Comment"
 msgstr "Publicar comentario"
 
-#: modules/carousel/jetpack-carousel.php:670
+#: modules/carousel/jetpack-carousel.php:844
 msgid "Missing target post ID."
 msgstr "Falta el ID de entrada."
 
-#: modules/carousel/jetpack-carousel.php:265
+#: modules/carousel/jetpack-carousel.php:264
 msgid "Please be sure to submit some text with your comment."
 msgstr "Por favor asegúrate de enviar texto en tu comentario."
 
-#: modules/contact-form/admin.php:112 modules/contact-form/admin.php:327
-#: modules/contact-form/admin.php:426
+#: modules/contact-form/admin.php:112 modules/contact-form/admin.php:320
+#: modules/contact-form/admin.php:419
 msgid "Delete Permanently"
 msgstr "Eliminar permanentemente"
 
@@ -4198,42 +4171,42 @@ msgstr "Eliminar permanentemente"
 msgid "Mark as Spam"
 msgstr "Marcar como spam"
 
-#: modules/contact-form/admin.php:236
+#: modules/contact-form/admin.php:229
 msgid "From"
 msgstr "Desde"
 
-#: modules/contact-form/admin.php:365 modules/contact-form/admin.php:367
-#: modules/contact-form/admin.php:731
+#: modules/contact-form/admin.php:358 modules/contact-form/admin.php:360
+#: modules/contact-form/admin.php:724
 msgid "Trash"
 msgstr "Enviar a la Papelera"
 
-#: modules/contact-form/admin.php:691
+#: modules/contact-form/admin.php:684
 msgid "You are not allowed to move this item to the Trash."
 msgstr "No te está permitido mover este elemento a la papelera."
 
-#: modules/contact-form/grunion-contact-form.php:1005
-#: modules/contact-form/grunion-contact-form.php:1689
+#: modules/contact-form/grunion-contact-form.php:1026
+#: modules/contact-form/grunion-contact-form.php:1710
 #: modules/contact-form/grunion-form-view.php:56 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Contact Form"
 msgstr "Formulario de contacto"
 
-#: modules/contact-form/grunion-contact-form.php:215
+#: modules/contact-form/grunion-contact-form.php:216
 msgid "Spam <span class=\"count\">(%s)</span>"
 msgid_plural "Spam <span class=\"count\">(%s)</span>"
 msgstr[0] "<span class=“count”>Spam (%s)</span>"
 msgstr[1] "<span class=“count”>Spam (%s)</span>"
 
-#: _inc/lib/class-jetpack-podcast-helper.php:344 functions.opengraph.php:204
+#: _inc/lib/class-jetpack-podcast-helper.php:348 functions.opengraph.php:206
 msgid "(no title)"
 msgstr "(sin título)"
 
-#: class.jetpack.php:3955
+#: class.jetpack.php:4083
 msgid "For more information:"
 msgstr "Para más información:"
 
-#: class.jetpack.php:3925 modules/theme-tools/site-breadcrumbs.php:58
+#: modules/theme-tools/site-breadcrumbs.php:58 class.jetpack.php:4053
 msgid "Home"
 msgstr "Inicio"
 
@@ -4246,143 +4219,138 @@ msgstr "Entrada de %s:"
 msgid "Twitter Site Tag"
 msgstr "Etiqueta de Sitio de Twitter "
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2425
+#: _inc/lib/class.core-rest-api-endpoints.php:2568
 #: class.jetpack-twitter-cards.php:325
 msgid "The Twitter username of the owner of this site's domain."
 msgstr "El nombre de usuario de Twitter del dueño del dominio de este sitio. "
 
 #. translators: %s is a URL
-#: class.jetpack.php:1802
+#: class.jetpack.php:1850
 msgid "You are currently running a development version of Jetpack. <a href=\"%s\" target=\"_blank\">Submit your feedback</a>"
 msgstr "Actualmente estás ejecutando una versión de desarrollo de Jetpack. <a href=\"%s\" target=\"_blank\">Envía tus comentarios</a>"
 
-#: class.jetpack.php:3205
+#: class.jetpack.php:3304
 msgid "Jetpack requires WordPress version %s or later."
 msgstr "Jetpack requiere la versi&#243;n %s de WordPress o posterior"
 
-#: class.jetpack.php:3488
+#: class.jetpack.php:3606
 msgid "First param must be string or empty"
 msgstr "El primer parámetro debe ser una cadena o estar vacío"
 
-#: class.jetpack.php:3492
+#: class.jetpack.php:3610
 msgid "Second param must be numeric or empty"
 msgstr "El segundo parámetro debe ser un número o estar vacío"
 
-#: class.jetpack.php:3669 class.jetpack.php:3685
+#: class.jetpack.php:3797 class.jetpack.php:3813
 msgid "Jetpack contains the most recent version of the old &#8220;%1$s&#8221; plugin."
 msgstr "Jetpack contiene la versión más reciente del viejo plugin &#8220;%1$s&#8221;"
 
-#. Plugin Name of the plugin
-#: class.jetpack.php:3927 class.jetpack.php:3940
-msgid "Jetpack by WordPress.com"
-msgstr "Jetpack por WordPress.com"
-
-#: class.jetpack.php:3928
+#: class.jetpack.php:4056
 msgid "Jetpack supercharges your self-hosted WordPress site with the awesome cloud power of WordPress.com."
 msgstr "Jetpack es un plugin de WordPress que permite que utilices el inmenso poder de la nube de WordPress.com en tu sitio WordPress.org."
 
-#: class.jetpack.php:3929
+#: class.jetpack.php:4057
 msgid "On this page, you are able to view the modules available within Jetpack, learn more about them, and activate or deactivate them as needed."
 msgstr "En esta página podrás ver los módulos disponibles en Jetpack, aprender más sobre ellos y activarlos o desactivarlos según lo desees."
 
-#: class.jetpack.php:3941
+#: class.jetpack.php:4069
 msgid "You can activate or deactivate individual Jetpack modules to suit your needs."
 msgstr "Puede activar o desactivar módulos Jetpack individuales para satisfacer sus necesidades."
 
-#: class.jetpack.php:3943
+#: class.jetpack.php:4071
 msgid "Each module has an Activate or Deactivate link so you can toggle one individually."
 msgstr "Cada módulo tiene un enlace para Activar o Desactivar para que puedas cambiar cada uno de ellos individualmente."
 
-#: class.jetpack.php:3944
+#: class.jetpack.php:4072
 msgid "Using the checkboxes next to each module, you can select multiple modules to toggle via the Bulk Actions menu at the top of the list."
 msgstr "Puedes utilizar las casillas de verificación que hay junto a cada módulo para seleccionar varios de ellos y gestionar con Acciones en Bloque en la parte superior de la lista."
 
-#: class.jetpack.php:3946
+#: class.jetpack.php:4074
 msgid "Using the tools on the right, you can search for specific modules, filter by module categories or which are active, or change the sorting order."
 msgstr "Utilizando las herramientas de la derecha, puedes buscar módulos específicos, filtrar por categorías de módulos activos o cambiar el orden con que se muestra."
 
-#: class.jetpack.php:3956
+#: class.jetpack.php:4084
 msgid "Jetpack FAQ"
 msgstr "Preguntas frecuentes de Jetpack"
 
-#: class.jetpack.php:3957
+#: modules/stats.php:1386 class.jetpack.php:4085
 msgid "Jetpack Support"
 msgstr "Soporte Jetpack"
 
-#: class.jetpack-connection-banner.php:508
+#: class.jetpack-connection-banner.php:537
 msgid "<strong>Jetpack is activated!</strong> Each site on your network must be connected individually by an admin on that site."
 msgstr "<strong>¡Jetpack se ha activado!</strong> Cada sitio de tu red debe estar conectado individualmente por un administrador de ese sitio."
 
 #. translators: %s is the URL to the "Sites" panel on wordpress.com.
-#: class.jetpack.php:4433
+#: class.jetpack.php:4551
 msgid "You are all set! Your site can now be managed from <a href=\"%s\" target=\"_blank\">wordpress.com/sites</a>."
 msgstr "Ya está todo preparado Ahora puedes gestionar tu sitio desde <a href=\"%s\" target=\"_blank\">wordpress.com/sites</a>."
 
-#: class.jetpack.php:4435
+#: class.jetpack.php:4553
 msgid "Manage has been activated for you!"
 msgstr "Se ha activado Gestionar para ti."
 
-#: class.jetpack.php:4460
+#: class.jetpack.php:4578
 msgid "Jetpack contains the most recent version of the old %l plugin."
 msgid_plural "Jetpack contains the most recent versions of the old %l plugins."
 msgstr[0] "Jetpack contiene la versión más reciente del plugin %l antiguo."
 msgstr[1] "Jetpack contiene las versiones más recientes de los antiguos %l plugins."
 
-#: class.jetpack.php:4471
+#: class.jetpack.php:4589
 msgid "The old version has been deactivated and can be removed from your site."
 msgid_plural "The old versions have been deactivated and can be removed from your site."
 msgstr[0] "La versi&#243;n antigua se ha desactivado y puede borrarse de tu sitio."
 msgstr[1] "Las versiones antiguas se han desactivado y pueden borrarse de tu sitio."
 
-#: class.jetpack.php:4558
+#: class.jetpack.php:4676
 msgid "Is this site private?"
 msgstr "¿Este sitio es privado?"
 
-#: class.jetpack.php:4564
+#: class.jetpack.php:4682
 msgctxt "%l = list of Jetpack module/feature names"
 msgid "Like your site's RSS feeds, %l allows access to your posts and other content to third parties."
 msgid_plural "Like your site's RSS feeds, %l allow access to your posts and other content to third parties."
 msgstr[0] "Al igual que los feeds RSS, %l permite el acceso a tus entradas y demás contenido a terceros."
 msgstr[1] "Al igual que los feeds RSS, %l permiten el acceso a tus entradas y demás contenido a terceros."
 
-#: class.jetpack.php:4581
+#: class.jetpack.php:4699
 msgctxt "%1$s = deactivation URL, %2$s = \"Deactivate {list of Jetpack module/feature names}"
 msgid "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating this feature</a>."
 msgid_plural "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating these features</a>."
 msgstr[0] "Si tu sitio no es accesible públicamente, considera <a href=\"%1$s\" title=\"%2$s\">desactivar esta función</a>."
 msgstr[1] "Si tu sitio no es accesible públicamente, considera <a href=\"%1$s\" title=\"%2$s\">desactivar estas funciones</a>."
 
-#: class.jetpack.php:4598
+#: class.jetpack.php:4716
 msgctxt "%l = list of Jetpack module/feature names"
 msgid "Deactivate %l"
 msgstr "Desactivar %l"
 
-#: class.jetpack.php:5906
+#: class.jetpack.php:6047
 msgid "You must connect your Jetpack plugin to WordPress.com to use this feature."
 msgstr "Debe conectar el plugin Jetpack a WordPress.com para utilizar esta función."
 
-#: class.jetpack.php:5909
+#: class.jetpack.php:6050
 msgid "Someone may be trying to trick you into giving them access to your site.  Or it could be you just encountered a bug :).  Either way, please close this window."
 msgstr "Alguien puede estar tratando de engañarlo para que le de acceso a su sitio. O simplemente puede haber encontrado un error :). De cualquier manera, por favor cierre esta ventana."
 
-#: class.jetpack.php:5982
+#: class.jetpack.php:6123
 msgid "The authorization process expired.  Please go back and try again."
 msgstr "El proceso de autorización ha expirado. Por favor, regrese y vuelva a intentarlo."
 
-#: class.jetpack.php:6022
+#: class.jetpack.php:6163
 msgid "%s wants to access your site&#8217;s data.  Log in to authorize that access."
 msgstr "%s quiere acceder a los datos de su sitio. Iniciar sesión para autorizar el acceso."
 
-#: class.jetpack.php:4074
+#: class.jetpack.php:4189
 msgid "Deactivate Jetpack"
 msgstr "Desactiva Jetpack"
 
-#: class.jetpack.php:7015
+#: class.jetpack.php:7156
 msgctxt "{#} Blocked malicious login attempts -- number is on a prior line, text is a caption."
 msgid "Blocked malicious login attempts"
 msgstr "Se han bloqueado intentos de acceso malintencionados"
 
-#: class.jetpack.php:7031
+#: class.jetpack.php:7172
 msgid "Protect helps to keep you secure from brute-force login attacks."
 msgstr "Protect te ayuda a mantener la seguridad respecto a los ataques que pretenden acceder mediante la fuerza bruta."
 
@@ -4391,12 +4359,12 @@ msgid "Thumbnail Grid"
 msgstr "Cuadrícula de miniaturas"
 
 #: functions.gallery.php:92 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Type"
 msgstr "Tipo"
 
-#: json-endpoints/class.wpcom-json-api-autosave-post-v1-1-endpoint.php:112
+#: json-endpoints/class.wpcom-json-api-autosave-post-v1-1-endpoint.php:132
 msgid "Autosave encountered an unexpected error"
 msgstr "El guardado automático ha detectado un error inesperado"
 
@@ -4408,7 +4376,7 @@ msgstr "Es necesario usar un token de acceso activo para recuperar los recuentos
 msgid "Unknown post type requested."
 msgstr "Se ha solicitado un tipo de entrada desconocido."
 
-#: sal/class.json-api-post-base.php:400
+#: sal/class.json-api-post-base.php:396
 #: json-endpoints/class.wpcom-json-api-post-endpoint.php:69
 msgid "This post is password protected."
 msgstr "Esta entrada está protegida por contraseña."
@@ -4471,16 +4439,16 @@ msgstr "Hubo un error al desactivar el módulo."
 msgid "You are required to specify a plugin."
 msgstr "Tienes que especificar un plugin."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:82
 #: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:109
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:84
 msgid "No plugins found."
 msgstr "No se encontraron plugins."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:301
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:315
 msgid "This user is not authorized to manage plugins network wide."
 msgstr "Este usuario no está autorizado para gestionar los plugins de la red."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:310
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:324
 msgid "You are required to specify a plugin to activate."
 msgstr "Tienes que especificar un plugin para que sea activado."
 
@@ -4489,46 +4457,46 @@ msgid "There was an error installing your plugin"
 msgstr "Hubo un error al instalar tu plugin"
 
 #: _inc/lib/plugins.php:86
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-new-endpoint.php:114
-#: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:61
 #: json-endpoints/jetpack/class.jetpack-json-api-themes-new-endpoint.php:61
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:61
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-new-endpoint.php:116
 msgid "An unknown error occurred during installation"
 msgstr "Hubo un error desconocido durante la instalación"
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:89
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:91
 msgid "The plugin is already installed"
 msgstr "El plugin ya está instalado previamente"
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:208
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:211
 msgid "The Plugin is already active."
 msgstr "El pluging ya estaba activado."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:120
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:214
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:132
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:217
 msgid "Plugin can only be Network Activated"
 msgstr "El plugin solo se puede activar en red"
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:143
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:237
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:158
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:240
 msgid "Plugin activated."
 msgstr "Plugin activado"
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:268
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:275
 msgid "The Plugin is already deactivated."
 msgstr "Este plugin ya está desactivado."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:178
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:280
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:202
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:287
 msgid "There was an error deactivating your plugin"
 msgstr "Hubo un error al desactivar tu plugin"
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:181
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:283
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:207
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:290
 msgid "Plugin deactivated."
 msgstr "Plugin desactivado."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:360
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:414
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:382
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:436
 msgid "There was an error updating your plugin"
 msgstr "Hubo un error actualizando tu plugin"
 
@@ -4582,31 +4550,33 @@ msgid "There was an error while getting the update data for this site."
 msgstr "Hubo un error mientras se estaban actualizando los datos de este sitio."
 
 #: json-endpoints/jetpack/class.jetpack-json-api-themes-modify-endpoint.php:101
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:326
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:387
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:340
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:409
 msgid "No update needed"
 msgstr "No se necesita actualizar"
 
-#: class.jetpack-network-sites-list-table.php:62 modules/publicize/ui.php:517
-#: modules/publicize/ui.php:525 modules/custom-css/custom-css.php:1061
+#: class.jetpack-network-sites-list-table.php:62
+#: modules/custom-css/custom-css.php:1061
 #: modules/custom-css/custom-css.php:1192
-#: modules/custom-css/custom-css.php:1222 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: modules/custom-css/custom-css.php:1222 modules/publicize/ui.php:517
+#: modules/publicize/ui.php:525 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Edit"
 msgstr "Editar"
 
-#: class.jetpack-modules-list-table.php:208
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
-#: modules/carousel/jetpack-carousel.php:297
-#: modules/contact-form/grunion-contact-form.php:1981
-#: modules/contact-form/grunion-contact-form.php:2470
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1081
+#: modules/carousel/jetpack-carousel.php:425
+#: modules/contact-form/grunion-contact-form.php:2003
+#: modules/contact-form/grunion-contact-form.php:2492
 #: modules/contact-form/grunion-form-view.php:216
 #: modules/contact-form/grunion-editor-view.php:87
 #: modules/contact-form/grunion-editor-view.php:219
-#: modules/custom-post-types/nova.php:977 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/custom-post-types/nova.php:982
+#: class.jetpack-modules-list-table.php:211 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Name"
 msgstr "Nombre"
 
@@ -4616,17 +4586,18 @@ msgstr "Popular"
 
 #. translators: Jetpack sidebar menu item.
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:92
-#: class.jetpack.php:7467 modules/masterbar/admin-menu/class-admin-menu.php:699
-#: modules/masterbar/masterbar/class-masterbar.php:508
-#: modules/widgets/search.php:70 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:80
-#: _inc/build/instant-search/jp-search-main.bundle.js:9
+#: modules/masterbar/masterbar/class-masterbar.php:595
+#: modules/masterbar/admin-menu/class-admin-menu.php:463
+#: modules/widgets/search.php:71 class.jetpack.php:7613
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/instant-search/jp-search.chunk-main-payload-a35aa49a0dfc317ef141.js:1
+#: _inc/build/admin.js:80
 msgid "Search"
 msgstr "Buscar"
 
-#: class.jetpack-admin.php:207 modules/stats.php:591 modules/stats.php:1114
-#: modules/plugin-search.php:241 modules/plugin-search.php:549
+#: class.jetpack-admin.php:211 modules/stats.php:598 modules/stats.php:1137
+#: modules/plugin-search.php:241 modules/plugin-search.php:563
 msgid "Configure"
 msgstr "Configurar"
 
@@ -4635,19 +4606,19 @@ msgid "Search Modules…"
 msgstr "Buscar módulos…"
 
 #: class.jetpack-modules-list-table.php:113
-#: class.jetpack-modules-list-table.php:216
-#: class.jetpack-modules-list-table.php:296
+#: class.jetpack-modules-list-table.php:219
+#: class.jetpack-modules-list-table.php:299
 msgid "Deactivate"
 msgstr "Desactivar"
 
+#: _inc/lib/admin-pages/class-jetpack-about-page.php:352
 #: class.jetpack-modules-list-table.php:115
-#: class.jetpack-modules-list-table.php:215
-#: class.jetpack-modules-list-table.php:284
-#: _inc/lib/admin-pages/class-jetpack-about-page.php:352 _inc/build/admin.js:52
+#: class.jetpack-modules-list-table.php:218
+#: class.jetpack-modules-list-table.php:287 _inc/build/admin.js:61
 msgid "Activate"
 msgstr "Activar"
 
-#: class.jetpack-modules-list-table.php:125
+#: class.jetpack-modules-list-table.php:128
 msgid "No Modules Found"
 msgstr "No se encontraron módulos"
 
@@ -4672,9 +4643,9 @@ msgid "Sites"
 msgstr "Sitios"
 
 #. translators: %s is the post author
-#: functions.opengraph.php:509 class.jetpack-twitter-cards.php:165
-#: class.jetpack-twitter-cards.php:172 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: class.jetpack-twitter-cards.php:165 class.jetpack-twitter-cards.php:172
+#: functions.opengraph.php:522 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Visit the post for more."
 msgstr "Visita la entrada para saber más "
 
@@ -4688,30 +4659,35 @@ msgstr "Entrada de video por %s."
 msgid "Video post."
 msgstr "Entrada de video."
 
-#: class.jetpack.php:7438 class.jetpack.php:7459 class.jetpack.php:7480
-#: modules/protect.php:187 modules/custom-content-types.php:44
-#: modules/custom-post-types/testimonial.php:155
-#: modules/custom-post-types/portfolios.php:140 _inc/build/admin.js:80
+#: modules/custom-content-types.php:44 modules/protect.php:187
+#: modules/custom-post-types/portfolios.php:140
+#: modules/custom-post-types/testimonial.php:155 class.jetpack.php:7584
+#: class.jetpack.php:7605 class.jetpack.php:7626 _inc/build/admin.js:80
 msgid "Learn More"
 msgstr "Más Información"
 
+#. Plugin Name of the plugin
 #: _inc/lib/debugger/class-jetpack-cxn-test-base.php:427
 #: _inc/lib/debugger/class-jetpack-debug-data.php:105
 #: _inc/lib/debugger/debug-functions.php:88
-#: modules/masterbar/admin-menu/class-admin-menu.php:684
+#: modules/masterbar/admin-menu/class-admin-menu.php:457 class.jetpack.php:4055
+#: class.jetpack.php:4068
 msgid "Jetpack"
 msgstr "Jetpack"
 
-#: modules/contact-form/grunion-contact-form.php:174
-#: modules/contact-form/grunion-contact-form.php:175
-#: modules/contact-form/grunion-contact-form.php:1036
-#: modules/contact-form/grunion-contact-form.php:1054
-#: modules/contact-form/grunion-contact-form.php:1124
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:153
+#: modules/contact-form/grunion-contact-form.php:444
+#: modules/contact-form/grunion-contact-form.php:445
+#: modules/contact-form/grunion-contact-form.php:1057
+#: modules/contact-form/grunion-contact-form.php:1075
+#: modules/contact-form/grunion-contact-form.php:1145
 #: modules/contact-form/grunion-form-view.php:191
-#: modules/calypsoify/class-jetpack-calypsoify.php:191
-#: modules/calypsoify/class-jetpack-calypsoify.php:256
 msgid "Feedback"
 msgstr "Sugerencias"
+
+#: class.jetpack.php:4138
+msgid "My Jetpack"
+msgstr "Mi Jetpack"
 
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:21
 msgid "Jetpack Settings"
@@ -4721,22 +4697,22 @@ msgstr "Ajustes de Jetpack"
 msgid "View:"
 msgstr "Vista:"
 
-#: class.jetpack-modules-list-table.php:143
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:95
-#: modules/widgets/upcoming-events.php:60 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/widgets/upcoming-events.php:60
+#: class.jetpack-modules-list-table.php:146 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "All"
 msgstr "Todos"
 
-#: class.jetpack-cli.php:523
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:96
-#: modules/vaultpress.php:27 _inc/build/admin.js:52 _inc/build/admin.js:60
+#: class.jetpack-cli.php:536 modules/vaultpress.php:27 _inc/build/admin.js:61
+#: _inc/build/admin.js:69
 msgid "Active"
 msgstr "Activo"
 
-#: class.jetpack-cli.php:524
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:97
+#: class.jetpack-cli.php:537
 msgid "Inactive"
 msgstr "Inactivo"
 
@@ -4752,19 +4728,18 @@ msgstr "Alfabético"
 msgid "Show:"
 msgstr "Mostrar:"
 
-#: class.jetpack.php:3958
+#: class.jetpack.php:4086
 msgid "Jetpack Debugging Center"
 msgstr "Centro de Depuración de Jetpack"
 
-#: class.jetpack-cli.php:136 class.jetpack-cli.php:1245
-#: class.jetpack-cli.php:1341 class.jetpack-cli.php:1440
-#: class.jetpack-cli.php:1620
+#: class.jetpack-cli.php:136 class.jetpack-cli.php:1258
+#: class.jetpack-cli.php:1354 class.jetpack-cli.php:1453
 msgid "Jetpack is not currently connected to WordPress.com"
 msgstr "Jetpack no está conectado actualmente a WordPress.com"
 
 #. translators: %s is a command like "prompt"
-#: class.jetpack-cli.php:47 class.jetpack-cli.php:196 class.jetpack-cli.php:273
-#: class.jetpack-cli.php:582 class.jetpack-cli.php:714
+#: class.jetpack-cli.php:47 class.jetpack-cli.php:196 class.jetpack-cli.php:286
+#: class.jetpack-cli.php:595 class.jetpack-cli.php:727
 msgid "%s is not a valid command."
 msgstr "%s no es un comando valido."
 
@@ -4799,95 +4774,95 @@ msgstr "Por favor especifique un usuario valido."
 msgid "Please specify a user by either ID, username, or email."
 msgstr "Especifica un usuario por su ID, su nombre de usuario o su dirección de correo electrónico."
 
-#: class.jetpack-cli.php:242
+#: class.jetpack-cli.php:255
 msgid "Please specify if you would like to disconnect a blog or user."
 msgstr "Por favor especifíca si deseas desconectar un blog o un usuario."
 
 #. translators: This is the result of an action. The option named %s was reset
-#: class.jetpack-cli.php:308 class.jetpack-cli.php:320
+#: class.jetpack-cli.php:321 class.jetpack-cli.php:333
 msgid "%s option reset"
 msgstr "Se ha restablecido la opción %s"
 
-#: class.jetpack-cli.php:330 class.jetpack-cli.php:338
-#: _inc/lib/class.core-rest-api-endpoints.php:2111
+#: _inc/lib/class.core-rest-api-endpoints.php:2245 class.jetpack-cli.php:343
+#: class.jetpack-cli.php:351
 msgid "Modules reset to default."
 msgstr "Los módulos se han restablecido a los valores predeterminados."
 
 #. translators: %s is a module slug like "stats"
-#: class.jetpack-cli.php:494
+#: class.jetpack-cli.php:507
 msgid "%s is not a valid module."
 msgstr "%s no es un módulo válido."
 
-#: class.jetpack-cli.php:507
+#: class.jetpack-cli.php:520
 msgid "Please specify a valid module."
 msgstr "Por favor especifíca un módulo válido."
 
 #. translators: %s is the name of a Jetpack module
-#: class.jetpack-cli.php:534 _inc/build/admin.js:80
+#: class.jetpack-cli.php:547 _inc/build/admin.js:80
 msgid "%s has been activated."
 msgstr "%s ha sido activado."
 
-#: class.jetpack-cli.php:543
+#: class.jetpack-cli.php:556
 msgid "All modules activated!"
 msgstr "¡Se han activado todos los módulos!"
 
 #. translators: %s is the name of a Jetpack module
-#: class.jetpack-cli.php:550
+#: class.jetpack-cli.php:563
 msgid "%s has been deactivated."
 msgstr "%s ha sido desactivado."
 
-#: class.jetpack-cli.php:554
+#: class.jetpack-cli.php:567
 msgid "All modules deactivated!"
 msgstr "¡Se han desactivado todos los módulos!"
 
-#: class.jetpack-cli.php:675
+#: class.jetpack-cli.php:688
 msgid "No command found."
 msgstr "No se ha encontrado ningún comando."
 
-#: class.jetpack-cli.php:732
+#: class.jetpack-cli.php:745
 msgid "Option not found or is empty.  Use \"list\" to list option names"
 msgstr "No se ha encontrado la opción o está vacía. Utiliza \"list\" para enumerar los nombres de las opciones"
 
 #. translators: %s is the option name
-#: class.jetpack-cli.php:748
+#: class.jetpack-cli.php:761
 msgid "Deleted option: %s"
 msgstr "Opción eliminada: %s"
 
-#: class.jetpack-cli.php:756
+#: class.jetpack-cli.php:769
 msgid "Sorry, no updating arrays at this time"
 msgstr "Lo lamentamos, pero no es posible actualizar las matrices en estos momentos"
 
-#: class.jetpack-cli.php:770 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: class.jetpack-cli.php:783 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Option"
 msgstr "Opción"
 
-#: class.jetpack-cli.php:770
+#: class.jetpack-cli.php:783
 msgid "Value"
 msgstr "Valor"
 
-#: class.jetpack-cli.php:788
+#: class.jetpack-cli.php:801
 msgctxt "a variable command that a user can write, provided in the printed instructions"
 msgid "option"
 msgstr "opción"
 
-#: class.jetpack-cli.php:789
+#: class.jetpack-cli.php:802
 msgctxt "the value that they want to update the option to"
 msgid "value"
 msgstr "valor"
 
-#: class.jetpack-cli.php:792
+#: class.jetpack-cli.php:805
 msgctxt "'get', 'delete', and 'update' are commands - do not translate."
 msgid "Above are your options. You may 'get', 'delete', and 'update' them."
 msgstr "Tus opciones se muestran arriba. Las opciones son: obtener (“get”), eliminar (“delete”) y actualizar (“update”)."
 
-#: class.jetpack-cli.php:796
+#: class.jetpack-cli.php:809
 msgctxt "'wp jetpack options' is a command - do not translate."
 msgid "Type 'wp jetpack options' for more info."
 msgstr "Escribe “wp jetpack options” para obtener más información."
 
-#: class.jetpack-cli.php:2058
+#: class.jetpack-cli.php:2071
 msgid "Action cancelled. Have a question?"
 msgstr "Acción cancelada. ¿Tienes alguna pregunta?"
 
@@ -4949,33 +4924,34 @@ msgstr "Si recibe un mensaje 404, póngase en contacto con su proveedor de aloja
 msgid "The primary connection is owned by <strong>%s</strong>'s WordPress.com account."
 msgstr "La conexión principal es propiedad de la cuenta de WordPress.com de <strong>%s</strong>."
 
-#: class.jetpack.php:4016 modules/sharedaddy/sharedaddy.php:225
+#: modules/sharedaddy/sharedaddy.php:225 class.jetpack.php:4144
 msgid "Support"
 msgstr "Ayuda"
 
-#: class.jetpack-network.php:298
-#: _inc/lib/admin-pages/class.jetpack-settings-page.php:22
-#: _inc/lib/admin-pages/class.jetpack-react-page.php:70
-#: _inc/lib/admin-pages/class.jetpack-admin-page.php:337 class.jetpack.php:3938
-#: class.jetpack.php:4015 modules/publicize/ui.php:517
-#: modules/sharedaddy/sharedaddy.php:217 modules/sharedaddy/sharedaddy.php:224
-#: modules/masterbar/admin-menu/class-admin-menu.php:621
-#: modules/masterbar/masterbar/class-masterbar.php:1329
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
-msgid "Settings"
-msgstr "Configuración"
-
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:102
-#: _inc/build/instant-search/jp-search-main.bundle.js:9
+#: _inc/build/instant-search/jp-search-main.bundle.js:1
 msgid "Newest"
 msgstr "Nuevos"
 
-#: class.jetpack-cli.php:312
+#: _inc/lib/admin-pages/class.jetpack-react-page.php:138
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:335
+#: _inc/lib/admin-pages/class.jetpack-settings-page.php:22
+#: modules/masterbar/masterbar/class-masterbar.php:1414
+#: modules/masterbar/admin-menu/class-domain-only-admin-menu.php:39
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:246
+#: modules/sharedaddy/sharedaddy.php:217 modules/sharedaddy/sharedaddy.php:224
+#: modules/publicize/ui.php:517 class.jetpack-network.php:298
+#: class.jetpack.php:4066 class.jetpack.php:4143 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:52 _inc/build/admin.js:61
+msgid "Settings"
+msgstr "Configuración"
+
+#: class.jetpack-cli.php:325
 msgid "Resetting the jetpack options stored in wp_options...\n"
 msgstr "Restableciendo las opciones de Jetpack almacenadas en wp_options...\n"
 
-#: class.jetpack-cli.php:324
+#: class.jetpack-cli.php:337
 msgid "Resetting default modules...\n"
 msgstr "Restableciendo los módulos predeterminados...\n"

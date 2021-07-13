@@ -15,33 +15,36 @@ msgstr ""
 msgid "An error has occurred, check for calendar privileges to make sure it is public or try again later."
 msgstr "एक त्रुटी आली आहे, दिनदर्शिका विशेषाधिकारांसाठी हे सार्वजनिक असल्याचे सुनिश्चित करण्यासाठी तपासा किंवा नंतर पुन्हा प्रयत्न करा."
 
-#: src/extensions/layout-selector/index.php:25 dist/coblocks.js:58
+#: src/extensions/layout-selector/index.php:25
 msgid "Contact"
 msgstr "संपर्क"
+
+#: includes/class-coblocks-form.php:1036
+msgid "name"
+msgstr "नाव"
 
 #. translators: placeholder for email shortcode.
 #: includes/class-coblocks-form.php:51
 msgid "Form submission from [%1$s]"
 msgstr "[%1$s] कडून फॉर्म सबमिट करत आहे"
 
-#: includes/class-coblocks-form.php:1036 dist/coblocks.js:58
-msgid "name"
-msgstr "नाव"
-
-#: includes/class-coblocks-form.php:382 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:382
 msgid "Text"
 msgstr "मजकूर"
 
-#: includes/class-coblocks-form.php:1048 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:1048
 msgid "email"
 msgstr "ईमेल"
 
-#: includes/class-coblocks-form.php:722 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:722
 msgid "Hidden"
 msgstr "लपविलेले"
 
+#: includes/class-coblocks-form.php:688
+msgid "Website"
+msgstr "वेबसाइट"
+
 #: includes/class-coblocks-form.php:557 includes/class-coblocks-form.php:606
-#: dist/coblocks.js:58
 msgid "Select"
 msgstr "निवडा"
 
@@ -49,127 +52,130 @@ msgstr "निवडा"
 msgid "Something went wrong."
 msgstr "काहीतरी चूक झाली."
 
-#: includes/class-coblocks-form.php:688 dist/coblocks.js:58
-msgid "Website"
-msgstr "वेबसाइट"
-
-#: src/blocks/posts/index.php:51 src/blocks/post-carousel/index.php:51
-msgid "An error has occurred, which probably means the feed is down. Try again later."
-msgstr "चुक आली, ज्‍याचा खासकरून अर्थ फीड खाली असणे असा होतो. नंतर पुन्हा प्रयत्न करा."
-
-#: includes/class-coblocks-form.php:493 dist/coblocks.js:58
-msgid "Choose one"
-msgstr "एक निवडा"
-
-#: includes/class-coblocks-form.php:423 dist/coblocks.js:58
-msgid "Date"
-msgstr "तारीख"
-
-#: includes/class-coblocks-form.php:454 dist/coblocks.js:58
-msgid "Phone"
-msgstr "फोन"
-
-#: src/blocks/posts/index.php:171 src/blocks/post-carousel/index.php:184
+#: src/blocks/post-carousel/index.php:191 src/blocks/posts/index.php:171
 msgctxt "placeholder when a post has no title"
 msgid "(no title)"
 msgstr "(शीर्षक नाही)"
 
-#: src/blocks/social-profiles/index.php:76 dist/coblocks.js:58
-msgid "Instagram"
-msgstr "Instagram"
+#: src/blocks/post-carousel/index.php:51 src/blocks/posts/index.php:51
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "चुक आली, ज्‍याचा खासकरून अर्थ फीड खाली असणे असा होतो. नंतर पुन्हा प्रयत्न करा."
 
-#: src/blocks/social-profiles/index.php:89 dist/coblocks.js:58
-msgid "YouTube"
-msgstr "YouTube प्रोफाइल जोडा"
+#: includes/class-coblocks-form.php:493
+msgid "Choose one"
+msgstr "एक निवडा"
 
-#: src/blocks/social-profiles/index.php:93 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:454
+msgid "Phone"
+msgstr "फोन"
+
+#: includes/class-coblocks-form.php:423
+msgid "Date"
+msgstr "तारीख"
+
+#: src/blocks/social-profiles/index.php:97
+msgid "Houzz"
+msgstr "Houzz"
+
+#: src/blocks/social-profiles/index.php:93
 msgid "Yelp"
 msgstr "Yelp"
 
-#: src/blocks/social-profiles/index.php:97 dist/coblocks.js:58
-msgid "Houzz"
-msgstr "Houzz"
+#: src/blocks/social-profiles/index.php:89
+msgid "YouTube"
+msgstr "YouTube प्रोफाइल जोडा"
 
 #: src/blocks/social-profiles/index.php:84
 msgid "Linkedin"
 msgstr "Linkedin"
 
-#: includes/class-coblocks-form.php:258 dist/coblocks.js:58
-msgid "Name"
-msgstr "नाव"
-
-#. Author of the plugin
-msgid "GoDaddy"
-msgstr "GoDaddy"
-
-#. Author URI of the plugin
-msgid "https://www.godaddy.com"
-msgstr "https://www.godaddy.com"
-
-#: includes/class-coblocks-form.php:803 dist/coblocks.js:58
-msgid "Submit"
-msgstr "सबमिट करा"
-
-#: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
-#: dist/coblocks.js:58
-msgid "Email"
-msgstr "ईमेल"
-
-#: src/blocks/social-profiles/index.php:72 dist/coblocks.js:58
-msgid "Twitter"
-msgstr "Twitter"
-
-#: src/blocks/social-profiles/index.php:68 dist/coblocks.js:58
-msgid "Facebook"
-msgstr "Facebook"
-
-#: src/blocks/social-profiles/index.php:80 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:80
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: src/blocks/share/index.php:148 dist/coblocks.js:58
-msgid "Share via Email"
-msgstr "ईमेलद्वारे सामायिक करा"
+#: src/blocks/social-profiles/index.php:76
+msgid "Instagram"
+msgstr "Instagram"
 
-#: src/blocks/share/index.php:156 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:72
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/blocks/social-profiles/index.php:68
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/blocks/share/index.php:160
+msgid "Share on Reddit"
+msgstr "Reddit वर सामायिक करा"
+
+#: src/blocks/share/index.php:156
 msgid "Share on Google"
 msgstr "Google वर सामायिक करा"
 
-#: src/blocks/share/index.php:160 dist/coblocks.js:58
-msgid "Share on Reddit"
-msgstr "Reddit वर सामायिक करा"
+#: src/blocks/share/index.php:152
+msgid "Share on Tumblr"
+msgstr "Tumblr वर सामायिक करा"
+
+#: src/blocks/share/index.php:148
+msgid "Share via Email"
+msgstr "ईमेलद्वारे सामायिक करा"
+
+#: src/blocks/share/index.php:144
+msgid "Share on Linkedin"
+msgstr "LinkedIn वर सामायिक करा"
+
+#: src/blocks/share/index.php:140
+msgid "Share on Pinterest"
+msgstr "Pinterest वर सामायिक करा"
+
+#: src/blocks/share/index.php:136
+msgid "Share on Twitter"
+msgstr "Twitter वर सामायिक करा"
+
+#: src/blocks/share/index.php:132
+msgid "Share on Facebook"
+msgstr "Facebook वर सामायिक करा"
+
+#: includes/admin/class-coblocks-action-links.php:41
+msgid "Review CoBlocks on WordPress.org"
+msgstr "WordPress.org वर CoBlocks चे पुनरावलोकन करा"
 
 #: includes/admin/class-coblocks-action-links.php:41
 msgid "Leave a Review"
 msgstr "पुनरावलोकन करा"
 
-#: src/blocks/share/index.php:136 dist/coblocks.js:58
-msgid "Share on Twitter"
-msgstr "Twitter वर सामायिक करा"
-
-#: src/blocks/share/index.php:132 dist/coblocks.js:58
-msgid "Share on Facebook"
-msgstr "Facebook वर सामायिक करा"
-
-#: src/blocks/share/index.php:140 dist/coblocks.js:58
-msgid "Share on Pinterest"
-msgstr "Pinterest वर सामायिक करा"
-
-#: src/blocks/share/index.php:152 dist/coblocks.js:58
-msgid "Share on Tumblr"
-msgstr "Tumblr वर सामायिक करा"
-
-#. Description of the plugin
-msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
-msgstr "CoBlocks हे वर्डप्रेस Gutenberg ब्लॉक संपादकासाठी असलेला व्यावसायिक <strong>पृष्ठ निर्माण करणे सामग्री ब्लॉक्सचा</strong> एक संच आहे. आमचे ब्लॉक्स वर्डप्रेसमधील सुंदर समृद्ध पृष्ठे निर्माण करण्यासाठी निर्मात्यांना सक्षम बनवण्यावर अधिक लक्षकेंद्रित करतात."
-
-#: includes/class-coblocks-form.php:262 dist/coblocks.js:58
-msgid "First"
-msgstr "नाव"
-
 #: includes/class-coblocks-google-map-block.php:120
 msgid "Google Map API key for map rendering"
 msgstr "नकाशा प्रस्तुत करण्यासाठी Google Map API Key"
+
+#: includes/class-coblocks-form.php:63
+msgid "Your message was sent:"
+msgstr "आपला मेसेज पाठवला गेला:"
+
+#: includes/class-coblocks-form.php:803
+msgid "Submit"
+msgstr "सबमिट करा"
+
+#: includes/class-coblocks-form.php:351
+msgid "Message"
+msgstr "मेसेज"
+
+#: includes/class-coblocks-form.php:263
+msgid "Last"
+msgstr "आडनाव"
+
+#: includes/class-coblocks-form.php:262
+msgid "First"
+msgstr "नाव"
+
+#: includes/class-coblocks-form.php:258
+msgid "Name"
+msgstr "नाव"
+
+#: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
+msgid "Email"
+msgstr "ईमेल"
 
 #: includes/class-coblocks-form.php:101
 msgid "Google reCaptcha secret key for form spam protection"
@@ -179,22 +185,18 @@ msgstr "फॉर्म स्पॅम सुरक्षेसाठी Google
 msgid "Google reCaptcha site key for form spam protection"
 msgstr "फॉर्म स्पॅम सुरक्षेसाठी Google reCaptcha साईट Key"
 
-#: includes/class-coblocks-form.php:263 dist/coblocks.js:58
-msgid "Last"
-msgstr "आडनाव"
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr "https://www.godaddy.com"
 
-#: includes/class-coblocks-form.php:351 dist/coblocks.js:58
-msgid "Message"
-msgstr "मेसेज"
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr "GoDaddy"
 
-#: includes/admin/class-coblocks-action-links.php:41
-msgid "Review CoBlocks on WordPress.org"
-msgstr "WordPress.org वर CoBlocks चे पुनरावलोकन करा"
+#. Description of the plugin
+msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
+msgstr "CoBlocks हे वर्डप्रेस Gutenberg ब्लॉक संपादकासाठी असलेला व्यावसायिक <strong>पृष्ठ निर्माण करणे सामग्री ब्लॉक्सचा</strong> एक संच आहे. आमचे ब्लॉक्स वर्डप्रेसमधील सुंदर समृद्ध पृष्ठे निर्माण करण्यासाठी निर्मात्यांना सक्षम बनवण्यावर अधिक लक्षकेंद्रित करतात."
 
-#: src/blocks/share/index.php:144
-msgid "Share on Linkedin"
-msgstr "LinkedIn वर सामायिक करा"
-
-#: includes/class-coblocks-form.php:63 dist/coblocks.js:58
-msgid "Your message was sent:"
-msgstr "आपला मेसेज पाठवला गेला:"
+#. Plugin Name of the plugin
+msgid "CoBlocks"
+msgstr "CoBlocks"

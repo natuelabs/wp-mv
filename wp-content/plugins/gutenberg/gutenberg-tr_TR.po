@@ -1,36 +1,56 @@
-# Translation of Plugins - Gutenberg - Development (trunk) in Turkish
-# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+# Translation of Plugins - Gutenberg - Stable (latest release) in Turkish
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-07 21:48:33+0000\n"
+"PO-Revision-Date: 2021-05-12 02:12:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: tr\n"
-"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
 
-#: build/block-library/blocks/post-navigation-link.php:35
+#: build/block-library/blocks/navigation-link/block.json
+msgctxt "block title"
+msgid "Custom Link"
+msgstr "Özel bağlantı"
+
+#: build/block-library/blocks/latest-posts.php:139
+#: build/block-library/blocks/latest-posts.php:154
+msgid "This content is password protected."
+msgstr "İçerik parola korumalı."
+
+#. translators: %1$s: Social-network name. %2$s: URL.
+#: build/block-library/blocks/social-link.php:24
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: build/block-library/blocks/page-list/block.json
+msgctxt "block title"
+msgid "Page List"
+msgstr "Sayfa listesi"
+
+#: build/block-library/blocks/post-navigation-link.php:34
 msgctxt "label for previous post link"
 msgid "Previous"
 msgstr "Önceki"
 
-#: build/block-library/blocks/post-navigation-link.php:35
+#: build/block-library/blocks/post-navigation-link.php:34
 msgctxt "label for next post link"
 msgid "Next"
 msgstr "Sonraki"
 
-#: lib/class-wp-rest-url-details-controller.php:96
+#: lib/class-wp-rest-url-details-controller.php:114
 msgid "Invalid URL"
 msgstr "Geçersiz URL"
 
-#: lib/class-wp-rest-pattern-directory-controller.php:129
+#: lib/class-wp-rest-pattern-directory-controller.php:130
 msgid "https://wordpress.org/support/forums/"
 msgstr "https://wordpress.org/support/forums/"
 
 #. translators: %s: Support forums URL.
-#: lib/class-wp-rest-pattern-directory-controller.php:128
+#: lib/class-wp-rest-pattern-directory-controller.php:129
 msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
 msgstr "Beklenmeyen bir hata oluştu. WordPress.org ile ya da bu sunucunun yapılandırması ile ilgili bir şeyler yanlış olabilir. Eğer problem yaşamaya devam ediyorsanız lütfen <a href=\"%s\">destek forumlarını</a> deneyin."
 
@@ -44,12 +64,313 @@ msgstr "Sonraki sayfa &raquo;"
 
 #. translators: Visible only in the front end, this warning takes the place of
 #. a faulty block.
-#: build/block-library/blocks/block.php:46
-#: build/block-library/blocks/template-part.php:90
+#: build/block-library/blocks/block.php:35
+#: build/block-library/blocks/post-content.php:33
+#: build/block-library/blocks/template-part.php:83
 msgid "[block rendering halted]"
 msgstr "[blok oluşturma durduruldu]"
 
-#: lib/client-assets.php:101 build/i18n/index.js:1
+#: build/block-library/blocks/post-featured-image/block.json
+msgctxt "block title"
+msgid "Post Featured Image"
+msgstr "Yazı öne çıkan görseli"
+
+#: build/block-library/blocks/post-excerpt/block.json
+msgctxt "block title"
+msgid "Post Excerpt"
+msgstr "Yazı özeti"
+
+#: build/block-library/blocks/post-date/block.json
+msgctxt "block title"
+msgid "Post Date"
+msgstr "Yazı tarihi"
+
+#: build/block-library/blocks/post-comments-form/block.json
+msgctxt "block title"
+msgid "Post Comments Form"
+msgstr "Yazı yorum formu"
+
+#: build/block-library/blocks/post-comments-count/block.json
+msgctxt "block title"
+msgid "Post Comments Count"
+msgstr "Yazı yorum toplamı"
+
+#: build/block-library/blocks/post-comments/block.json
+msgctxt "block title"
+msgid "Post Comments"
+msgstr "Yazı yorumları"
+
+#: build/block-library/blocks/post-comment-date/block.json
+msgctxt "block title"
+msgid "Post Comment Date"
+msgstr "Yazı yorumu tarihi"
+
+#: build/block-library/blocks/post-comment-content/block.json
+msgctxt "block title"
+msgid "Post Comment Content"
+msgstr "Yazı yorumu içeriği"
+
+#: build/block-library/blocks/post-comment-author/block.json
+msgctxt "block title"
+msgid "Post Comment Author"
+msgstr "Yazı yorumu yazarı"
+
+#: build/block-library/blocks/post-comment/block.json
+msgctxt "block title"
+msgid "Post Comment"
+msgstr "Yazı yorumu"
+
+#: build/block-library/blocks/post-author/block.json
+msgctxt "block title"
+msgid "Post Author"
+msgstr "Yazının yazarı"
+
+#: build/block-library/blocks/post-content/block.json
+msgctxt "block title"
+msgid "Post Content"
+msgstr "Yazı içeriği"
+
+#: build/block-library/blocks/post-title/block.json
+msgctxt "block title"
+msgid "Post Title"
+msgstr "Yazı başlığı"
+
+#: build/block-library/blocks/query-pagination/block.json
+msgctxt "block title"
+msgid "Query Pagination"
+msgstr "Sorgu sayfalaması"
+
+#: build/block-library/blocks/query/block.json
+msgctxt "block title"
+msgid "Query Loop"
+msgstr "Sorgu döngüsü"
+
+#: build/block-library/blocks/template-part/block.json
+msgctxt "block title"
+msgid "Template Part"
+msgstr "Şablon parçası"
+
+#: build/block-library/blocks/site-title/block.json
+msgctxt "block title"
+msgid "Site Title"
+msgstr "Site başlığı"
+
+#: build/block-library/blocks/site-tagline/block.json
+msgctxt "block title"
+msgid "Site Tagline"
+msgstr "Site sloganı"
+
+#: build/block-library/blocks/site-logo/block.json
+msgctxt "block title"
+msgid "Site Logo"
+msgstr "Site logosu"
+
+#: build/block-library/blocks/social-link/block.json
+msgctxt "block title"
+msgid "Social Icon"
+msgstr "Sosyal simge"
+
+#: build/block-library/blocks/social-links/block.json
+msgctxt "block title"
+msgid "Social Icons"
+msgstr "Sosyal simgeler"
+
+#: build/block-library/blocks/tag-cloud/block.json
+msgctxt "block title"
+msgid "Tag Cloud"
+msgstr "Etiket bulutu"
+
+#: build/block-library/blocks/video/block.json
+msgctxt "block title"
+msgid "Video"
+msgstr "Video"
+
+#: build/block-library/blocks/verse/block.json
+msgctxt "block title"
+msgid "Verse"
+msgstr "Dörtlük"
+
+#: build/block-library/blocks/text-columns/block.json
+msgctxt "block title"
+msgid "Text Columns (deprecated)"
+msgstr "Metin sütunları (kullanım dışı)"
+
+#: build/block-library/blocks/table/block.json
+msgctxt "block title"
+msgid "Table"
+msgstr "Tablo"
+
+#: build/block-library/blocks/spacer/block.json
+msgctxt "block title"
+msgid "Spacer"
+msgstr "Aralayıcı"
+
+#: build/block-library/blocks/shortcode/block.json
+msgctxt "block title"
+msgid "Shortcode"
+msgstr "Kısa kod"
+
+#: build/block-library/blocks/separator/block.json
+msgctxt "block title"
+msgid "Separator"
+msgstr "Ayırıcı"
+
+#: build/block-library/blocks/group/block.json
+msgctxt "block title"
+msgid "Group"
+msgstr "Grup"
+
+#: build/block-library/blocks/search/block.json
+msgctxt "block title"
+msgid "Search"
+msgstr "Ara"
+
+#: build/block-library/blocks/rss/block.json
+msgctxt "block title"
+msgid "RSS"
+msgstr "RSS"
+
+#: build/block-library/blocks/block/block.json
+msgctxt "block title"
+msgid "Reusable block"
+msgstr "Tekrar kullanılabilir blok"
+
+#: build/block-library/blocks/pullquote/block.json
+msgctxt "block title"
+msgid "Pullquote"
+msgstr "Alıntı yap"
+
+#: build/block-library/blocks/preformatted/block.json
+msgctxt "block title"
+msgid "Preformatted"
+msgstr "Önceden biçimlenmiş"
+
+#: build/block-library/blocks/nextpage/block.json
+msgctxt "block title"
+msgid "Page Break"
+msgstr "Sayfa sonu"
+
+#: build/block-library/blocks/more/block.json
+msgctxt "block title"
+msgid "More"
+msgstr "Daha fazla"
+
+#: build/block-library/blocks/missing/block.json
+msgctxt "block title"
+msgid "Unsupported"
+msgstr "Desteklenmeyen"
+
+#: build/block-library/blocks/list/block.json
+msgctxt "block title"
+msgid "List"
+msgstr "Liste"
+
+#: build/block-library/blocks/latest-posts/block.json
+msgctxt "block title"
+msgid "Latest Posts"
+msgstr "Son yazılar"
+
+#: build/block-library/blocks/latest-comments/block.json
+msgctxt "block title"
+msgid "Latest Comments"
+msgstr "En son yorumlar"
+
+#: build/block-library/blocks/navigation/block.json
+msgctxt "block title"
+msgid "Navigation"
+msgstr "Dolaşım"
+
+#: build/block-library/blocks/media-text/block.json
+msgctxt "block title"
+msgid "Media & Text"
+msgstr "Ortam ve metin"
+
+#: build/block-library/blocks/html/block.json
+msgctxt "block title"
+msgid "Custom HTML"
+msgstr "Özel HTML"
+
+#: build/block-library/blocks/file/block.json
+msgctxt "block title"
+msgid "File"
+msgstr "Dosya"
+
+#: build/block-library/blocks/cover/block.json
+msgctxt "block title"
+msgid "Cover"
+msgstr "Kapak"
+
+#: build/block-library/blocks/column/block.json
+msgctxt "block title"
+msgid "Column"
+msgstr "Sütun"
+
+#: build/block-library/blocks/columns/block.json
+msgctxt "block title"
+msgid "Columns"
+msgstr "Sütunlar"
+
+#: build/block-library/blocks/code/block.json
+msgctxt "block title"
+msgid "Code"
+msgstr "Kod"
+
+#: build/block-library/blocks/categories/block.json
+msgctxt "block title"
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: build/block-library/blocks/calendar/block.json
+msgctxt "block title"
+msgid "Calendar"
+msgstr "Takvim"
+
+#: build/block-library/blocks/buttons/block.json
+msgctxt "block title"
+msgid "Buttons"
+msgstr "Düğmeler"
+
+#: build/block-library/blocks/button/block.json
+msgctxt "block title"
+msgid "Button"
+msgstr "Düğme"
+
+#: build/block-library/blocks/audio/block.json
+msgctxt "block title"
+msgid "Audio"
+msgstr "Ses"
+
+#: build/block-library/blocks/archives/block.json
+msgctxt "block title"
+msgid "Archives"
+msgstr "Arşivler"
+
+#: build/block-library/blocks/gallery/block.json
+msgctxt "block title"
+msgid "Gallery"
+msgstr "Galeri"
+
+#: build/block-library/blocks/quote/block.json
+msgctxt "block title"
+msgid "Quote"
+msgstr "Alıntı"
+
+#: build/block-library/blocks/heading/block.json
+msgctxt "block title"
+msgid "Heading"
+msgstr "Başlık"
+
+#: build/block-library/blocks/image/block.json
+msgctxt "block title"
+msgid "Image"
+msgstr "Görsel"
+
+#: build/block-library/blocks/paragraph/block.json
+msgctxt "block title"
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#: lib/client-assets.php:101 build/i18n/index.js:1271
 msgctxt "text direction"
 msgid "ltr"
 msgstr "ltr"
@@ -59,11 +380,11 @@ msgctxt "Template name"
 msgid "Singular"
 msgstr "Tekil"
 
-#: lib/full-site-editing/full-site-editing.php:83
+#: lib/full-site-editing/full-site-editing.php:92
 msgid "Edit site"
 msgstr "Siteyi düzenle"
 
-#: lib/full-site-editing/templates.php:98
+#: lib/full-site-editing/templates.php:79
 msgid "Themes"
 msgstr "Temalar"
 
@@ -80,24 +401,19 @@ msgctxt "Post status"
 msgid "Auto-Draft"
 msgstr "Otomatik taslak"
 
-#: lib/full-site-editing/default-template-types.php:81
+#: lib/full-site-editing/default-template-types.php:77
 msgctxt "Template name"
 msgid "404"
 msgstr "404"
 
-#: lib/full-site-editing/default-template-types.php:77
+#: lib/full-site-editing/default-template-types.php:73
 msgid "Privacy Policy"
 msgstr "Gizlilik Politikası"
 
-#: lib/full-site-editing/default-template-types.php:41
+#: lib/full-site-editing/default-template-types.php:37
 msgctxt "Template name"
 msgid "Page"
 msgstr "Sayfa"
-
-#: lib/full-site-editing/default-template-types.php:37
-msgctxt "Template name"
-msgid "Post"
-msgstr "Yazı"
 
 #: lib/full-site-editing/default-template-types.php:21
 msgctxt "Template name"
@@ -105,7 +421,7 @@ msgid "Home"
 msgstr "Ana sayfa"
 
 #. translators: %s: "beta" label.
-#: gutenberg.php:111
+#: lib/init.php:102
 msgid "Site Editor %s"
 msgstr "Site editorü %s"
 
@@ -114,12 +430,7 @@ msgctxt "Template name"
 msgid "Index"
 msgstr "Dizin"
 
-#: lib/full-site-editing/default-template-types.php:33
-msgctxt "Template name"
-msgid "Single"
-msgstr "Tekil"
-
-#: lib/full-site-editing/default-template-types.php:45
+#: lib/full-site-editing/default-template-types.php:41
 msgctxt "Template name"
 msgid "Archive"
 msgstr "Arşiv"
@@ -129,8 +440,8 @@ msgctxt "Template name"
 msgid "Front Page"
 msgstr "Ön Sayfa"
 
-#: lib/full-site-editing/class-wp-rest-templates-controller.php:89
 #: lib/class-wp-rest-menu-items-controller.php:92
+#: lib/full-site-editing/class-gutenberg-rest-templates-controller.php:89
 msgid "Whether to bypass Trash and force deletion."
 msgstr "Çöpü pas geçip silmeye zorlanıp zorlanmayacağı."
 
@@ -138,32 +449,11 @@ msgstr "Çöpü pas geçip silmeye zorlanıp zorlanmayacağı."
 msgid "The password for the post if it is password protected."
 msgstr "Parola korumalı ise yazının parola koruması."
 
-#: lib/class-wp-rest-batch-controller.php:216
-msgid "The handler for the route is invalid"
-msgstr "Güzergah işleyicisi geçersiz"
-
-#: lib/class-wp-rest-batch-controller.php:143
-#: lib/class-wp-rest-batch-controller.php:249
-msgid "The requested route does not support batch requests."
-msgstr "İstenen rota toplu iş isteklerini desteklemiyor."
-
-#: lib/class-wp-rest-batch-controller.php:89
-msgid "Could not parse the path."
-msgstr "Yol ayrıştırılamadı."
-
-#: lib/class-wp-rest-widgets-controller.php:501
+#: lib/class-wp-rest-widgets-controller.php:525
 msgid "The requested widget is invalid."
 msgstr "İstenen bşleşen geçerli değil."
 
-#: lib/class-wp-rest-widget-types-controller.php:372
-msgid "Widget class name."
-msgstr "Bileşen sınıf adı."
-
-#: lib/class-wp-rest-widget-types-controller.php:365
-msgid "Option name."
-msgstr "Seçenek adı."
-
-#: lib/class-wp-rest-widget-types-controller.php:358
+#: lib/class-wp-rest-widget-types-controller.php:379
 msgid "Class name"
 msgstr "Sınıf adı"
 
@@ -171,7 +461,7 @@ msgstr "Sınıf adı"
 msgid "HTML content to display for this block menu item."
 msgstr "Bu blok menü öğesi için görüntülenecek HTML içeriği. "
 
-#: lib/class-wp-rest-widgets-controller.php:799
+#: lib/class-wp-rest-widgets-controller.php:679
 msgid "HTML representation of the widget admin form."
 msgstr "Bileşenin yönetici formu için HTML gösterimi."
 
@@ -179,34 +469,13 @@ msgstr "Bileşenin yönetici formu için HTML gösterimi."
 msgid "Inactive widgets"
 msgstr "Pasif bileşenler"
 
-#: lib/class-wp-rest-widgets-controller.php:805
-msgid "Settings of the widget."
-msgstr "Bileşenin ayarları."
-
-#: lib/class-wp-rest-widgets-controller.php:793
+#: lib/class-wp-rest-widgets-controller.php:673
 msgid "HTML representation of the widget."
 msgstr "Bileşenin HTML gösterimi."
 
-#: lib/class-wp-rest-widgets-controller.php:788
-msgid "Number of the widget."
-msgstr "Bileşenin numarası."
-
-#: lib/class-wp-rest-widget-types-controller.php:352
-#: lib/class-wp-rest-widgets-controller.php:783
+#: lib/class-wp-rest-widget-types-controller.php:367
 msgid "Description of the widget."
 msgstr "Bileşenin açıklaması."
-
-#: lib/class-wp-rest-widgets-controller.php:778
-msgid "Name of the widget."
-msgstr "Bileşenin adı."
-
-#: lib/class-wp-rest-widgets-controller.php:773
-msgid "Class name of the widget implementation."
-msgstr "Bileşen uygulamasının sınıf adı."
-
-#: lib/class-wp-rest-widgets-controller.php:761
-msgid "Type of widget for the object."
-msgstr "Nesne için bileşen türü."
 
 #: lib/class-wp-rest-sidebars-controller.php:444
 msgid "Nested widgets."
@@ -232,112 +501,112 @@ msgstr "Kenar çubuğunun numarası."
 msgid "The id of a registered sidebar"
 msgstr "Kayıtlı kenar çubuğunun kimliği"
 
-#: lib/class-wp-widget-block.php:33
+#: lib/class-wp-widget-block.php:42
 msgid "Gutenberg block."
 msgstr "Gutenberg bloğu."
 
-#: lib/full-site-editing/templates-utils.php:16 build/block-library/index.js:46
+#: lib/full-site-editing/templates-utils.php:16
 msgid "Description"
 msgstr "Açıklama"
 
-#: lib/full-site-editing/edit-site-page.php:204
+#: lib/full-site-editing/edit-site-page.php:177
 msgid "The ID of the page that should be displayed on the front page"
 msgstr "Ön sayfada gösterilmesi gereken sayfanın tanımlayıcı numarası"
 
-#: lib/full-site-editing/edit-site-page.php:194
+#: lib/full-site-editing/edit-site-page.php:167
 msgid "What to show on the front page"
 msgstr "Ön sayfada göstermek mi istersiniz?"
 
-#: lib/compat.php:190
+#: lib/compat.php:169
 msgid "Reusable block scheduled."
 msgstr "Tekrar kullanılabilir blok zamanlandı."
 
-#: lib/compat.php:189
+#: lib/compat.php:168
 msgid "Reusable block reverted to draft."
 msgstr "Tekrar kullanılabilir blok taslağa dönüştürüldü."
 
-#: lib/compat.php:188
+#: lib/compat.php:167
 msgid "Reusable block published privately."
 msgstr "Tekrar kullanılabilir blok özel olarak yayımlandı."
 
-#: lib/compat.php:187
+#: lib/compat.php:166
 msgid "Reusable block published."
 msgstr "Tekrar kullanılabilir blok yayımlandı."
 
-#: lib/compat.php:186
+#: lib/compat.php:165
 msgid "Reusable blocks list"
 msgstr "Tekrar kullanılabilir blok listesi"
 
-#: lib/compat.php:185
+#: lib/compat.php:164
 msgid "Reusable blocks list navigation"
 msgstr "Tekrar kullanılabilir blok liste dolaşımı"
 
-#: lib/compat.php:184
+#: lib/compat.php:163
 msgid "Filter reusable blocks list"
 msgstr "Tekrar kullanılabilir blok listesini filtrele"
 
-#: lib/compat.php:183
+#: lib/compat.php:162
 msgid "No reusable blocks found in Trash."
 msgstr "Çöpte tekrar kullanılabilir blok bulunamadı."
 
-#: lib/compat.php:182
+#: lib/compat.php:161
 msgid "No reusable blocks found."
 msgstr "Tekrar kullanılabilir blok bulunamadı."
 
-#: lib/compat.php:181
+#: lib/compat.php:160
 msgid "Search Reusable blocks"
 msgstr "Tekrar kullanılabilir blokları ara"
 
-#: lib/compat.php:180
+#: lib/compat.php:159
 msgid "All Reusable blocks"
 msgstr "Tüm tekrar kullanılabilir bloklar"
 
-#: lib/compat.php:179
+#: lib/compat.php:158
 msgid "View Reusable block"
 msgstr "Tekrar kullanılabilir bloğu görüntüle"
 
-#: lib/compat.php:178
+#: lib/compat.php:157
 msgid "Edit Reusable block"
 msgstr "Tekrar kullanılabilir bloğu düzenle"
 
-#: lib/compat.php:177
+#: lib/compat.php:156
 msgid "New Reusable block"
 msgstr "Yeni tekrar kullanılabilir blok"
 
-#: lib/compat.php:176
+#: lib/compat.php:155
 msgid "Add new Reusable block"
 msgstr "Yeni tekrar kullanılabilir blok ekle"
 
-#: lib/compat.php:175
+#: lib/compat.php:154
 msgctxt "Reusable block"
 msgid "Add New"
 msgstr "Yeni ekle"
 
-#: lib/compat.php:174
+#: lib/compat.php:153
 msgctxt "add new on admin bar"
 msgid "Reusable block"
 msgstr "Tekrar kullanılabilir blok"
 
-#: lib/compat.php:173
+#: lib/compat.php:152
 msgctxt "admin menu"
 msgid "Reusable blocks"
 msgstr "Tekrar kullanılabilir bloklar"
 
-#: lib/compat.php:172
+#: lib/compat.php:151
 msgctxt "post type singular name"
 msgid "Reusable block"
 msgstr "Tekrar kullanılabilir blok"
 
-#: lib/compat.php:171
+#: lib/compat.php:150
 msgctxt "post type general name"
 msgid "Reusable blocks"
 msgstr "Tekrar kullanılabilir bloklar"
 
-#: build/block-library/blocks/site-logo.php:95
+#: build/block-library/blocks/site-logo.php:76
 msgid "Site logo."
 msgstr "Site logosu."
 
-#: lib/class-wp-rest-menus-controller.php:589
+#: lib/class-wp-rest-menus-controller.php:613
 msgid "Whether to automatically add top level pages to this menu."
 msgstr "Üst seviye sayfaların bu menüye otomatik olarak eklenip eklenmeyeceği."
 
@@ -365,35 +634,40 @@ msgstr "Blok tipi menü öğesi ise içerik gereklidir."
 msgid "The pattern title, in human readable format."
 msgstr "Okunabilir biçimde desen başlığı."
 
-#. translators: %s: the author.
 #. translators: byline. %s: current author.
+#. translators: %s: the author.
+#: build/block-library/blocks/latest-posts.php:115
 #: build/block-library/blocks/rss.php:60
-#: build/block-library/blocks/latest-posts.php:114
-#: build/block-library/index.js:50
 msgid "by %s"
 msgstr "%s tarafından"
 
-#: lib/class-wp-theme-json-resolver.php:221 build/block-editor/index.js:1
-msgid "White"
-msgstr "Beyaz"
+#: lib/block-patterns.php:116
+msgid "Offset"
+msgstr "Kaydırma"
 
-#: lib/class-wp-theme-json-resolver.php:219 build/block-editor/index.js:1
-#: build/block-editor/index.js:9
-msgid "Black"
-msgstr "Siyah"
+#: lib/block-patterns.php:14
+msgid "Query"
+msgstr "Sorgu"
 
 #. translators: accessibility text for the content landmark region.
-#: lib/navigation.php:338 build/edit-widgets/index.js:7
-#: build/edit-post/index.js:7 build/edit-site/index.js:7
-#: build/edit-site/index.js:30
+#: lib/navigation.php:343 build/block-editor/index.js:17528
+#: build/edit-navigation/index.js:1246 build/edit-post/index.js:2920
+#: build/edit-widgets/index.js:1353
 msgid "Content"
 msgstr "İçerik"
+
+#. translators: accessibility text for the top bar landmark region.
+#: lib/full-site-editing/template-parts.php:184
+#: build/edit-navigation/index.js:1243 build/edit-post/index.js:2917
+#: build/edit-widgets/index.js:1350
+msgid "Header"
+msgstr "Üst Kısım"
 
 #: lib/experiments-page.php:50
 msgid "Enable Navigation screen"
 msgstr "Dolaşım ekranını etkinleştir"
 
-#: gutenberg.php:62 gutenberg.php:63
+#: lib/init.php:53 lib/init.php:54
 msgid "Navigation (beta)"
 msgstr "Dolaşım (beta)"
 
@@ -507,6 +781,10 @@ msgstr "Özel tipte menü öğesi varsa URL gerekir."
 msgid "Title required if menu item of type custom."
 msgstr "Özel tipte menü öğesi varsa başlık gerekir."
 
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "Geçersiz yazı türü."
+
 #: lib/class-wp-rest-menu-items-controller.php:495
 msgid "Invalid post ID."
 msgstr "Geçersiz yazı numarası."
@@ -537,30 +815,30 @@ msgstr "Üzgünüm, bu yazı tipindeki yazıları düzenlemenize izin verilmiyor
 msgid "Sorry, you cannot view this menu item, unless you have access to permission edit it. "
 msgstr "Üzgünüm, düzenleme yetkisine erişiminiz yoksa bu menü öğesini görüntüleyemezsiniz. "
 
-#: lib/class-wp-rest-menus-controller.php:580
+#: lib/class-wp-rest-menus-controller.php:604
 msgid "The locations assigned to the menu."
 msgstr "Menüye atanan konumlar."
 
-#: lib/class-wp-rest-menus-controller.php:552
+#: lib/class-wp-rest-menus-controller.php:576
 msgid "Menu location does not exist."
 msgstr "Menü konumu mevcut değil."
 
-#: lib/class-wp-rest-menus-controller.php:458
+#: lib/class-wp-rest-menus-controller.php:460
 msgid "The term cannot be deleted."
 msgstr "Terim silinemez."
 
 #. translators: %s: force=true
-#: lib/class-wp-rest-menus-controller.php:448
+#: lib/class-wp-rest-menus-controller.php:450
 msgid "Terms do not support trashing. Set '%s' to delete."
 msgstr "Terimler çöpe taşımayı desteklemiyor. Silmek için '%s' ayarını yapın."
 
-#: lib/class-wp-rest-menus-controller.php:268
-#: lib/class-wp-rest-menus-controller.php:377
+#: lib/class-wp-rest-menus-controller.php:270
+#: lib/class-wp-rest-menus-controller.php:379
 msgid "Parent term does not exist."
 msgstr "Ebeveyn terim mevcut değil."
 
-#: lib/class-wp-rest-menus-controller.php:262
-#: lib/class-wp-rest-menus-controller.php:371
+#: lib/class-wp-rest-menus-controller.php:264
+#: lib/class-wp-rest-menus-controller.php:373
 msgid "Cannot set parent term, taxonomy is not hierarchical."
 msgstr "Sınıflandırma hiyerarşik değil, ebeveyn terim ayarlanamaz."
 
@@ -596,9 +874,9 @@ msgstr "Menü konumunun açıklaması."
 msgid "The name of the menu location."
 msgstr "Menü konumunun adı."
 
-#: lib/class-wp-rest-menus-controller.php:146
 #: lib/class-wp-rest-menu-locations-controller.php:116
 #: lib/class-wp-rest-menu-locations-controller.php:132
+#: lib/class-wp-rest-menus-controller.php:146
 msgid "Invalid menu location."
 msgstr "Geçersiz menü konumu."
 
@@ -611,34 +889,26 @@ msgstr "Üzgünüm, menü konumlarını görüntülemenize izin verilmiyor."
 msgid "An alphanumeric identifier for the menu location."
 msgstr "Menü konumu için bir alfa sayısal tanımlayıcı."
 
-#: lib/class-wp-theme-json-resolver.php:440 build/edit-site/index.js:30
+#: lib/class-wp-theme-json-resolver-gutenberg.php:433
 msgid "Global Styles"
 msgstr "Genel stiller"
 
-#: lib/full-site-editing/template-loader.php:69
-msgid "Empty template."
-msgstr "Boş şablon."
-
-#: lib/full-site-editing/template-loader.php:77
+#: lib/full-site-editing/template-loader.php:87
 msgid "No matching template found."
 msgstr "Eşleşen şablon bulunamadı."
 
 #: lib/full-site-editing/templates-utils.php:18
-#: lib/full-site-editing/templates.php:99 build/edit-site/index.js:30
+#: lib/full-site-editing/templates.php:80 build/blocks/index.js:7080
 msgid "Theme"
 msgstr "Tema"
 
-#: lib/experiments-page.php:98
+#: lib/experiments-page.php:87
 msgid "The block editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
 msgstr "Blok düzenleyici, geliştirme aşamasında kullanılabilen deneysel özellikler içerir. Etkinleştirmek istediklerinizi seçin. Bu özelliklerin değişmesi muhtemeldir, bu yüzden bunları gerçek sitede kullanmaktan kaçının."
 
-#: gutenberg.php:108
+#: lib/init.php:99
 msgid "Site Editor (beta)"
 msgstr "Site editörü (beta)"
-
-#: lib/class-wp-rest-widget-types-controller.php:82
-msgid "Current widget instance"
-msgstr "Şu anki bileşen oluşumu"
 
 #: lib/full-site-editing/template-parts.php:40
 msgid "Template parts to include in your templates."
@@ -714,161 +984,107 @@ msgctxt "Admin Menu text"
 msgid "Template Parts"
 msgstr "Şablon parçaları"
 
-#: lib/full-site-editing/template-parts.php:18 build/block-library/index.js:73
+#: lib/full-site-editing/template-parts.php:18
 msgid "Template Part"
 msgstr "Şablon parçası"
 
-#: lib/full-site-editing/template-parts.php:17 build/edit-site/index.js:30
+#: lib/full-site-editing/template-parts.php:17
 msgid "Template Parts"
 msgstr "Şablon parçaları"
 
-#: lib/experiments-page.php:45 build/edit-navigation/index.js:6
+#: lib/experiments-page.php:45 build/edit-navigation/index.js:3958
 msgid "Navigation"
 msgstr "Dolaşım"
 
-#: lib/full-site-editing/templates.php:54
+#: lib/full-site-editing/templates.php:35
 msgid "Templates list"
 msgstr "Şablon listesi"
 
-#: lib/full-site-editing/templates.php:53
+#: lib/full-site-editing/templates.php:34
 msgid "Templates list navigation"
 msgstr "Şablon listesi dolaşımı"
 
-#: lib/full-site-editing/templates.php:52
+#: lib/full-site-editing/templates.php:33
 msgid "Filter templates list"
 msgstr "Şablon listesini filtrele"
 
-#: lib/full-site-editing/templates.php:51
+#: lib/full-site-editing/templates.php:32
 msgid "Uploaded to this template"
 msgstr "Bu şablona yüklenmiş"
 
-#: lib/full-site-editing/templates.php:50
+#: lib/full-site-editing/templates.php:31
 msgid "Insert into template"
 msgstr "Şablona ekle"
 
-#: lib/full-site-editing/templates.php:49
+#: lib/full-site-editing/templates.php:30
 msgid "Template archives"
 msgstr "Şablon arşivleri"
 
-#: lib/full-site-editing/templates.php:48
+#: lib/full-site-editing/templates.php:29
 msgid "No templates found in Trash."
 msgstr "Çöpte herhangi bir şablon bulunamadı."
 
-#: lib/full-site-editing/templates.php:47
+#: lib/full-site-editing/templates.php:28
 msgid "No templates found."
 msgstr "Şablon bulunamadı."
 
-#: lib/full-site-editing/templates.php:46
+#: lib/full-site-editing/templates.php:27
 msgid "Parent Template:"
 msgstr "Ebeveyn şablon:"
 
-#: lib/full-site-editing/templates.php:45
+#: lib/full-site-editing/templates.php:26
 msgid "Search Templates"
 msgstr "Şablon ara"
 
-#: lib/full-site-editing/templates.php:44
+#: lib/full-site-editing/templates.php:25
 msgid "All Templates"
 msgstr "Tüm şablonlar"
 
-#: lib/full-site-editing/templates.php:43
+#: lib/full-site-editing/templates.php:24
 msgid "View Template"
 msgstr "Şablon görüntüle"
 
-#: lib/full-site-editing/templates.php:42
+#: lib/full-site-editing/templates.php:23
 msgid "Edit Template"
 msgstr "Şablon düzenle"
 
-#: lib/full-site-editing/templates.php:41
+#: lib/full-site-editing/templates.php:22
 msgid "New Template"
 msgstr "Yeni şablon"
 
-#: lib/full-site-editing/templates.php:40
+#: lib/full-site-editing/templates.php:21
 msgid "Add New Template"
 msgstr "Yeni şablon ekle"
 
-#: lib/full-site-editing/templates.php:39
+#: lib/full-site-editing/templates.php:20
 msgctxt "Template"
 msgid "Add New"
 msgstr "Yeni ekle"
 
-#: lib/full-site-editing/templates.php:38
+#: lib/full-site-editing/templates.php:19
 msgctxt "Admin Menu text"
 msgid "Templates"
 msgstr "Şablonlar"
 
-#. translators: ARIA label for the Template Settings Sidebar tab, not selected.
-#. translators: Text label for the Template Settings Sidebar tab.
-#: lib/full-site-editing/templates.php:37 build/edit-post/index.js:38
-#: build/edit-site/index.js:26 build/edit-site/index.js:28
-#: build/edit-site/index.js:29
+#: lib/full-site-editing/templates.php:18 build/edit-post/index.js:13375
+#: build/edit-post/index.js:14855 build/edit-post/index.js:14867
+#: build/edit-post/index.js:14868 build/edit-post/index.js:16195
 msgid "Template"
 msgstr "Şablon"
 
-#: lib/full-site-editing/template-loader.php:164
+#: lib/full-site-editing/template-loader.php:171
 msgid "No matching template found"
 msgstr "Eşleşen şablon bulunamadı"
 
-#: lib/class-wp-theme-json-resolver.php:250 build/block-editor/index.js:1
-msgid "Midnight"
-msgstr "Gece yarısı"
-
-#: lib/class-wp-theme-json-resolver.php:249 build/block-editor/index.js:1
-msgid "Electric grass"
-msgstr "Elektrikli çim"
-
-#: lib/class-wp-theme-json-resolver.php:248 build/block-editor/index.js:1
-msgid "Pale ocean"
-msgstr "Soluk okyanus"
-
-#: lib/class-wp-theme-json-resolver.php:247 build/block-editor/index.js:1
-msgid "Luminous dusk"
-msgstr "Aydınlık alacakaranlık"
-
-#: lib/class-wp-theme-json-resolver.php:246 build/block-editor/index.js:1
-msgid "Blush bordeaux"
-msgstr "Bordo"
-
-#: lib/class-wp-theme-json-resolver.php:245 build/block-editor/index.js:1
-msgid "Blush light purple"
-msgstr "Açık mor"
-
-#: lib/class-wp-theme-json-resolver.php:244 build/block-editor/index.js:1
-msgid "Cool to warm spectrum"
-msgstr "Sıcaktan soğuğa spektrum"
-
-#: lib/class-wp-theme-json-resolver.php:243 build/block-editor/index.js:1
-msgid "Very light gray to cyan bluish gray"
-msgstr "Çok açık griden mavimsi griye"
-
-#: lib/class-wp-theme-json-resolver.php:242 build/block-editor/index.js:1
-msgid "Luminous vivid orange to vivid red"
-msgstr "Açık turuncudan parlak kırmızıya"
-
-#: lib/class-wp-theme-json-resolver.php:241 build/block-editor/index.js:1
-msgid "Luminous vivid amber to luminous vivid orange"
-msgstr "Açık kehribardan açık turuncuya"
-
-#: lib/class-wp-theme-json-resolver.php:240 build/block-editor/index.js:1
-msgid "Light green cyan to vivid green cyan"
-msgstr "Açık yeşilden parlak yeşile"
-
-#: lib/class-wp-theme-json-resolver.php:239 build/block-editor/index.js:1
-msgid "Vivid cyan blue to vivid purple"
-msgstr "Parlak maviden parlak mora"
-
-#: lib/full-site-editing/templates.php:59
+#: lib/full-site-editing/templates.php:40
 msgid "Templates to include in your theme."
 msgstr "Temanıza dahil etmek için şablonlar."
 
-#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+#: lib/full-site-editing/templates.php:17
 msgid "Templates"
 msgstr "Şablonlar"
 
-#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
-msgid "Vivid purple"
-msgstr "Canlı mor"
-
-#: gutenberg.php:89
+#: lib/init.php:80
 msgid "Experiments Settings"
 msgstr "Deney ayarları"
 
@@ -881,12 +1097,12 @@ msgstr "Deneysel ayarlar"
 msgid "Your site doesn&#8217;t have any %s, so there&#8217;s nothing to display here at the moment."
 msgstr "Sitenizde herhangi bir %s bulunmadığından şu anda burada görüntülenecek hiçbir şey yok."
 
-#: build/block-library/blocks/search.php:25
-#: build/block-library/blocks/search.php:26
-#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
-#: build/block-library/index.js:59
-msgid "Search"
-msgstr "Site araması"
+#. translators: accessibility text for the footer landmark region.
+#: lib/full-site-editing/template-parts.php:194
+#: build/edit-navigation/index.js:1258 build/edit-post/index.js:2932
+#: build/edit-widgets/index.js:1365
+msgid "Footer"
+msgstr "Alt kısım"
 
 #: build/block-library/blocks/rss.php:23
 msgid "An error has occurred, which probably means the feed is down. Try again later."
@@ -896,35 +1112,50 @@ msgstr "Bir hata oluştu, beslemenin kapalı olduğu anlaşılıyor. Lütfen dah
 msgid "RSS Error:"
 msgstr "RSS hatası:"
 
-#: lib/editor-settings.php:28 build/block-editor/index.js:1
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:23274
+#: build/block-editor/index.js:23380
+msgid "Search"
+msgstr "Site araması"
+
+#: lib/compat/wordpress-5.8/block-editor.php:183
+#: build/block-editor/index.js:7393
 msgid "Thumbnail"
 msgstr "Küçük resim"
 
-#: lib/editor-settings.php:31 build/block-editor/index.js:1
+#: lib/compat/wordpress-5.8/block-editor.php:186
+#: build/block-editor/index.js:7402
 msgid "Full Size"
 msgstr "Tam boyut"
 
-#: lib/full-site-editing/default-template-types.php:69
-#: build/block-editor/index.js:66 build/blocks/index.js:1
-#: build/core-data/index.js:1
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "Göm"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "Klasik"
+
+#: lib/full-site-editing/default-template-types.php:65
+#: build/block-editor/index.js:35022 build/blocks/index.js:7071
+#: build/core-data/index.js:1887
 msgid "Media"
 msgstr "Ortam dosyası"
 
-#: lib/class-wp-theme-json-resolver.php:263 build/block-library/index.js:68
-msgid "Huge"
-msgstr "Devasa"
+#: lib/full-site-editing/template-parts.php:174 build/edit-post/index.js:13313
+msgid "General"
+msgstr "Genel"
 
-#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
-#: lib/editor-settings.php:29 build/block-editor/index.js:1
-#: build/block-editor/index.js:9 build/components/index.js:10
+#: lib/compat/wordpress-5.8/block-editor.php:184
+#: build/block-editor/index.js:7396 build/block-editor/index.js:15741
+#: build/components/index.js:38018
 msgid "Medium"
 msgstr "Orta"
 
-#: lib/class-wp-theme-json-resolver.php:260 build/block-library/index.js:68
-msgid "Normal"
-msgstr "Normal"
-
-#: build/block-library/blocks/archives.php:97
+#: build/block-library/blocks/archives.php:101
 msgid "No archives to show."
 msgstr "Gösterilecek arşiv yok."
 
@@ -949,7 +1180,7 @@ msgstr "Ek bloklar oluşturma hakkında daha fazla bilgi edinmek isterseniz veya
 msgid "The WordPress community"
 msgstr "WordPress topluluğu"
 
-#: post-content.php:159 build/block-library/index.js:8
+#: post-content.php:159
 msgid "Code is Poetry"
 msgstr "Kod şiirdir"
 
@@ -1094,16 +1325,11 @@ msgstr "Nesne için başlık."
 msgid "Unique identifier for the object."
 msgstr "Nesne için benzersiz tanımlayıcı."
 
-#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
-#: build/block-library/index.js:68 build/components/index.js:10
-msgid "Small"
-msgstr "Küçük"
-
-#: gutenberg.php:76
+#: lib/init.php:67
 msgid "https://wordpress.org/support/plugin/gutenberg/"
 msgstr "https://wordpress.org/support/plugin/gutenberg/"
 
-#: gutenberg.php:73 gutenberg.php:74
+#: lib/init.php:64 lib/init.php:65
 msgid "Support"
 msgstr "Destek"
 
@@ -1117,23 +1343,23 @@ msgstr "Gösterilecek yorum yok."
 msgid "%1$s on %2$s"
 msgstr "%1$s - %2$s"
 
-#: build/block-library/blocks/archives.php:57
+#: build/block-library/blocks/archives.php:61
 msgid "Select Post"
 msgstr "Yazı seçin"
 
-#: build/block-library/blocks/archives.php:54
+#: build/block-library/blocks/archives.php:58
 msgid "Select Week"
 msgstr "Hafta seçin"
 
-#: build/block-library/blocks/archives.php:51
+#: build/block-library/blocks/archives.php:55
 msgid "Select Day"
 msgstr "Gün seçin"
 
-#: build/block-library/blocks/archives.php:48
+#: build/block-library/blocks/archives.php:52
 msgid "Select Month"
 msgstr "Ay seçin"
 
-#: build/block-library/blocks/archives.php:45
+#: build/block-library/blocks/archives.php:49
 msgid "Select Year"
 msgstr "Yıl seçin"
 
@@ -1141,45 +1367,8 @@ msgstr "Yıl seçin"
 msgid "Archives"
 msgstr "Arşivler"
 
-#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
-msgid "Cyan bluish gray"
-msgstr "Cam göbeği mavimsi gri"
-
-#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
-msgid "Vivid cyan blue"
-msgstr "Canlı cam göbeği mavi"
-
-#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
-msgid "Pale cyan blue"
-msgstr "Soluk cam göbeği mavi"
-
-#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
-msgid "Vivid green cyan"
-msgstr "Canlı yeşil cam göbeği"
-
-#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
-msgid "Light green cyan"
-msgstr "Açık yeşil cam göbeği"
-
-#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
-msgid "Luminous vivid amber"
-msgstr "Canlı parlak amber"
-
-#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
-msgid "Luminous vivid orange"
-msgstr "Parlak canlı turuncu"
-
-#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
-msgid "Vivid red"
-msgstr "Canlı kırmızı"
-
-#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
-msgid "Pale pink"
-msgstr "Açık pembe"
-
-#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
-#: lib/editor-settings.php:30 build/block-editor/index.js:1
-#: build/block-library/index.js:68 build/components/index.js:10
+#: lib/compat/wordpress-5.8/block-editor.php:185
+#: build/block-editor/index.js:7399 build/components/index.js:38021
 msgid "Large"
 msgstr "Büyük"
 
@@ -1191,40 +1380,47 @@ msgstr "Geçersiz terim numarası."
 msgid "The ID for the parent of the object."
 msgstr "Ebeveyn nesne için ID no."
 
-#: gutenberg.php:112
+#: lib/init.php:103
 msgid "beta"
 msgstr "beta"
 
-#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:7455
 msgid "Status"
 msgstr "Durum"
 
+#: lib/block-patterns.php:19 build/editor/index.js:7452
+msgid "Standard"
+msgstr "Standart"
+
 #. translators: ARIA label for the Block Settings Sidebar tab, not selected.
 #. translators: Text label for the Block Settings Sidebar tab.
-#. translators: Text label for the Template Settings Sidebar tab.
-#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
-#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
-#: build/edit-post/index.js:38 build/edit-site/index.js:28
-#: build/edit-site/index.js:29 build/edit-site/index.js:30
+#: lib/class-wp-widget-block.php:49 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-navigation/index.js:3533 build/edit-navigation/index.js:3548
+#: build/edit-navigation/index.js:3550 build/edit-post/index.js:14854
+#: build/edit-post/index.js:14873 build/edit-post/index.js:14875
+#: build/edit-widgets/index.js:3466
 msgid "Block"
 msgstr "Blok"
 
-#: build/block-library/blocks/rss.php:31
 #: build/block-library/blocks/latest-comments.php:31
-#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
-#: build/editor/index.js:35 build/block-library/index.js:30
-#: build/block-library/index.js:48 build/edit-navigation/index.js:6
-#: build/edit-post/index.js:40 build/edit-site/index.js:30
+#: build/block-library/blocks/latest-posts.php:103
+#: build/block-library/blocks/rss.php:31 build/core-data/index.js:4903
+#: build/edit-post/index.js:15957 build/editor/index.js:9573
 msgid "(no title)"
 msgstr "(başlıksız)"
 
-#: gutenberg.php:90
+#: lib/init.php:81
 msgid "Experiments"
 msgstr "Deneyler"
 
-#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
-#: build/edit-widgets/index.js:24 build/blocks/index.js:1
-#: build/core-data/index.js:1
+#: build/block-library/blocks/categories.php:31 build/components/index.js:46191
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: lib/init.php:39 lib/init.php:40 build/blocks/index.js:7077
+#: build/core-data/index.js:1918 build/customize-widgets/index.js:2030
+#: build/edit-widgets/index.js:4086 build/edit-widgets/index.js:4089
+#: build/edit-widgets/index.js:4366
 msgid "Widgets"
 msgstr "Bileşenler"
 
@@ -1232,36 +1428,9 @@ msgstr "Bileşenler"
 msgid "Printing since 1440. This is the development plugin for the new block editor in core."
 msgstr "1440'ten beri basım. Bu, çekirdekteki yeni blok düzenleyicisinin geliştirme eklentisidir."
 
-#: lib/class-wp-rest-widgets-controller.php:756
+#: lib/class-wp-rest-widgets-controller.php:656
 msgid "Unique identifier for the widget."
 msgstr "Bileşen için benzersiz tanımlayıcı."
-
-#: gutenberg.php:186
-msgid "Gutenberg development mode requires files to be built. Run <code>npm install</code> to install dependencies, <code>npm run build</code> to build the files or <code>npm run dev</code> to build the files and watch for changes. Read the <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">contributing</a> file for more information."
-msgstr "Gutenberg geliştirme modu dosyaların yapılandırılmasını gerektirir. Bağımlılıkları yüklemek için <code>npm install</code> komutunu çalıştırın, dosyaları yapılandırmak için <code>npm run build</code> komutunu ve yapılandırıp değişiklikleri izlemek için <code>npm run dev</code> komutunu çalıştırın. Daha fazla bilgi için <a href=\"https://github.com/WordPress/gutenberg/blob/HEAD/docs/contributors/getting-started.md\">katkıda bulunma</a> dosyasını okuyun."
-
-#. translators: button label text should, if possible, be under 16 characters.
-#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
-#: build/components/index.js:5
-msgid "Slug"
-msgstr "Kısa isim"
-
-#: gutenberg.php:80 gutenberg.php:81
-msgid "Documentation"
-msgstr "Belgeler"
-
-#: build/block-library/blocks/categories.php:30
-msgid "Select Category"
-msgstr "Kategori seçin"
-
-#: lib/class-wp-rest-menu-items-controller.php:506
-msgid "Invalid post type."
-msgstr "Geçersiz yazı türü."
-
-#. translators: %s: Minimum required version
-#: gutenberg.php:173
-msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
-msgstr "Gutenbergin düzgün çalışması için WordPress %s veya üstü gerekir. Lütfen Gutenbergi etkinleştirmeden önce WordPress sürümünüzü yükseltin."
 
 #. Author of the plugin
 msgid "Gutenberg Team"
@@ -1275,6 +1444,24 @@ msgstr "https://github.com/WordPress/gutenberg"
 msgid "Gutenberg"
 msgstr "Gutenberg"
 
-#: gutenberg.php:41 gutenberg.php:42
+#: lib/full-site-editing/templates-utils.php:15 build/components/index.js:32330
+#: build/editor/index.js:10146
+msgid "Slug"
+msgstr "Kısa isim"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:30
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Gutenbergin düzgün çalışması için WordPress %s veya üstü gerekir. Lütfen Gutenbergi etkinleştirmeden önce WordPress sürümünüzü yükseltin."
+
+#: lib/init.php:71 lib/init.php:72
+msgid "Documentation"
+msgstr "Belgeler"
+
+#: lib/init.php:27 lib/init.php:28
 msgid "Demo"
 msgstr "Demo"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Kategori seçin"

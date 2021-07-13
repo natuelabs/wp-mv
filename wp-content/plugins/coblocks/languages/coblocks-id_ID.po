@@ -11,19 +11,19 @@ msgstr ""
 "Language: id\n"
 "Project-Id-Version: Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release)\n"
 
-#: includes/class-coblocks-settings.php:136
-msgid "Setting use to disable or enable all color controls across the site."
-msgstr "Pengaturan digunakan untuk menonaktifkan atau mengaktifkan kontrol semua warna melalui situs."
-
-#: includes/class-coblocks-settings.php:124
-msgid "Setting use to disable or enable custom color controls across the site."
-msgstr "Pengaturan digunakan untuk menonaktifkan atau mengaktifkan kontrol warna kustom melalui situs."
-
-#: includes/class-coblocks-settings.php:148
+#: includes/class-coblocks-settings.php:156
 msgid "Setting use to disable or enable gradient controls and presets across the site."
 msgstr "Pengaturan digunakan untuk menonaktifkan atau mengaktifkan kontrol gradien dan preset melalui situs."
 
-#: includes/class-coblocks-settings.php:112
+#: includes/class-coblocks-settings.php:144
+msgid "Setting use to disable or enable all color controls across the site."
+msgstr "Pengaturan digunakan untuk menonaktifkan atau mengaktifkan kontrol semua warna melalui situs."
+
+#: includes/class-coblocks-settings.php:132
+msgid "Setting use to disable or enable custom color controls across the site."
+msgstr "Pengaturan digunakan untuk menonaktifkan atau mengaktifkan kontrol warna kustom melalui situs."
+
+#: includes/class-coblocks-settings.php:120
 msgid "Setting use to disable or enable typography controls across the site."
 msgstr "Pengaturan digunakan untuk menonaktifkan atau mengaktifkan kontrol tipografi melalui situs."
 
@@ -31,33 +31,36 @@ msgstr "Pengaturan digunakan untuk menonaktifkan atau mengaktifkan kontrol tipog
 msgid "An error has occurred, check for calendar privileges to make sure it is public or try again later."
 msgstr "Terjadi error, periksa keutamaan kalender untuk memastikan kalender diatur ke umum atau coba lagi nanti."
 
-#: src/extensions/layout-selector/index.php:25 dist/coblocks.js:58
+#: src/extensions/layout-selector/index.php:25
 msgid "Contact"
 msgstr "Kontak"
+
+#: includes/class-coblocks-form.php:1036
+msgid "name"
+msgstr "nama"
 
 #. translators: placeholder for email shortcode.
 #: includes/class-coblocks-form.php:51
 msgid "Form submission from [%1$s]"
 msgstr "Pengiriman formulir dari [%1$s]"
 
-#: includes/class-coblocks-form.php:1036 dist/coblocks.js:58
-msgid "name"
-msgstr "nama"
-
-#: includes/class-coblocks-form.php:382 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:382
 msgid "Text"
 msgstr "Teks"
 
-#: includes/class-coblocks-form.php:1048 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:1048
 msgid "email"
 msgstr "e-mail"
 
-#: includes/class-coblocks-form.php:722 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:722
 msgid "Hidden"
 msgstr "Tersembunyi"
 
+#: includes/class-coblocks-form.php:688
+msgid "Website"
+msgstr "Situs web"
+
 #: includes/class-coblocks-form.php:557 includes/class-coblocks-form.php:606
-#: dist/coblocks.js:58
 msgid "Select"
 msgstr "Pilih"
 
@@ -65,139 +68,130 @@ msgstr "Pilih"
 msgid "Something went wrong."
 msgstr "Ada masalah."
 
-#: includes/class-coblocks-form.php:688 dist/coblocks.js:58
-msgid "Website"
-msgstr "Situs web"
-
-#: src/blocks/posts/index.php:51 src/blocks/post-carousel/index.php:51
-msgid "An error has occurred, which probably means the feed is down. Try again later."
-msgstr "Telah terjadi error, sehingga feed mungkin tidak bisa diakses. Coba lagi nanti."
-
-#: includes/class-coblocks-form.php:493 dist/coblocks.js:58
-msgid "Choose one"
-msgstr "Pilih satu"
-
-#: includes/class-coblocks-form.php:423 dist/coblocks.js:58
-msgid "Date"
-msgstr "Tanggal"
-
-#: includes/class-coblocks-form.php:454 dist/coblocks.js:58
-msgid "Phone"
-msgstr "Telepon"
-
-#: src/blocks/posts/index.php:171 src/blocks/post-carousel/index.php:184
+#: src/blocks/post-carousel/index.php:191 src/blocks/posts/index.php:171
 msgctxt "placeholder when a post has no title"
 msgid "(no title)"
 msgstr "(tanpa judul)"
 
-#: src/blocks/social-profiles/index.php:76 dist/coblocks.js:58
-msgid "Instagram"
-msgstr "Instagram"
+#: src/blocks/post-carousel/index.php:51 src/blocks/posts/index.php:51
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Telah terjadi error, sehingga feed mungkin tidak bisa diakses. Coba lagi nanti."
 
-#: src/blocks/social-profiles/index.php:89 dist/coblocks.js:58
-msgid "YouTube"
-msgstr "YouTube"
+#: includes/class-coblocks-form.php:493
+msgid "Choose one"
+msgstr "Pilih satu"
 
-#: src/blocks/social-profiles/index.php:93 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:454
+msgid "Phone"
+msgstr "Telepon"
+
+#: includes/class-coblocks-form.php:423
+msgid "Date"
+msgstr "Tanggal"
+
+#: src/blocks/social-profiles/index.php:97
+msgid "Houzz"
+msgstr "Houzz"
+
+#: src/blocks/social-profiles/index.php:93
 msgid "Yelp"
 msgstr "Yelp"
 
-#: src/blocks/social-profiles/index.php:97 dist/coblocks.js:58
-msgid "Houzz"
-msgstr "Houzz"
+#: src/blocks/social-profiles/index.php:89
+msgid "YouTube"
+msgstr "YouTube"
 
 #: src/blocks/social-profiles/index.php:84
 msgid "Linkedin"
 msgstr "LinkedIn"
 
-#: includes/class-coblocks-form.php:351 dist/coblocks.js:58
-msgid "Message"
-msgstr "Pesan"
-
-#: includes/class-coblocks-form.php:258 dist/coblocks.js:58
-msgid "Name"
-msgstr "Nama"
-
-#. Author of the plugin
-msgid "GoDaddy"
-msgstr "GoDaddy"
-
-#. Author URI of the plugin
-msgid "https://www.godaddy.com"
-msgstr "https://www.godaddy.com"
-
-#: includes/class-coblocks-form.php:803 dist/coblocks.js:58
-msgid "Submit"
-msgstr "Kirim"
-
-#: includes/class-coblocks-form.php:63 dist/coblocks.js:58
-msgid "Your message was sent:"
-msgstr "Pesan Anda terkirim:"
-
-#: includes/class-coblocks-google-map-block.php:120
-msgid "Google Map API key for map rendering"
-msgstr "Kunci API Peta Google untuk pemuatan peta"
-
-#: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
-#: dist/coblocks.js:58
-msgid "Email"
-msgstr "Email"
-
-#: src/blocks/social-profiles/index.php:72 dist/coblocks.js:58
-msgid "Twitter"
-msgstr "Twitter"
-
-#: src/blocks/social-profiles/index.php:68 dist/coblocks.js:58
-msgid "Facebook"
-msgstr "Facebook"
-
-#: src/blocks/social-profiles/index.php:80 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:80
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: src/blocks/share/index.php:148 dist/coblocks.js:58
-msgid "Share via Email"
-msgstr "Bagikan melalui Email"
+#: src/blocks/social-profiles/index.php:76
+msgid "Instagram"
+msgstr "Instagram"
 
-#: src/blocks/share/index.php:156 dist/coblocks.js:58
-msgid "Share on Google"
-msgstr "Bagikan di Google"
+#: src/blocks/social-profiles/index.php:72
+msgid "Twitter"
+msgstr "Twitter"
 
-#: src/blocks/share/index.php:160 dist/coblocks.js:58
+#: src/blocks/social-profiles/index.php:68
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/blocks/share/index.php:160
 msgid "Share on Reddit"
 msgstr "Bagikan di Reddit"
 
-#: includes/admin/class-coblocks-action-links.php:41
-msgid "Leave a Review"
-msgstr "Tulis Ulasan"
+#: src/blocks/share/index.php:156
+msgid "Share on Google"
+msgstr "Bagikan di Google"
 
-#: src/blocks/share/index.php:136 dist/coblocks.js:58
-msgid "Share on Twitter"
-msgstr "Bagikan di Twitter"
-
-#: src/blocks/share/index.php:132 dist/coblocks.js:58
-msgid "Share on Facebook"
-msgstr "Bagikan di Facebook"
-
-#: src/blocks/share/index.php:140 dist/coblocks.js:58
-msgid "Share on Pinterest"
-msgstr "Bagikan di Pinterest"
-
-#: src/blocks/share/index.php:152 dist/coblocks.js:58
+#: src/blocks/share/index.php:152
 msgid "Share on Tumblr"
 msgstr "Bagikan di Tumblr"
+
+#: src/blocks/share/index.php:148
+msgid "Share via Email"
+msgstr "Bagikan melalui Email"
 
 #: src/blocks/share/index.php:144
 msgid "Share on Linkedin"
 msgstr "Bagikan di LinkedIn"
 
-#. Description of the plugin
-msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
-msgstr "CoBlocks adalah rangkaian <strong>blok konten pembuatan halaman</strong> yang profesional untuk penyunting blok Gutenberg WordPress. Blok kami fokus untuk memberdayakan penanda dalam membangun halaman yang kaya akan konten menarik di WordPress."
+#: src/blocks/share/index.php:140
+msgid "Share on Pinterest"
+msgstr "Bagikan di Pinterest"
 
-#: includes/class-coblocks-form.php:262 dist/coblocks.js:58
+#: src/blocks/share/index.php:136
+msgid "Share on Twitter"
+msgstr "Bagikan di Twitter"
+
+#: src/blocks/share/index.php:132
+msgid "Share on Facebook"
+msgstr "Bagikan di Facebook"
+
+#: includes/admin/class-coblocks-action-links.php:41
+msgid "Review CoBlocks on WordPress.org"
+msgstr "Periksa CoBlocks di WordPress.org"
+
+#: includes/admin/class-coblocks-action-links.php:41
+msgid "Leave a Review"
+msgstr "Tulis Ulasan"
+
+#: includes/class-coblocks-google-map-block.php:120
+msgid "Google Map API key for map rendering"
+msgstr "Kunci API Peta Google untuk pemuatan peta"
+
+#: includes/class-coblocks-form.php:63
+msgid "Your message was sent:"
+msgstr "Pesan Anda terkirim:"
+
+#: includes/class-coblocks-form.php:803
+msgid "Submit"
+msgstr "Kirim"
+
+#: includes/class-coblocks-form.php:351
+msgid "Message"
+msgstr "Pesan"
+
+#: includes/class-coblocks-form.php:263
+msgid "Last"
+msgstr "Belakang"
+
+#: includes/class-coblocks-form.php:262
 msgid "First"
 msgstr "Depan"
+
+#: includes/class-coblocks-form.php:258
+msgid "Name"
+msgstr "Nama"
+
+#: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
+msgid "Email"
+msgstr "Email"
 
 #: includes/class-coblocks-form.php:101
 msgid "Google reCaptcha secret key for form spam protection"
@@ -207,10 +201,18 @@ msgstr "Kunci rahasia reCAPTCHA Google untuk perlindungan spam formulir"
 msgid "Google reCaptcha site key for form spam protection"
 msgstr "Kunci situs reCAPTCHA Google untuk perlindungan spam formulir"
 
-#: includes/class-coblocks-form.php:263 dist/coblocks.js:58
-msgid "Last"
-msgstr "Belakang"
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr "https://www.godaddy.com"
 
-#: includes/admin/class-coblocks-action-links.php:41
-msgid "Review CoBlocks on WordPress.org"
-msgstr "Periksa CoBlocks di WordPress.org"
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#. Description of the plugin
+msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
+msgstr "CoBlocks adalah rangkaian <strong>blok konten pembuatan halaman</strong> yang profesional untuk penyunting blok Gutenberg WordPress. Blok kami fokus untuk memberdayakan penanda dalam membangun halaman yang kaya akan konten menarik di WordPress."
+
+#. Plugin Name of the plugin
+msgid "CoBlocks"
+msgstr "CoBlocks"

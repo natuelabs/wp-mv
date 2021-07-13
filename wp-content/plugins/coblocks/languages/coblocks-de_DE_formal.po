@@ -15,18 +15,22 @@ msgstr ""
 msgid "Leave a Review"
 msgstr "Schreiben Sie eine Rezension"
 
-#: src/blocks/share/index.php:152 dist/coblocks.js:58
+#. Plugin Name of the plugin
+msgid "CoBlocks"
+msgstr "CoBlocks"
+
+#: src/blocks/share/index.php:152
 msgid "Share on Tumblr"
 msgstr "Auf Tumblr teilen"
 
-#: src/blocks/share/index.php:140 dist/coblocks.js:58
+#: src/blocks/share/index.php:140
 msgid "Share on Pinterest"
 msgstr "Auf Pinterest teilen"
 
-#: src/blocks/share/index.php:132 dist/coblocks.js:58
+#: src/blocks/share/index.php:132
 msgid "Share on Facebook"
 msgstr "Auf Facebook teilen"
 
-#: src/blocks/share/index.php:136 dist/coblocks.js:58
+#: src/blocks/share/index.php:136
 msgid "Share on Twitter"
 msgstr "Auf Twitter teilen"

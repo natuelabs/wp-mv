@@ -1,15 +1,15 @@
-# Translation of Plugins - Gutenberg - Development (trunk) in Afrikaans
-# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+# Translation of Plugins - Gutenberg - Stable (latest release) in Afrikaans
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-23 20:07:32+0000\n"
+"PO-Revision-Date: 2017-11-28 19:26:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: af_ZA\n"
-"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
 
 #. Author of the plugin
 msgid "Gutenberg Team"
@@ -23,6 +23,6 @@ msgstr "https://github.com/WordPress/gutenberg"
 msgid "Gutenberg"
 msgstr "Gutenberg"
 
-#: gutenberg.php:41 gutenberg.php:42
+#: lib/init.php:27 lib/init.php:28
 msgid "Demo"
 msgstr "Demo"

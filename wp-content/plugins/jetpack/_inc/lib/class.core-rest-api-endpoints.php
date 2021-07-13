@@ -2,11 +2,10 @@
 
 use Automattic\Jetpack\Connection\Client;
 use Automattic\Jetpack\Connection\Manager as Connection_Manager;
+use Automattic\Jetpack\Connection\Rest_Authentication;
 use Automattic\Jetpack\Connection\REST_Connector;
 use Automattic\Jetpack\Jetpack_CRM_Data;
-use Automattic\Jetpack\JITMS\JITM;
 use Automattic\Jetpack\Licensing;
-use Automattic\Jetpack\Tracking;
 
 /**
  * Register WP REST API endpoints for Jetpack.
@@ -106,26 +105,6 @@ class Jetpack_Core_Json_Api_Endpoints {
 			)
 		);
 
-		register_rest_route(
-			'jetpack/v4',
-			'/jitm',
-			array(
-				'methods'             => WP_REST_Server::READABLE,
-				'callback'            => __CLASS__ . '::get_jitm_message',
-				'permission_callback' => '__return_true',
-			)
-		);
-
-		register_rest_route(
-			'jetpack/v4',
-			'/jitm',
-			array(
-				'methods'             => WP_REST_Server::CREATABLE,
-				'callback'            => __CLASS__ . '::delete_jitm_message',
-				'permission_callback' => __CLASS__ . '::delete_jitm_message_permission_callback',
-			)
-		);
-
 		// Test current connection status of Jetpack
 		register_rest_route(
 			'jetpack/v4',
@@ -191,31 +170,6 @@ class Jetpack_Core_Json_Api_Endpoints {
 				'methods'             => WP_REST_Server::READABLE,
 				'callback'            => __CLASS__ . '::get_user_connection_data',
 				'permission_callback' => __CLASS__ . '::get_user_connection_data_permission_callback',
-			)
-		);
-
-		// Start the connection process by registering the site on WordPress.com servers.
-		register_rest_route(
-			'jetpack/v4',
-			'/connection/register',
-			array(
-				'methods'             => WP_REST_Server::EDITABLE,
-				'callback'            => __CLASS__ . '::register_site',
-				'permission_callback' => __CLASS__ . '::connect_url_permission_callback',
-				'args'                => array(
-					'registration_nonce' => array( 'type' => 'string' ),
-				),
-			)
-		);
-
-		// Set the connection owner
-		register_rest_route(
-			'jetpack/v4',
-			'/connection/owner',
-			array(
-				'methods'             => WP_REST_Server::EDITABLE,
-				'callback'            => __CLASS__ . '::set_connection_owner',
-				'permission_callback' => __CLASS__ . '::set_connection_owner_permission_callback',
 			)
 		);
 
@@ -324,39 +278,6 @@ class Jetpack_Core_Json_Api_Endpoints {
 				'methods'             => WP_REST_Server::READABLE,
 				'callback'            => __CLASS__ . '::get_site_activity',
 				'permission_callback' => __CLASS__ . '::manage_modules_permission_check',
-			)
-		);
-
-		// Confirm that a site in identity crisis should be in staging mode
-		register_rest_route(
-			'jetpack/v4',
-			'/identity-crisis/confirm-safe-mode',
-			array(
-				'methods'             => WP_REST_Server::EDITABLE,
-				'callback'            => __CLASS__ . '::confirm_safe_mode',
-				'permission_callback' => __CLASS__ . '::identity_crisis_mitigation_permission_check',
-			)
-		);
-
-		// IDC resolve: create an entirely new shadow site for this URL.
-		register_rest_route(
-			'jetpack/v4',
-			'/identity-crisis/start-fresh',
-			array(
-				'methods'             => WP_REST_Server::EDITABLE,
-				'callback'            => __CLASS__ . '::start_fresh_connection',
-				'permission_callback' => __CLASS__ . '::identity_crisis_mitigation_permission_check',
-			)
-		);
-
-		// Handles the request to migrate stats and subscribers during an identity crisis.
-		register_rest_route(
-			'jetpack/v4',
-			'identity-crisis/migrate',
-			array(
-				'methods'             => WP_REST_Server::EDITABLE,
-				'callback'            => __CLASS__ . '::migrate_stats_and_subscribers',
-				'permission_callback' => __CLASS__ . '::identity_crisis_mitigation_permission_check',
 			)
 		);
 
@@ -882,6 +803,23 @@ class Jetpack_Core_Json_Api_Endpoints {
 				),
 			)
 		);
+
+		register_rest_route(
+			'jetpack/v4',
+			'purchase-token',
+			array(
+				array(
+					'methods'             => WP_REST_Server::READABLE,
+					'callback'            => __CLASS__ . '::get_purchase_token',
+					'permission_callback' => __CLASS__ . '::purchase_token_permission_check',
+				),
+				array(
+					'methods'             => WP_REST_Server::CREATABLE,
+					'callback'            => __CLASS__ . '::delete_purchase_token',
+					'permission_callback' => __CLASS__ . '::purchase_token_permission_check',
+				),
+			)
+		);
 	}
 
 	/**
@@ -1006,6 +944,34 @@ class Jetpack_Core_Json_Api_Endpoints {
 		return true;
 	}
 
+	/**
+	 * Return a purchase token used for site-connected (non user-authenticated) checkout.
+	 *
+	 * @return string|WP_Error The current purchase token or WP_Error with error details.
+	 */
+	public static function get_purchase_token() {
+		$blog_id = Jetpack_Options::get_option( 'id' );
+		if ( ! $blog_id ) {
+			return new WP_Error( 'site_not_registered', esc_html__( 'Site not registered.', 'jetpack' ) );
+		}
+
+		return Jetpack_Options::get_option( 'purchase_token', '' );
+	}
+
+	/**
+	 * Delete the current purchase token.
+	 *
+	 * @return boolean|WP_Error Whether the token was deleted or WP_Error with error details.
+	 */
+	public static function delete_purchase_token() {
+		$blog_id = Jetpack_Options::get_option( 'id' );
+		if ( ! $blog_id ) {
+			return new WP_Error( 'site_not_registered', esc_html__( 'Site not registered.', 'jetpack' ) );
+		}
+
+		return Jetpack_Options::delete_option( 'purchase_token' );
+	}
+
 	public static function get_plans( $request ) {
 		$request = Client::wpcom_json_api_request_as_user(
 			'/plans?_locale=' . get_user_locale(),
@@ -1086,40 +1052,6 @@ class Jetpack_Core_Json_Api_Endpoints {
 		}
 
 		return $data;
-	}
-
-	/**
-	 * Asks for a jitm, unless they've been disabled, in which case it returns an empty array
-	 *
-	 * @param $request WP_REST_Request
-	 *
-	 * @return array An array of jitms
-	 */
-	public static function get_jitm_message( $request ) {
-		$jitm = JITM::get_instance();
-
-		if ( ! $jitm->register() ) {
-			return array();
-		}
-
-		return $jitm->get_messages( $request['message_path'], urldecode_deep( $request['query'] ), 'true' === $request['full_jp_logo_exists'] ? true : false );
-	}
-
-	/**
-	 * Dismisses a jitm.
-	 *
-	 * @param WP_REST_Request $request The request.
-	 *
-	 * @return bool Always True
-	 */
-	public static function delete_jitm_message( $request ) {
-		$jitm = JITM::get_instance();
-
-		if ( ! $jitm->register() ) {
-			return true;
-		}
-
-		return $jitm->dismiss( $request['id'], $request['feature_class'] );
 	}
 
 	/**
@@ -1294,21 +1226,6 @@ class Jetpack_Core_Json_Api_Endpoints {
 	}
 
 	/**
-	 * Verify that the user can dismiss JITM messages.
-	 *
-	 * @since 8.8.0
-	 *
-	 * @return bool|WP_Error True if user is able to dismiss JITM messages.
-	 */
-	public static function delete_jitm_message_permission_callback() {
-		if ( current_user_can( 'read' ) ) {
-			return true;
-		}
-
-		return new WP_Error( 'invalid_user_permission_jetpack_delete_jitm_message', self::$user_permissions_error_msg, array( 'status' => self::rest_authorization_required_code() ) );
-	}
-
-	/**
 	 * Verify that the user can get a connect/link URL
 	 *
 	 * @since 4.3.0
@@ -1338,22 +1255,6 @@ class Jetpack_Core_Json_Api_Endpoints {
 		}
 
 		return new WP_Error( 'invalid_user_permission_user_connection_data', self::$user_permissions_error_msg, array( 'status' => rest_authorization_required_code() ) );
-	}
-
-	/**
-	 * Check that user has permission to change the master user.
-	 *
-	 * @since 6.2.0
-	 * @since 7.7.0 Update so that any user with jetpack_disconnect privs can set owner.
-	 *
-	 * @return bool|WP_Error True if user is able to change master user.
-	 */
-	public static function set_connection_owner_permission_callback() {
-		if ( current_user_can( 'jetpack_disconnect' ) ) {
-			return true;
-		}
-
-		return new WP_Error( 'invalid_user_permission_set_connection_owner', self::$user_permissions_error_msg, array( 'status' => rest_authorization_required_code() ) );
 	}
 
 	/**
@@ -1419,21 +1320,6 @@ class Jetpack_Core_Json_Api_Endpoints {
 	}
 
 	/**
-	 * Verify that user can mitigate an identity crisis.
-	 *
-	 * @since 4.4.0
-	 *
-	 * @return bool Whether user has capability 'jetpack_disconnect'.
-	 */
-	public static function identity_crisis_mitigation_permission_check() {
-		if ( current_user_can( 'jetpack_disconnect' ) ) {
-			return true;
-		}
-
-		return new WP_Error( 'invalid_user_permission_identity_crisis', self::$user_permissions_error_msg, array( 'status' => rest_authorization_required_code() ) );
-	}
-
-	/**
 	 * Verify that user can update Jetpack general settings.
 	 *
 	 * @since 4.3.0
@@ -1474,6 +1360,23 @@ class Jetpack_Core_Json_Api_Endpoints {
 		}
 
 		return new WP_Error( 'invalid_user_permission_edit_others_posts', self::$user_permissions_error_msg, array( 'status' => rest_authorization_required_code() ) );
+	}
+
+	/**
+	 * Verify that site can view and delete the site's purchase token.
+	 *
+	 * @return bool Whether site has level-site auth or user has the capability 'manage_options'.
+	 */
+	public static function purchase_token_permission_check() {
+		if ( Rest_Authentication::is_signed_with_blog_token() ) {
+			return true;
+		}
+
+		if ( current_user_can( 'manage_options' ) ) {
+			return true;
+		}
+
+		return new WP_Error( 'invalid_permission_manage_purchase_token', self::$user_permissions_error_msg, array( 'status' => rest_authorization_required_code() ) );
 	}
 
 	/**
@@ -1805,19 +1708,24 @@ class Jetpack_Core_Json_Api_Endpoints {
 	/**
 	 * Registers the Jetpack site
 	 *
-	 * @uses Jetpack::try_registration();
-	 * @since 7.7.0
+	 * @deprecated since Jetpack 9.7.0
+	 * @see Automattic\Jetpack\Connection\REST_Connector::connection_register()
 	 *
 	 * @param WP_REST_Request $request The request sent to the WP REST API.
 	 *
 	 * @return bool|WP_Error True if Jetpack successfully registered
 	 */
 	public static function register_site( $request ) {
+		_deprecated_function( __METHOD__, 'jetpack-9.7.0', '\Automattic\Jetpack\Connection\REST_Connector::connection_register' );
+
 		if ( ! wp_verify_nonce( $request->get_param( 'registration_nonce' ), 'jetpack-registration-nonce' ) ) {
 			return new WP_Error( 'invalid_nonce', __( 'Unable to verify your request.', 'jetpack' ), array( 'status' => 403 ) );
 		}
 
-		$response = Jetpack::try_registration();
+		if ( isset( $request['from'] ) ) {
+			Jetpack::connection()->add_register_request_param( 'from', (string) $request['from'] );
+		}
+		$response = Jetpack::connection()->try_registration();
 
 		if ( is_wp_error( $response ) ) {
 			return $response;
@@ -1874,86 +1782,6 @@ class Jetpack_Core_Json_Api_Endpoints {
 			'connectionOwner' => $owner_display_name,
 		);
 		return rest_ensure_response( $response );
-	}
-
-	/**
-	 * Change the master user.
-	 *
-	 * @since 6.2.0
-	 *
-	 * @param WP_REST_Request $request The request sent to the WP REST API.
-	 *
-	 * @return bool|WP_Error True if owner successfully changed.
-	 */
-	public static function set_connection_owner( $request ) {
-		if ( ! isset( $request['owner'] ) ) {
-			return new WP_Error(
-				'invalid_param',
-				esc_html__( 'Invalid Parameter', 'jetpack' ),
-				array( 'status' => 400 )
-			);
-		}
-
-		$new_owner_id = $request['owner'];
-		if ( ! user_can( $new_owner_id, 'administrator' ) ) {
-			return new WP_Error(
-				'new_owner_not_admin',
-				esc_html__( 'New owner is not admin', 'jetpack' ),
-				array( 'status' => 400 )
-			);
-		}
-
-		if ( $new_owner_id === get_current_user_id() ) {
-			return new WP_Error(
-				'new_owner_is_current_user',
-				esc_html__( 'New owner is same as current user', 'jetpack' ),
-				array( 'status' => 400 )
-			);
-		}
-
-		if ( ! ( new Connection_Manager( 'jetpack' ) )->is_user_connected( $new_owner_id ) ) {
-			return new WP_Error(
-				'new_owner_not_connected',
-				esc_html__( 'New owner is not connected', 'jetpack' ),
-				array( 'status' => 400 )
-			);
-		}
-
-		// Update the master user in Jetpack
-		$updated = Jetpack_Options::update_option( 'master_user', $new_owner_id );
-
-		// Notify WPCOM about the master user change
-		$xml = new Jetpack_IXR_Client(
-			array(
-				'user_id' => get_current_user_id(),
-			)
-		);
-		$xml->query(
-			'jetpack.switchBlogOwner',
-			array(
-				'new_blog_owner' => $new_owner_id,
-			)
-		);
-
-		if ( $updated && ! $xml->isError() ) {
-
-			// Track it
-			if ( class_exists( 'Automattic\Jetpack\Tracking' ) ) {
-				$tracking = new Tracking();
-				$tracking->record_user_event( 'set_connection_owner_success' );
-			}
-
-			return rest_ensure_response(
-				array(
-					'code' => 'success',
-				)
-			);
-		}
-		return new WP_Error(
-			'error_setting_new_owner',
-			esc_html__( 'Could not confirm new owner.', 'jetpack' ),
-			array( 'status' => 500 )
-		);
 	}
 
 	/**
@@ -2197,75 +2025,6 @@ class Jetpack_Core_Json_Api_Endpoints {
 				'data' => $data->current->orderedItems,
 			)
 		);
-	}
-
-	/**
-	 * Handles identity crisis mitigation, confirming safe mode for this site.
-	 *
-	 * @since 4.4.0
-	 *
-	 * @return bool | WP_Error True if option is properly set.
-	 */
-	public static function confirm_safe_mode() {
-		$updated = Jetpack_Options::update_option( 'safe_mode_confirmed', true );
-		if ( $updated ) {
-			return rest_ensure_response(
-				array(
-					'code' => 'success',
-				)
-			);
-		}
-		return new WP_Error(
-			'error_setting_jetpack_safe_mode',
-			esc_html__( 'Could not confirm safe mode.', 'jetpack' ),
-			array( 'status' => 500 )
-		);
-	}
-
-	/**
-	 * Handles identity crisis mitigation, migrating stats and subscribers from old url to this, new url.
-	 *
-	 * @since 4.4.0
-	 *
-	 * @return bool | WP_Error True if option is properly set.
-	 */
-	public static function migrate_stats_and_subscribers() {
-		if ( Jetpack_Options::get_option( 'sync_error_idc' ) && ! Jetpack_Options::delete_option( 'sync_error_idc' ) ) {
-			return new WP_Error(
-				'error_deleting_sync_error_idc',
-				esc_html__( 'Could not delete sync error option.', 'jetpack' ),
-				array( 'status' => 500 )
-			);
-		}
-
-		if ( Jetpack_Options::get_option( 'migrate_for_idc' ) || Jetpack_Options::update_option( 'migrate_for_idc', true ) ) {
-			return rest_ensure_response(
-				array(
-					'code' => 'success',
-				)
-			);
-		}
-		return new WP_Error(
-			'error_setting_jetpack_migrate',
-			esc_html__( 'Could not confirm migration.', 'jetpack' ),
-			array( 'status' => 500 )
-		);
-	}
-
-	/**
-	 * This IDC resolution will disconnect the site and re-connect to a completely new
-	 * and separate shadow site than the original.
-	 *
-	 * It will first will disconnect the site without phoning home as to not disturb the production site.
-	 * It then builds a fresh connection URL and sends it back along with the response.
-	 *
-	 * @since 4.4.0
-	 * @return bool|WP_Error
-	 */
-	public static function start_fresh_connection() {
-		// First clear the options / disconnect.
-		Jetpack::disconnect();
-		return self::build_connect_url();
 	}
 
 	/**
@@ -2787,6 +2546,13 @@ class Jetpack_Core_Json_Api_Endpoints {
 				'validate_callback' => __CLASS__ . '::validate_verification_service',
 				'jp_group'          => 'verification-tools',
 			),
+			'facebook'                             => array(
+				'description'       => esc_html__( 'Facebook Domain Verification', 'jetpack' ),
+				'type'              => 'string',
+				'default'           => '',
+				'validate_callback' => __CLASS__ . '::validate_verification_service',
+				'jp_group'          => 'verification-tools',
+			),
 
 			// WordAds.
 			'enable_header_ad'                     => array(
@@ -3005,7 +2771,7 @@ class Jetpack_Core_Json_Api_Endpoints {
 				'description'       => esc_html__( 'Front page meta description.', 'jetpack' ),
 				'type'              => 'string',
 				'default'           => '',
-				'sanitize_callback' => 'sanitize_text_field',
+				'sanitize_callback' => 'Jetpack_SEO_Utils::sanitize_front_page_meta_description',
 				'jp_group'          => 'seo-tools',
 			),
 

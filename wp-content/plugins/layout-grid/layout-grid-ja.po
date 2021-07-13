@@ -1,5 +1,5 @@
-# Translation of Plugins - Layout Grid Block - Stable (latest release) in Japanese
-# This file is distributed under the same license as the Plugins - Layout Grid Block - Stable (latest release) package.
+# Translation of Plugins - Layout Grid Block - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - Layout Grid Block - Development (trunk) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2020-06-09 01:01:08+0000\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ja_JP\n"
-"Project-Id-Version: Plugins - Layout Grid Block - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Layout Grid Block - Development (trunk)\n"
 
 #. Author URI of the plugin
 msgid "https://automattic.com"

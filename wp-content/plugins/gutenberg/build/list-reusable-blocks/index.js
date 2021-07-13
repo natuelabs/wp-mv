@@ -1,1 +1,528 @@
-window.wp=window.wp||{},window.wp.listReusableBlocks=function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=568)}({0:function(e,t){e.exports=window.wp.element},1:function(e,t){e.exports=window.wp.i18n},14:function(e,t){e.exports=window.wp.compose},16:function(e,t){e.exports=window.regeneratorRuntime},19:function(e,t,n){"use strict";function r(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}n.d(t,"a",(function(){return r}))},2:function(e,t){e.exports=window.lodash},24:function(e,t,n){"use strict";function r(e){return(r=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}n.d(t,"a",(function(){return r}))},28:function(e,t,n){"use strict";function r(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}n.d(t,"a",(function(){return r}))},3:function(e,t){e.exports=window.wp.components},30:function(e,t,n){"use strict";function r(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function o(e,t,n){return t&&r(e.prototype,t),n&&r(e,n),e}n.d(t,"a",(function(){return o}))},32:function(e,t,n){"use strict";n.d(t,"a",(function(){return o}));var r=n(58);function o(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&Object(r.a)(e,t)}},33:function(e,t,n){"use strict";n.d(t,"a",(function(){return c}));var r=n(61),o=n.n(r),i=n(19);function c(e,t){return!t||"object"!==o()(t)&&"function"!=typeof t?Object(i.a)(e):t}},46:function(e,t,n){"use strict";function r(e,t,n,r,o,i,c){try{var a=e[i](c),u=a.value}catch(e){return void n(e)}a.done?t(u):Promise.resolve(u).then(r,o)}function o(e){return function(){var t=this,n=arguments;return new Promise((function(o,i){var c=e.apply(t,n);function a(e){r(c,o,i,a,u,"next",e)}function u(e){r(c,o,i,a,u,"throw",e)}a(void 0)}))}}n.d(t,"a",(function(){return o}))},52:function(e,t){e.exports=window.wp.apiFetch},568:function(e,t,n){"use strict";n.r(t);var r=n(0),o=n(1),i=n(46),c=n(16),a=n.n(c),u=n(2),s=n(52),l=n.n(s);function f(e,t,n){var r=new window.Blob([t],{type:n});if(window.navigator.msSaveOrOpenBlob)window.navigator.msSaveOrOpenBlob(r,e);else{var o=document.createElement("a");o.href=URL.createObjectURL(r),o.download=e,o.style.display="none",document.body.appendChild(o),o.click(),document.body.removeChild(o)}}function p(e){var t=new window.FileReader;return new Promise((function(n){t.onload=function(){n(t.result)},t.readAsText(e)}))}function d(){return(d=Object(i.a)(a.a.mark((function e(t){var n,r,o,i,c;return a.a.wrap((function(e){for(;;)switch(e.prev=e.next){case 0:return e.next=2,l()({path:"/wp/v2/types/wp_block"});case 2:return n=e.sent,e.next=5,l()({path:"/wp/v2/".concat(n.rest_base,"/").concat(t,"?context=edit")});case 5:r=e.sent,o=r.title.raw,i=r.content.raw,c=JSON.stringify({__file:"wp_block",title:o,content:i},null,2),f(Object(u.kebabCase)(o)+".json",c,"application/json");case 11:case"end":return e.stop()}}),e)})))).apply(this,arguments)}var b=n(3),m=n(28),v=n(30),w=n(19),y=n(32),O=n(33),h=n(24),_=n(14);function j(){return(j=Object(i.a)(a.a.mark((function e(t){var n,r,o,i;return a.a.wrap((function(e){for(;;)switch(e.prev=e.next){case 0:return e.next=2,p(t);case 2:n=e.sent,e.prev=3,r=JSON.parse(n),e.next=10;break;case 7:throw e.prev=7,e.t0=e.catch(3),new Error("Invalid JSON file");case 10:if("wp_block"===r.__file&&r.title&&r.content&&Object(u.isString)(r.title)&&Object(u.isString)(r.content)){e.next=12;break}throw new Error("Invalid Reusable block JSON file");case 12:return e.next=14,l()({path:"/wp/v2/types/wp_block"});case 14:return o=e.sent,e.next=17,l()({path:"/wp/v2/".concat(o.rest_base),data:{title:r.title,content:r.content,status:"publish"},method:"POST"});case 17:return i=e.sent,e.abrupt("return",i);case 19:case"end":return e.stop()}}),e,null,[[3,7]])})))).apply(this,arguments)}var S=function(e){Object(y.a)(c,e);var t,n,i=(t=c,n=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}(),function(){var e,r=Object(h.a)(t);if(n){var o=Object(h.a)(this).constructor;e=Reflect.construct(r,arguments,o)}else e=r.apply(this,arguments);return Object(O.a)(this,e)});function c(){var e;return Object(m.a)(this,c),(e=i.apply(this,arguments)).state={isLoading:!1,error:null,file:null},e.isStillMounted=!0,e.onChangeFile=e.onChangeFile.bind(Object(w.a)(e)),e.onSubmit=e.onSubmit.bind(Object(w.a)(e)),e}return Object(v.a)(c,[{key:"componentWillUnmount",value:function(){this.isStillMounted=!1}},{key:"onChangeFile",value:function(e){this.setState({file:e.target.files[0],error:null})}},{key:"onSubmit",value:function(e){var t=this;e.preventDefault();var n=this.state.file,r=this.props.onUpload;n&&(this.setState({isLoading:!0}),function(_x){return j.apply(this,arguments)}(n).then((function(e){t.isStillMounted&&(t.setState({isLoading:!1}),r(e))})).catch((function(e){if(t.isStillMounted){var n;switch(e.message){case"Invalid JSON file":n=Object(o.__)("Invalid JSON file");break;case"Invalid Reusable block JSON file":n=Object(o.__)("Invalid Reusable block JSON file");break;default:n=Object(o.__)("Unknown error")}t.setState({isLoading:!1,error:n})}})))}},{key:"onDismissError",value:function(){this.setState({error:null})}},{key:"render",value:function(){var e=this,t=this.props.instanceId,n=this.state,i=n.file,c=n.isLoading,a=n.error,u="list-reusable-blocks-import-form-"+t;return Object(r.createElement)("form",{className:"list-reusable-blocks-import-form",onSubmit:this.onSubmit},a&&Object(r.createElement)(b.Notice,{status:"error",onRemove:function(){return e.onDismissError()}},a),Object(r.createElement)("label",{htmlFor:u,className:"list-reusable-blocks-import-form__label"},Object(o.__)("File")),Object(r.createElement)("input",{id:u,type:"file",onChange:this.onChangeFile}),Object(r.createElement)(b.Button,{type:"submit",isBusy:c,disabled:!i||c,isSecondary:!0,className:"list-reusable-blocks-import-form__button"},Object(o._x)("Import","button label")))}}]),c}(r.Component),x=Object(_.withInstanceId)(S),g=function(e){var t=e.onUpload;return Object(r.createElement)(b.Dropdown,{position:"bottom right",contentClassName:"list-reusable-blocks-import-dropdown__content",renderToggle:function(e){var t=e.isOpen,n=e.onToggle;return Object(r.createElement)(b.Button,{"aria-expanded":t,onClick:n,isPrimary:!0},Object(o.__)("Import from JSON"))},renderContent:function(e){var n=e.onClose;return Object(r.createElement)(x,{onUpload:Object(u.flow)(n,t)})}})};document.body.addEventListener("click",(function(e){e.target.classList.contains("wp-list-reusable-blocks__export")&&(e.preventDefault(),function(_x){d.apply(this,arguments)}(e.target.dataset.id))})),document.addEventListener("DOMContentLoaded",(function(){var e=document.querySelector(".page-title-action");if(e){var t=document.createElement("div");t.className="list-reusable-blocks__container",e.parentNode.insertBefore(t,e),Object(r.render)(Object(r.createElement)(g,{onUpload:function(){var e=document.createElement("div");e.className="notice notice-success is-dismissible",e.innerHTML="<p>".concat(Object(o.__)("Reusable block imported successfully!"),"</p>");var t=document.querySelector(".wp-header-end");t&&t.parentNode.insertBefore(e,t)}}),t)}}))},58:function(e,t,n){"use strict";function r(e,t){return(r=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}n.d(t,"a",(function(){return r}))},61:function(e,t){function n(t){return"function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?(e.exports=n=function(e){return typeof e},e.exports.default=e.exports,e.exports.__esModule=!0):(e.exports=n=function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e.exports.default=e.exports,e.exports.__esModule=!0),n(t)}e.exports=n,e.exports.default=e.exports,e.exports.__esModule=!0}});
+window["wp"] = window["wp"] || {}; window["wp"]["listReusableBlocks"] =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 429);
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ 0:
+/***/ (function(module, exports) {
+
+(function() { module.exports = window["wp"]["element"]; }());
+
+/***/ }),
+
+/***/ 1:
+/***/ (function(module, exports) {
+
+(function() { module.exports = window["wp"]["i18n"]; }());
+
+/***/ }),
+
+/***/ 2:
+/***/ (function(module, exports) {
+
+(function() { module.exports = window["lodash"]; }());
+
+/***/ }),
+
+/***/ 3:
+/***/ (function(module, exports) {
+
+(function() { module.exports = window["wp"]["components"]; }());
+
+/***/ }),
+
+/***/ 31:
+/***/ (function(module, exports) {
+
+(function() { module.exports = window["wp"]["apiFetch"]; }());
+
+/***/ }),
+
+/***/ 429:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: external ["wp","element"]
+var external_wp_element_ = __webpack_require__(0);
+
+// EXTERNAL MODULE: external ["wp","i18n"]
+var external_wp_i18n_ = __webpack_require__(1);
+
+// EXTERNAL MODULE: external "lodash"
+var external_lodash_ = __webpack_require__(2);
+
+// EXTERNAL MODULE: external ["wp","apiFetch"]
+var external_wp_apiFetch_ = __webpack_require__(31);
+var external_wp_apiFetch_default = /*#__PURE__*/__webpack_require__.n(external_wp_apiFetch_);
+
+// CONCATENATED MODULE: ./packages/list-reusable-blocks/build-module/utils/file.js
+/**
+ * Downloads a file.
+ *
+ * @param {string} fileName    File Name.
+ * @param {string} content     File Content.
+ * @param {string} contentType File mime type.
+ */
+function download(fileName, content, contentType) {
+  const file = new window.Blob([content], {
+    type: contentType
+  }); // IE11 can't use the click to download technique
+  // we use a specific IE11 technique instead.
+
+  if (window.navigator.msSaveOrOpenBlob) {
+    window.navigator.msSaveOrOpenBlob(file, fileName);
+  } else {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(file);
+    a.download = fileName;
+    a.style.display = 'none';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+}
+/**
+ * Reads the textual content of the given file.
+ *
+ * @param {File} file File.
+ * @return {Promise<string>}  Content of the file.
+ */
+
+function readTextFile(file) {
+  const reader = new window.FileReader();
+  return new Promise(resolve => {
+    reader.onload = () => {
+      resolve(reader.result);
+    };
+
+    reader.readAsText(file);
+  });
+}
+//# sourceMappingURL=file.js.map
+// CONCATENATED MODULE: ./packages/list-reusable-blocks/build-module/utils/export.js
+/**
+ * External dependencies
+ */
+
+/**
+ * WordPress dependencies
+ */
+
+
+/**
+ * Internal dependencies
+ */
+
+
+/**
+ * Export a reusable block as a JSON file.
+ *
+ * @param {number} id
+ */
+
+async function exportReusableBlock(id) {
+  const postType = await external_wp_apiFetch_default()({
+    path: `/wp/v2/types/wp_block`
+  });
+  const post = await external_wp_apiFetch_default()({
+    path: `/wp/v2/${postType.rest_base}/${id}?context=edit`
+  });
+  const title = post.title.raw;
+  const content = post.content.raw;
+  const fileContent = JSON.stringify({
+    __file: 'wp_block',
+    title,
+    content
+  }, null, 2);
+  const fileName = Object(external_lodash_["kebabCase"])(title) + '.json';
+  download(fileName, fileContent, 'application/json');
+}
+
+/* harmony default export */ var utils_export = (exportReusableBlock);
+//# sourceMappingURL=export.js.map
+// EXTERNAL MODULE: external ["wp","components"]
+var external_wp_components_ = __webpack_require__(3);
+
+// EXTERNAL MODULE: external ["wp","compose"]
+var external_wp_compose_ = __webpack_require__(9);
+
+// CONCATENATED MODULE: ./packages/list-reusable-blocks/build-module/utils/import.js
+/**
+ * External dependencies
+ */
+
+/**
+ * WordPress dependencies
+ */
+
+
+/**
+ * Internal dependencies
+ */
+
+
+/**
+ * Import a reusable block from a JSON file.
+ *
+ * @param {File} file File.
+ * @return {Promise} Promise returning the imported reusable block.
+ */
+
+async function importReusableBlock(file) {
+  const fileContent = await readTextFile(file);
+  let parsedContent;
+
+  try {
+    parsedContent = JSON.parse(fileContent);
+  } catch (e) {
+    throw new Error('Invalid JSON file');
+  }
+
+  if (parsedContent.__file !== 'wp_block' || !parsedContent.title || !parsedContent.content || !Object(external_lodash_["isString"])(parsedContent.title) || !Object(external_lodash_["isString"])(parsedContent.content)) {
+    throw new Error('Invalid Reusable block JSON file');
+  }
+
+  const postType = await external_wp_apiFetch_default()({
+    path: `/wp/v2/types/wp_block`
+  });
+  const reusableBlock = await external_wp_apiFetch_default()({
+    path: `/wp/v2/${postType.rest_base}`,
+    data: {
+      title: parsedContent.title,
+      content: parsedContent.content,
+      status: 'publish'
+    },
+    method: 'POST'
+  });
+  return reusableBlock;
+}
+
+/* harmony default export */ var utils_import = (importReusableBlock);
+//# sourceMappingURL=import.js.map
+// CONCATENATED MODULE: ./packages/list-reusable-blocks/build-module/components/import-form/index.js
+
+
+/**
+ * WordPress dependencies
+ */
+
+
+
+
+/**
+ * Internal dependencies
+ */
+
+
+
+class import_form_ImportForm extends external_wp_element_["Component"] {
+  constructor() {
+    super(...arguments);
+    this.state = {
+      isLoading: false,
+      error: null,
+      file: null
+    };
+    this.isStillMounted = true;
+    this.onChangeFile = this.onChangeFile.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
+  }
+
+  componentWillUnmount() {
+    this.isStillMounted = false;
+  }
+
+  onChangeFile(event) {
+    this.setState({
+      file: event.target.files[0],
+      error: null
+    });
+  }
+
+  onSubmit(event) {
+    event.preventDefault();
+    const {
+      file
+    } = this.state;
+    const {
+      onUpload
+    } = this.props;
+
+    if (!file) {
+      return;
+    }
+
+    this.setState({
+      isLoading: true
+    });
+    utils_import(file).then(reusableBlock => {
+      if (!this.isStillMounted) {
+        return;
+      }
+
+      this.setState({
+        isLoading: false
+      });
+      onUpload(reusableBlock);
+    }).catch(error => {
+      if (!this.isStillMounted) {
+        return;
+      }
+
+      let uiMessage;
+
+      switch (error.message) {
+        case 'Invalid JSON file':
+          uiMessage = Object(external_wp_i18n_["__"])('Invalid JSON file');
+          break;
+
+        case 'Invalid Reusable block JSON file':
+          uiMessage = Object(external_wp_i18n_["__"])('Invalid Reusable block JSON file');
+          break;
+
+        default:
+          uiMessage = Object(external_wp_i18n_["__"])('Unknown error');
+      }
+
+      this.setState({
+        isLoading: false,
+        error: uiMessage
+      });
+    });
+  }
+
+  onDismissError() {
+    this.setState({
+      error: null
+    });
+  }
+
+  render() {
+    const {
+      instanceId
+    } = this.props;
+    const {
+      file,
+      isLoading,
+      error
+    } = this.state;
+    const inputId = 'list-reusable-blocks-import-form-' + instanceId;
+    return Object(external_wp_element_["createElement"])("form", {
+      className: "list-reusable-blocks-import-form",
+      onSubmit: this.onSubmit
+    }, error && Object(external_wp_element_["createElement"])(external_wp_components_["Notice"], {
+      status: "error",
+      onRemove: () => this.onDismissError()
+    }, error), Object(external_wp_element_["createElement"])("label", {
+      htmlFor: inputId,
+      className: "list-reusable-blocks-import-form__label"
+    }, Object(external_wp_i18n_["__"])('File')), Object(external_wp_element_["createElement"])("input", {
+      id: inputId,
+      type: "file",
+      onChange: this.onChangeFile
+    }), Object(external_wp_element_["createElement"])(external_wp_components_["Button"], {
+      type: "submit",
+      isBusy: isLoading,
+      disabled: !file || isLoading,
+      variant: "secondary",
+      className: "list-reusable-blocks-import-form__button"
+    }, Object(external_wp_i18n_["_x"])('Import', 'button label')));
+  }
+
+}
+
+/* harmony default export */ var import_form = (Object(external_wp_compose_["withInstanceId"])(import_form_ImportForm));
+//# sourceMappingURL=index.js.map
+// CONCATENATED MODULE: ./packages/list-reusable-blocks/build-module/components/import-dropdown/index.js
+
+
+/**
+ * External dependencies
+ */
+
+/**
+ * WordPress dependencies
+ */
+
+
+
+/**
+ * Internal dependencies
+ */
+
+
+
+function ImportDropdown({
+  onUpload
+}) {
+  return Object(external_wp_element_["createElement"])(external_wp_components_["Dropdown"], {
+    position: "bottom right",
+    contentClassName: "list-reusable-blocks-import-dropdown__content",
+    renderToggle: ({
+      isOpen,
+      onToggle
+    }) => Object(external_wp_element_["createElement"])(external_wp_components_["Button"], {
+      "aria-expanded": isOpen,
+      onClick: onToggle,
+      variant: "primary"
+    }, Object(external_wp_i18n_["__"])('Import from JSON')),
+    renderContent: ({
+      onClose
+    }) => Object(external_wp_element_["createElement"])(import_form, {
+      onUpload: Object(external_lodash_["flow"])(onClose, onUpload)
+    })
+  });
+}
+
+/* harmony default export */ var import_dropdown = (ImportDropdown);
+//# sourceMappingURL=index.js.map
+// CONCATENATED MODULE: ./packages/list-reusable-blocks/build-module/index.js
+
+
+/**
+ * WordPress dependencies
+ */
+
+
+/**
+ * Internal dependencies
+ */
+
+
+ // Setup Export Links
+
+document.body.addEventListener('click', event => {
+  if (!event.target.classList.contains('wp-list-reusable-blocks__export')) {
+    return;
+  }
+
+  event.preventDefault();
+  utils_export(event.target.dataset.id);
+}); // Setup Import Form
+
+document.addEventListener('DOMContentLoaded', () => {
+  const button = document.querySelector('.page-title-action');
+
+  if (!button) {
+    return;
+  }
+
+  const showNotice = () => {
+    const notice = document.createElement('div');
+    notice.className = 'notice notice-success is-dismissible';
+    notice.innerHTML = `<p>${Object(external_wp_i18n_["__"])('Reusable block imported successfully!')}</p>`;
+    const headerEnd = document.querySelector('.wp-header-end');
+
+    if (!headerEnd) {
+      return;
+    }
+
+    headerEnd.parentNode.insertBefore(notice, headerEnd);
+  };
+
+  const container = document.createElement('div');
+  container.className = 'list-reusable-blocks__container';
+  button.parentNode.insertBefore(container, button);
+  Object(external_wp_element_["render"])(Object(external_wp_element_["createElement"])(import_dropdown, {
+    onUpload: showNotice
+  }), container);
+});
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 9:
+/***/ (function(module, exports) {
+
+(function() { module.exports = window["wp"]["compose"]; }());
+
+/***/ })
+
+/******/ });

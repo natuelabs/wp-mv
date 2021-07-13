@@ -11,16 +11,16 @@ msgstr ""
 "Language: vi_VN\n"
 "Project-Id-Version: Plugins - AMP - Stable (latest release)\n"
 
-#: includes/options/class-amp-options-manager.php:509
+#: includes/options/class-amp-options-manager.php:470
 msgid "https://wordpress.org/support/article/why-should-i-use-https/"
 msgstr "https://wordpress.org/support/article/why-should-i-use-https/"
 
 #. translators: %s: "Why should I use HTTPS" support URL
-#: includes/options/class-amp-options-manager.php:508
+#: includes/options/class-amp-options-manager.php:469
 msgid "Your site is not being fully served over a secure connection (using HTTPS).<br>As some AMP functionality requires a secure connection, you might experience degraded performance or broken components.<br><a href=\"%s\">More details</a>"
 msgstr "Trang web của bạn không được phân phát đầy đủ qua kết nối an toàn (sử dụng HTTPS).<br>Vì một số chức năng AMP yêu cầu kết nối an toàn nên bạn có thể gặp phải vấn đề hiệu quả hoạt động giảm hoặc các thành phần bị hỏng.<br><a href=\"%s\">Tìm hiểu thêm</a>"
 
-#: includes/deprecated.php:276
+#: includes/deprecated.php:279
 msgid "Your server currently has the Xdebug PHP extension loaded. This can cause some of the AMP plugin's processes to timeout depending on your system resources and configuration. Please deactivate Xdebug for the best experience."
 msgstr "Hiện tại, máy chủ của bạn đã tải tiện ích PHP Xdebug. Tiện ích này có thể khiến một số quy trình của plugin AMP hết thời gian chờ tùy thuộc vào cấu hình và tài nguyên hệ thống. Vui lòng hủy kích hoạt tiện ích Xdebug để có trải nghiệm tốt nhất."
 
@@ -28,43 +28,38 @@ msgstr "Hiện tại, máy chủ của bạn đã tải tiện ích PHP Xdebug. 
 msgid "Remove"
 msgstr "Xóa"
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:244
+#: includes/sanitizers/class-amp-form-sanitizer.php:246
 msgid "Please contact the developer of this form processor to improve this message."
 msgstr "Vui lòng liên hệ với nhà phát triển của đơn vị xử lý biểu mẫu này để cải thiện thông báo này."
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:242
+#: includes/sanitizers/class-amp-form-sanitizer.php:244
 msgid "Even though the server responded OK, it is possible the submission was not processed."
 msgstr "Ngay cả khi máy chủ phản hồi OK, hệ thống có thể vẫn chưa xử lý việc gửi."
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:241
+#: includes/sanitizers/class-amp-form-sanitizer.php:243
 msgid "It appears your submission was successful."
 msgstr "Có vẻ như bạn đã gửi thành công."
 
 #. translators: %1$s: HTTP status text, %2$s: HTTP status code
-#: includes/sanitizers/class-amp-form-sanitizer.php:239
+#: includes/sanitizers/class-amp-form-sanitizer.php:241
 msgid "The server responded with %1$s (code %2$s)."
 msgstr "Máy chủ đã phản hồi kèm theo %1$s (mã %2$s)."
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:237
+#: includes/sanitizers/class-amp-form-sanitizer.php:239
 msgid "Your submission failed."
 msgstr "Không gửi được."
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:227
+#: includes/sanitizers/class-amp-form-sanitizer.php:228
 msgid "Submitting…"
 msgstr "Đang gửi…"
 
 #. translators: %s: CSS selector for admin bar element
-#: includes/sanitizers/class-amp-style-sanitizer.php:2974
+#: includes/sanitizers/class-amp-style-sanitizer.php:2962
 msgid "Admin bar (%s) was removed to preserve AMP validity due to excessive CSS."
 msgstr "Hệ thống đã xóa thanh quản trị (%s) để duy trì tính hợp lệ của AMP do CSS quá mức."
 
-#. translators: %s: the fetched URL
-#: includes/sanitizers/class-amp-style-sanitizer.php:1512
-msgid "Failed to fetch: %s"
-msgstr "Không thể tìm nạp: %s"
-
 #. translators: Admin screen title. %s: Admin screen name
-#: includes/validation/class-amp-validated-url-post-type.php:3005
+#: includes/validation/class-amp-validated-url-post-type.php:2946
 msgid "%s &#8212; WordPress"
 msgstr "%s &#8212; WordPress"
 
@@ -72,28 +67,28 @@ msgstr "%s &#8212; WordPress"
 msgid "Redirecting…"
 msgstr "Đang chuyển hướng…"
 
-#: includes/templates/amp-paired-browsing.php:29
+#: includes/templates/amp-paired-browsing.php:30
 msgid "Non-AMP"
 msgstr "Không phải AMP"
 
-#: amp.php:166 amp.php:186
+#: amp.php:171 amp.php:191
 msgid "AMP plugin unable to initialize."
 msgstr "Plugin AMP không thể khởi chạy."
 
 #. translators: %s is list of missing extensions
-#: amp.php:141
+#: amp.php:146
 msgid "The following PHP function is missing: %s. Please contact your host to finish installation."
 msgid_plural "The following PHP functions are missing: %s. Please contact your host to finish installation."
 msgstr[0] "Thiếu hàm PHP sau: %s. Vui lòng liên hệ với công ty cung cấp dịch vụ máy chủ lưu trữ của bạn để hoàn tất việc cài đặt."
 
 #. translators: %s is list of missing extensions
-#: amp.php:126
+#: amp.php:131
 msgid "The following PHP class is missing: %s. Please contact your host to finish installation."
 msgid_plural "The following PHP classes are missing: %s. Please contact your host to finish installation."
 msgstr[0] "Thiếu lớp PHP sau: %s. Vui lòng liên hệ với công ty cung cấp dịch vụ máy chủ lưu trữ của bạn để hoàn tất việc cài đặt."
 
 #. translators: %s is list of missing extensions
-#: amp.php:111
+#: amp.php:116
 msgid "The following PHP extension is missing: %s. Please contact your host to finish installation."
 msgid_plural "The following PHP extensions are missing: %s. Please contact your host to finish installation."
 msgstr[0] "Thiếu tiện ích PHP sau: %s. Vui lòng liên hệ với công ty cung cấp dịch vụ máy chủ lưu trữ của bạn để hoàn tất việc cài đặt."
@@ -109,12 +104,12 @@ msgid "Please update to PWA v0.2. Expected argument to be %s."
 msgstr "Vui lòng cập nhật lên PWA phiên bản 0.2. Đối số dự kiến là %s."
 
 #. translators: localized date and time format, see http://php.net/date
-#: includes/validation/class-amp-validation-error-taxonomy.php:1889
+#: includes/validation/class-amp-validation-error-taxonomy.php:1968
 msgid "F j, Y g:i a"
 msgstr "F j, Y g:i a"
 
 #. translators: %s is error code
-#: includes/validation/class-amp-validation-manager.php:2318
+#: includes/validation/class-amp-validation-manager.php:2096
 msgid "URL validation failed. Error code: %s."
 msgstr "Không thể xác thực URL. Mã lỗi: %s."
 
@@ -128,14 +123,14 @@ msgid "Use %1$s function which is already included from %2$s"
 msgstr "Sử dụng hàm %1$s đã được thêm từ %2$s"
 
 #. translators: %s: the URL to the edit post screen.
-#: includes/class-amp-theme-support.php:808
-#: includes/class-amp-theme-support.php:817
+#: includes/class-amp-theme-support.php:699
+#: includes/class-amp-theme-support.php:708
 msgid "Currently disabled at the <a href=\"%s\">page level</a>."
 msgstr "Hiện đang bị vô hiệu hóa ở <a href=\"%s\">cấp trang</a>."
 
 #. translators: 1: embed handler. 2: AMP_Embed_Handler
+#: includes/class-amp-theme-support.php:979
 #: includes/templates/class-amp-content.php:179
-#: includes/class-amp-theme-support.php:1090
 msgid "Embed Handler (%1$s) must extend `%2$s`"
 msgstr "Trình xử lý đã nhúng (%1$s) phải mở rộng `%2$s`"
 
@@ -166,52 +161,53 @@ msgstr "Vui lòng cập nhật lên PWA phiên bản 0.2. Đối số dự kiế
 msgid "AMP Project Contributors"
 msgstr "Cộng tác viên dự án AMP"
 
-#: includes/options/class-amp-options-manager.php:478
+#: includes/options/class-amp-options-manager.php:439
 msgid "PHP-CSS-Parser is not available so CSS processing will not be available."
 msgstr "Hiện không có trình phân tích cú pháp PHP-CSS nên hệ thống không thể xử lý CSS."
 
 #. translators: %s: path to the conflicting library
-#: includes/options/class-amp-options-manager.php:469
+#: includes/options/class-amp-options-manager.php:430
 msgid "A conflicting version of PHP-CSS-Parser appears to be installed by another plugin or theme (located in %s). Because of this, CSS processing will be limited, and tree shaking will not be available."
 msgstr "Có vẻ như một plugin hoặc giao diện khác đã cài đặt phiên bản Trình phân tích cú pháp PHP-CSS xung đột (nằm trong %s). Do đó, hệ thống sẽ giới hạn việc xử lý CSS và bạn không thể sử dụng kỹ thuật “rung cây”."
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:253
+#: includes/validation/class-amp-validation-error-taxonomy.php:259
 msgid "All AMP Validation Errors"
 msgstr "Tất cả các lỗi xác thực AMP"
 
-#: includes/class-amp-theme-support.php:840
+#: includes/class-amp-theme-support.php:731
 msgid "Search"
 msgstr "Tìm kiếm"
 
-#: includes/class-amp-theme-support.php:843
+#: includes/class-amp-theme-support.php:734
 msgid "Not Found (404)"
 msgstr "Không tìm thấy (404)"
 
-#: includes/class-amp-theme-support.php:836 assets/js/amp-block-editor.js:25
+#: includes/class-amp-theme-support.php:727 assets/js/amp-block-editor.js:29
 msgid "Date"
 msgstr "Ngày"
 
-#: includes/class-amp-theme-support.php:832
+#: includes/class-amp-theme-support.php:723
 msgid "Author"
 msgstr "Tác giả"
 
-#: includes/class-amp-theme-support.php:813
+#: includes/class-amp-theme-support.php:704
 msgid "Blog"
 msgstr "Blog"
 
-#: includes/class-amp-theme-support.php:803
-#: includes/class-amp-theme-support.php:821
+#: includes/class-amp-theme-support.php:694
+#: includes/class-amp-theme-support.php:712
 msgid "Homepage"
 msgstr "Trang chủ"
 
 #. translators: %s: the human-readable time difference.
-#: back-compat/templates-v0-3/meta-time.php:21 templates/meta-time.php:28
-#: includes/validation/class-amp-validation-error-taxonomy.php:1893
+#: back-compat/templates-v0-3/meta-time.php:21
+#: includes/validation/class-amp-validation-error-taxonomy.php:1972
+#: templates/meta-time.php:28
 msgid "%s ago"
 msgstr "%s trước"
 
-#: src/Admin/OptionsMenu.php:117 src/Admin/OptionsMenu.php:153
-#: includes/validation/class-amp-validation-manager.php:440
+#: includes/validation/class-amp-validation-manager.php:412
+#: src/Admin/OptionsMenu.php:122 src/Admin/OptionsMenu.php:160
 msgid "Settings"
 msgstr "Cài đặt"
 
@@ -219,7 +215,7 @@ msgstr "Cài đặt"
 msgid "https://amp-wp.org"
 msgstr "https://amp-wp.org"
 
-#: includes/amp-helper-functions.php:848
+#: includes/amp-helper-functions.php:703
 msgid "There is no amphtml version available for this URL."
 msgstr "Hiện không có phiên bản amphtml nào cho URL này."
 
@@ -228,229 +224,211 @@ msgstr "Hiện không có phiên bản amphtml nào cho URL này."
 msgid "It is not a best practice to use %1$s to load font CDN stylesheets. Please use %2$s to enqueue %3$s as its own separate script."
 msgstr "Bạn không nên sử dụng %1$s để tải biểu định kiểu CDN phông chữ. Vui lòng sử dụng %2$s để thêm %3$s vào hàng đợi theo từng tập lệnh riêng."
 
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:382
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:408
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:424
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:440
-#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:155
-msgid "collapse child menu"
-msgstr "thu gọn trình đơn con"
-
 #: includes/sanitizers/class-amp-core-theme-sanitizer.php:381
 #: includes/sanitizers/class-amp-core-theme-sanitizer.php:407
 #: includes/sanitizers/class-amp-core-theme-sanitizer.php:423
 #: includes/sanitizers/class-amp-core-theme-sanitizer.php:439
+#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:155
+msgid "collapse child menu"
+msgstr "thu gọn trình đơn con"
+
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:380
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:406
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:422
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:438
 #: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:152
 msgid "expand child menu"
 msgstr "mở rộng trình đơn con"
 
-#: includes/class-amp-theme-support.php:798
+#: includes/class-amp-theme-support.php:689
 msgid "Singular"
 msgstr "Số ít"
 
 #. translators: %s: amp_supportable_templates
-#: includes/class-amp-theme-support.php:737
+#: includes/class-amp-theme-support.php:628
 msgid "Did not expect there to be more than one matching template. Did you filter %s to not honor the template hierarchy?"
 msgstr "Dự kiến chỉ có duy nhất một mẫu phù hợp. Có phải bạn đã lọc %s theo cách không tuân theo hệ phân cấp mẫu không?"
 
 #. translators: %s: the supportable template ID.
-#: includes/class-amp-theme-support.php:600
+#: includes/class-amp-theme-support.php:491
 msgid "Supportable template \"%s\" does not have a callable callback."
 msgstr "Mẫu hỗ trợ \"%s\" không có lệnh gọi lại có thể gọi."
 
-#: includes/class-amp-theme-support.php:571
+#: includes/class-amp-theme-support.php:462
 msgid "No WP_Query available."
 msgstr "Hiện không có WP_Query."
 
-#: includes/validation/class-amp-validation-manager.php:2280
+#: includes/validation/class-amp-validation-manager.php:2058
 msgid "An internal server error occurred when fetching the URL for validation."
 msgstr "Đã xảy ra lỗi máy chủ nội bộ khi tìm nạp URL để xác thực."
 
-#: includes/validation/class-amp-validation-manager.php:2272
+#: includes/validation/class-amp-validation-manager.php:2050
 msgid "The fetched URL was not found. It may have been deleted. If so, you can trash this."
 msgstr "Không tìm thấy URL đã tìm nạp. Có thể bạn đã xóa URL đó. Nếu vậy, bạn có thể tìm URL đó trong thùng rác."
 
-#: includes/validation/class-amp-validation-manager.php:912
-#: assets/js/amp-block-validation.js:5
-msgid "Review issues"
-msgstr "Xem xét các vấn đề"
-
-#: includes/validation/class-amp-validation-manager.php:893
-msgid "There is content which fails AMP validation."
-msgstr "Không thể xác thực AMP đối với một số nội dung."
-
-#: includes/validation/class-amp-validation-manager.php:653
-msgid "AMP validity status"
-msgstr "Trạng thái xác thực AMP"
-
-#: includes/amp-helper-functions.php:1954
-#: includes/validation/class-amp-validation-manager.php:402
+#: includes/amp-helper-functions.php:1794
+#: includes/validation/class-amp-validation-manager.php:370
+#: includes/validation/class-amp-validation-manager.php:392
 msgid "View AMP version"
 msgstr "Xem phiên bản AMP"
 
-#: includes/amp-helper-functions.php:1954
-#: includes/validation/class-amp-validation-manager.php:402
+#: includes/amp-helper-functions.php:1793
+#: includes/validation/class-amp-validation-manager.php:392
 msgid "View non-AMP version"
 msgstr "Xem phiên bản không phải AMP"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2970
+#: includes/validation/class-amp-validation-error-taxonomy.php:3048
 msgid "Excessive CSS"
 msgstr "CSS quá mức"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2958
-#: includes/validation/class-amp-validation-error-taxonomy.php:3350
+#: includes/validation/class-amp-validation-error-taxonomy.php:3036
+#: includes/validation/class-amp-validation-error-taxonomy.php:3428
 msgid "Invalid attribute"
 msgstr "Thuộc tính không hợp lệ"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2951
+#: includes/validation/class-amp-validation-error-taxonomy.php:3029
 msgid "Invalid element"
 msgstr "Phần tử không hợp lệ"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2891
+#: includes/validation/class-amp-validation-error-taxonomy.php:2969
 msgid "You do not have authorization."
 msgstr "Bạn không có quyền."
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2886
+#: includes/validation/class-amp-validation-error-taxonomy.php:2964
 msgid "The link you followed has expired."
 msgstr "Đường liên kết mà bạn nhấp vào đã hết hạn."
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2731
+#: includes/validation/class-amp-validation-error-taxonomy.php:2809
 msgid "JavaScript"
 msgstr "JavaScript"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2730
+#: includes/validation/class-amp-validation-error-taxonomy.php:2808
 msgid "HTML Attribute"
 msgstr "Thuộc tính HTML"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2729
+#: includes/validation/class-amp-validation-error-taxonomy.php:2807
 msgid "HTML Element"
 msgstr "Phần tử HTML"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1882
+#: includes/validation/class-amp-validation-error-taxonomy.php:1961
 msgid "n/a"
 msgstr "không áp dụng"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1709
-#: includes/validation/class-amp-validation-error-taxonomy.php:2732
+#: includes/validation/class-amp-validation-error-taxonomy.php:1792
+#: includes/validation/class-amp-validation-error-taxonomy.php:2810
 msgid "CSS"
 msgstr "CSS"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1700
+#: includes/validation/class-amp-validation-error-taxonomy.php:1783
 msgid "JS"
 msgstr "JS"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1619
-#: includes/validation/class-amp-validation-error-taxonomy.php:1762
+#: includes/validation/class-amp-validation-error-taxonomy.php:1697
+#: includes/validation/class-amp-validation-error-taxonomy.php:1845
 msgid "Toggle error details"
 msgstr "Bật/tắt thông tin về lỗi"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1518
+#: includes/validation/class-amp-validation-error-taxonomy.php:1529
 msgid "Clear Empty"
 msgstr "Xóa mục trống"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1471
+#: includes/validation/class-amp-validation-error-taxonomy.php:1481
 msgid "Filter by error type"
 msgstr "Lọc theo loại lỗi"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1296
+#: includes/validation/class-amp-validation-error-taxonomy.php:1305
 msgid "View Validated URLs"
 msgstr "Xem các URL đã xác thực"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1251
+#: includes/validation/class-amp-validation-error-taxonomy.php:1260
 msgid "Apply Filter"
 msgstr "Áp dụng bộ lọc"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:893
+#: includes/validation/class-amp-validation-error-taxonomy.php:900
 msgid "Last Seen"
 msgstr "Lần xem gần đây nhất"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:312
+#: includes/validation/class-amp-validation-error-taxonomy.php:318
 msgid "Method must be passed a term slug (string) or error attributes (array)."
 msgstr "Phương thức phải được thông qua một thuật ngữ slug (chuỗi) hoặc thuộc tính lỗi (mảng)."
 
 #. translators: Tab heading when selecting from the most used terms
-#: includes/validation/class-amp-validation-error-taxonomy.php:267
+#: includes/validation/class-amp-validation-error-taxonomy.php:273
 msgid "Most Used Validation Errors"
 msgstr "Lỗi xác thực thường gặp nhất"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:265
+#: includes/validation/class-amp-validation-error-taxonomy.php:271
 msgid "Validation errors list"
 msgstr "Danh sách lỗi xác thực"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:264
+#: includes/validation/class-amp-validation-error-taxonomy.php:270
 msgid "Validation errors navigation"
 msgstr "Xem các lỗi xác thực"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:261
+#: includes/validation/class-amp-validation-error-taxonomy.php:267
 msgid "New Validation Error Hash"
 msgstr "Hàm băm lỗi xác thực mới"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:260
+#: includes/validation/class-amp-validation-error-taxonomy.php:266
 msgid "Add New Validation Error"
 msgstr "Thêm lỗi xác thực mới"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:259
+#: includes/validation/class-amp-validation-error-taxonomy.php:265
 msgid "View Validation Error"
 msgstr "Xem lỗi xác thực"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:258
+#: includes/validation/class-amp-validation-error-taxonomy.php:264
 msgid "Frequent Validation Errors"
 msgstr "Lỗi xác thực thường gặp"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:257
+#: includes/validation/class-amp-validation-error-taxonomy.php:263
 msgid "Back to AMP Validation Errors"
 msgstr "Quay lại lỗi xác thực AMP"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:256
-#: includes/validation/class-amp-validation-error-taxonomy.php:1658
+#: includes/validation/class-amp-validation-error-taxonomy.php:262
+#: includes/validation/class-amp-validation-error-taxonomy.php:1744
 msgid "Error Index"
 msgstr "Chỉ mục lỗi"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:252
+#: includes/validation/class-amp-validation-error-taxonomy.php:258
 msgid "Search AMP Validation Errors"
 msgstr "Tìm lỗi xác thực AMP"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:251
+#: includes/validation/class-amp-validation-error-taxonomy.php:257
 msgctxt "taxonomy singular name"
 msgid "AMP Validation Error"
 msgstr "Lỗi xác thực AMP"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:250
+#: includes/validation/class-amp-validation-error-taxonomy.php:256
 msgctxt "taxonomy general name"
 msgid "AMP Validation Error Index"
 msgstr "Chỉ mục lỗi xác thực AMP"
 
 #. translators: %s is the number of posts restored from trash.
-#: includes/validation/class-amp-validated-url-post-type.php:3168
+#: includes/validation/class-amp-validated-url-post-type.php:3109
 msgid "%s validated URL unforgotten."
 msgid_plural "%s validated URLs unforgotten."
 msgstr[0] "Không quên URL đã xác thực %s."
 
 #. translators: %s is the number of posts forgotten
-#: includes/validation/class-amp-validated-url-post-type.php:3154
-#: includes/validation/class-amp-validated-url-post-type.php:3161
+#: includes/validation/class-amp-validated-url-post-type.php:3095
+#: includes/validation/class-amp-validated-url-post-type.php:3102
 msgid "%s validated URL forgotten."
 msgid_plural "%s validated URLs forgotten."
 msgstr[0] "Quên URL đã xác thực %s."
 
-#: includes/validation/class-amp-validated-url-post-type.php:3133
+#: includes/validation/class-amp-validated-url-post-type.php:3074
 msgid "Forgotten"
 msgstr "Quên"
 
 #. translators: %s: post title
-#: includes/validation/class-amp-validated-url-post-type.php:3109
+#: includes/validation/class-amp-validated-url-post-type.php:3050
 msgid "Forget &#8220;%s&#8221;"
 msgstr "Quên &#8220;%s&#8221;"
 
-#: includes/validation/class-amp-validated-url-post-type.php:3087
+#: includes/validation/class-amp-validated-url-post-type.php:3028
 msgid "View"
 msgstr "Xem"
-
-#. translators: %s is the validation error count
-#: includes/validation/class-amp-validated-url-post-type.php:2955
-msgid "%s URL w/ new AMP errors"
-msgid_plural "%s URLs w/ new AMP errors"
-msgstr[0] "URL %s có các lỗi AMP mới"
 
 #: includes/validation/class-amp-validated-url-post-type.php:2791
 msgid "Search Errors"
@@ -464,28 +442,28 @@ msgstr "Phân loại không hợp lệ."
 msgid "Update"
 msgstr "Cập nhật"
 
-#: includes/validation/class-amp-validated-url-post-type.php:2219
+#: includes/validation/class-amp-validated-url-post-type.php:2215
 msgid "View User"
 msgstr "Xem người dùng"
 
-#: includes/validation/class-amp-validated-url-post-type.php:2217
+#: includes/validation/class-amp-validated-url-post-type.php:2213
 msgid "Edit User"
 msgstr "Chỉnh sửa người dùng"
 
-#: includes/validation/class-amp-validated-url-post-type.php:2202
+#: includes/validation/class-amp-validated-url-post-type.php:2199
 msgid "View URL"
 msgstr "Xem URL"
 
-#: includes/validation/class-amp-validated-url-post-type.php:2157
+#: includes/validation/class-amp-validated-url-post-type.php:2151
 msgid "Please recheck."
 msgstr "Vui lòng kiểm tra lại."
 
-#: includes/validation/class-amp-validated-url-post-type.php:2132
+#: includes/validation/class-amp-validated-url-post-type.php:2126
 msgid "Preview Changes"
 msgstr "Xem trước thay đổi"
 
 #. translators: %s: The date this was published
-#: includes/validation/class-amp-validated-url-post-type.php:2118
+#: includes/validation/class-amp-validated-url-post-type.php:2112
 msgid "Last checked: <b>%s</b>"
 msgstr "Lần kiểm tra gần đây nhất: <b>%s</b>"
 
@@ -496,109 +474,110 @@ msgstr "Lần kiểm tra gần đây nhất: <b>%s</b>"
 msgid "Show all"
 msgstr "Hiển thị tất cả"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1783
-#: includes/validation/class-amp-validated-url-post-type.php:1912
+#: includes/validation/class-amp-validated-url-post-type.php:1776
+#: includes/validation/class-amp-validated-url-post-type.php:1905
 msgid "You do not have permissions to validate an AMP URL. Did you get logged out?"
 msgstr "Bạn không có quyền xác thực URL AMP. Bạn đã đăng xuất chưa?"
 
 #. translators: %s is count of validation errors updated
-#: includes/validation/class-amp-validated-url-post-type.php:1651
+#: includes/validation/class-amp-validated-url-post-type.php:1644
 msgid "Updated %s validation error."
 msgid_plural "Updated %s validation errors."
 msgstr[0] "Đã cập nhật lỗi xác thực %s."
 
-#: includes/validation/class-amp-validated-url-post-type.php:1514
+#: includes/validation/class-amp-validated-url-post-type.php:1507
 #: includes/validation/class-amp-validated-url-post-type.php:2244
-#: includes/validation/class-amp-validated-url-post-type.php:3110
+#: includes/validation/class-amp-validated-url-post-type.php:3051
 msgid "Forget"
 msgstr "Quên"
 
 #. translators: %s is the guessed theme as the source for the error
-#: includes/validation/class-amp-validated-url-post-type.php:1495
+#: includes/validation/class-amp-validated-url-post-type.php:1488
 msgid "%s (?)"
 msgstr "%s (?)"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1434
+#: includes/validation/class-amp-validated-url-post-type.php:1427
 msgid "Other"
 msgstr "Khác"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1407
+#: includes/validation/class-amp-validated-url-post-type.php:1400
+#: assets/js/amp-block-validation.js:7
 msgid "Plugins"
 msgstr "Plugin"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1407
+#: includes/validation/class-amp-validated-url-post-type.php:1400
 msgid "Must-Use Plugins"
 msgstr "Các plugin phải dùng"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1281
-#: includes/validation/class-amp-validated-url-post-type.php:2144
+#: includes/validation/class-amp-validated-url-post-type.php:1274
+#: includes/validation/class-amp-validated-url-post-type.php:2138
 msgid "Stale results"
 msgstr "Kết quả cũ"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1223
-#: includes/validation/class-amp-validation-error-taxonomy.php:892
-#: includes/validation/class-amp-validation-error-taxonomy.php:2538
-#: includes/validation/class-amp-validation-error-taxonomy.php:3309
+#: includes/validation/class-amp-validation-error-taxonomy.php:899
+#: includes/validation/class-amp-validation-error-taxonomy.php:2616
+#: includes/validation/class-amp-validation-error-taxonomy.php:3387
+#: includes/validation/class-amp-validated-url-post-type.php:1216
 msgid "Type"
 msgstr "Loại"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1231
-#: includes/validation/class-amp-validation-error-taxonomy.php:888
+#: includes/validation/class-amp-validation-error-taxonomy.php:895
+#: includes/validation/class-amp-validated-url-post-type.php:1224
 msgid "The parent element of where the error occurred."
 msgstr "Phần tử chính nơi xảy ra lỗi."
 
-#: includes/validation/class-amp-validated-url-post-type.php:1222
-#: includes/validation/class-amp-validation-error-taxonomy.php:869
-#: includes/validation/class-amp-validation-manager.php:471
+#: includes/validation/class-amp-validation-error-taxonomy.php:876
+#: includes/validation/class-amp-validated-url-post-type.php:1215
+#: includes/validation/class-amp-validation-manager.php:443
 msgid "Error"
 msgstr "Lỗi"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1201
-#: includes/validation/class-amp-validated-url-post-type.php:1207
+#: includes/validation/class-amp-validated-url-post-type.php:1194
+#: includes/validation/class-amp-validated-url-post-type.php:1200
 msgid "Last Checked"
 msgstr "Lần kiểm tra gần đây nhất"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1195
-#: includes/validation/class-amp-validated-url-post-type.php:1208
-#: includes/validation/class-amp-validation-error-taxonomy.php:3354
+#: includes/validation/class-amp-validation-error-taxonomy.php:3432
+#: includes/validation/class-amp-validated-url-post-type.php:1188
+#: includes/validation/class-amp-validated-url-post-type.php:1201
 msgid "URL"
 msgstr "URL"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1189
-#: includes/validation/class-amp-validated-url-post-type.php:1206
-#: includes/validation/class-amp-validated-url-post-type.php:1235
+#: includes/validation/class-amp-validation-error-taxonomy.php:2625
+#: includes/validation/class-amp-validation-error-taxonomy.php:3389
+#: includes/validation/class-amp-validated-url-post-type.php:1182
+#: includes/validation/class-amp-validated-url-post-type.php:1199
+#: includes/validation/class-amp-validated-url-post-type.php:1228
 #: includes/validation/class-amp-validated-url-post-type.php:2469
 #: includes/validation/class-amp-validated-url-post-type.php:2616
-#: includes/validation/class-amp-validation-error-taxonomy.php:2547
-#: includes/validation/class-amp-validation-error-taxonomy.php:3311
 msgid "Sources"
 msgstr "Nguồn"
 
-#: includes/validation/class-amp-validated-url-post-type.php:457
+#: includes/validation/class-amp-validated-url-post-type.php:435
 msgid "View Error Index"
 msgstr "Xem chỉ mục lỗi"
 
-#: includes/validation/class-amp-validated-url-post-type.php:170
+#: includes/validation/class-amp-validated-url-post-type.php:169
 msgid "Search validated URLs"
 msgstr "Tìm các URL đã xác thực"
 
-#: includes/validation/class-amp-validated-url-post-type.php:169
+#: includes/validation/class-amp-validated-url-post-type.php:168
 msgid "No forgotten validated URLs"
 msgstr "Không quên các URL đã xác thực"
 
-#: includes/validation/class-amp-validated-url-post-type.php:168
+#: includes/validation/class-amp-validated-url-post-type.php:167
 msgid "No validated URLs found"
 msgstr "Không tìm thấy các URL đã xác thực"
 
-#: includes/validation/class-amp-validated-url-post-type.php:167
+#: includes/validation/class-amp-validated-url-post-type.php:166
 msgid "Validated URL"
 msgstr "URL đã xác thực"
 
-#: includes/validation/class-amp-validated-url-post-type.php:166
+#: includes/validation/class-amp-validated-url-post-type.php:165
 msgid "Validated URLs"
 msgstr "Các URL đã xác thực"
 
-#: includes/validation/class-amp-validated-url-post-type.php:165
+#: includes/validation/class-amp-validated-url-post-type.php:164
 msgctxt "post type general name"
 msgid "AMP Validated URLs"
 msgstr "Các URL đã xác thực AMP"
@@ -611,7 +590,7 @@ msgstr "Giờ đây, bạn có thể sử dụng lại các kiểu và mẫu c�
 msgid "New AMP Template Modes"
 msgstr "Các chế độ mẫu AMP mới"
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:253
+#: includes/sanitizers/class-amp-form-sanitizer.php:256
 msgid "Learn More"
 msgstr "Tìm hiểu thêm"
 
@@ -621,20 +600,16 @@ msgstr "Chào mừng bạn đến với AMP dành cho WordPress"
 
 #. translators: %1$s is the current directory name, and %2$s is the required
 #. directory name
-#: amp.php:221
+#: amp.php:226
 msgid "You appear to have installed the AMP plugin incorrectly. It is currently installed in the <code>%1$s</code> directory, but it needs to be placed in a directory named <code>%2$s</code>. Please rename the directory. This is important for WordPress plugin auto-updates."
 msgstr "Có vẻ như bạn đã cài đặt plugin AMP không đúng cách. Hiện tại, plugin được cài đặt trong thư mục <code>%1$s</code>, nhưng bạn cần phải đặt plugin này trong thư mục có tên <code>%2$s</code>. Vui lòng đổi tên thư mục này. Điều này quan trọng đối với các bản tự động cập nhật plugin WordPress."
 
-#: includes/validation/class-amp-validated-url-post-type.php:1443
-#: assets/js/amp-block-editor.js:25
+#: includes/validation/class-amp-validated-url-post-type.php:1436
+#: assets/js/amp-block-validation.js:9 assets/js/amp-block-editor.js:29
 msgid "Embed"
 msgstr "Đã nhúng"
 
-#. Description of the plugin
-msgid "Enable AMP on your WordPress site, the WordPress way."
-msgstr "Bật AMP trên trang web WordPress, theo cách WordPress."
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:255
+#: includes/validation/class-amp-validation-error-taxonomy.php:261
 msgid "Update AMP Validation Error"
 msgstr "Cập nhật lỗi xác thực AMP"
 
@@ -654,42 +629,38 @@ msgstr "Chọn tháng"
 msgid "Select Year"
 msgstr "Chọn năm"
 
-#: includes/class-amp-theme-support.php:829
+#: includes/class-amp-theme-support.php:720
 #: includes/widgets/class-amp-widget-archives.php:49
 msgid "Archives"
 msgstr "Lưu trữ"
 
 #. translators: Meta box date format
-#: includes/validation/class-amp-validated-url-post-type.php:2120
+#: includes/validation/class-amp-validated-url-post-type.php:2114
 msgid "M j, Y @ H:i"
 msgstr "M j, Y @ H:i"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1716
-#: includes/validation/class-amp-validated-url-post-type.php:2059
-#: assets/js/amp-settings.js:27
+#: includes/validation/class-amp-validated-url-post-type.php:1709
+#: includes/validation/class-amp-validated-url-post-type.php:2053
+#: assets/js/amp-settings.js:23
 msgid "Status"
 msgstr "Trạng thái"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:263
+#: includes/validation/class-amp-validation-error-taxonomy.php:269
 msgid "Validation Error"
 msgstr "Lỗi xác thực"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1518
-#: includes/validation/class-amp-validated-url-post-type.php:2128
-#: includes/validation/class-amp-validated-url-post-type.php:3094
+#: includes/validation/class-amp-validated-url-post-type.php:1511
+#: includes/validation/class-amp-validated-url-post-type.php:2122
+#: includes/validation/class-amp-validated-url-post-type.php:3035
 msgid "Recheck"
 msgstr "Kiểm tra lại"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1318
-#: includes/validation/class-amp-validated-url-post-type.php:1357
+#: includes/validation/class-amp-validation-error-taxonomy.php:2048
+#: includes/validation/class-amp-validated-url-post-type.php:1311
+#: includes/validation/class-amp-validated-url-post-type.php:1350
 #: includes/validation/class-amp-validated-url-post-type.php:2590
-#: includes/validation/class-amp-validation-error-taxonomy.php:1969
 msgid "--"
 msgstr "--"
-
-#: includes/validation/class-amp-validation-manager.php:926
-msgid "Invalid attributes:"
-msgstr "Thuộc tính không hợp lệ:"
 
 #. Author URI of the plugin
 msgid "https://github.com/ampproject/amp-wp/graphs/contributors"
@@ -707,31 +678,27 @@ msgstr "Danh mục"
 msgid "Select Post"
 msgstr "Chọn bài đăng"
 
-#: includes/validation/class-amp-validation-manager.php:2359
-#: assets/js/amp-settings.js:27
+#: includes/validation/class-amp-validation-manager.php:2138
+#: assets/js/amp-settings.js:23
 msgid "More details"
 msgstr "Thông tin chi tiết khác"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:262
+#: includes/validation/class-amp-validation-error-taxonomy.php:268
 msgid "No validation errors found."
 msgstr "Không tìm thấy lỗi xác thực nào."
 
-#: includes/validation/class-amp-validation-manager.php:920
-msgid "Invalid elements:"
-msgstr "Phần tử không hợp lệ:"
-
-#: includes/validation/class-amp-validated-url-post-type.php:3077
-#: includes/validation/class-amp-validation-error-taxonomy.php:1620
-#: includes/validation/class-amp-validation-error-taxonomy.php:1634
-#: assets/js/amp-settings.js:27
+#: includes/validation/class-amp-validation-error-taxonomy.php:1698
+#: includes/validation/class-amp-validation-error-taxonomy.php:1718
+#: includes/validation/class-amp-validated-url-post-type.php:3018
+#: assets/js/amp-settings.js:23
 msgid "Details"
 msgstr "Thông tin chi tiết"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:254
+#: includes/validation/class-amp-validation-error-taxonomy.php:260
 msgid "Edit AMP Validation Error"
 msgstr "Chỉnh sửa lỗi xác thực AMP"
 
-#: includes/class-amp-theme-support.php:1328
+#: includes/class-amp-theme-support.php:1165
 msgid "Click here to cancel reply."
 msgstr "Nhấp vào đây để hủy trả lời."
 
@@ -744,7 +711,7 @@ msgid "Your comment has been posted."
 msgstr "Nhận xét của bạn đã được đăng."
 
 #. translators: %s: $post
-#: includes/amp-helper-functions.php:1398
+#: includes/amp-helper-functions.php:1249
 msgid "The %s argument is deprecated when theme supports AMP."
 msgstr "Hệ thống không còn sử dụng đối số %s khi giao diện hỗ trợ AMP."
 
@@ -761,82 +728,82 @@ msgstr "Xem cuộc thăm dò ý kiến"
 msgid "View Survey"
 msgstr "Xem bài khảo sát"
 
-#: includes/templates/amp-enabled-classic-editor-toggle.php:57
+#: includes/templates/amp-enabled-classic-editor-toggle.php:67
 msgid "Cancel"
 msgstr "Hủy"
 
-#: includes/templates/amp-enabled-classic-editor-toggle.php:55
+#: includes/templates/amp-enabled-classic-editor-toggle.php:65
 msgid "OK"
 msgstr "OK"
 
-#: includes/templates/amp-enabled-classic-editor-toggle.php:24
+#: includes/templates/amp-enabled-classic-editor-toggle.php:26
 msgid "AMP:"
 msgstr "AMP:"
 
-#: src/Admin/OptionsMenu.php:142 src/Admin/OptionsMenu.php:152
-#: src/ReaderThemeLoader.php:224 assets/js/amp-block-editor.js:13
-#: assets/js/amp-block-validation.js:1
+#: src/Admin/OptionsMenu.php:149 src/Admin/OptionsMenu.php:159
+#: src/ReaderThemeLoader.php:243 assets/js/amp-block-editor.js:13
+#: assets/js/amp-block-editor.js:17
 msgid "AMP Settings"
 msgstr "Cài đặt AMP"
 
-#: includes/admin/class-amp-post-meta-box.php:197
+#: includes/admin/class-amp-post-meta-box.php:204
 msgid "Preview changes in AMP (opens in new window)"
 msgstr "Xem trước các thay đổi trong AMP (mở trong cửa sổ mới)"
 
-#: includes/admin/class-amp-post-meta-box.php:102
+#: includes/admin/class-amp-post-meta-box.php:104
 msgid "AMP status."
 msgstr "Trạng thái AMP."
 
-#: includes/admin/class-amp-post-meta-box.php:371
+#: includes/admin/class-amp-post-meta-box.php:365
 msgid "Enabled"
 msgstr "Đã bật"
 
-#: includes/admin/class-amp-post-meta-box.php:442
+#: includes/admin/class-amp-post-meta-box.php:439
 msgid "Unavailable for an unknown reason."
 msgstr "Không thể sử dụng vì lý do không xác định."
 
-#: includes/admin/class-amp-post-meta-box.php:439
+#: includes/admin/class-amp-post-meta-box.php:433
 msgid "A plugin or theme has disabled AMP support."
 msgstr "Plugin hoặc giao diện đã tắt hỗ trợ AMP."
 
-#: includes/templates/amp-enabled-classic-editor-toggle.php:28
+#: includes/templates/amp-enabled-classic-editor-toggle.php:38
 msgid "Edit Status"
 msgstr "Chỉnh sửa trạng thái"
 
-#: includes/templates/amp-enabled-classic-editor-toggle.php:27
+#: includes/templates/amp-enabled-classic-editor-toggle.php:37
 msgid "Edit"
 msgstr "Chỉnh sửa"
 
-#: includes/admin/class-amp-post-meta-box.php:372
+#: includes/admin/class-amp-post-meta-box.php:366
 msgid "Disabled"
 msgstr "Đã vô hiệu hóa"
 
-#: includes/admin/class-amp-template-customizer.php:749
+#: includes/admin/class-amp-template-customizer.php:771
 msgid "AMP preview enabled"
 msgstr "Đã bật chế độ xem trước AMP"
 
-#: includes/admin/class-amp-template-customizer.php:608
+#: includes/admin/class-amp-template-customizer.php:630
 msgid "Navigate to an AMP compatible page"
 msgstr "Chuyển đến trang tương thích AMP"
 
-#: includes/admin/class-amp-template-customizer.php:607
+#: includes/admin/class-amp-template-customizer.php:629
 msgid "AMP is not available for the page currently being previewed."
 msgstr "Bạn không thể sử dụng AMP cho trang hiện đang được xem trước."
 
-#: includes/validation/class-amp-validated-url-post-type.php:1709
-#: includes/validation/class-amp-validation-error-taxonomy.php:1644
+#: includes/validation/class-amp-validation-error-taxonomy.php:1728
+#: includes/validation/class-amp-validated-url-post-type.php:1702
 msgid "Delete"
 msgstr "Xóa"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1607
-#: includes/validation/class-amp-validated-url-post-type.php:1638
-#: includes/validation/class-amp-validated-url-post-type.php:1660
-#: includes/validation/class-amp-validation-manager.php:2377
+#: includes/validation/class-amp-validated-url-post-type.php:1600
+#: includes/validation/class-amp-validated-url-post-type.php:1631
+#: includes/validation/class-amp-validated-url-post-type.php:1653
+#: includes/validation/class-amp-validation-manager.php:2156
 msgid "Dismiss this notice."
 msgstr "Đóng thông báo này."
 
 #: src/Admin/AnalyticsOptionsSubmenu.php:59
-#: src/Admin/AnalyticsOptionsSubmenu.php:60 assets/js/amp-settings.js:29
+#: src/Admin/AnalyticsOptionsSubmenu.php:60 assets/js/amp-settings.js:31
 msgid "Analytics"
 msgstr "Analytics"
 
@@ -892,16 +859,14 @@ msgid "Leave a Comment"
 msgstr "Để lại nhận xét"
 
 #. Plugin Name of the plugin
-#: src/Admin/OptionsMenu.php:143 src/Admin/SiteHealth.php:134
-#: src/Admin/SiteHealth.php:175 src/Admin/SiteHealth.php:248
-#: src/Admin/SiteHealth.php:315 src/Admin/SiteHealth.php:380
-#: src/Admin/SiteHealth.php:399 includes/amp-helper-functions.php:1945
-#: includes/templates/amp-paired-browsing.php:30
-#: includes/validation/class-amp-validation-manager.php:379
 #: includes/admin/class-amp-admin-pointers.php:66
-#: includes/admin/functions.php:126 includes/admin/functions.php:127
-#: includes/admin/class-amp-template-customizer.php:267
-#: assets/js/amp-onboarding-wizard.js:5
+#: includes/admin/class-amp-template-customizer.php:289
+#: includes/admin/functions.php:128 includes/admin/functions.php:129
+#: includes/amp-helper-functions.php:1799
+#: includes/templates/amp-paired-browsing.php:31
+#: includes/validation/class-amp-validation-manager.php:366
+#: src/Admin/SiteHealth.php:92 src/Admin/OptionsMenu.php:150
+#: assets/js/amp-block-validation.js:21 assets/js/amp-onboarding-wizard.js:1
 msgid "AMP"
 msgstr "AMP"
 

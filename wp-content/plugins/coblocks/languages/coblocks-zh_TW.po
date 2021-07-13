@@ -11,19 +11,19 @@ msgstr ""
 "Language: zh_TW\n"
 "Project-Id-Version: Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release)\n"
 
-#: includes/class-coblocks-settings.php:136
-msgid "Setting use to disable or enable all color controls across the site."
-msgstr "全站按照設定停用或啟用所有色彩控制項。"
-
-#: includes/class-coblocks-settings.php:124
-msgid "Setting use to disable or enable custom color controls across the site."
-msgstr "全站按照設定停用或啟用自訂色彩控制項。"
-
-#: includes/class-coblocks-settings.php:148
+#: includes/class-coblocks-settings.php:156
 msgid "Setting use to disable or enable gradient controls and presets across the site."
 msgstr "全站按照設定停用或啟用漸層控制項及預設設定。"
 
-#: includes/class-coblocks-settings.php:112
+#: includes/class-coblocks-settings.php:144
+msgid "Setting use to disable or enable all color controls across the site."
+msgstr "全站按照設定停用或啟用所有色彩控制項。"
+
+#: includes/class-coblocks-settings.php:132
+msgid "Setting use to disable or enable custom color controls across the site."
+msgstr "全站按照設定停用或啟用自訂色彩控制項。"
+
+#: includes/class-coblocks-settings.php:120
 msgid "Setting use to disable or enable typography controls across the site."
 msgstr "全站按照設定停用或啟用印刷樣式控制項。"
 
@@ -31,29 +31,32 @@ msgstr "全站按照設定停用或啟用印刷樣式控制項。"
 msgid "An error has occurred, check for calendar privileges to make sure it is public or try again later."
 msgstr "系統發生問題，請檢查行事曆權限是否已設為公開，或之後再試一次。"
 
-#: src/extensions/layout-selector/index.php:25 dist/coblocks.js:58
+#: src/extensions/layout-selector/index.php:25
 msgid "Contact"
 msgstr "聯絡人"
+
+#: includes/class-coblocks-form.php:1036
+msgid "name"
+msgstr "姓名"
 
 #. translators: placeholder for email shortcode.
 #: includes/class-coblocks-form.php:51
 msgid "Form submission from [%1$s]"
 msgstr "由 [%1$s] 提出之表單"
 
-#: includes/class-coblocks-form.php:1036 dist/coblocks.js:58
-msgid "name"
-msgstr "姓名"
-
-#: includes/class-coblocks-form.php:382 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:382
 msgid "Text"
 msgstr "文字"
 
-#: includes/class-coblocks-form.php:722 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:722
 msgid "Hidden"
 msgstr "隱藏"
 
+#: includes/class-coblocks-form.php:688
+msgid "Website"
+msgstr "網站"
+
 #: includes/class-coblocks-form.php:557 includes/class-coblocks-form.php:606
-#: dist/coblocks.js:58
 msgid "Select"
 msgstr "點選"
 
@@ -61,119 +64,90 @@ msgstr "點選"
 msgid "Something went wrong."
 msgstr "發生問題。"
 
-#: includes/class-coblocks-form.php:688 dist/coblocks.js:58
-msgid "Website"
-msgstr "網站"
-
-#: src/blocks/posts/index.php:51 src/blocks/post-carousel/index.php:51
-msgid "An error has occurred, which probably means the feed is down. Try again later."
-msgstr "系統發生錯誤，表示摘要可能故障中。請稍後再試。"
-
-#: includes/class-coblocks-form.php:493 dist/coblocks.js:58
-msgid "Choose one"
-msgstr "選擇其一"
-
-#: includes/class-coblocks-form.php:423 dist/coblocks.js:58
-msgid "Date"
-msgstr "日期"
-
-#: includes/class-coblocks-form.php:454 dist/coblocks.js:58
-msgid "Phone"
-msgstr "電話"
-
-#: src/blocks/posts/index.php:171 src/blocks/post-carousel/index.php:184
+#: src/blocks/post-carousel/index.php:191 src/blocks/posts/index.php:171
 msgctxt "placeholder when a post has no title"
 msgid "(no title)"
 msgstr "(無標題)"
 
-#: src/blocks/social-profiles/index.php:76 dist/coblocks.js:58
-msgid "Instagram"
-msgstr "Instagram"
+#: src/blocks/post-carousel/index.php:51 src/blocks/posts/index.php:51
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "系統發生錯誤，表示摘要可能故障中。請稍後再試。"
 
-#: src/blocks/social-profiles/index.php:89 dist/coblocks.js:58
-msgid "YouTube"
-msgstr "YouTube"
+#: includes/class-coblocks-form.php:493
+msgid "Choose one"
+msgstr "選擇其一"
 
-#: src/blocks/social-profiles/index.php:93 dist/coblocks.js:58
-msgid "Yelp"
-msgstr "Yelp"
+#: includes/class-coblocks-form.php:454
+msgid "Phone"
+msgstr "電話"
 
-#: src/blocks/social-profiles/index.php:97 dist/coblocks.js:58
+#: includes/class-coblocks-form.php:423
+msgid "Date"
+msgstr "日期"
+
+#: src/blocks/social-profiles/index.php:97
 msgid "Houzz"
 msgstr "Houzz"
 
-#: includes/class-coblocks-form.php:89
-msgid "Google reCaptcha site key for form spam protection"
-msgstr "防止垃圾表單用 Google reCaptcha 網站金鑰"
+#: src/blocks/social-profiles/index.php:93
+msgid "Yelp"
+msgstr "Yelp"
 
-#: includes/class-coblocks-form.php:101
-msgid "Google reCaptcha secret key for form spam protection"
-msgstr "防止垃圾表單用 Google reCaptcha 祕密金鑰"
-
-#: includes/class-coblocks-form.php:351 dist/coblocks.js:58
-msgid "Message"
-msgstr "訊息"
-
-#: includes/class-coblocks-form.php:262 dist/coblocks.js:58
-msgid "First"
-msgstr "名"
-
-#: includes/class-coblocks-form.php:263 dist/coblocks.js:58
-msgid "Last"
-msgstr "姓"
-
-#: includes/class-coblocks-form.php:258 dist/coblocks.js:58
-msgid "Name"
-msgstr "姓名"
-
-#. Author of the plugin
-msgid "GoDaddy"
-msgstr "GoDaddy"
-
-#. Author URI of the plugin
-msgid "https://www.godaddy.com"
-msgstr "https://www.godaddy.com"
-
-#: includes/class-coblocks-form.php:803 dist/coblocks.js:58
-msgid "Submit"
-msgstr "提交"
-
-#: includes/class-coblocks-form.php:63 dist/coblocks.js:58
-msgid "Your message was sent:"
-msgstr "系統已送出您的訊息："
-
-#: includes/class-coblocks-google-map-block.php:120
-msgid "Google Map API key for map rendering"
-msgstr "地圖轉譯用 Google Map API 金鑰"
-
-#: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
-#: dist/coblocks.js:58
-msgid "Email"
-msgstr "email"
-
-#: src/blocks/social-profiles/index.php:72 dist/coblocks.js:58
-msgid "Twitter"
-msgstr "Twitter"
-
-#: src/blocks/social-profiles/index.php:68 dist/coblocks.js:58
-msgid "Facebook"
-msgstr "Facebook"
-
-#: src/blocks/social-profiles/index.php:80 dist/coblocks.js:58
-msgid "Pinterest"
-msgstr "Pinterest"
-
-#: src/blocks/share/index.php:148 dist/coblocks.js:58
-msgid "Share via Email"
-msgstr "以 email 分享"
-
-#. Description of the plugin
-msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
-msgstr "CoBlocks 是供 WordPress Gutenberg 區塊編輯工具使用的<strong>頁面建置內容區塊</strong>套件我們提供專門讓創作者使用的區塊，可助您製作美觀而豐富的 WordPress 頁面。"
+#: src/blocks/social-profiles/index.php:89
+msgid "YouTube"
+msgstr "YouTube"
 
 #: src/blocks/social-profiles/index.php:84
 msgid "Linkedin"
 msgstr "領英"
+
+#: src/blocks/social-profiles/index.php:80
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: src/blocks/social-profiles/index.php:76
+msgid "Instagram"
+msgstr "Instagram"
+
+#: src/blocks/social-profiles/index.php:72
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/blocks/social-profiles/index.php:68
+msgid "Facebook"
+msgstr "Facebook"
+
+#: src/blocks/share/index.php:160
+msgid "Share on Reddit"
+msgstr "分享至 Reddit"
+
+#: src/blocks/share/index.php:156
+msgid "Share on Google"
+msgstr "分享至 Google"
+
+#: src/blocks/share/index.php:152
+msgid "Share on Tumblr"
+msgstr "分享至 Tumblr"
+
+#: src/blocks/share/index.php:148
+msgid "Share via Email"
+msgstr "以 email 分享"
+
+#: src/blocks/share/index.php:144
+msgid "Share on Linkedin"
+msgstr "分享至 LinkedIn"
+
+#: src/blocks/share/index.php:140
+msgid "Share on Pinterest"
+msgstr "分享至 Pinterest"
+
+#: src/blocks/share/index.php:136
+msgid "Share on Twitter"
+msgstr "分享至 Twitter"
+
+#: src/blocks/share/index.php:132
+msgid "Share on Facebook"
+msgstr "分享至 Facebook"
 
 #: includes/admin/class-coblocks-action-links.php:41
 msgid "Review CoBlocks on WordPress.org"
@@ -183,30 +157,58 @@ msgstr "前往 WordPress.org 評論 CoBlocks"
 msgid "Leave a Review"
 msgstr "撰寫評論"
 
-#: src/blocks/share/index.php:160 dist/coblocks.js:58
-msgid "Share on Reddit"
-msgstr "分享至 Reddit"
+#: includes/class-coblocks-google-map-block.php:120
+msgid "Google Map API key for map rendering"
+msgstr "地圖轉譯用 Google Map API 金鑰"
 
-#: src/blocks/share/index.php:156 dist/coblocks.js:58
-msgid "Share on Google"
-msgstr "分享至 Google"
+#: includes/class-coblocks-form.php:63
+msgid "Your message was sent:"
+msgstr "系統已送出您的訊息："
 
-#: src/blocks/share/index.php:152 dist/coblocks.js:58
-msgid "Share on Tumblr"
-msgstr "分享至 Tumblr"
+#: includes/class-coblocks-form.php:803
+msgid "Submit"
+msgstr "提交"
 
-#: src/blocks/share/index.php:144
-msgid "Share on Linkedin"
-msgstr "分享至 LinkedIn"
+#: includes/class-coblocks-form.php:351
+msgid "Message"
+msgstr "訊息"
 
-#: src/blocks/share/index.php:140 dist/coblocks.js:58
-msgid "Share on Pinterest"
-msgstr "分享至 Pinterest"
+#: includes/class-coblocks-form.php:263
+msgid "Last"
+msgstr "姓"
 
-#: src/blocks/share/index.php:132 dist/coblocks.js:58
-msgid "Share on Facebook"
-msgstr "分享至 Facebook"
+#: includes/class-coblocks-form.php:262
+msgid "First"
+msgstr "名"
 
-#: src/blocks/share/index.php:136 dist/coblocks.js:58
-msgid "Share on Twitter"
-msgstr "分享至 Twitter"
+#: includes/class-coblocks-form.php:258
+msgid "Name"
+msgstr "姓名"
+
+#: includes/class-coblocks-form.php:229 includes/class-coblocks-form.php:321
+msgid "Email"
+msgstr "email"
+
+#: includes/class-coblocks-form.php:101
+msgid "Google reCaptcha secret key for form spam protection"
+msgstr "防止垃圾表單用 Google reCaptcha 祕密金鑰"
+
+#: includes/class-coblocks-form.php:89
+msgid "Google reCaptcha site key for form spam protection"
+msgstr "防止垃圾表單用 Google reCaptcha 網站金鑰"
+
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr "https://www.godaddy.com"
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr "GoDaddy"
+
+#. Description of the plugin
+msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
+msgstr "CoBlocks 是供 WordPress Gutenberg 區塊編輯工具使用的<strong>頁面建置內容區塊</strong>套件我們提供專門讓創作者使用的區塊，可助您製作美觀而豐富的 WordPress 頁面。"
+
+#. Plugin Name of the plugin
+msgid "CoBlocks"
+msgstr "CoBlocks"

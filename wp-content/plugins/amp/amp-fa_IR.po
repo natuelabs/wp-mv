@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - AMP - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-14 17:35:21+0000\n"
+"PO-Revision-Date: 2021-03-24 11:31:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,56 +11,60 @@ msgstr ""
 "Language: fa\n"
 "Project-Id-Version: Plugins - AMP - Stable (latest release)\n"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3303
+#: src/Admin/PluginRowMeta.php:52
+msgid "Contact support"
+msgstr "تماس با پشتیبانی"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3381
 msgid "Class name"
 msgstr "نام کلاس"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3301
+#: includes/validation/class-amp-validation-error-taxonomy.php:3379
 msgid "CSS selector"
 msgstr "انتخابگر CSS"
 
-#: includes/class-amp-theme-support.php:1865
+#: includes/class-amp-theme-support.php:1691
 msgid "Go to non-AMP version"
 msgstr "رفتن به نسخه بدون AMP"
 
-#: src/Admin/ReaderThemes.php:247 assets/js/amp-settings.js:29
+#: src/Admin/ReaderThemes.php:247 assets/js/amp-settings.js:1
 msgid "Error:"
 msgstr "خطا :"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1767
+#: includes/validation/class-amp-validated-url-post-type.php:1760
 msgid "Location:"
 msgstr "مکان:"
 
-#: src/ReaderThemeLoader.php:240 src/ReaderThemeLoader.php:252
+#: src/ReaderThemeLoader.php:259 src/ReaderThemeLoader.php:271
 msgctxt "prefix for theme card in list"
 msgid "Reader:"
 msgstr "خواننده:"
 
-#: src/ReaderThemeLoader.php:221 assets/js/amp-onboarding-wizard.js:5
+#: src/ReaderThemeLoader.php:240 assets/js/amp-onboarding-wizard.js:1
 msgid "Customize"
 msgstr "سفارشی‌سازی"
 
-#: src/MobileRedirection.php:447
+#: src/MobileRedirection.php:562
 msgid "Go to mobile version"
 msgstr "به نسخه موبایل بروید"
 
-#: src/MobileRedirection.php:443
+#: src/MobileRedirection.php:558
 msgid "Exit mobile version"
 msgstr "خروج از نسخه موبایل"
 
-#: src/DevTools/UserAccess.php:141
+#: src/DevTools/UserAccess.php:139
 msgid "AMP Developer Tools"
 msgstr "ابزار توسعه دهندگان AMP"
 
-#: src/Admin/SiteHealth.php:341
+#: src/Admin/SiteHealth.php:408
 msgid "The operation failed, please reload the page and try again."
 msgstr "این عملیات به مشکل خورد، لطفا برگه را دوباره نوسازی کنید و سپس دوباره سعی نمایید."
 
-#: src/Admin/SiteHealth.php:340
+#: src/Admin/SiteHealth.php:407
 msgid "Reload the page to refresh the diagnostic check."
 msgstr "برای تازه کردن بررسی تشخیص، برگه را دوباره نوسازی کنید."
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3356
+#: includes/validation/class-amp-validation-error-taxonomy.php:3434
 msgid "Message"
 msgstr "پیام"
 
@@ -69,44 +73,32 @@ msgstr "پیام"
 msgid "Failed to fetch: %1$s (%2$s)"
 msgstr "ناتوانی در واکشی: %1$s (%2$s)"
 
-#: includes/validation/class-amp-validation-manager.php:2083
+#: includes/validation/class-amp-validation-manager.php:1846
 msgid "Too many redirects."
 msgstr "تغییرمسیرهای بیش از حد."
 
-#: includes/validation/class-amp-validation-manager.php:1650
+#: includes/validation/class-amp-validation-manager.php:1410
 msgid "Nonce authentication failed."
 msgstr "احراز هویت کلید سری ناموفق بود."
 
-#: includes/validation/class-amp-validation-manager.php:470
+#: includes/validation/class-amp-validation-manager.php:442
 msgid "Preview link expired. Please try again."
 msgstr "پیوند پیش‌نمایش منقضی شده است. لطفا دوباره تلاش نمایید."
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3352
+#: includes/validation/class-amp-validation-error-taxonomy.php:3430
 msgid "Required attribute value"
 msgstr "مقدار ویژگی ضروری است"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3336
-msgid "First child tag"
-msgstr "اولین برچسب فرزند"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:3334
-msgid "Child tag"
-msgstr "برچسب فرزند"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:3322
-msgid "Property name"
-msgstr "نام ویژگی"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:3025
-#: includes/validation/class-amp-validation-error-taxonomy.php:3317
+#: includes/validation/class-amp-validation-error-taxonomy.php:3103
+#: includes/validation/class-amp-validation-error-taxonomy.php:3395
 msgid "Invalid property"
 msgstr "ویژگی نامعتبر است"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3017
+#: includes/validation/class-amp-validation-error-taxonomy.php:3095
 msgid "Invalid JSON"
 msgstr "JSON نامعتبر است"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2100
+#: includes/validation/class-amp-validation-error-taxonomy.php:2179
 msgid "Error code"
 msgstr "کد خطا"
 
@@ -142,6 +134,18 @@ msgstr "درصد"
 msgid "Original"
 msgstr "اصلی"
 
+#: includes/validation/class-amp-validation-error-taxonomy.php:3412
+msgid "Child tag"
+msgstr "برچسب فرزند"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3400
+msgid "Property name"
+msgstr "نام ویژگی"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3414
+msgid "First child tag"
+msgstr "اولین برچسب فرزند"
+
 #: includes/validation/class-amp-validated-url-post-type.php:2372
 #: includes/validation/class-amp-validated-url-post-type.php:2381
 #: includes/validation/class-amp-validated-url-post-type.php:2427
@@ -159,204 +163,205 @@ msgstr "بایت"
 msgid "bytes"
 msgstr "بایت"
 
-#: includes/validation/class-amp-validated-url-post-type.php:2068
+#: includes/validation/class-amp-validated-url-post-type.php:2062
 msgid "Stylesheets"
 msgstr "شیوه‌نامه‌ها"
 
-#: includes/templates/amp-paired-browsing.php:77
+#: includes/templates/amp-paired-browsing.php:70
 msgid "AMP version"
 msgstr "نگارش AMP"
 
-#: includes/templates/amp-paired-browsing.php:57
+#: includes/templates/amp-paired-browsing.php:51
 msgid "Go Back"
 msgstr "بازگشت"
 
-#: includes/templates/amp-paired-browsing.php:54
+#: includes/templates/amp-paired-browsing.php:50
 msgid "Exit"
 msgstr "خروج"
 
-#: includes/templates/amp-paired-browsing.php:19
+#: includes/templates/amp-paired-browsing.php:20
 msgid "Loading&#8230;"
 msgstr "در حال بارگذاری&#8230;"
 
-#: src/Admin/SiteHealth.php:181
-msgid "https://www.php.net/manual/en/book.curl.php"
-msgstr "https://www.php.net/manual/en/book.curl.php"
-
 #. translators: The accessibility text.
 #. translators: accessibility text
-#: src/Admin/SiteHealth.php:121 src/Admin/SiteHealth.php:184
-#: src/Admin/SiteHealth.php:263 assets/js/amp-block-editor.js:27
+#: src/Admin/SiteHealth.php:147 src/Admin/SiteHealth.php:251
+#: src/Admin/SiteHealth.php:330 assets/js/amp-block-editor.js:31
 msgid "(opens in a new tab)"
 msgstr "(باز کردن در زبانه جدید)"
 
-#: src/Admin/SiteHealth.php:93
+#: src/Admin/SiteHealth.php:248
+msgid "https://www.php.net/manual/en/book.curl.php"
+msgstr "https://www.php.net/manual/en/book.curl.php"
+
+#: src/Admin/SiteHealth.php:119
 msgid "ICU version"
 msgstr "نگارش ICU"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1188
-msgid "Invalid Markup"
-msgstr "نشانه گذاری نامعتبر"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:3299
-msgid "CSS property"
-msgstr "ویژگی CSS"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:3019
-msgid "Illegal CSS !important property"
-msgstr "CSS غیر مجاز! ویژگی مهم است"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2991
-msgid "Illegal CSS property"
-msgstr "ویژگی غیر مجاز CSS"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2986
-msgid "CSS parse error"
-msgstr "خطا در تجزیه CSS"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2984
-msgid "Unrecognized CSS"
-msgstr "کد CSS ناشناخته است"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2942
-msgid "Invalid script"
-msgstr "اسکریپت نامعتبر"
-
 #. translators: %s is the byte count
-#: includes/validation/class-amp-validation-error-taxonomy.php:2684
+#: includes/validation/class-amp-validation-error-taxonomy.php:2762
 msgid "%s byte"
 msgid_plural "%s bytes"
 msgstr[0] "%s بایت"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3307
-msgid "Text content"
-msgstr "محتوای نوشته"
+#: includes/validation/class-amp-validation-error-taxonomy.php:3377
+msgid "CSS property"
+msgstr "ویژگی CSS"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3297
-msgid "Parent element"
-msgstr "عنصر مادر"
+#: includes/validation/class-amp-validation-error-taxonomy.php:3097
+msgid "Illegal CSS !important property"
+msgstr "CSS غیر مجاز! ویژگی مهم است"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3294
+#: includes/validation/class-amp-validation-error-taxonomy.php:3069
+msgid "Illegal CSS property"
+msgstr "ویژگی غیر مجاز CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3064
+msgid "CSS parse error"
+msgstr "خطا در تجزیه CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3062
+msgid "Unrecognized CSS"
+msgstr "کد CSS ناشناخته است"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3020
+msgid "Invalid script"
+msgstr "اسکریپت نامعتبر"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1181
+msgid "Invalid Markup"
+msgstr "نشانه گذاری نامعتبر"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2578
+msgid "Name"
+msgstr "نام"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2581
+msgid "Post ID"
+msgstr "شناسه نوشته"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2584
+msgid "Post Type"
+msgstr "نوع نوشته"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2629
+msgid "Filter"
+msgstr "صافی"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2631
+msgid "Action"
+msgstr "اقدام"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2648
+msgid "Theme"
+msgstr "پوسته"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2652
+#: assets/js/amp-settings.js:23
+msgid "Plugin"
+msgstr "افزونه"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2622
+msgid "Location"
+msgstr "مکان"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2619
+msgid "Function"
+msgstr "تابع"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2613
+msgid "Shortcode"
+msgstr "کد کوتاه"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2610
+msgid "Block Name"
+msgstr "نام بلوک"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3372
 msgid "Node name"
 msgstr "نام گره"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3292
+#. translators: %d is the hook priority
+#: includes/validation/class-amp-validation-error-taxonomy.php:2685
+msgid "(priority %d)"
+msgstr "(اولویت %d)"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2660
+#: assets/js/amp-block-validation.js:9
+msgid "Core"
+msgstr "هسته"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2656
+msgid "Must-Use Plugin"
+msgstr "باید از افزونه‌ استفاده کنید"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3385
+msgid "Text content"
+msgstr "محتوای نوشته"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3375
+msgid "Parent element"
+msgstr "عنصر مادر"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3370
 msgid "Element name"
 msgstr "نام عنصر"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3290
+#: includes/validation/class-amp-validation-error-taxonomy.php:3368
 msgid "Attribute name"
 msgstr "نام ویژگی"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:3282
+#: includes/validation/class-amp-validation-error-taxonomy.php:3360
 msgid "Code"
 msgstr "کد"
 
 #. translators: %s error code
-#: includes/validation/class-amp-validation-error-taxonomy.php:3268
+#: includes/validation/class-amp-validation-error-taxonomy.php:3346
 msgid "Unknown error (%s)"
 msgstr "خطای ناشناخته (%s)"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2980
+#: includes/validation/class-amp-validation-error-taxonomy.php:3058
 msgid "Duplicate element"
 msgstr "عنصر تکراری"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2964
+#: includes/validation/class-amp-validation-error-taxonomy.php:3042
 msgid "Invalid processing instruction"
 msgstr "فرایند دستور نامعتبر است"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2712
+#: includes/validation/class-amp-validation-error-taxonomy.php:2790
 msgid "Custom HTML"
 msgstr "کد سفارشی HTML"
 
-#. translators: %d is the hook priority
 #: includes/validation/class-amp-validation-error-taxonomy.php:2607
-msgid "(priority %d)"
-msgstr "(اولویت %d)"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2582
-msgid "Core"
-msgstr "هسته"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2578
-msgid "Must-Use Plugin"
-msgstr "باید از افزونه‌ استفاده کنید"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2574
-#: assets/js/amp-settings.js:27
-msgid "Plugin"
-msgstr "افزونه"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2570
-msgid "Theme"
-msgstr "پوسته"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2553
-msgid "Action"
-msgstr "اقدام"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2551
-msgid "Filter"
-msgstr "صافی"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2544
-msgid "Location"
-msgstr "مکان"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2541
-msgid "Function"
-msgstr "تابع"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2535
-msgid "Shortcode"
-msgstr "کد کوتاه"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2532
-msgid "Block Name"
-msgstr "نام بلوک"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2529
 msgid "Block Index"
 msgstr "اندیس بلوک"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2506
-msgid "Post Type"
-msgstr "نوع نوشته"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2503
-msgid "Post ID"
-msgstr "شناسه نوشته"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2500
-msgid "Name"
-msgstr "نام"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2049
+#: includes/validation/class-amp-validation-error-taxonomy.php:2128
 msgid "Information"
 msgstr "اطلاعات"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:1501
-msgid "Invalid CSS"
-msgstr "CSS نامعتبر"
 
 #: includes/validation/class-amp-validated-url-post-type.php:2796
 msgid "Keep"
 msgstr "نگه داشتن"
 
 #. translators: %s is the hook name
-#: includes/validation/class-amp-validated-url-post-type.php:1478
+#: includes/validation/class-amp-validated-url-post-type.php:1471
 msgid "Hook: %s"
 msgstr "هوک: %s"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1472
+#: includes/validation/class-amp-validated-url-post-type.php:1465
 msgid "Excerpt"
 msgstr "چکیده"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1468
+#: includes/validation/class-amp-validated-url-post-type.php:1461
 msgid "Content"
 msgstr "محتوا"
 
-#: includes/options/class-amp-options-manager.php:509
+#: includes/validation/class-amp-validation-error-taxonomy.php:1511
+msgid "Invalid CSS"
+msgstr "CSS نامعتبر"
+
+#: includes/options/class-amp-options-manager.php:470
 msgid "https://wordpress.org/support/article/why-should-i-use-https/"
 msgstr "https://wordpress.org/support/article/why-should-i-use-https/"
 
@@ -364,43 +369,38 @@ msgstr "https://wordpress.org/support/article/why-should-i-use-https/"
 msgid "Remove"
 msgstr "برداشتن"
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:244
+#: includes/sanitizers/class-amp-form-sanitizer.php:246
 msgid "Please contact the developer of this form processor to improve this message."
 msgstr "برای بهبود این پیام، لطفا با توسعه دهنده این پردازنده فرم تماس بگیرید."
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:242
+#: includes/sanitizers/class-amp-form-sanitizer.php:244
 msgid "Even though the server responded OK, it is possible the submission was not processed."
 msgstr "حتی اگر سرور پاسخ خوب داده باشد، ممکن است ارسال شده پردازش نشود."
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:241
+#: includes/sanitizers/class-amp-form-sanitizer.php:243
 msgid "It appears your submission was successful."
 msgstr "به نظر می رسد که ارسال شما موفق بوده است."
 
 #. translators: %1$s: HTTP status text, %2$s: HTTP status code
-#: includes/sanitizers/class-amp-form-sanitizer.php:239
+#: includes/sanitizers/class-amp-form-sanitizer.php:241
 msgid "The server responded with %1$s (code %2$s)."
 msgstr "سرور با %1$s (کد %2$s ) پاسخ داد."
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:237
+#: includes/sanitizers/class-amp-form-sanitizer.php:239
 msgid "Your submission failed."
 msgstr "تسلیم شما شکست خورد"
 
-#: includes/sanitizers/class-amp-form-sanitizer.php:227
+#: includes/sanitizers/class-amp-form-sanitizer.php:228
 msgid "Submitting…"
 msgstr "ارسال ..."
 
 #. translators: %s: CSS selector for admin bar element
-#: includes/sanitizers/class-amp-style-sanitizer.php:2974
+#: includes/sanitizers/class-amp-style-sanitizer.php:2962
 msgid "Admin bar (%s) was removed to preserve AMP validity due to excessive CSS."
 msgstr "نوار مدیریت ( %s ) برای حفظ اعتبار AMP به دلیل CSS بیش از حد برداشته شد."
 
-#. translators: %s: the fetched URL
-#: includes/sanitizers/class-amp-style-sanitizer.php:1512
-msgid "Failed to fetch: %s"
-msgstr "پیگیری نشد: %s"
-
 #. translators: Admin screen title. %s: Admin screen name
-#: includes/validation/class-amp-validated-url-post-type.php:3005
+#: includes/validation/class-amp-validated-url-post-type.php:2946
 msgid "%s &#8212; WordPress"
 msgstr "%s & # 8212؛ وردپرس"
 
@@ -408,49 +408,49 @@ msgstr "%s & # 8212؛ وردپرس"
 msgid "Redirecting…"
 msgstr "هدایت کردن ..."
 
-#: includes/templates/amp-paired-browsing.php:29
+#: includes/templates/amp-paired-browsing.php:30
 msgid "Non-AMP"
 msgstr "غیر AMP"
 
-#: amp.php:166 amp.php:186
+#: amp.php:171 amp.php:191
 msgid "AMP plugin unable to initialize."
 msgstr "پلاگین AMP قادر به مقداردهی اولیه نیست."
 
 #. translators: %s is list of missing extensions
-#: amp.php:141
+#: amp.php:146
 msgid "The following PHP function is missing: %s. Please contact your host to finish installation."
 msgid_plural "The following PHP functions are missing: %s. Please contact your host to finish installation."
 msgstr[0] "عملکرد پی اچ پی زیر گم شده است: %s . برای پایان نصب باید با میزبان خود تماس بگیرید."
 
 #. translators: %s is list of missing extensions
-#: amp.php:126
+#: amp.php:131
 msgid "The following PHP class is missing: %s. Please contact your host to finish installation."
 msgid_plural "The following PHP classes are missing: %s. Please contact your host to finish installation."
 msgstr[0] "کلاس PHP زیر گم شده است: %s . برای پایان نصب باید با میزبان خود تماس بگیرید."
 
 #. translators: %s is list of missing extensions
-#: amp.php:111
+#: amp.php:116
 msgid "The following PHP extension is missing: %s. Please contact your host to finish installation."
 msgid_plural "The following PHP extensions are missing: %s. Please contact your host to finish installation."
 msgstr[0] "پسوند پی اچ پی زیر گم شده است: %s . برای پایان نصب باید با میزبان خود تماس بگیرید."
-
-#. translators: 1: AMP_Comment_Walker. 2: AMP_Comments_Sanitizer.
-#: includes/class-amp-comment-walker.php:11
-msgid "%1$s functionality has been moved to %2$s."
-msgstr "%1$s عملکرد انتقال داده شده به %2$s"
 
 #. translators: %s: WP_Service_Worker_Cache_Registry.
 #: includes/class-amp-service-worker.php:110
 msgid "Please update to PWA v0.2. Expected argument to be %s."
 msgstr "لطفا به PWA v0.2 به روزرسانی کنید. استدلال پیش بینی %s"
 
+#. translators: 1: AMP_Comment_Walker. 2: AMP_Comments_Sanitizer.
+#: includes/class-amp-comment-walker.php:11
+msgid "%1$s functionality has been moved to %2$s."
+msgstr "%1$s عملکرد انتقال داده شده به %2$s"
+
 #. translators: %s is error code
-#: includes/validation/class-amp-validation-manager.php:2318
+#: includes/validation/class-amp-validation-manager.php:2096
 msgid "URL validation failed. Error code: %s."
 msgstr "اعتبار نشانی اینترنتی خراب شد کد خطا: %s"
 
 #. translators: localized date and time format, see http://php.net/date
-#: includes/validation/class-amp-validation-error-taxonomy.php:1889
+#: includes/validation/class-amp-validation-error-taxonomy.php:1968
 msgid "F j, Y g:i a"
 msgstr "F j، Y g: ia"
 
@@ -463,15 +463,9 @@ msgstr "پاسخ شامل نوع متن مورد انتظار / CSS مورد ا�
 msgid "Use %1$s function which is already included from %2$s"
 msgstr "استفاده از عملکرد %1$s که قبلا از %2$s گنجانده شده است"
 
-#. translators: %s: the URL to the edit post screen.
-#: includes/class-amp-theme-support.php:808
-#: includes/class-amp-theme-support.php:817
-msgid "Currently disabled at the <a href=\"%s\">page level</a>."
-msgstr "در حال حاضر در <a href=\"%s\">page level</a> غیر فعال شده است."
-
 #. translators: 1: embed handler. 2: AMP_Embed_Handler
+#: includes/class-amp-theme-support.php:979
 #: includes/templates/class-amp-content.php:179
-#: includes/class-amp-theme-support.php:1090
 msgid "Embed Handler (%1$s) must extend `%2$s`"
 msgstr "Embed Handler ( %1$s ) باید %2$s گسترش دهد"
 
@@ -479,6 +473,12 @@ msgstr "Embed Handler ( %1$s ) باید %2$s گسترش دهد"
 #: includes/templates/class-amp-content-sanitizer.php:100
 msgid "Sanitizer (%1$s) must extend `%2$s`"
 msgstr "Sanitizer ( %1$s ) باید %2$s گسترش دهد"
+
+#. translators: %s: the URL to the edit post screen.
+#: includes/class-amp-theme-support.php:699
+#: includes/class-amp-theme-support.php:708
+msgid "Currently disabled at the <a href=\"%s\">page level</a>."
+msgstr "در حال حاضر در <a href=\"%s\">page level</a> غیر فعال شده است."
 
 #: includes/class-amp-service-worker.php:343
 msgid "Installing service worker..."
@@ -500,7 +500,7 @@ msgstr "لطفا به PWA v0.2 به روزرسانی کنید. استدلال پ
 
 #. translators: 1: the analytics entry ID. 2: type. 3: attributes. 4:
 #. config_data. 5: comma-separated list of the actual entry keys.
-#: includes/amp-helper-functions.php:1350
+#: includes/amp-helper-functions.php:1201
 msgid "Analytics entry for %1$s is missing one of the following keys: `%2$s` or `%3$s` (array keys: %4$s)"
 msgstr "ورودی تجزیه و تحلیل برای %1$s یکی از کلید های زیر را از دست نمی دهد: %2$s` یا `%3$s` (کلید های آرایه: %4$s)"
 
@@ -508,12 +508,12 @@ msgstr "ورودی تجزیه و تحلیل برای %1$s یکی از کلید �
 msgid "AMP Project Contributors"
 msgstr "همکاران پروژه AMP"
 
-#: includes/options/class-amp-options-manager.php:478
+#: includes/options/class-amp-options-manager.php:439
 msgid "PHP-CSS-Parser is not available so CSS processing will not be available."
 msgstr "PHP-CSS-Parser در دسترس نیست بنابراین پردازش CSS در دسترس نخواهد بود."
 
 #. translators: %s: path to the conflicting library
-#: includes/options/class-amp-options-manager.php:469
+#: includes/options/class-amp-options-manager.php:430
 msgid "A conflicting version of PHP-CSS-Parser appears to be installed by another plugin or theme (located in %s). Because of this, CSS processing will be limited, and tree shaking will not be available."
 msgstr "نسخه متضادی از PHP-CSS-Parser به نظر میرسد توسط یک افزونه یا تم (که در %s ) نصب شده است. به همین دلیل پردازش CSS محدود خواهد شد و تکان دادن درخت در دسترس نخواهد بود."
 
@@ -521,329 +521,70 @@ msgstr "نسخه متضادی از PHP-CSS-Parser به نظر میرسد توس�
 msgid "AMP CSS processing is limited because a conflicting version of PHP-CSS-Parser has been loaded by another plugin or theme. Tree shaking is not available."
 msgstr "پردازش AMP CSS محدود است زیرا یک نسخه متضاد PHP-CSS-Parser با افزونه یا پوسته دیگر بارگذاری شده است. تکان دادن شاخه در دسترس نیست."
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:253
+#: includes/validation/class-amp-validation-error-taxonomy.php:259
 msgid "All AMP Validation Errors"
 msgstr "تمام خطاهای Validation AMP"
 
-#: includes/amp-helper-functions.php:848
-msgid "There is no amphtml version available for this URL."
-msgstr "هیچ نسخه amphtml برای این نشانی اینترنتی وجود ندارد."
-
-#. translators: 1: @import. 2: wp_enqueue_style(). 3: font CDN URL.
-#: includes/sanitizers/class-amp-style-sanitizer.php:1694
-msgid "It is not a best practice to use %1$s to load font CDN stylesheets. Please use %2$s to enqueue %3$s as its own separate script."
-msgstr "این بهترین شیوه استفاده از %1$s برای بارگذاری شیوه نامه فونت CDN نیست. لطفا از %2$s برای enqueue %3$s به عنوان اسکریپت جداگانه خود استفاده کنید."
-
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:382
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:408
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:424
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:440
-#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:155
-msgid "collapse child menu"
-msgstr "جمع‌شدن زیر فهرست"
-
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:381
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:407
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:423
-#: includes/sanitizers/class-amp-core-theme-sanitizer.php:439
-#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:152
-msgid "expand child menu"
-msgstr "بازشدن زیر فهرست"
-
-#: includes/class-amp-theme-support.php:843
-msgid "Not Found (404)"
-msgstr "یافت نشد (404)"
-
-#: includes/class-amp-theme-support.php:840
-msgid "Search"
-msgstr "جست‌وجو"
-
-#: includes/class-amp-theme-support.php:836 assets/js/amp-block-editor.js:25
+#: includes/class-amp-theme-support.php:727 assets/js/amp-block-editor.js:29
 msgid "Date"
 msgstr "تاریخ"
 
-#: includes/class-amp-theme-support.php:832
+#: includes/class-amp-theme-support.php:723
 msgid "Author"
 msgstr "نویسنده"
 
-#: includes/class-amp-theme-support.php:813
+#: includes/class-amp-theme-support.php:704
 msgid "Blog"
 msgstr "بلاگ"
 
-#: includes/class-amp-theme-support.php:803
-#: includes/class-amp-theme-support.php:821
-msgid "Homepage"
-msgstr "صفحه اصلی"
-
-#: includes/class-amp-theme-support.php:798
+#: includes/class-amp-theme-support.php:689
 msgid "Singular"
 msgstr "مفرد"
 
-#. translators: %s: amp_supportable_templates
-#: includes/class-amp-theme-support.php:737
-msgid "Did not expect there to be more than one matching template. Did you filter %s to not honor the template hierarchy?"
-msgstr "انتظار نداشت که بیش از یک الگوی مطابق باشد. آیا %s را فیلتر کردید تا سلسله مراتب الگو را نادیده بگیرید؟"
-
-#. translators: %s: the supportable template ID.
-#: includes/class-amp-theme-support.php:600
-msgid "Supportable template \"%s\" does not have a callable callback."
-msgstr "الگو قابل پشتیبانی \\ \" %s \" تماس تلفنی قابل تماس ندارد"
-
-#: includes/class-amp-theme-support.php:571
-msgid "No WP_Query available."
-msgstr "WP_Query موجود نیست."
-
-#: includes/validation/class-amp-validation-manager.php:2280
-msgid "An internal server error occurred when fetching the URL for validation."
-msgstr "هنگام دریافت URL برای اعتبار، یک خطای سرور داخلی رخ داد."
-
-#: includes/validation/class-amp-validation-manager.php:2272
-msgid "The fetched URL was not found. It may have been deleted. If so, you can trash this."
-msgstr "نشانی اینترنتی جالب یافت نشد ممکن است حذف شده باشد اگر چنین است، می توانید این را از بین ببرید."
-
-#: includes/validation/class-amp-validation-manager.php:912
-#: assets/js/amp-block-validation.js:5
-msgid "Review issues"
-msgstr "بررسی مسائل"
-
-#: includes/validation/class-amp-validation-manager.php:893
-msgid "There is content which fails AMP validation."
-msgstr "محتوا وجود دارد که اعتبار AMP را خراب می کند."
-
-#: includes/validation/class-amp-validation-manager.php:653
-msgid "AMP validity status"
-msgstr "اعتبار AMP"
-
-#: includes/amp-helper-functions.php:1954
-#: includes/validation/class-amp-validation-manager.php:402
-msgid "View AMP version"
-msgstr "نمایش نسخه AMP"
-
-#: includes/amp-helper-functions.php:1954
-#: includes/validation/class-amp-validation-manager.php:402
-msgid "View non-AMP version"
-msgstr "مشاهده نسخه غیر AMP"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2974
-msgid "Illegal CSS at-rule"
-msgstr "CSS نامعتبر در قانون"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2970
-msgid "Excessive CSS"
-msgstr "CSS بیش از حد"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2958
-#: includes/validation/class-amp-validation-error-taxonomy.php:3350
-msgid "Invalid attribute"
-msgstr "صفت نامعتبر"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2951
-msgid "Invalid element"
-msgstr "عنصر نامناسب"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2891
-msgid "You do not have authorization."
-msgstr "شما مجوز ندارید"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2886
-msgid "The link you followed has expired."
-msgstr "لینک شما دنبال شد منقضی شده است."
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2731
+#: includes/validation/class-amp-validation-error-taxonomy.php:2809
 msgid "JavaScript"
 msgstr "جاوا اسکریپت"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2730
-msgid "HTML Attribute"
-msgstr "مشخصه HTML"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:2729
+#: includes/validation/class-amp-validation-error-taxonomy.php:2807
 msgid "HTML Element"
 msgstr "عناصر HTML"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:2104
-#: includes/validation/class-amp-validation-error-taxonomy.php:2119
-msgid "Invalid markup"
-msgstr "نشانه نادرست"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:3287
-msgid "Element attributes"
-msgstr "ویژگی های عنصر"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:1882
+#: includes/validation/class-amp-validation-error-taxonomy.php:1961
 msgid "n/a"
 msgstr "موجود نیست"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1709
-#: includes/validation/class-amp-validation-error-taxonomy.php:2732
+#: includes/validation/class-amp-validation-error-taxonomy.php:1792
+#: includes/validation/class-amp-validation-error-taxonomy.php:2810
 msgid "CSS"
 msgstr "CSS"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1706
-msgid "HTML attribute"
-msgstr "ویژگی HTML"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:1700
+#: includes/validation/class-amp-validation-error-taxonomy.php:1783
 msgid "JS"
 msgstr "JS"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:1619
-#: includes/validation/class-amp-validation-error-taxonomy.php:1762
-msgid "Toggle error details"
-msgstr "جزئیات خطا"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:1518
-msgid "Clear Empty"
-msgstr "خالی پاک کن"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:1471
-msgid "Filter by error type"
-msgstr "فیلتر بر اساس نوع خطا"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:1396
-msgid "All statuses"
-msgstr "همه وضعیت‌ها"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:1296
-msgid "View Validated URLs"
-msgstr "مشاهده URL های معتبر"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:1251
+#: includes/validation/class-amp-validation-error-taxonomy.php:1260
 msgid "Apply Filter"
 msgstr "اعمال فیلتر"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:893
+#: includes/validation/class-amp-validation-error-taxonomy.php:900
 msgid "Last Seen"
 msgstr "آخرین بازدید"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:312
-msgid "Method must be passed a term slug (string) or error attributes (array)."
-msgstr "روش باید یک term slug (string) یا attributes خطا (آرایه) منتقل شود."
-
-#. translators: Tab heading when selecting from the most used terms
-#: includes/validation/class-amp-validation-error-taxonomy.php:267
-msgid "Most Used Validation Errors"
-msgstr "اغلب خطاهای اعتبار مورد استفاده"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:265
-msgid "Validation errors list"
-msgstr "لیست خطاهای اعتبار سنجی"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:264
-msgid "Validation errors navigation"
-msgstr "خطاهای اعتبار سنجی ناوبری"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:261
-msgid "New Validation Error Hash"
-msgstr "خطای اعتبار جدید هش"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:260
-msgid "Add New Validation Error"
-msgstr "اضافه کردن خطای اعتبار جدید"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:259
-msgid "View Validation Error"
-msgstr "مشاهده اعتبار سنجی خطا"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:258
-msgid "Frequent Validation Errors"
-msgstr "خطاهای اعتبار مکرر"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:257
-msgid "Back to AMP Validation Errors"
-msgstr "بازگشت به خطاهای تایید AMP"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:256
-#: includes/validation/class-amp-validation-error-taxonomy.php:1658
-msgid "Error Index"
-msgstr "شاخص خطا"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:255
-msgid "Update AMP Validation Error"
-msgstr "به روز رسانی خطای اعتبار AMP"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:252
-msgid "Search AMP Validation Errors"
-msgstr "جستجو AMP Validation Errors"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:251
-msgctxt "taxonomy singular name"
-msgid "AMP Validation Error"
-msgstr "خطای اعتبار AMP"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:250
-msgctxt "taxonomy general name"
-msgid "AMP Validation Error Index"
-msgstr "شاخص اعتبار سنجی AMP"
-
-#. translators: %s is the number of posts restored from trash.
-#: includes/validation/class-amp-validated-url-post-type.php:3168
-msgid "%s validated URL unforgotten."
-msgid_plural "%s validated URLs unforgotten."
-msgstr[0] "%s URL تایید شده را فراموش کرده اید."
-
-#. translators: %s is the number of posts forgotten
-#: includes/validation/class-amp-validated-url-post-type.php:3154
-#: includes/validation/class-amp-validated-url-post-type.php:3161
-msgid "%s validated URL forgotten."
-msgid_plural "%s validated URLs forgotten."
-msgstr[0] "URL معتبر URL %s فراموش شده است"
-
-#: includes/validation/class-amp-validated-url-post-type.php:3133
-msgid "Forgotten"
-msgstr "فراموش شده"
-
-#. translators: %s: post title
-#: includes/validation/class-amp-validated-url-post-type.php:3109
-msgid "Forget &#8220;%s&#8221;"
-msgstr "فراموش کنید & 8220؛ %s & # 8221؛"
-
-#: includes/validation/class-amp-validated-url-post-type.php:3087
+#: includes/validation/class-amp-validated-url-post-type.php:3028
 msgid "View"
 msgstr "نمایش"
 
-#. translators: %s is the validation error count
-#: includes/validation/class-amp-validated-url-post-type.php:2955
-msgid "%s URL w/ new AMP errors"
-msgid_plural "%s URLs w/ new AMP errors"
-msgstr[0] "%s URL w / خطاهای AMP جدید"
-
-#: includes/validation/class-amp-validated-url-post-type.php:2791
-msgid "Search Errors"
-msgstr "اشتباهات جستجو"
-
-#: includes/validation/class-amp-validated-url-post-type.php:2756
-msgid "Invalid taxonomy."
-msgstr "طبقه بندی نامعتبر است."
-
-#: includes/validation/class-amp-validated-url-post-type.php:2248
-msgid "Update"
-msgstr "به‌روزرسانی"
-
-#: includes/validation/class-amp-validated-url-post-type.php:2219
+#: includes/validation/class-amp-validated-url-post-type.php:2215
 msgid "View User"
 msgstr "نمایش کاربر"
 
-#: includes/validation/class-amp-validated-url-post-type.php:2217
+#: includes/validation/class-amp-validated-url-post-type.php:2213
 msgid "Edit User"
 msgstr "ویرایش کاربر"
 
-#: includes/validation/class-amp-validated-url-post-type.php:2202
+#: includes/validation/class-amp-validated-url-post-type.php:2199
 msgid "View URL"
 msgstr "نمایش لینک"
-
-#: includes/validation/class-amp-validated-url-post-type.php:2157
-msgid "Please recheck."
-msgstr "لطفا تجدید نظر کنید"
-
-#: includes/validation/class-amp-validated-url-post-type.php:2132
-msgid "Preview Changes"
-msgstr "پیش‌نمایش تغییرات"
-
-#. translators: %s: The date this was published
-#: includes/validation/class-amp-validated-url-post-type.php:2118
-msgid "Last checked: <b>%s</b>"
-msgstr "آخرین بار چک شده: <b>%s</b>"
 
 #. translators: 1: number of errors being displayed. 2: total number of errors
 #. found.
@@ -852,118 +593,341 @@ msgstr "آخرین بار چک شده: <b>%s</b>"
 msgid "Show all"
 msgstr "نمایش همه"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1783
-#: includes/validation/class-amp-validated-url-post-type.php:1912
+#: includes/validation/class-amp-validated-url-post-type.php:1507
+#: includes/validation/class-amp-validated-url-post-type.php:2244
+#: includes/validation/class-amp-validated-url-post-type.php:3051
+msgid "Forget"
+msgstr "فراموشی"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1427
+msgid "Other"
+msgstr "دیگر"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:876
+#: includes/validation/class-amp-validated-url-post-type.php:1215
+#: includes/validation/class-amp-validation-manager.php:443
+msgid "Error"
+msgstr "خطا"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1194
+#: includes/validation/class-amp-validated-url-post-type.php:1200
+msgid "Last Checked"
+msgstr "آخرین چک کردن"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3432
+#: includes/validation/class-amp-validated-url-post-type.php:1188
+#: includes/validation/class-amp-validated-url-post-type.php:1201
+msgid "URL"
+msgstr "آدرس"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2625
+#: includes/validation/class-amp-validation-error-taxonomy.php:3389
+#: includes/validation/class-amp-validated-url-post-type.php:1182
+#: includes/validation/class-amp-validated-url-post-type.php:1199
+#: includes/validation/class-amp-validated-url-post-type.php:1228
+#: includes/validation/class-amp-validated-url-post-type.php:2469
+#: includes/validation/class-amp-validated-url-post-type.php:2616
+msgid "Sources"
+msgstr "منابع"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:256
+msgid "Learn More"
+msgstr "بیشتر بدانید"
+
+#: includes/validation/class-amp-validation-manager.php:412
+#: src/Admin/OptionsMenu.php:122 src/Admin/OptionsMenu.php:160
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1436
+#: assets/js/amp-block-validation.js:9 assets/js/amp-block-editor.js:29
+msgid "Embed"
+msgstr "قراردادن"
+
+#. translators: %s: the human-readable time difference.
+#: back-compat/templates-v0-3/meta-time.php:21
+#: includes/validation/class-amp-validation-error-taxonomy.php:1972
+#: templates/meta-time.php:28
+msgid "%s ago"
+msgstr "%s پیش"
+
+#. Plugin URI of the plugin
+msgid "https://amp-wp.org"
+msgstr "https://amp-wp.org"
+
+#: includes/class-amp-theme-support.php:694
+#: includes/class-amp-theme-support.php:712
+msgid "Homepage"
+msgstr "صفحه اصلی"
+
+#: includes/class-amp-theme-support.php:731
+msgid "Search"
+msgstr "جست‌وجو"
+
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:381
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:407
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:423
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:439
+#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:155
+msgid "collapse child menu"
+msgstr "جمع‌شدن زیر فهرست"
+
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:380
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:406
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:422
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:438
+#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:152
+msgid "expand child menu"
+msgstr "بازشدن زیر فهرست"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1406
+msgid "All statuses"
+msgstr "همه وضعیت‌ها"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2248
+msgid "Update"
+msgstr "به‌روزرسانی"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2126
+msgid "Preview Changes"
+msgstr "پیش‌نمایش تغییرات"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1400
+#: assets/js/amp-block-validation.js:7
+msgid "Plugins"
+msgstr "افزونه‌ها"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:899
+#: includes/validation/class-amp-validation-error-taxonomy.php:2616
+#: includes/validation/class-amp-validation-error-taxonomy.php:3387
+#: includes/validation/class-amp-validated-url-post-type.php:1216
+msgid "Type"
+msgstr "نوع"
+
+#: includes/amp-helper-functions.php:703
+msgid "There is no amphtml version available for this URL."
+msgstr "هیچ نسخه amphtml برای این نشانی اینترنتی وجود ندارد."
+
+#. translators: 1: @import. 2: wp_enqueue_style(). 3: font CDN URL.
+#: includes/sanitizers/class-amp-style-sanitizer.php:1694
+msgid "It is not a best practice to use %1$s to load font CDN stylesheets. Please use %2$s to enqueue %3$s as its own separate script."
+msgstr "این بهترین شیوه استفاده از %1$s برای بارگذاری شیوه نامه فونت CDN نیست. لطفا از %2$s برای enqueue %3$s به عنوان اسکریپت جداگانه خود استفاده کنید."
+
+#: includes/class-amp-theme-support.php:734
+msgid "Not Found (404)"
+msgstr "یافت نشد (404)"
+
+#. translators: %s: amp_supportable_templates
+#: includes/class-amp-theme-support.php:628
+msgid "Did not expect there to be more than one matching template. Did you filter %s to not honor the template hierarchy?"
+msgstr "انتظار نداشت که بیش از یک الگوی مطابق باشد. آیا %s را فیلتر کردید تا سلسله مراتب الگو را نادیده بگیرید؟"
+
+#. translators: %s: the supportable template ID.
+#: includes/class-amp-theme-support.php:491
+msgid "Supportable template \"%s\" does not have a callable callback."
+msgstr "الگو قابل پشتیبانی \\ \" %s \" تماس تلفنی قابل تماس ندارد"
+
+#: includes/class-amp-theme-support.php:462
+msgid "No WP_Query available."
+msgstr "WP_Query موجود نیست."
+
+#: includes/validation/class-amp-validation-manager.php:2058
+msgid "An internal server error occurred when fetching the URL for validation."
+msgstr "هنگام دریافت URL برای اعتبار، یک خطای سرور داخلی رخ داد."
+
+#: includes/validation/class-amp-validation-manager.php:2050
+msgid "The fetched URL was not found. It may have been deleted. If so, you can trash this."
+msgstr "نشانی اینترنتی جالب یافت نشد ممکن است حذف شده باشد اگر چنین است، می توانید این را از بین ببرید."
+
+#: includes/amp-helper-functions.php:1794
+#: includes/validation/class-amp-validation-manager.php:370
+#: includes/validation/class-amp-validation-manager.php:392
+msgid "View AMP version"
+msgstr "نمایش نسخه AMP"
+
+#: includes/amp-helper-functions.php:1793
+#: includes/validation/class-amp-validation-manager.php:392
+msgid "View non-AMP version"
+msgstr "مشاهده نسخه غیر AMP"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3048
+msgid "Excessive CSS"
+msgstr "CSS بیش از حد"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3036
+#: includes/validation/class-amp-validation-error-taxonomy.php:3428
+msgid "Invalid attribute"
+msgstr "صفت نامعتبر"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3029
+msgid "Invalid element"
+msgstr "عنصر نامناسب"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2969
+msgid "You do not have authorization."
+msgstr "شما مجوز ندارید"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2964
+msgid "The link you followed has expired."
+msgstr "لینک شما دنبال شد منقضی شده است."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2808
+msgid "HTML Attribute"
+msgstr "مشخصه HTML"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1529
+msgid "Clear Empty"
+msgstr "خالی پاک کن"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1481
+msgid "Filter by error type"
+msgstr "فیلتر بر اساس نوع خطا"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1305
+msgid "View Validated URLs"
+msgstr "مشاهده URL های معتبر"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:318
+msgid "Method must be passed a term slug (string) or error attributes (array)."
+msgstr "روش باید یک term slug (string) یا attributes خطا (آرایه) منتقل شود."
+
+#. translators: Tab heading when selecting from the most used terms
+#: includes/validation/class-amp-validation-error-taxonomy.php:273
+msgid "Most Used Validation Errors"
+msgstr "اغلب خطاهای اعتبار مورد استفاده"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:271
+msgid "Validation errors list"
+msgstr "لیست خطاهای اعتبار سنجی"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:270
+msgid "Validation errors navigation"
+msgstr "خطاهای اعتبار سنجی ناوبری"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:267
+msgid "New Validation Error Hash"
+msgstr "خطای اعتبار جدید هش"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:266
+msgid "Add New Validation Error"
+msgstr "اضافه کردن خطای اعتبار جدید"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:265
+msgid "View Validation Error"
+msgstr "مشاهده اعتبار سنجی خطا"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:264
+msgid "Frequent Validation Errors"
+msgstr "خطاهای اعتبار مکرر"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:263
+msgid "Back to AMP Validation Errors"
+msgstr "بازگشت به خطاهای تایید AMP"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:262
+#: includes/validation/class-amp-validation-error-taxonomy.php:1744
+msgid "Error Index"
+msgstr "شاخص خطا"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:258
+msgid "Search AMP Validation Errors"
+msgstr "جستجو AMP Validation Errors"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:257
+msgctxt "taxonomy singular name"
+msgid "AMP Validation Error"
+msgstr "خطای اعتبار AMP"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:256
+msgctxt "taxonomy general name"
+msgid "AMP Validation Error Index"
+msgstr "شاخص اعتبار سنجی AMP"
+
+#. translators: %s is the number of posts restored from trash.
+#: includes/validation/class-amp-validated-url-post-type.php:3109
+msgid "%s validated URL unforgotten."
+msgid_plural "%s validated URLs unforgotten."
+msgstr[0] "%s URL تایید شده را فراموش کرده اید."
+
+#. translators: %s is the number of posts forgotten
+#: includes/validation/class-amp-validated-url-post-type.php:3095
+#: includes/validation/class-amp-validated-url-post-type.php:3102
+msgid "%s validated URL forgotten."
+msgid_plural "%s validated URLs forgotten."
+msgstr[0] "URL معتبر URL %s فراموش شده است"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3074
+msgid "Forgotten"
+msgstr "فراموش شده"
+
+#. translators: %s: post title
+#: includes/validation/class-amp-validated-url-post-type.php:3050
+msgid "Forget &#8220;%s&#8221;"
+msgstr "فراموش کنید & 8220؛ %s & # 8221؛"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2791
+msgid "Search Errors"
+msgstr "اشتباهات جستجو"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2151
+msgid "Please recheck."
+msgstr "لطفا تجدید نظر کنید"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1776
+#: includes/validation/class-amp-validated-url-post-type.php:1905
 msgid "You do not have permissions to validate an AMP URL. Did you get logged out?"
 msgstr "مجوز برای اعتبار یک URL AMP ندارید. آیا از سیستم خارج شدی؟"
 
 #. translators: %s is count of validation errors updated
-#: includes/validation/class-amp-validated-url-post-type.php:1651
+#: includes/validation/class-amp-validated-url-post-type.php:1644
 msgid "Updated %s validation error."
 msgid_plural "Updated %s validation errors."
 msgstr[0] "خطای اعتبار سنجی %s به روز شد."
 
-#: includes/validation/class-amp-validated-url-post-type.php:1514
-#: includes/validation/class-amp-validated-url-post-type.php:2244
-#: includes/validation/class-amp-validated-url-post-type.php:3110
-msgid "Forget"
-msgstr "فراموشی"
-
 #. translators: %s is the guessed theme as the source for the error
-#: includes/validation/class-amp-validated-url-post-type.php:1495
+#: includes/validation/class-amp-validated-url-post-type.php:1488
 msgid "%s (?)"
 msgstr "%s (؟)"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1434
-msgid "Other"
-msgstr "دیگر"
-
-#: includes/validation/class-amp-validated-url-post-type.php:1407
-msgid "Plugins"
-msgstr "افزونه‌ها"
-
-#: includes/validation/class-amp-validated-url-post-type.php:1407
+#: includes/validation/class-amp-validated-url-post-type.php:1400
 msgid "Must-Use Plugins"
 msgstr "استفاده از پلاگینها ضروری است"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1281
-#: includes/validation/class-amp-validated-url-post-type.php:2144
+#: includes/validation/class-amp-validated-url-post-type.php:1274
+#: includes/validation/class-amp-validated-url-post-type.php:2138
 msgid "Stale results"
 msgstr "نتایج بدست آمده"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1223
-#: includes/validation/class-amp-validation-error-taxonomy.php:892
-#: includes/validation/class-amp-validation-error-taxonomy.php:2538
-#: includes/validation/class-amp-validation-error-taxonomy.php:3309
-msgid "Type"
-msgstr "نوع"
-
-#: includes/validation/class-amp-validated-url-post-type.php:1231
-#: includes/validation/class-amp-validation-error-taxonomy.php:888
+#: includes/validation/class-amp-validation-error-taxonomy.php:895
+#: includes/validation/class-amp-validated-url-post-type.php:1224
 msgid "The parent element of where the error occurred."
 msgstr "عنصر اصلی که در آن خطا اتفاق افتاده است."
 
-#: includes/validation/class-amp-validated-url-post-type.php:1222
-#: includes/validation/class-amp-validation-error-taxonomy.php:869
-#: includes/validation/class-amp-validation-manager.php:471
-msgid "Error"
-msgstr "خطا"
-
-#: includes/validation/class-amp-validated-url-post-type.php:1201
-#: includes/validation/class-amp-validated-url-post-type.php:1207
-msgid "Last Checked"
-msgstr "آخرین چک کردن"
-
-#: includes/validation/class-amp-validated-url-post-type.php:1195
-#: includes/validation/class-amp-validated-url-post-type.php:1208
-#: includes/validation/class-amp-validation-error-taxonomy.php:3354
-msgid "URL"
-msgstr "آدرس"
-
-#: includes/validation/class-amp-validated-url-post-type.php:1189
-#: includes/validation/class-amp-validated-url-post-type.php:1206
-#: includes/validation/class-amp-validated-url-post-type.php:1235
-#: includes/validation/class-amp-validated-url-post-type.php:2469
-#: includes/validation/class-amp-validated-url-post-type.php:2616
-#: includes/validation/class-amp-validation-error-taxonomy.php:2547
-#: includes/validation/class-amp-validation-error-taxonomy.php:3311
-msgid "Sources"
-msgstr "منابع"
-
-#: includes/validation/class-amp-validated-url-post-type.php:2189
-msgid "AMP disabled"
-msgstr "AMP غیرفعال شده"
-
-#: includes/validation/class-amp-validated-url-post-type.php:2187
-#: includes/admin/class-amp-post-meta-box.php:515
-msgid "AMP enabled"
-msgstr "AMP فعال شده"
-
-#: includes/validation/class-amp-validated-url-post-type.php:457
+#: includes/validation/class-amp-validated-url-post-type.php:435
 msgid "View Error Index"
 msgstr "نمایش خطا"
 
-#: includes/validation/class-amp-validated-url-post-type.php:170
+#: includes/validation/class-amp-validated-url-post-type.php:169
 msgid "Search validated URLs"
 msgstr "جستجو کردن URL های معتبر"
 
-#: includes/validation/class-amp-validated-url-post-type.php:169
+#: includes/validation/class-amp-validated-url-post-type.php:168
 msgid "No forgotten validated URLs"
 msgstr "هیچ آدرس معتبر فراموش شده وجود ندارد"
 
-#: includes/validation/class-amp-validated-url-post-type.php:168
+#: includes/validation/class-amp-validated-url-post-type.php:167
 msgid "No validated URLs found"
 msgstr "هیچ نشانی اینترنتی معتبر یافت نشد"
 
-#: includes/validation/class-amp-validated-url-post-type.php:167
+#: includes/validation/class-amp-validated-url-post-type.php:166
 msgid "Validated URL"
 msgstr "URL معتبر"
 
-#: includes/validation/class-amp-validated-url-post-type.php:166
+#: includes/validation/class-amp-validated-url-post-type.php:165
 msgid "Validated URLs"
 msgstr "URL های معتبر"
 
-#: includes/validation/class-amp-validated-url-post-type.php:165
+#: includes/validation/class-amp-validated-url-post-type.php:164
 msgctxt "post type general name"
 msgid "AMP Validated URLs"
 msgstr "URL های معتبر AMP"
@@ -972,51 +936,63 @@ msgstr "URL های معتبر AMP"
 msgid "You can now reuse your theme's templates and styles in AMP responses, in both &#8220;Transitional&#8221; and &#8220;Standard&#8221; modes."
 msgstr "شما هم اکنون می توانید قالب ها و سبک های تم های خود را در پاسخ های AMP، در هر دو & # 8220؛ Transitional & # 8221؛ و & # 8220؛ استاندارد & # 8221؛ حالت ها."
 
-#: includes/admin/class-amp-admin-pointers.php:67
-msgid "New AMP Template Modes"
-msgstr "حالت‌های جدید قالب AMP"
-
-#: includes/sanitizers/class-amp-form-sanitizer.php:253
-msgid "Learn More"
-msgstr "بیشتر بدانید"
-
 #: src/Admin/PluginActivationNotice.php:78
 msgid "Welcome to AMP for WordPress"
 msgstr "به AMP برای وردپرس خوش آمدید"
 
-#: src/Admin/OptionsMenu.php:117 src/Admin/OptionsMenu.php:153
-#: includes/validation/class-amp-validation-manager.php:440
-msgid "Settings"
-msgstr "تنظیمات"
+#: includes/validation/class-amp-validation-error-taxonomy.php:261
+msgid "Update AMP Validation Error"
+msgstr "به روز رسانی خطای اعتبار AMP"
 
-#. translators: %s: the human-readable time difference.
-#: back-compat/templates-v0-3/meta-time.php:21 templates/meta-time.php:28
-#: includes/validation/class-amp-validation-error-taxonomy.php:1893
-msgid "%s ago"
-msgstr "%s پیش"
+#. translators: %s: The date this was published
+#: includes/validation/class-amp-validated-url-post-type.php:2112
+msgid "Last checked: <b>%s</b>"
+msgstr "آخرین بار چک شده: <b>%s</b>"
 
 #. translators: %1$s is the current directory name, and %2$s is the required
 #. directory name
-#: amp.php:221
+#: amp.php:226
 msgid "You appear to have installed the AMP plugin incorrectly. It is currently installed in the <code>%1$s</code> directory, but it needs to be placed in a directory named <code>%2$s</code>. Please rename the directory. This is important for WordPress plugin auto-updates."
 msgstr "شما ظاهرا پلاگین AMP را نادرست نصب کرده اید. این در حال حاضر در پوشه <code>%1$s</code> نصب شده است، اما باید در یک پوشه با نام <code>%2$s</code> قرار داده شود. لطفا دایرکتوری را تغییر دهید این برای به روز رسانی خودکار پلاگین وردپرس مهم است."
 
-#: includes/validation/class-amp-validated-url-post-type.php:1443
-#: assets/js/amp-block-editor.js:25
-msgid "Embed"
-msgstr "قراردادن"
+#: includes/validation/class-amp-validation-error-taxonomy.php:3052
+msgid "Illegal CSS at-rule"
+msgstr "CSS نامعتبر در قانون"
 
-#. Description of the plugin
-msgid "Enable AMP on your WordPress site, the WordPress way."
-msgstr "AMP را در سایت وردپرس خود، به روش وردپرس فعال کنید."
+#: includes/validation/class-amp-validation-error-taxonomy.php:2183
+#: includes/validation/class-amp-validation-error-taxonomy.php:2198
+msgid "Invalid markup"
+msgstr "نشانه نادرست"
 
-#. Plugin URI of the plugin
-msgid "https://amp-wp.org"
-msgstr "https://amp-wp.org"
+#: includes/validation/class-amp-validation-error-taxonomy.php:3365
+msgid "Element attributes"
+msgstr "ویژگی های عنصر"
 
-#. Author URI of the plugin
-msgid "https://github.com/ampproject/amp-wp/graphs/contributors"
-msgstr "https://github.com/ampproject/amp-wp/graphs/contributors"
+#: includes/validation/class-amp-validation-error-taxonomy.php:1789
+msgid "HTML attribute"
+msgstr "ویژگی HTML"
+
+#: includes/admin/class-amp-admin-pointers.php:67
+msgid "New AMP Template Modes"
+msgstr "حالت‌های جدید قالب AMP"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2183
+msgid "AMP disabled"
+msgstr "AMP غیرفعال شده"
+
+#: includes/admin/class-amp-post-meta-box.php:512
+#: includes/validation/class-amp-validated-url-post-type.php:2181
+msgid "AMP enabled"
+msgstr "AMP فعال شده"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2756
+msgid "Invalid taxonomy."
+msgstr "طبقه بندی نامعتبر است."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1697
+#: includes/validation/class-amp-validation-error-taxonomy.php:1845
+msgid "Toggle error details"
+msgstr "جزئیات خطا"
 
 #: includes/widgets/class-amp-widget-categories.php:65
 msgid "Select Category"
@@ -1046,83 +1022,41 @@ msgstr "انتخاب ماه"
 msgid "Select Year"
 msgstr "انتخاب سال"
 
-#: includes/class-amp-theme-support.php:829
+#: includes/class-amp-theme-support.php:720
 #: includes/widgets/class-amp-widget-archives.php:49
 msgid "Archives"
 msgstr "بایگانی‌ها"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:894
-msgid "URLs"
-msgstr "پیوندها"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:1849
-#: includes/validation/class-amp-validation-error-taxonomy.php:3376
-msgid "Removed"
-msgstr "حذف شد"
-
-#. translators: Meta box date format
-#: includes/validation/class-amp-validated-url-post-type.php:2120
-msgid "M j, Y @ H:i"
-msgstr "M j، Y @ H:i"
-
-#: includes/validation/class-amp-validated-url-post-type.php:1716
-#: includes/validation/class-amp-validated-url-post-type.php:2059
-#: assets/js/amp-settings.js:27
-msgid "Status"
-msgstr "وضعیت"
-
-#: includes/validation/class-amp-validation-error-taxonomy.php:263
+#: includes/validation/class-amp-validation-error-taxonomy.php:269
 msgid "Validation Error"
 msgstr "خطای اعتبار سنجی"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1518
-#: includes/validation/class-amp-validated-url-post-type.php:2128
-#: includes/validation/class-amp-validated-url-post-type.php:3094
+#: includes/validation/class-amp-validated-url-post-type.php:1511
+#: includes/validation/class-amp-validated-url-post-type.php:2122
+#: includes/validation/class-amp-validated-url-post-type.php:3035
 msgid "Recheck"
 msgstr "بررسی مجدد"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1318
-#: includes/validation/class-amp-validated-url-post-type.php:1357
+#: includes/validation/class-amp-validation-error-taxonomy.php:2048
+#: includes/validation/class-amp-validated-url-post-type.php:1311
+#: includes/validation/class-amp-validated-url-post-type.php:1350
 #: includes/validation/class-amp-validated-url-post-type.php:2590
-#: includes/validation/class-amp-validation-error-taxonomy.php:1969
 msgid "--"
 msgstr "--"
 
-#. translators: %s is comma-separated list of one or more plugins
-#: includes/validation/class-amp-validation-manager.php:2367
-msgid "Warning: The following plugin may be incompatible with AMP: %s."
-msgid_plural "Warning: The following plugins may be incompatible with AMP: %s."
-msgstr[0] "هشدار: این افزونه ممکن است با AMP ناسازگار باشد: %s."
-
-#: includes/validation/class-amp-validation-manager.php:2359
-#: assets/js/amp-settings.js:27
+#: includes/validation/class-amp-validation-manager.php:2138
+#: assets/js/amp-settings.js:23
 msgid "More details"
 msgstr "جزئیات بیشتر"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:262
-msgid "No validation errors found."
-msgstr "خطاهای اعتبار سنجی یافت نشد"
-
-#: includes/validation/class-amp-validation-manager.php:926
-msgid "Invalid attributes:"
-msgstr "ویژگی های نامعتبر:"
-
-#: includes/validation/class-amp-validation-manager.php:920
-msgid "Invalid elements:"
-msgstr "عناصر نامعتبر:"
-
-#: includes/validation/class-amp-validated-url-post-type.php:3077
-#: includes/validation/class-amp-validation-error-taxonomy.php:1620
-#: includes/validation/class-amp-validation-error-taxonomy.php:1634
-#: assets/js/amp-settings.js:27
+#: includes/validation/class-amp-validation-error-taxonomy.php:1698
+#: includes/validation/class-amp-validation-error-taxonomy.php:1718
+#: includes/validation/class-amp-validated-url-post-type.php:3018
+#: assets/js/amp-settings.js:23
 msgid "Details"
 msgstr "جزئیات"
 
-#: includes/validation/class-amp-validation-error-taxonomy.php:254
-msgid "Edit AMP Validation Error"
-msgstr "ویرایش خطای تایید AMP"
-
-#: includes/class-amp-theme-support.php:1328
+#: includes/class-amp-theme-support.php:1165
 msgid "Click here to cancel reply."
 msgstr "برای لغو پاسخ اینجا را کلیک کنید."
 
@@ -1134,8 +1068,20 @@ msgstr "نظر شما در انتظار تایید است."
 msgid "Your comment has been posted."
 msgstr "دیدگاه شما ارسال شد."
 
+#. Author URI of the plugin
+msgid "https://github.com/ampproject/amp-wp/graphs/contributors"
+msgstr "https://github.com/ampproject/amp-wp/graphs/contributors"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:268
+msgid "No validation errors found."
+msgstr "خطاهای اعتبار سنجی یافت نشد"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:260
+msgid "Edit AMP Validation Error"
+msgstr "ویرایش خطای تایید AMP"
+
 #. translators: %s: $post
-#: includes/amp-helper-functions.php:1398
+#: includes/amp-helper-functions.php:1249
 msgid "The %s argument is deprecated when theme supports AMP."
 msgstr "استدلال %s از زمانی که تم AMP پشتیبانی می کند، منسوخ می شود."
 
@@ -1143,6 +1089,33 @@ msgstr "استدلال %s از زمانی که تم AMP پشتیبانی می ک
 #: amp.php:36
 msgid "The AMP plugin requires PHP %s. Please contact your host to update your PHP version."
 msgstr "پلاگین AMP به PHP %s نیاز دارد. برای دریافت نسخه PHP خود، لطفا با میزبان خود تماس بگیرید."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1928
+#: includes/validation/class-amp-validation-error-taxonomy.php:3454
+#: assets/js/amp-block-validation.js:15
+msgid "Removed"
+msgstr "حذف شد"
+
+#. translators: %s is comma-separated list of one or more plugins
+#: includes/validation/class-amp-validation-manager.php:2146
+msgid "Warning: The following plugin may be incompatible with AMP: %s."
+msgid_plural "Warning: The following plugins may be incompatible with AMP: %s."
+msgstr[0] "هشدار: این افزونه ممکن است با AMP ناسازگار باشد: %s."
+
+#. translators: Meta box date format
+#: includes/validation/class-amp-validated-url-post-type.php:2114
+msgid "M j, Y @ H:i"
+msgstr "M j، Y @ H:i"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1709
+#: includes/validation/class-amp-validated-url-post-type.php:2053
+#: assets/js/amp-settings.js:23
+msgid "Status"
+msgstr "وضعیت"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:901
+msgid "URLs"
+msgstr "پیوندها"
 
 #: includes/embeds/class-amp-crowdsignal-embed-handler.php:61
 msgid "View Poll"
@@ -1152,82 +1125,82 @@ msgstr "مشاهده نظرسنجی"
 msgid "View Survey"
 msgstr "مشاهده نظرسنجی"
 
-#: includes/templates/amp-enabled-classic-editor-toggle.php:57
-msgid "Cancel"
-msgstr "لغو کردن"
-
-#: includes/templates/amp-enabled-classic-editor-toggle.php:55
+#: includes/templates/amp-enabled-classic-editor-toggle.php:65
 msgid "OK"
 msgstr "تایید"
 
-#: includes/admin/class-amp-post-meta-box.php:442
+#: includes/admin/class-amp-post-meta-box.php:439
 msgid "Unavailable for an unknown reason."
 msgstr "به دلایل نامعلومی در دسترس نیست."
 
-#: includes/admin/class-amp-post-meta-box.php:439
-msgid "A plugin or theme has disabled AMP support."
-msgstr "افزونه یا تم پشتیبانی از AMP را غیر فعال کرده است."
-
-#: includes/templates/amp-enabled-classic-editor-toggle.php:28
-msgid "Edit Status"
-msgstr "ویرایش وضعیت"
-
-#: includes/templates/amp-enabled-classic-editor-toggle.php:27
+#: includes/templates/amp-enabled-classic-editor-toggle.php:37
 msgid "Edit"
 msgstr "ویرایش"
 
-#: includes/templates/amp-enabled-classic-editor-toggle.php:24
+#: includes/templates/amp-enabled-classic-editor-toggle.php:38
+msgid "Edit Status"
+msgstr "ویرایش وضعیت"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:26
 msgid "AMP:"
 msgstr "AMP:"
 
-#: src/Admin/OptionsMenu.php:142 src/Admin/OptionsMenu.php:152
-#: src/ReaderThemeLoader.php:224 assets/js/amp-block-editor.js:13
-#: assets/js/amp-block-validation.js:1
-msgid "AMP Settings"
-msgstr "تنظیمات AMP"
-
-#: includes/admin/class-amp-post-meta-box.php:372
-msgid "Disabled"
-msgstr "غیرفعال"
-
-#: includes/admin/class-amp-post-meta-box.php:371
+#: includes/admin/class-amp-post-meta-box.php:365
 msgid "Enabled"
 msgstr "فعال شده"
 
-#: includes/admin/class-amp-post-meta-box.php:197
-msgid "Preview changes in AMP (opens in new window)"
-msgstr "پیشنمایش تغییرات در AMP (در پنجره جدید باز می شود)"
-
-#: includes/admin/class-amp-post-meta-box.php:102
+#: includes/admin/class-amp-post-meta-box.php:104
 msgid "AMP status."
 msgstr "وضعیت AMP."
 
-#: includes/admin/class-amp-template-customizer.php:749
+#: includes/admin/class-amp-template-customizer.php:771
 msgid "AMP preview enabled"
 msgstr "پیش نمایش AMP فعال شده است"
 
-#: includes/admin/class-amp-template-customizer.php:608
+#: includes/admin/class-amp-post-meta-box.php:204
+msgid "Preview changes in AMP (opens in new window)"
+msgstr "پیشنمایش تغییرات در AMP (در پنجره جدید باز می شود)"
+
+#: src/Admin/OptionsMenu.php:149 src/Admin/OptionsMenu.php:159
+#: src/ReaderThemeLoader.php:243 assets/js/amp-block-editor.js:13
+#: assets/js/amp-block-editor.js:17
+msgid "AMP Settings"
+msgstr "تنظیمات AMP"
+
+#: includes/admin/class-amp-post-meta-box.php:433
+msgid "A plugin or theme has disabled AMP support."
+msgstr "افزونه یا تم پشتیبانی از AMP را غیر فعال کرده است."
+
+#: includes/admin/class-amp-template-customizer.php:630
 msgid "Navigate to an AMP compatible page"
 msgstr "حرکت به یک صفحه سازگار AMP"
 
-#: includes/admin/class-amp-template-customizer.php:607
+#: includes/admin/class-amp-template-customizer.php:629
 msgid "AMP is not available for the page currently being previewed."
 msgstr "AMP برای صفحه ای که در حال حاضر مشاهده می شود در دسترس نیست"
 
-#: includes/validation/class-amp-validated-url-post-type.php:1607
-#: includes/validation/class-amp-validated-url-post-type.php:1638
-#: includes/validation/class-amp-validated-url-post-type.php:1660
-#: includes/validation/class-amp-validation-manager.php:2377
+#: includes/templates/amp-enabled-classic-editor-toggle.php:67
+msgid "Cancel"
+msgstr "لغو کردن"
+
+#: includes/admin/class-amp-post-meta-box.php:366
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1600
+#: includes/validation/class-amp-validated-url-post-type.php:1631
+#: includes/validation/class-amp-validated-url-post-type.php:1653
+#: includes/validation/class-amp-validation-manager.php:2156
 msgid "Dismiss this notice."
 msgstr "این اطلاعیه را رد کن."
 
-#: includes/validation/class-amp-validated-url-post-type.php:1709
-#: includes/validation/class-amp-validation-error-taxonomy.php:1644
+#: includes/validation/class-amp-validation-error-taxonomy.php:1728
+#: includes/validation/class-amp-validated-url-post-type.php:1702
 msgid "Delete"
 msgstr "حذف"
 
 #: src/Admin/AnalyticsOptionsSubmenu.php:59
-#: src/Admin/AnalyticsOptionsSubmenu.php:60 assets/js/amp-settings.js:29
+#: src/Admin/AnalyticsOptionsSubmenu.php:60 assets/js/amp-settings.js:31
 msgid "Analytics"
 msgstr "تجزیه و تحلیل"
 
@@ -1236,19 +1209,18 @@ msgstr "تجزیه و تحلیل"
 msgid "Sanitizer (%s) class does not exist"
 msgstr "کلاس (%s) پالایش کننده (Sanitizer) وجود ندارد"
 
-#. translators: %s: list of tags.
-#: templates/meta-taxonomy.php:44
-msgid "Tags: %s"
-msgstr "برچسب ها: %s"
-
 #. translators: %s: list of categories.
 #: templates/meta-taxonomy.php:27
 msgid "Categories: %s"
 msgstr "دسته ها: %s"
 
-#: templates/footer.php:24
-msgid "Back to top"
-msgstr "بازگشت به بالا"
+#: includes/settings/class-amp-customizer-design-settings.php:168
+msgid "Color Scheme"
+msgstr "طرح رنگ"
+
+#: includes/settings/class-amp-customizer-design-settings.php:130
+msgid "Design"
+msgstr "طراحی"
 
 #: includes/settings/class-amp-customizer-design-settings.php:292
 msgid "Dark"
@@ -1258,21 +1230,22 @@ msgstr "تیره"
 msgid "Light"
 msgstr "روشن"
 
-#: includes/settings/class-amp-customizer-design-settings.php:168
-msgid "Color Scheme"
-msgstr "طرح رنگ"
+#. translators: %s: list of tags.
+#: templates/meta-taxonomy.php:44
+msgid "Tags: %s"
+msgstr "برچسب ها: %s"
 
-#: includes/settings/class-amp-customizer-design-settings.php:156
-msgid "Header Background & Link Color"
-msgstr "رنگ لینک و زمینه سربرگ"
+#: templates/footer.php:24
+msgid "Back to top"
+msgstr "بازگشت به بالا"
 
 #: includes/settings/class-amp-customizer-design-settings.php:142
 msgid "Header Text Color"
 msgstr "رنگ متن سربرگ"
 
-#: includes/settings/class-amp-customizer-design-settings.php:130
-msgid "Design"
-msgstr "طراحی"
+#: includes/settings/class-amp-customizer-design-settings.php:156
+msgid "Header Background & Link Color"
+msgstr "رنگ لینک و زمینه سربرگ"
 
 #: includes/templates/class-amp-post-template.php:343
 msgid "View Comments"
@@ -1283,16 +1256,14 @@ msgid "Leave a Comment"
 msgstr "یک دیدگاه ارسال کنید"
 
 #. Plugin Name of the plugin
-#: src/Admin/OptionsMenu.php:143 src/Admin/SiteHealth.php:134
-#: src/Admin/SiteHealth.php:175 src/Admin/SiteHealth.php:248
-#: src/Admin/SiteHealth.php:315 src/Admin/SiteHealth.php:380
-#: src/Admin/SiteHealth.php:399 includes/amp-helper-functions.php:1945
-#: includes/templates/amp-paired-browsing.php:30
-#: includes/validation/class-amp-validation-manager.php:379
 #: includes/admin/class-amp-admin-pointers.php:66
-#: includes/admin/functions.php:126 includes/admin/functions.php:127
-#: includes/admin/class-amp-template-customizer.php:267
-#: assets/js/amp-onboarding-wizard.js:5
+#: includes/admin/class-amp-template-customizer.php:289
+#: includes/admin/functions.php:128 includes/admin/functions.php:129
+#: includes/amp-helper-functions.php:1799
+#: includes/templates/amp-paired-browsing.php:31
+#: includes/validation/class-amp-validation-manager.php:366
+#: src/Admin/SiteHealth.php:92 src/Admin/OptionsMenu.php:150
+#: assets/js/amp-block-validation.js:21 assets/js/amp-onboarding-wizard.js:1
 msgid "AMP"
 msgstr "AMP"
 
@@ -1303,12 +1274,12 @@ msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr "، "
 
-#. translators: 1: the template file, 2: WP_CONTENT_DIR.
-#: includes/templates/class-amp-post-template.php:473
-msgid "Path validation for template (%1$s) failed. Path cannot traverse and must be located in `%2$s`."
-msgstr "اعتبارسنجی مسیر (Path) برای قالب (%1$s) ناموفق بود. مسیر نمی‌تواند متقاطع (traverse) و باید در `%2$s` واقع شود."
-
 #. translators: %s is key name
 #: includes/templates/class-amp-post-template.php:200
 msgid "Called for non-existent key (\"%s\")."
 msgstr "کلید ناموجودی فراخوانی شد (\"%s\")."
+
+#. translators: 1: the template file, 2: WP_CONTENT_DIR.
+#: includes/templates/class-amp-post-template.php:473
+msgid "Path validation for template (%1$s) failed. Path cannot traverse and must be located in `%2$s`."
+msgstr "اعتبارسنجی مسیر (Path) برای قالب (%1$s) ناموفق بود. مسیر نمی‌تواند متقاطع (traverse) و باید در `%2$s` واقع شود."

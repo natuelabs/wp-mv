@@ -1,34 +1,30 @@
-# Translation of Plugins - Gutenberg - Development (trunk) in Ukrainian
-# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+# Translation of Plugins - Gutenberg - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-17 15:29:33+0000\n"
+"PO-Revision-Date: 2021-06-19 18:47:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: uk_UA\n"
-"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
 
-#: lib/full-site-editing/templates.php:36 build/edit-site/index.js:30
+#: lib/full-site-editing/templates.php:17
 msgid "Templates"
 msgstr "Шаблони"
 
-#: lib/class-wp-theme-json-resolver.php:230 build/block-editor/index.js:1
-msgid "Vivid purple"
-msgstr "Яскравий фіолетовий"
-
-#: gutenberg.php:89
+#: lib/init.php:80
 msgid "Experiments Settings"
 msgstr "Експериментальні налаштування"
 
-#: build/block-library/blocks/search.php:25
-#: build/block-library/blocks/search.php:26
-#: build/block-library/blocks/search.php:52 build/block-editor/index.js:42
-#: build/block-library/index.js:59
-msgid "Search"
-msgstr "Пошук"
+#. translators: accessibility text for the footer landmark region.
+#: lib/full-site-editing/template-parts.php:194
+#: build/edit-navigation/index.js:1258 build/edit-post/index.js:2932
+#: build/edit-widgets/index.js:1365
+msgid "Footer"
+msgstr "Підвал"
 
 #: build/block-library/blocks/rss.php:23
 msgid "An error has occurred, which probably means the feed is down. Try again later."
@@ -38,45 +34,56 @@ msgstr "Сталася помилка Це може означати, що ка�
 msgid "RSS Error:"
 msgstr "Помилка RSS:"
 
-#: lib/editor-settings.php:28 build/block-editor/index.js:1
+#: build/block-library/blocks/search.php:25
+#: build/block-library/blocks/search.php:26
+#: build/block-library/blocks/search.php:52 build/block-editor/index.js:23274
+#: build/block-editor/index.js:23380
+msgid "Search"
+msgstr "Пошук"
+
+#: lib/compat/wordpress-5.8/block-editor.php:183
+#: build/block-editor/index.js:7393
 msgid "Thumbnail"
 msgstr "Мініатюри"
 
-#: lib/editor-settings.php:31 build/block-editor/index.js:1
+#: lib/compat/wordpress-5.8/block-editor.php:186
+#: build/block-editor/index.js:7402
 msgid "Full Size"
 msgstr "Повний розмір"
 
-#: lib/full-site-editing/default-template-types.php:69
-#: build/block-editor/index.js:66 build/blocks/index.js:1
-#: build/core-data/index.js:1
+#: build/block-library/blocks/embed/block.json
+msgctxt "block title"
+msgid "Embed"
+msgstr "Вбудувати"
+
+#: build/block-library/blocks/freeform/block.json
+msgctxt "block title"
+msgid "Classic"
+msgstr "Класичний"
+
+#: lib/full-site-editing/default-template-types.php:65
+#: build/block-editor/index.js:35022 build/blocks/index.js:7071
+#: build/core-data/index.js:1887
 msgid "Media"
 msgstr "Медіафайли"
 
-#: lib/class-wp-theme-json-resolver.php:263 build/block-library/index.js:68
-msgid "Huge"
-msgstr "Величезний"
+#: lib/full-site-editing/template-parts.php:174 build/edit-post/index.js:13313
+msgid "General"
+msgstr "Загальне"
 
-#: lib/class-wp-theme-json-resolver.php:261 lib/block-patterns.php:30
-#: lib/editor-settings.php:29 build/block-editor/index.js:1
-#: build/block-editor/index.js:9 build/components/index.js:10
+#: lib/compat/wordpress-5.8/block-editor.php:184
+#: build/block-editor/index.js:7396 build/block-editor/index.js:15741
+#: build/components/index.js:38018
 msgid "Medium"
 msgstr "Cередній"
 
-#: lib/class-wp-theme-json-resolver.php:260 build/block-library/index.js:68
-msgid "Normal"
-msgstr "Звичайна"
-
-#: build/block-library/blocks/archives.php:97
+#: build/block-library/blocks/archives.php:101
 msgid "No archives to show."
 msgstr "Немає архівів для показу."
 
 #: post-content.php:41
 msgid "Beautiful landscape"
 msgstr "Красивий краєвид"
-
-#: post-content.php:159
-msgid "The WordPress community"
-msgstr "Спільнота WordPress"
 
 #: post-content.php:185
 msgid "Thanks for testing Gutenberg!"
@@ -90,6 +97,10 @@ msgstr "Допоможіть побудувати Гутенберг"
 #: post-content.php:168
 msgid "If you want to learn more about how to build additional blocks, or if you are interested in helping with the project, head over to the <a href=\"%s\">GitHub repository</a>."
 msgstr "Якщо ви хочете дізнатись більше про те, як створювати додаткові блоки, або якщо ви зацікавлені в тому, щоб допомогти проекту, <a href=\"%s\">перейдіть до сховища GitHub</a> ."
+
+#: post-content.php:159
+msgid "The WordPress community"
+msgstr "Спільнота WordPress"
 
 #: post-content.php:155
 msgid "You can build any block you like, static or dynamic, decorative or plain. Here&#8217;s a pullquote block:"
@@ -134,6 +145,14 @@ msgstr "Метт Малленвег, 2017 рік"
 #: post-content.php:88
 msgid "The editor will endeavor to create a new page and post building experience that makes writing rich posts effortless, and has “blocks” to make it easy what today might take shortcodes, custom HTML, or “mystery meat” embed discovery."
 msgstr "Редактор намагатиметься створити нову сторінку та пошта, яка спрощує написання багатих повідомлень, і має &quot;блоки&quot;, щоб полегшити доступність коротких кодів, спеціальних HTML-кодів або відкриття вставки &quot;таємного м&#39;яса&quot;."
+
+#: post-content.php:116
+msgid "Media Rich"
+msgstr "Media Rich"
+
+#: post-content.php:159
+msgid "Code is Poetry"
+msgstr "Код - це поезія."
 
 #: post-content.php:83
 msgid "A huge benefit of blocks is that you can edit them in place and manipulate your content directly. Instead of having fields for editing things like the source of a quote, or the text of a button, you can directly change the content. Try editing the following quote:"
@@ -203,10 +222,6 @@ msgstr "Уявіть, що все, що WordPress може зробити, до�
 msgid "The goal of this new editor is to make adding rich content to WordPress simple and enjoyable. This whole post is composed of <em>pieces of content</em>—somewhat similar to LEGO bricks—that you can move around and interact with. Move your cursor around and you&#8217;ll notice the different blocks light up with outlines and arrows. Press the arrows to reposition blocks quickly, without fearing about losing things in the process of copying and pasting."
 msgstr "Мета цього нового редактора - зробити додавання багатим змістом до WordPress простим та приємним. Весь цей пост складається з <em>частин вмісту, який</em> трохи схожий на цеглу LEGO, - що ви можете пересуватися та взаємодіяти. Перемістіть курсор навколо, і ви помітите, що різні блоки запалюються контурами та стрілками. Натисніть стрілки, щоб швидко перемістити блоки, не боячись втратити речі в процесі копіювання та вставки."
 
-#: post-content.php:116
-msgid "Media Rich"
-msgstr "Media Rich"
-
 #: post-content.php:24
 msgid "... like this one, which is right aligned."
 msgstr "… як цей, який правильно вирівняний."
@@ -214,10 +229,6 @@ msgstr "… як цей, який правильно вирівняний."
 #: post-content.php:20
 msgid "What you are reading now is a <strong>text block</strong> the most basic block of all. The text block has its own controls to be moved freely around the post..."
 msgstr "Те, що ви зараз читаєте, - це <strong>текстовий блок,</strong> найбільш основний блок. Текстовий блок має власні елементи керування, які можна вільно переміщати навколо публікації …"
-
-#: post-content.php:159 build/block-library/index.js:8
-msgid "Code is Poetry"
-msgstr "Код - це поезія."
 
 #: post-content.php:11
 msgid "Of Mountains &amp; Printing Presses"
@@ -236,16 +247,7 @@ msgstr "Унікальний ідентифікатор об'єкту."
 msgid "The title for the object."
 msgstr "Заголовок об'єкту."
 
-#: lib/class-wp-theme-json-resolver.php:259 lib/block-patterns.php:50
-#: build/block-library/index.js:68 build/components/index.js:10
-msgid "Small"
-msgstr "Менший"
-
-#: build/block-library/blocks/archives.php:45
-msgid "Select Year"
-msgstr "Виберіть рік"
-
-#: gutenberg.php:73 gutenberg.php:74
+#: lib/init.php:64 lib/init.php:65
 msgid "Support"
 msgstr "Підтримка"
 
@@ -255,15 +257,15 @@ msgstr "Підтримка"
 msgid "%1$s on %2$s"
 msgstr "%1$s на %2$s"
 
-#: build/block-library/blocks/archives.php:54
+#: build/block-library/blocks/archives.php:58
 msgid "Select Week"
 msgstr "Виберіть тиждень"
 
-#: build/block-library/blocks/archives.php:51
+#: build/block-library/blocks/archives.php:55
 msgid "Select Day"
 msgstr "Виберіть день"
 
-#: build/block-library/blocks/archives.php:48
+#: build/block-library/blocks/archives.php:52
 msgid "Select Month"
 msgstr "Виберіть місяць"
 
@@ -271,57 +273,28 @@ msgstr "Виберіть місяць"
 msgid "Archives"
 msgstr "Архіви"
 
+#: build/block-library/blocks/archives.php:49
+msgid "Select Year"
+msgstr "Виберіть рік"
+
 #: build/block-library/blocks/latest-comments.php:141
 msgid "No comments to show."
 msgstr "Немає коментарів до показу."
 
-#: build/block-library/blocks/archives.php:57
+#: build/block-library/blocks/archives.php:61
 msgid "Select Post"
 msgstr "Виберіть запис"
 
-#: lib/class-wp-theme-json-resolver.php:262 lib/block-patterns.php:12
-#: lib/editor-settings.php:30 build/block-editor/index.js:1
-#: build/block-library/index.js:68 build/components/index.js:10
+#: lib/init.php:67
+msgid "https://wordpress.org/support/plugin/gutenberg/"
+msgstr "https://wordpress.org/support/plugin/gutenberg/"
+
+#: lib/compat/wordpress-5.8/block-editor.php:185
+#: build/block-editor/index.js:7399 build/components/index.js:38021
 msgid "Large"
 msgstr "Великий"
 
-#: lib/class-wp-theme-json-resolver.php:226 build/block-editor/index.js:1
-msgid "Light green cyan"
-msgstr "Світлий зелено-блакитний"
-
-#: lib/class-wp-theme-json-resolver.php:228 build/block-editor/index.js:1
-msgid "Pale cyan blue"
-msgstr "Блідо синьо-блакитний"
-
-#: lib/class-wp-theme-json-resolver.php:227 build/block-editor/index.js:1
-msgid "Vivid green cyan"
-msgstr "Яскравий зелено-блакитний"
-
-#: lib/class-wp-theme-json-resolver.php:225 build/block-editor/index.js:1
-msgid "Luminous vivid amber"
-msgstr "Яскравий світлий бурштин"
-
-#: lib/class-wp-theme-json-resolver.php:224 build/block-editor/index.js:1
-msgid "Luminous vivid orange"
-msgstr "Яскраво світлий помаранчевий"
-
-#: lib/class-wp-theme-json-resolver.php:223 build/block-editor/index.js:1
-msgid "Vivid red"
-msgstr "Яскраво червоний"
-
-#: lib/class-wp-theme-json-resolver.php:222 build/block-editor/index.js:1
-msgid "Pale pink"
-msgstr "Блідо-рожевий"
-
-#: lib/class-wp-theme-json-resolver.php:220 build/block-editor/index.js:1
-msgid "Cyan bluish gray"
-msgstr "Блакитний блакитно-сірий"
-
-#: lib/class-wp-theme-json-resolver.php:229 build/block-editor/index.js:1
-msgid "Vivid cyan blue"
-msgstr "Яскравий синьо-блакитний"
-
-#: gutenberg.php:112
+#: lib/init.php:103
 msgid "beta"
 msgstr "бета"
 
@@ -329,61 +302,49 @@ msgstr "бета"
 msgid "The ID for the parent of the object."
 msgstr "ID для батьків об'єкта."
 
-#: gutenberg.php:49 gutenberg.php:50 lib/experiments-page.php:56
-#: build/edit-widgets/index.js:24 build/blocks/index.js:1
-#: build/core-data/index.js:1
-msgid "Widgets"
-msgstr "Віджети"
-
-#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:5
+#: lib/full-site-editing/templates-utils.php:17 build/editor/index.js:7455
 msgid "Status"
 msgstr "Статус"
 
-#: build/block-library/blocks/rss.php:31
+#: lib/block-patterns.php:19 build/editor/index.js:7452
+msgid "Standard"
+msgstr "Стандартний"
+
 #: build/block-library/blocks/latest-comments.php:31
-#: build/block-library/blocks/latest-posts.php:102 build/editor/index.js:21
-#: build/editor/index.js:35 build/block-library/index.js:30
-#: build/block-library/index.js:48 build/edit-navigation/index.js:6
-#: build/edit-post/index.js:40 build/edit-site/index.js:30
+#: build/block-library/blocks/latest-posts.php:103
+#: build/block-library/blocks/rss.php:31 build/core-data/index.js:4903
+#: build/edit-post/index.js:15957 build/editor/index.js:9573
 msgid "(no title)"
 msgstr "(Без назви)"
 
+#: build/block-library/blocks/categories.php:31 build/components/index.js:46191
+msgid "Categories"
+msgstr "Рубрики"
+
 #. translators: ARIA label for the Block Settings Sidebar tab, not selected.
 #. translators: Text label for the Block Settings Sidebar tab.
-#. translators: Text label for the Template Settings Sidebar tab.
-#: lib/class-wp-widget-block.php:40 lib/navigation.php:91 lib/navigation.php:96
-#: build/edit-widgets/index.js:23 build/edit-post/index.js:37
-#: build/edit-post/index.js:38 build/edit-site/index.js:28
-#: build/edit-site/index.js:29 build/edit-site/index.js:30
+#: lib/class-wp-widget-block.php:49 lib/navigation.php:91 lib/navigation.php:96
+#: build/edit-navigation/index.js:3533 build/edit-navigation/index.js:3548
+#: build/edit-navigation/index.js:3550 build/edit-post/index.js:14854
+#: build/edit-post/index.js:14873 build/edit-post/index.js:14875
+#: build/edit-widgets/index.js:3466
 msgid "Block"
 msgstr "Блок"
+
+#: lib/init.php:39 lib/init.php:40 build/blocks/index.js:7077
+#: build/core-data/index.js:1918 build/customize-widgets/index.js:2030
+#: build/edit-widgets/index.js:4086 build/edit-widgets/index.js:4089
+#: build/edit-widgets/index.js:4366
+msgid "Widgets"
+msgstr "Віджети"
 
 #. Description of the plugin
 msgid "Printing since 1440. This is the development plugin for the new block editor in core."
 msgstr "Друкуємо з 1440 року. Це розробка плагіна для нового редактора блоків в ядрі."
 
-#. translators: button label text should, if possible, be under 16 characters.
-#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
-#: build/components/index.js:5
-msgid "Slug"
-msgstr "﻿Ярлик"
-
-#: gutenberg.php:80 gutenberg.php:81
-msgid "Documentation"
-msgstr "Документація"
-
-#: build/block-library/blocks/categories.php:30
-msgid "Select Category"
-msgstr "Виберіть рубрику"
-
-#. translators: %s: Minimum required version
-#: gutenberg.php:173
-msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
-msgstr "Гутенберг вимагає WordPress %s або пізнішої для належного функціонування. Будь ласка, оновіть WordPress перед активацією Gutenberg."
-
-#: gutenberg.php:41 gutenberg.php:42
-msgid "Demo"
-msgstr "Демо"
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/gutenberg"
+msgstr "https://github.com/WordPress/gutenberg"
 
 #. Plugin Name of the plugin
 msgid "Gutenberg"
@@ -393,6 +354,24 @@ msgstr "Gutenberg"
 msgid "Gutenberg Team"
 msgstr "Команда Gutenberg"
 
-#. Plugin URI of the plugin
-msgid "https://github.com/WordPress/gutenberg"
-msgstr "https://github.com/WordPress/gutenberg"
+#: lib/init.php:71 lib/init.php:72
+msgid "Documentation"
+msgstr "Документація"
+
+#: lib/init.php:27 lib/init.php:28
+msgid "Demo"
+msgstr "Демо"
+
+#: lib/full-site-editing/templates-utils.php:15 build/components/index.js:32330
+#: build/editor/index.js:10146
+msgid "Slug"
+msgstr "﻿Ярлик"
+
+#: build/block-library/blocks/categories.php:30
+msgid "Select Category"
+msgstr "Виберіть рубрику"
+
+#. translators: %s: Minimum required version
+#: gutenberg.php:30
+msgid "Gutenberg requires WordPress %s or later to function properly. Please upgrade WordPress before activating Gutenberg."
+msgstr "Гутенберг вимагає WordPress %s або пізнішої для належного функціонування. Будь ласка, оновіть WordPress перед активацією Gutenberg."

@@ -1,5 +1,5 @@
-# Translation of Plugins - Gutenberg - Development (trunk) in Esperanto
-# This file is distributed under the same license as the Plugins - Gutenberg - Development (trunk) package.
+# Translation of Plugins - Gutenberg - Stable (latest release) in Esperanto
+# This file is distributed under the same license as the Plugins - Gutenberg - Stable (latest release) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2020-05-02 11:23:36+0000\n"
@@ -9,25 +9,24 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: eo\n"
-"Project-Id-Version: Plugins - Gutenberg - Development (trunk)\n"
+"Project-Id-Version: Plugins - Gutenberg - Stable (latest release)\n"
 
-#. translators: button label text should, if possible, be under 16 characters.
-#: lib/full-site-editing/templates-utils.php:15 build/editor/index.js:25
-#: build/components/index.js:5
+#: lib/class-wp-rest-menu-items-controller.php:506
+msgid "Invalid post type."
+msgstr "Nevalida afiŝo-tipo."
+
+#: lib/full-site-editing/templates-utils.php:15 build/components/index.js:32330
+#: build/editor/index.js:10146
 msgid "Slug"
 msgstr "Url-nomo"
 
-#: gutenberg.php:80 gutenberg.php:81
+#: lib/init.php:71 lib/init.php:72
 msgid "Documentation"
 msgstr "Dokumentado"
 
 #: build/block-library/blocks/categories.php:30
 msgid "Select Category"
 msgstr "Elektu kategorion"
-
-#: lib/class-wp-rest-menu-items-controller.php:506
-msgid "Invalid post type."
-msgstr "Nevalida afiŝo-tipo."
 
 #. Author of the plugin
 msgid "Gutenberg Team"
@@ -41,6 +40,6 @@ msgstr "https://github.com/WordPress/gutenberg"
 msgid "Gutenberg"
 msgstr "Gutenberg"
 
-#: gutenberg.php:41 gutenberg.php:42
+#: lib/init.php:27 lib/init.php:28
 msgid "Demo"
 msgstr "Demonstraĵo"

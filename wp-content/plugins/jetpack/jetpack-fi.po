@@ -12,9 +12,8 @@ msgstr ""
 "Project-Id-Version: Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release)\n"
 
 #: modules/widgets/class-jetpack-instagram-widget.php:566
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Images"
 msgstr "Kuvia"
 
@@ -43,7 +42,8 @@ msgctxt "Module Description"
 msgid "Display different types of content on your site with custom content types."
 msgstr "Näytä sivustolla erityyppistä sisältöä mukautetuilla sisältötyypeillä."
 
-#: modules/wordads/class-wordads.php:714 modules/wordads/class-wordads.php:782
+#: modules/wordads/class-wordads.php:370 modules/wordads/class-wordads.php:715
+#: modules/wordads/class-wordads.php:783
 #: modules/wordads/php/class-wordads-sidebar-widget.php:63
 msgid "Advertisements"
 msgstr "Mainokset"
@@ -82,11 +82,10 @@ msgstr "Minuuttia"
 msgid "Hour"
 msgstr "Tunti"
 
-#: modules/widgets/search.php:1000
 #: modules/widgets/milestone/class-milestone-widget.php:688
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: modules/widgets/search.php:987 _inc/blocks/editor.js:28
 #: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Year"
 msgstr "Vuosi"
 
@@ -94,11 +93,10 @@ msgstr "Vuosi"
 msgid "Day"
 msgstr "Päivä"
 
-#: modules/widgets/search.php:997
 #: modules/widgets/milestone/class-milestone-widget.php:668
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: modules/widgets/search.php:984 _inc/blocks/editor.js:28
 #: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Month"
 msgstr "Kuukausi"
 
@@ -172,8 +170,8 @@ msgid "iCalendar Feed URL:"
 msgstr "iCalendar syötteen verkko-osoite:"
 
 #: modules/widgets/facebook-likebox.php:191 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Height in pixels"
 msgstr "Korkeus pikseliä:"
 
@@ -269,8 +267,8 @@ msgstr "Koko kirjoitus"
 msgid "Content Options"
 msgstr "Sisältövaihtoehdot"
 
-#: modules/theme-tools/content-options/blog-display.php:79
-#: modules/theme-tools/content-options/blog-display.php:119
+#: modules/theme-tools/content-options/blog-display.php:95
+#: modules/theme-tools/content-options/blog-display.php:139
 msgid "There is no excerpt because this is a protected post."
 msgstr "Kirjoitus on suojattu, joten otetta ei näytetä."
 
@@ -299,9 +297,8 @@ msgid "Display blogs authors with avatars and recent posts."
 msgstr "Näytä blogin kirjoittajat, heidän avatarit ja viimeisimmät kirjoitukset."
 
 #: modules/theme-tools/content-options/customizer.php:186
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Display date"
 msgstr "Näytä päivämäärä"
 
@@ -602,11 +599,11 @@ msgstr "Sisäänkirjautuminen WordPress.com tunnuksilla on estetty näytöstilas
 msgid "This theme does not exist"
 msgstr "Tätä teemaa ei ole"
 
-#: json-endpoints/class.wpcom-json-api-site-settings-endpoint.php:796
-#: json-endpoints/class.wpcom-json-api-site-settings-endpoint.php:812
 #: json-endpoints/class.wpcom-json-api-update-post-v1-1-endpoint.php:793
-#: json-endpoints/class.wpcom-json-api-update-post-v1-2-endpoint.php:764
+#: json-endpoints/class.wpcom-json-api-site-settings-endpoint.php:800
+#: json-endpoints/class.wpcom-json-api-site-settings-endpoint.php:819
 #: json-endpoints/class.wpcom-json-api-update-post-endpoint.php:719
+#: json-endpoints/class.wpcom-json-api-update-post-v1-2-endpoint.php:781
 msgid "SEO tools are not enabled for this site."
 msgstr "Hakukoneoptimointityökaluja ei ole otettu käyttöön tällä sivustolla."
 
@@ -625,25 +622,25 @@ msgstr "Hakukoneoptimointi työkalut"
 msgid "Sorry, you cannot view this resource."
 msgstr "Pahoittelemme, et voi katsoa tätä sisältöä."
 
-#: functions.global.php:291
+#: functions.global.php:293
 #: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:170
 msgid "Problem downloading theme"
 msgstr "Ongelma teeman latauksessa"
 
-#: functions.global.php:275
+#: functions.global.php:277
 #: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:160
 msgid "Problem creating file for theme download"
 msgstr "Ongelma tiedoston luomisessa kun ladataan teemaa"
 
-#: json-endpoints/class.wpcom-json-api-site-settings-endpoint.php:816
+#: json-endpoints/class.wpcom-json-api-site-settings-endpoint.php:823
 msgid "Invalid SEO title format."
 msgstr "Hakukoneille tehdyn otsikon muoto ei kelpaa."
 
-#: json-endpoints/class.wpcom-json-api-site-settings-endpoint.php:800
+#: json-endpoints/class.wpcom-json-api-site-settings-endpoint.php:804
 msgid "Invalid SEO meta description value."
 msgstr "Hakukoneille tehdyn metakuvauksen arvo ei kelpaa."
 
-#: class.jetpack.php:6157
+#: class.jetpack.php:6298
 msgid "Cannot parse URL %s"
 msgstr "Ei voi tulkita %s verkko-osoitetta"
 
@@ -743,7 +740,7 @@ msgstr "Jetpack on asetettu <a href=\"%1$s\">Turvatilaan</a>, koska huomasimme s
 
 #. Translators: the plural variable is a comma-separated list. Example: dog,
 #. cat, bird.
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:943
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:944
 msgid "Invalid option: %s."
 msgid_plural "Invalid options: %s."
 msgstr[0] "Epäkelpo vaihtoehto: %s."
@@ -753,23 +750,23 @@ msgstr[1] "Epäkelvot vaihtoehdot: %s."
 msgid "The requested Jetpack data updates were successful."
 msgstr "Pyydetyt Jetpack tietojen päivitykset onnistuivat."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2040
+#: _inc/lib/class.core-rest-api-endpoints.php:2171
 msgid "Could not confirm migration."
 msgstr "Siirtoa ei voitu vahvistaa."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2026
+#: _inc/lib/class.core-rest-api-endpoints.php:2157
 msgid "Could not delete sync error option."
 msgstr "Synkronointivirheen vaihtoehtoa ei voitu poistaa."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2010
+#: _inc/lib/class.core-rest-api-endpoints.php:2141
 msgid "Could not confirm safe mode."
 msgstr "Turvatilaa ei voitu vahvistaa."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:3018
+#: _inc/lib/class.core-rest-api-endpoints.php:3202
 msgid "%s must be an array of post types."
 msgstr "%s on oltava sisältötyyppien matriisi/taulu"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2562
+#: _inc/lib/class.core-rest-api-endpoints.php:2705
 msgid "Yandex Site Verification"
 msgstr "Yandex Sivuston vahvistaminen"
 
@@ -867,8 +864,8 @@ msgstr ""
 "Saat välittömästi ilmoituksen ohjauspaneeliin tai mobiililaitteeseen kun joku kommentoi \n"
 "\t\tjollain sivustollasi. Vastaa samantien, vaikka olisit missä ja ylläpidä keskustelua."
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:846
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1385
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:847
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1386
 msgid "Please install Akismet."
 msgstr "Ole hyvä ja asenna Akismet."
 
@@ -891,10 +888,10 @@ msgstr "Puuttuvia vaihtoehtoja."
 msgid "%1$s and %2$s"
 msgstr "%1$s ja %2$s"
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1322
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1483
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1516
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1602
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1323
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1484
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1517
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1606
 msgid "The requested Jetpack module is not active."
 msgstr "Kyseinen Jetpack -moduuli ei ole käytössä."
 
@@ -933,86 +930,86 @@ msgstr "Pyydettyä Jetpack -moduulia ei voitu ottaa pois käytöstä."
 msgid "The requested Jetpack module was deactivated."
 msgstr "Pyydetty Jetpack -moduuli otettiin pois käytöstä."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2696
+#: _inc/lib/class.core-rest-api-endpoints.php:2846
 msgid "Do not track."
 msgstr "Älä seuraa."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2555
+#: _inc/lib/class.core-rest-api-endpoints.php:2698
 msgid "Pinterest Site Verification"
 msgstr "Sivuston vahvistaminen Pinterestiin"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2548
+#: _inc/lib/class.core-rest-api-endpoints.php:2691
 msgid "Bing Webmaster Center"
 msgstr "Bing Sivustovastaavan Työkalut"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2368
+#: _inc/lib/class.core-rest-api-endpoints.php:2511
 msgid "Protect global whitelist"
 msgstr "Suojaa yleinen pääsylista"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2353
+#: _inc/lib/class.core-rest-api-endpoints.php:2496
 msgid "Delete Post by Email address"
 msgstr "Poista Julkaise Sähköpostilla -osoite"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2351
+#: _inc/lib/class.core-rest-api-endpoints.php:2494
 msgid "Create Post by Email address"
 msgstr "Luo Julkaise Sähköpostilla -osoite"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2306
+#: _inc/lib/class.core-rest-api-endpoints.php:2449
 msgid "Send email notification when someone likes a post"
 msgstr "Lähetä sähköpostia, kun joku tykkää artikkelista"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2689
+#: _inc/lib/class.core-rest-api-endpoints.php:2839
 msgid "Blog ID."
 msgstr "Blogin tunnus/ID."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2541
+#: _inc/lib/class.core-rest-api-endpoints.php:2684
 msgid "Google Search Console"
 msgstr "Google Search konsoli"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2452
+#: _inc/lib/class.core-rest-api-endpoints.php:2595
 msgid "Delete custom sharing service."
 msgstr "Poista mukautettu jakamispalvelu."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2440
+#: _inc/lib/class.core-rest-api-endpoints.php:2583
 msgid "Custom sharing services added by user."
 msgstr "Käyttäjän lisäämä mukautettu jakopalvelu."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2415
+#: _inc/lib/class.core-rest-api-endpoints.php:2558
 msgid "Views where buttons are shown"
 msgstr "Näkymät, joissa painikkeet näytetään"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2407
+#: _inc/lib/class.core-rest-api-endpoints.php:2550
 msgid "Sharing Label"
 msgstr "Jakamisen tunnus"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2388
+#: _inc/lib/class.core-rest-api-endpoints.php:2531
 msgid "Button Style"
 msgstr "Painikkeen tyyli"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2378
+#: _inc/lib/class.core-rest-api-endpoints.php:2521
 msgid "Enabled Services and those hidden behind a button"
 msgstr "Käytössä olevat palvelut ja painikkeen takana piilossa olevat"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2361
+#: _inc/lib/class.core-rest-api-endpoints.php:2504
 msgid "Protect API key"
 msgstr "Suojaa API-rajapinnan avain"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2352
+#: _inc/lib/class.core-rest-api-endpoints.php:2495
 msgid "Regenerate Post by Email address"
 msgstr "Valmista uudelleen Julkaise Sähköpostilla -osoite"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2710
+#: _inc/lib/class.core-rest-api-endpoints.php:2860
 msgid "Version."
 msgstr "Versio."
 
 #: class.jetpack-network-sites-list-table.php:63
-#: _inc/lib/admin-pages/class.jetpack-react-page.php:58
-#: _inc/lib/admin-pages/class.jetpack-admin-page.php:333
-#: modules/masterbar/masterbar/class-masterbar.php:1342 _inc/build/admin.js:52
+#: _inc/lib/admin-pages/class.jetpack-react-page.php:59
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:331
+#: modules/masterbar/masterbar/class-masterbar.php:1427 _inc/build/admin.js:52
 msgid "Dashboard"
 msgstr "Hallintapaneeli"
 
-#: modules/masterbar/masterbar/class-masterbar.php:711 _inc/build/admin.js:52
+#: modules/masterbar/masterbar/class-masterbar.php:798 _inc/build/admin.js:61
 #: _inc/build/admin.js:80
 msgid "Security"
 msgstr "Tietoturva"
@@ -1032,7 +1029,8 @@ msgstr "Google karttojen käyttö sivustolla edellyttää nyt API-rajapinnan ava
 msgid "Uploaded by %s"
 msgstr "Palvelimelle siirtäjä: %s"
 
-#: modules/masterbar/masterbar/class-masterbar.php:664
+#: modules/masterbar/masterbar/class-masterbar.php:751
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:216
 msgid "Profile"
 msgstr "Profiili"
 
@@ -1090,44 +1088,43 @@ msgstr "On annettava Twitter Timeline id tai käyttäjätunnus."
 msgid "No location or theme ID provided in the untappd-menu shortcode."
 msgstr "untappd-valikon lyhytkoodissa ei ole määritelty paikkaa tai teeman ID:tä."
 
-#: class-jetpack-recommendations-banner.php:236
-#: class.jetpack-connection-banner.php:235
+#: class.jetpack-connection-banner.php:264
 msgid "Dismiss this notice"
 msgstr "Piilota tämä ilmoitus"
 
-#: class.jetpack.php:5177 class.jetpack.php:5182
+#: class.jetpack.php:5333 class.jetpack.php:5338
 msgid "WordPress reports no SSL support"
 msgstr "WordPress ilmoittaa että SSL-tukea ei ole"
 
-#: class.jetpack.php:5185
+#: class.jetpack.php:5341
 msgid "Response was not OK: "
 msgstr "Vastaus ei ollut OK: "
 
-#: class.jetpack.php:5209
+#: class.jetpack.php:5365
 msgid "Outbound HTTPS not working"
 msgstr "Lähtevä HTTPS ei toimi"
 
-#: class.jetpack.php:5210
+#: class.jetpack.php:5366
 msgid "Your site could not connect to WordPress.com via HTTPS. This could be due to any number of reasons, including faulty SSL certificates, misconfigured or missing SSL libraries, or network issues."
 msgstr "Sivusto ei saanut HTTPS-yhteyttä WordPress.com sivustoon. Tämä voi johtua useasta syystä kuten esim. viallinen SSL-sertifikaatti, SSL-kirjasto väärin asennettu tai siinä väärät määritykset, tai verkkoon liittyvistä asiosta."
 
-#: class.jetpack.php:5212
+#: class.jetpack.php:5368
 msgid "Jetpack will re-test for HTTPS support once a day, but you can click here to try again immediately: "
 msgstr "Jetpack tarkastaa HTTPS-tuen uudelleen kerran päivässä, mutta voit klikata tähän ja kokeilla heti uudelleen."
 
-#: class.jetpack.php:5213 class.jetpack.php:5243
+#: class.jetpack.php:5369 class.jetpack.php:5399
 msgid "Try again"
 msgstr "Yritä uudestaan"
 
-#: class.jetpack.php:5219
+#: class.jetpack.php:5375
 msgid "For more help, try our <a href=\"%1$s\">connection debugger</a> or <a href=\"%2$s\" target=\"_blank\">troubleshooting tips</a>."
 msgstr "Kun tarvitset lisää tukea, kokeile <a href=\"%1$s\">yhteyden vianetsintä</a> tai <a href=\"%2$s\" target=\"_blank\">vinkkejä vian etsintään</a>."
 
-#: class.jetpack.php:5234
+#: class.jetpack.php:5390
 msgid "Checking"
 msgstr "Tarkastetaan"
 
-#: class.jetpack.php:7090
+#: class.jetpack.php:7231
 msgid "This user is linked and ready to fly with Jetpack."
 msgstr "Tämä käyttäjä on linkitetty ja valmis lentämään JetPackin avulla."
 
@@ -1204,23 +1201,23 @@ msgctxt "recipe"
 msgid "Directions"
 msgstr "Ohje"
 
-#: modules/sso.php:481
+#: modules/sso.php:482
 msgid "Log in as <span>%s</span>"
 msgstr "Kirjaudu tunnuksella <span>%s</span>"
 
-#: modules/sso.php:496
+#: modules/sso.php:497
 msgid "Log in as a different WordPress.com user"
 msgstr "Kirjaudu toisella WordPress.com käyttäjätunnuksella"
 
-#: modules/sso.php:503
+#: modules/sso.php:504
 msgid "You can now save time spent logging in by connecting your WordPress.com account to %s."
 msgstr "Voit nyt säästää kirjautumiseen kuluvaa aikaa kun liität WordPress.com tilisi %s-palveluun."
 
-#: modules/sso.php:524
+#: modules/sso.php:525
 msgid "Or"
 msgstr "Tai"
 
-#: modules/sso.php:529
+#: modules/sso.php:530
 msgid "Log in with username and password"
 msgstr "Kirjaudu sisään käyttäjätunnuksella ja salasanalla"
 
@@ -1229,7 +1226,6 @@ msgid "Check to load posts as you scroll. Uncheck to show clickable button to lo
 msgstr "Valitse kun haluat tietojen latautuvan vieritettäessä. Kun ei valittu, näytetään painike jota napsauttamalla artikkelit ladataan."
 
 #: class.jetpack-network-sites-list-table.php:89
-#: modules/calypsoify/class-jetpack-calypsoify.php:195
 msgid "Manage Plugins"
 msgstr "Lisäosien hallinta"
 
@@ -1241,8 +1237,8 @@ msgstr "Jetpack ei ole käytössä tällä sivustolla."
 msgid "There are no posts to display. <a href=\"%s\" target=\"_blank\">Want more traffic?</a>"
 msgstr "Näytettäviä artikkeleita ei ole. <a href=\"%s\" target=\"_blank\">Haluatko enemmän liikennettä?</a>"
 
-#: modules/videopress/editor-media-view.php:42
 #: modules/widgets/eu-cookie-law/form.php:178
+#: modules/videopress/editor-media-view.php:42
 msgid "seconds"
 msgstr "sekuntia"
 
@@ -1317,7 +1313,7 @@ msgid "Views"
 msgstr "Katselut"
 
 #. translators: %s is a URL
-#: class.jetpack.php:1809
+#: class.jetpack.php:1857
 msgid "You are running Jetpack on a <a href=\"%s\" target=\"_blank\">staging server</a>."
 msgstr "Käytät Jetpackia <a href=\"%s\" target=\"_blank\">näytöspalvelimella</a>."
 
@@ -1416,7 +1412,7 @@ msgid "If this solves the problem, something in your theme is probably broken �
 msgstr "Jos ongelma poistuu, jotakin on ilmeisesti vialla teemassa - kerro asiasta teeman valmistajalle."
 
 #. translators: %s is the name of a form field
-#: modules/contact-form/grunion-contact-form.php:3393
+#: modules/contact-form/grunion-contact-form.php:3428
 msgid "%s requires at least one selection"
 msgstr "%s edellyttää vähintään yhtä valintaa"
 
@@ -1445,7 +1441,7 @@ msgstr "Kaikki sivut"
 msgid "Comments are not allowed."
 msgstr "Kommentteja ei sallita."
 
-#: modules/protect.php:619
+#: modules/protect.php:620
 msgid "Your IP (%1$s) has been flagged for potential security violations."
 msgstr "IP-osoitteesi (%1$s) on huomioitu mahdollisen turvallisuusloukkauksen takia."
 
@@ -1454,7 +1450,7 @@ msgstr "IP-osoitteesi (%1$s) on huomioitu mahdollisen turvallisuusloukkauksen ta
 msgid "%s username:"
 msgstr "%s käyttäjätunnus:"
 
-#: modules/search/class-jetpack-search-customize.php:66
+#: modules/search/class-jetpack-search-customize.php:67
 msgid "Theme"
 msgstr "Teema"
 
@@ -1496,7 +1492,7 @@ msgstr "Projektiavainsanojen lista"
 msgid "Filter Testimonials list"
 msgstr "Suodata Käyttäjäkokemukset lista"
 
-#: modules/custom-post-types/nova.php:232
+#: modules/custom-post-types/nova.php:237
 msgid "Menu items list"
 msgstr "Menun tuotteiden lista"
 
@@ -1516,23 +1512,23 @@ msgstr "Projektien lista"
 msgid "Project type list navigation"
 msgstr "Navigointi projektilajien listassa"
 
-#: modules/custom-post-types/nova.php:150
+#: modules/custom-post-types/nova.php:155
 msgid "Menu item labels list"
 msgstr "Menun tuotteiden tunnusten lista"
 
-#: modules/custom-post-types/nova.php:182
+#: modules/custom-post-types/nova.php:187
 msgid "Menu section list navigation"
 msgstr "Navigointi menun osastojen listassa"
 
-#: modules/custom-post-types/nova.php:183
+#: modules/custom-post-types/nova.php:188
 msgid "Menu section list"
 msgstr "Menun osastojen lista"
 
-#: modules/custom-post-types/nova.php:230
+#: modules/custom-post-types/nova.php:235
 msgid "Filter menu items list"
 msgstr "Suodata menun tuotteiden lista"
 
-#: modules/custom-post-types/nova.php:231
+#: modules/custom-post-types/nova.php:236
 msgid "Menu item list navigation"
 msgstr "Navigointi menun tuotteiden listassa"
 
@@ -1548,7 +1544,7 @@ msgstr "Navigointi sarjakuvien listassa"
 msgid "Comics list"
 msgstr "Sarjakuvien lista"
 
-#: modules/custom-post-types/nova.php:149
+#: modules/custom-post-types/nova.php:154
 msgid "Menu item label list navigation"
 msgstr "Navigointi menun tuotteiden tunnusten listassa"
 
@@ -1569,9 +1565,10 @@ msgstr "Sivusto on yhdistetty."
 msgid "Automattic"
 msgstr "Automattic"
 
-#: modules/plugin-search.php:569 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: modules/plugin-search.php:583 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:52 _inc/build/admin.js:61
 msgid "Learn more"
 msgstr "Lue lisää"
 
@@ -1615,10 +1612,6 @@ msgstr "Salli yksittäisten sivuston pääkäyttäjien hallita omaa yhteyttä (m
 msgid "Protect whitelist"
 msgstr "Suojaa moduulin sallittujen lista"
 
-#. Description of the plugin
-msgid "Bring the power of the WordPress.com cloud to your self-hosted WordPress. Jetpack enables you to connect your blog to a WordPress.com account to use the powerful features normally only available to WordPress.com users."
-msgstr "Tuo WordPress.com pilvipalvelun voima itse ylläpidettyyn WordPress sivustoon. Jetpackin avulla voit yhdistää blogisi WordPress.com tiliin ja pääset hyödyntämään voimakkaita ominaisuuksia jotka normaalisti ovat saatavissa vain WordPress.com käyttäjille."
-
 #. Plugin URI of the plugin
 #. Author URI of the plugin
 msgid "https://jetpack.com"
@@ -1629,8 +1622,8 @@ msgid "Address:"
 msgstr "Osoite:"
 
 #: modules/widgets/gallery.php:378 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Attachment Page"
 msgstr "Liitteen sivu"
 
@@ -1725,8 +1718,8 @@ msgid "Left"
 msgstr "Vasemmalle"
 
 #: modules/widgets/gallery.php:379 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Media File"
 msgstr "Mediatiedosto"
 
@@ -1785,7 +1778,7 @@ msgid "Pink"
 msgstr "Vaaleanpunainen"
 
 #: modules/widgets/rsslinks-widget.php:101
-#: modules/widgets/rsslinks-widget.php:177 _inc/build/admin.js:52
+#: modules/widgets/rsslinks-widget.php:177 _inc/build/admin.js:61
 msgid "Posts"
 msgstr "Artikkelit"
 
@@ -1838,17 +1831,16 @@ msgstr "Teksti- ja kuvalinkit"
 msgid "Text Link"
 msgstr "Tekstilinkki"
 
-#: modules/widgets/authors.php:223 modules/widgets/blog-stats.php:93
+#: modules/widgets/social-icons.php:254 modules/widgets/rsslinks-widget.php:96
+#: modules/widgets/google-translate.php:173 modules/widgets/authors.php:223
 #: modules/widgets/twitter-timeline.php:401
+#: modules/widgets/contact-info.php:246 modules/widgets/goodreads.php:137
+#: modules/widgets/flickr/form.php:3 modules/widgets/upcoming-events.php:42
 #: modules/widgets/wordpress-post-widget/class.jetpack-display-posts-widget-base.php:224
-#: modules/widgets/google-translate.php:173 modules/widgets/search.php:1008
-#: modules/widgets/upcoming-events.php:42
-#: modules/widgets/social-media-icons.php:246
-#: modules/widgets/contact-info.php:246 modules/widgets/social-icons.php:254
-#: modules/widgets/rsslinks-widget.php:96 modules/widgets/top-posts.php:94
-#: modules/widgets/flickr/form.php:3 modules/widgets/my-community.php:88
-#: modules/widgets/gallery/templates/form.php:2
-#: modules/widgets/goodreads.php:137
+#: modules/widgets/social-media-icons.php:246 modules/widgets/top-posts.php:94
+#: modules/widgets/blog-stats.php:93
+#: modules/widgets/gallery/templates/form.php:2 modules/widgets/search.php:995
+#: modules/widgets/my-community.php:88
 msgid "Title:"
 msgstr "Otsikko:"
 
@@ -1900,15 +1892,15 @@ msgid "%s if:"
 msgstr "%s jos:"
 
 #: modules/widget-visibility/widget-conditions.php:360 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Visibility"
 msgstr "Näkyvyys"
 
 #: modules/widget-visibility/widget-conditions.php:383 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
-#: _inc/build/instant-search/jp-search-main.bundle.js:9
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/instant-search/jp-search.chunk-main-payload-a35aa49a0dfc317ef141.js:1
 msgid "Category"
 msgstr "Kategoria/osasto"
 
@@ -2200,7 +2192,7 @@ msgstr "Näytä kartta jossa sijaintisi, aika ja yhteystiedot."
 
 #. Translators: Stats dashboard widget postviews list: "$post_title $views
 #. Views".
-#: modules/stats.php:1249
+#: modules/stats.php:1308
 msgid "%1$s %2$s Views"
 msgstr "%1$s %2$s näyttökertaa"
 
@@ -2216,14 +2208,14 @@ msgstr "Arkistosivu"
 msgid "Display Header Text"
 msgstr "Näytä otsakkeen teksti"
 
-#: modules/widget-visibility/widget-conditions.php:133 _inc/build/admin.js:52
+#: modules/widget-visibility/widget-conditions.php:133 _inc/build/admin.js:61
 msgid "Front page"
 msgstr "Etusivu"
 
 #. translators: %s: number of folks following the blog
-#: modules/subscriptions/views.php:401 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/subscriptions/views.php:402 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Join %s other subscriber"
 msgid_plural "Join %s other subscribers"
 msgstr[0] "Liity %s tilaajan joukkoon"
@@ -2233,7 +2225,7 @@ msgstr[1] "Liity %s tilaajien joukkoon"
 msgid "Loading video..."
 msgstr "Videota ladataan..."
 
-#: modules/stats.php:599
+#: modules/stats.php:618
 msgid "Loading&hellip;"
 msgstr "Ladataan&hellip;"
 
@@ -2249,11 +2241,11 @@ msgstr "Logo"
 msgid "Monthly archives"
 msgstr "Kuukausittaiset arkistot"
 
-#: modules/subscriptions.php:727
+#: modules/subscriptions.php:728
 msgid "Notify me of follow-up comments by email."
 msgstr "Ilmoita sähköpostilla tulevista kommenteista."
 
-#: modules/subscriptions.php:746
+#: modules/subscriptions.php:747
 msgid "Notify me of new posts by email."
 msgstr "Ilmoita sähköpostilla uusista postauksista."
 
@@ -2270,43 +2262,43 @@ msgid "Posts page"
 msgstr "Artikkeleiden sivu"
 
 #: modules/widget-visibility/widget-conditions.php:137
-#: _inc/build/instant-search/jp-search-main.bundle.js:9
+#: _inc/build/instant-search/jp-search.chunk-main-payload-a35aa49a0dfc317ef141.js:1
 msgid "Search results"
 msgstr "Hakutulokset"
 
-#: modules/stats.php:1072
+#: modules/stats.php:1095
 msgid "Show top posts over"
 msgstr "Näytä luetuimmat artikkelit päällimmäisinä"
 
-#: modules/stats.php:1085
+#: modules/stats.php:1108
 msgid "Show top search terms over"
 msgstr "Näytä käytetyimmät hakusanat päälimmäisinä"
 
-#: modules/stats.php:1278 modules/stats.php:1303
+#: modules/stats.php:1296 modules/stats.php:1326
 msgid "Sorry, nothing to report."
 msgstr "Ei raportoitavaa."
 
-#: modules/stats.php:892 modules/stats.php:1621
-#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:181
-#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:191
-#: modules/masterbar/admin-menu/class-admin-menu.php:180
-#: modules/masterbar/masterbar/class-masterbar.php:916
+#: modules/stats.php:925 modules/stats.php:1649
+#: modules/masterbar/masterbar/class-masterbar.php:1001
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:219
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:229
+#: modules/masterbar/admin-menu/class-admin-menu.php:161
 msgid "Stats"
 msgstr "Tilastot"
 
-#: modules/videopress/class.videopress-player.php:305 modules/stats.php:1111
-#: modules/contact-form/grunion-contact-form.php:1962
-#: modules/contact-form/grunion-editor-view.php:92 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/stats.php:1134 modules/contact-form/grunion-contact-form.php:1983
+#: modules/contact-form/grunion-editor-view.php:92
+#: modules/videopress/class.videopress-player.php:305 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Submit"
 msgstr "Lähetä"
 
+#: modules/subscriptions/views.php:603
 #: extensions/blocks/premium-content/_inc/legacy-buttons.php:55
-#: extensions/blocks/revue/revue.php:149 modules/subscriptions/views.php:598
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: extensions/blocks/revue/revue.php:149 _inc/blocks/editor.js:28
 #: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Subscribe"
 msgstr "Tilaa"
 
@@ -2314,43 +2306,43 @@ msgstr "Tilaa"
 msgid "This video is intended for mature audiences."
 msgstr "Tämä video on tarkoitettu täysi-ikäisille."
 
-#: modules/stats.php:1274
+#: modules/stats.php:1292
 msgid "Top Posts"
 msgstr "Suosituimmat artikkelit"
 
-#: modules/stats.php:1299
+#: modules/stats.php:1322
 msgid "Top Searches"
 msgstr "Haetuimmat"
 
-#: modules/subscriptions/views.php:690 modules/widgets/image-widget.php:226
+#: modules/widgets/image-widget.php:226 modules/subscriptions/views.php:695
 msgid "Widget title:"
 msgstr "Vimpaimen otsikko:"
 
-#: modules/stats.php:1027
+#: modules/stats.php:1049
 msgid "day"
 msgstr "päivä"
 
-#: modules/stats.php:1029
+#: modules/stats.php:1051
 msgid "month"
 msgstr "kuukausi"
 
-#: modules/stats.php:1032
+#: modules/stats.php:1054
 msgid "the past day"
 msgstr "tänään"
 
-#: modules/stats.php:1034
+#: modules/stats.php:1056
 msgid "the past month"
 msgstr "viime kuu"
 
-#: modules/stats.php:1035
+#: modules/stats.php:1057
 msgid "the past quarter"
 msgstr "kuluva neljännes"
 
-#: modules/stats.php:1033
+#: modules/stats.php:1055
 msgid "the past week"
 msgstr "tällä viikolla"
 
-#: modules/stats.php:1036
+#: modules/stats.php:1058
 msgid "the past year"
 msgstr "viime vuosi"
 
@@ -2359,97 +2351,97 @@ msgctxt "watch a video title"
 msgid "Watch: %s"
 msgstr "Katso: %s"
 
-#: modules/stats.php:1028
+#: modules/stats.php:1050
 msgid "week"
 msgstr "viikko"
 
-#: modules/stats.php:613
+#: modules/stats.php:620
 msgid "Your Site Stats work better with JavaScript enabled."
 msgstr "Sivuston tilastot toimivat paremmin kun JavaScript on käytössä."
 
-#: modules/stats.php:614
+#: modules/stats.php:621
 msgid "View Site Stats without JavaScript"
 msgstr "Näytä Sivuston tilastot ilman Javascriptiä"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2679
+#: _inc/lib/class.core-rest-api-endpoints.php:2829
 msgid "Count the page views of registered users who are logged in."
 msgstr "Laske rekisteröityneiden sisään kirjautuneiden käyttäjien näytöt."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2703
+#: _inc/lib/class.core-rest-api-endpoints.php:2853
 msgid "Hide the stats smiley face image."
 msgstr "Piilota tilastojen hymiökuva."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2668
+#: _inc/lib/class.core-rest-api-endpoints.php:2818
 msgid "Select the roles that will be able to view stats reports."
 msgstr "Valitse roolit, joilla on oikeus nähdä tilastoraportit."
 
-#: modules/stats.php:1059
+#: modules/stats.php:1082
 msgid "Chart stats by"
 msgstr "Kaavion tilastot:"
 
-#: modules/stats.php:1349
+#: modules/stats.php:1372
 msgid "We were unable to get your stats just now. Please reload this page to try again."
 msgstr "Emme saaneet tilastoja juuri nyt. Yritä uudelleen päivittämällä tämä sivu, ole hyvä."
 
-#: modules/subscriptions.php:149
+#: modules/subscriptions.php:150
 msgid "Jetpack Subscriptions:"
 msgstr "Jetpack tilaukset:"
 
-#: modules/subscriptions.php:151
+#: modules/subscriptions.php:152
 msgid "Don&#8217;t send this to subscribers"
 msgstr "Älä lähetä tätä tilaajille"
 
-#: modules/subscriptions.php:270
+#: modules/subscriptions.php:271
 msgid "Jetpack Subscriptions Settings"
 msgstr "Jetpack tilausten asetukset"
 
-#: modules/subscriptions.php:279 modules/subscriptions/views.php:40
+#: modules/subscriptions.php:280 modules/subscriptions/views.php:40
 msgid "Follow Blog"
 msgstr "Seuraa blogia"
 
-#: modules/subscriptions.php:294
+#: modules/subscriptions.php:295
 msgid "Follow Comments"
 msgstr "Seuraa kommentteja"
 
-#: modules/subscriptions.php:339
+#: modules/subscriptions.php:340
 msgid "Follower Settings"
 msgstr "Seuraamisen asetukset"
 
-#: modules/subscriptions.php:346
+#: modules/subscriptions.php:347
 msgid "Blog follow email text"
 msgstr "Sähköpostin teksti blogin seuraamiselle"
 
-#: modules/subscriptions.php:354
+#: modules/subscriptions.php:355
 msgid "Comment follow email text"
 msgstr "Sähköpostin teksti kommenttien seuraamiselle"
 
-#: modules/subscriptions.php:367
+#: modules/subscriptions.php:368
 msgid "Change whether your visitors can subscribe to your posts or comments or both."
 msgstr "Voivatko vierailijat tehdä tilauksen sivuston artikkeleihin vai kommentteihin vai kumpiinkin."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2477
-#: modules/subscriptions.php:382
+#: _inc/lib/class.core-rest-api-endpoints.php:2620
+#: modules/subscriptions.php:383
 msgid "Show a <em>'follow blog'</em> option in the comment form"
 msgstr "Näytä <em>'seuraa blogia'</em> valinta kommentointi lomakkeessa"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2484
-#: modules/subscriptions.php:397
+#: _inc/lib/class.core-rest-api-endpoints.php:2627
+#: modules/subscriptions.php:398
 msgid "Show a <em>'follow comments'</em> option in the comment form"
 msgstr "Näytä <em>'seuraa kommentteja'</em> valinta kommentointi lomakkeessa"
 
-#: modules/subscriptions.php:486
+#: modules/subscriptions.php:487
 msgid "These settings change emails sent from your blog to followers."
 msgstr "Nämä asetukset vaihtavat sähköpostiosoitteita jotka lähetetään blogista seuraajille."
 
-#: modules/subscriptions.php:493
+#: modules/subscriptions.php:494
 msgid "Introduction text sent when someone follows your blog. (Site and confirmation details will be automatically added for you.)"
 msgstr "Johdantoteksti kun joku seuraa blogiasi. (Sivusto- ja vahvistustiedot lisätään automaattisesti.)"
 
-#: modules/subscriptions.php:499
+#: modules/subscriptions.php:500
 msgid "Introduction text sent when someone follows a post on your blog. (Site and confirmation details will be automatically added for you.)"
 msgstr "Johdantoteksti kun joku seuraa tiettyä blogin artikkelia. (Sivusto- ja vahvistustiedot lisätään automaattisesti.)"
 
-#: modules/subscriptions.php:504
+#: modules/subscriptions.php:505
 msgid ""
 "Howdy.\n"
 "\n"
@@ -2463,7 +2455,7 @@ msgstr ""
 "\n"
 "Kun haluat ottaa palvelun käyttöön, varmista painamalla alla. Jos uskot tämän olevan virheviesti, sivuuta tämä ja sen jälkeen emme enää vaivaa sinua."
 
-#: modules/subscriptions.php:505
+#: modules/subscriptions.php:506
 msgid ""
 "Howdy.\n"
 "\n"
@@ -2493,55 +2485,55 @@ msgstr "Sähköpostiosoite ei kelpaa. Tarkasta ja yritä uudelleen, ole hyvä."
 msgid "There was an error when subscribing. Please try again."
 msgstr "Tilaamisessa tapahtui virhe. Yritä uudelleen, ole hyvä."
 
-#: modules/subscriptions/views.php:320 modules/subscriptions/views.php:412
-#: modules/widgets/contact-info.php:311
+#: modules/widgets/contact-info.php:311 modules/subscriptions/views.php:317
+#: modules/subscriptions/views.php:413
 msgid "Email Address:"
 msgstr "Sähköpostiosoite:"
 
-#: modules/subscriptions/views.php:595
+#: modules/subscriptions/views.php:600
 msgid "Subscribe to Blog via Email"
 msgstr "Tee sähköpostitilaus blogiin"
 
-#: modules/subscriptions/views.php:596
+#: modules/subscriptions/views.php:601
 msgid "Enter your email address to subscribe to this blog and receive notifications of new posts by email."
 msgstr "Kirjoita sähköpostiosoite jolla tilaat sähköpostiisi ilmoitukset blogin uusista artikkeleista."
 
-#: modules/subscriptions/views.php:698
+#: modules/subscriptions/views.php:703
 msgid "Optional text to display to your readers:"
 msgstr "Valinnainen teksti joka näytetään lukijoille:"
 
-#: modules/subscriptions/views.php:706
+#: modules/subscriptions/views.php:711
 msgid "Subscribe Placeholder:"
 msgstr "Paikanvaraaja sähköpostiosoitteelle:"
 
-#: modules/subscriptions/views.php:714
+#: modules/subscriptions/views.php:719
 msgid "Subscribe Button:"
 msgstr "Tilaa painikkeen teksti:"
 
-#: modules/subscriptions/views.php:722
+#: modules/subscriptions/views.php:727
 msgid "Success Message Text:"
 msgstr "Onnistunut tilaus -teksti:"
 
-#: modules/subscriptions/views.php:733
+#: modules/subscriptions/views.php:738
 msgid "Show total number of subscribers? (%s subscriber)"
 msgid_plural "Show total number of subscribers? (%s subscribers)"
 msgstr[0] "Näytä tilaajien kokonaismäärä? (%s tilaaja)"
 msgstr[1] "Näytä tilaajien kokonaismäärä? (%s tilaajaa)"
 
-#: modules/theme-tools/featured-content.php:480
-#: modules/theme-tools/featured-content.php:495
+#: modules/theme-tools/featured-content.php:486
+#: modules/theme-tools/featured-content.php:501
 msgid "Featured Content"
 msgstr "Esittelyssä olevat artikkelit"
 
-#: modules/theme-tools/featured-content.php:496
+#: modules/theme-tools/featured-content.php:502
 msgid "Easily feature all posts with the <a href=\"%1$s\">\"featured\" tag</a> or a tag of your choice. Your theme supports up to %2$s posts in its featured content area."
 msgstr "Korosta helposti artikkeleja käyttämällä <a href=\"%1$s\">\"Esittelyssä\" merkintää</a> tai muuta haluamaasi tunnusta. Käytetty teema tukee korkeintaan %2$s kpl Esittelyssä olevaa artikkelia korostettujen artikkelien alueella."
 
-#: modules/theme-tools/featured-content.php:536
+#: modules/theme-tools/featured-content.php:542
 msgid "Tag name"
 msgstr "Avainsanan nimi"
 
-#: modules/theme-tools/featured-content.php:575
+#: modules/theme-tools/featured-content.php:581
 msgid "The settings for Featured Content have <a href=\"%s\">moved to Appearance &rarr; Customize</a>."
 msgstr "Esittelyssä olevaa sisältöä koskevat asetukset on siirretty tänne: <a href=\"%s\">Ulkoasu &rarr; Mukauta</a>."
 
@@ -2589,12 +2581,12 @@ msgstr "Pyöreät"
 msgid "Tiled Columns"
 msgstr "Sarake ruudukot"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2249
+#: _inc/lib/class.core-rest-api-endpoints.php:2392
 #: modules/tiled-gallery/tiled-gallery.php:294
 msgid "Display all your gallery pictures in a cool mosaic."
 msgstr "Näytä kaikki galleriakuvat tyylikkäästi mosaiikkina."
 
-#: modules/verification-tools/blog-verification-tools.php:78
+#: modules/verification-tools/blog-verification-tools.php:84
 msgid "Website Verification Services"
 msgstr "Sivuston todennuspalvelut"
 
@@ -2632,7 +2624,7 @@ msgstr "Tietoja ei löydetty VideoPress tunnisteelle: <strong>%s</strong>."
 msgid "An unknown error has occurred. Please try again later."
 msgstr "Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen, ole hyvä"
 
-#: modules/videopress/class.videopress-edit-attachment.php:354
+#: modules/videopress/class.videopress-edit-attachment.php:297
 msgid "Display share menu and allow viewers to embed or download this video"
 msgstr "Näytä jakamisen valikko ja salli katsojien upottaa tai ladata tämä video."
 
@@ -2684,7 +2676,7 @@ msgstr "Staattinen sivu:"
 msgid "All taxonomy pages"
 msgstr "Kaikki luokittelusivut"
 
-#: modules/stats.php:612
+#: modules/stats.php:619
 msgid "View stats on WordPress.com right now"
 msgstr "Näytä tilastoja nyt WordPress.com palvelussa"
 
@@ -2693,15 +2685,11 @@ msgstr "Näytä tilastoja nyt WordPress.com palvelussa"
 msgid "Could not obtain a VideoPress upload token. Please try again later."
 msgstr "Ei saatu VideoPress palvelimelle siirtämisen merkkiä (upload token). Yritä myöhemmin uudelleen, ole hyvä."
 
-#: modules/stats.php:1356
-msgid "We were unable to get your stats just now. Please reload this page to try again. If this error persists, please <a href=\"%1$s\" target=\"_blank\">contact support</a>. In your report please include the information below."
-msgstr "Emme saaneet tilastoja juuri nyt. Yritä uudelleen päivittämällä tämä sivu, ole hyvä. Jos tämä virhe jatkuu, ota yhteyttä  <a href=\"%1$s\" target=\"_blank\">tukeen</a>. Liitä ilmoitukseen alla olevat tiedot."
-
-#: modules/subscriptions/views.php:599
+#: modules/subscriptions/views.php:604
 msgid "Success! An email was just sent to confirm your subscription. Please find the email now and click 'Confirm Follow' to start subscribing."
 msgstr "Onnistui! Lähetimme sähköpostin jolla voit vahvistaa tilauksen. Etsi sähköposti nyt ja paina 'Confirm Follow (Vahvista seuraaminen)' jotta tilaus toimisi."
 
-#: modules/stats.php:894
+#: modules/stats.php:927
 msgid "Views over 48 hours. Click for more Site Stats."
 msgstr "Näytöt 48 tunnin ajalta. Napsauta kun haluat enemmän tilastoja."
 
@@ -2741,13 +2729,13 @@ msgstr "Jaa Redditissä"
 msgid "Click to share on Twitter"
 msgstr "Jaa Twitterissä"
 
-#: extensions/blocks/eventbrite/eventbrite.php:196
-#: modules/sharedaddy/sharing-sources.php:621
 #: modules/wordads/php/class-wordads-california-privacy.php:261
+#: modules/sharedaddy/sharing-sources.php:621
+#: extensions/blocks/eventbrite/eventbrite.php:196
 msgid "Close"
 msgstr "Sulje"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2433
+#: _inc/lib/class.core-rest-api-endpoints.php:2576
 #: modules/sharedaddy/sharedaddy.php:246
 msgid "Disable CSS and JS"
 msgstr "Poista CSS ja JS käytöstä"
@@ -2761,7 +2749,8 @@ msgid "Enter the URL of a 16x16px icon you want to use for this service."
 msgstr "Syötä URL-osoite 16x16px kokoiseen kuvaan, jota haluat käyttää tämän palvelun kuvakkeena."
 
 #: modules/sharedaddy/sharing-sources.php:1107 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -2769,7 +2758,7 @@ msgstr "Facebook"
 msgid "Icon"
 msgstr "Kuvake"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2398
+#: _inc/lib/class.core-rest-api-endpoints.php:2541
 #: modules/sharedaddy/sharing.php:390
 msgid "Icon + text"
 msgstr "Kuvake ja teksti"
@@ -2778,7 +2767,7 @@ msgstr "Kuvake ja teksti"
 msgid "Icon URL"
 msgstr "Kuvakkeen URL-osoite"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2399
+#: _inc/lib/class.core-rest-api-endpoints.php:2542
 #: modules/sharedaddy/sharing.php:391
 msgid "Icon only"
 msgstr "Vain kuvake"
@@ -2791,14 +2780,15 @@ msgstr "LinkedIn"
 msgid "Live Preview"
 msgstr "Esikatselu"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2401
+#: _inc/lib/class.core-rest-api-endpoints.php:2544
 #: modules/sharedaddy/sharing.php:393
 msgid "Official buttons"
 msgstr "Viralliset painikkeet"
 
 #: modules/sharedaddy/sharing-sources.php:1635 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Pinterest"
 msgstr "Pinterest"
 
@@ -2843,9 +2833,8 @@ msgid "Sharing URL"
 msgstr "Jaon URL-osoite"
 
 #: modules/shortcodes/slideshow.php:74 modules/widgets/gallery.php:373
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Slideshow"
 msgstr "Kuvaesitys"
 
@@ -2853,7 +2842,7 @@ msgstr "Kuvaesitys"
 msgid "Sorry, your blog cannot share posts by email."
 msgstr "Valitettavasti blogisi artikkeleita ei voida jakaa sähköpostin välityksellä."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2400
+#: _inc/lib/class.core-rest-api-endpoints.php:2543
 #: modules/sharedaddy/sharing.php:392
 msgid "Text only"
 msgstr "Vain teksti"
@@ -2867,9 +2856,8 @@ msgid "This slideshow requires JavaScript."
 msgstr "Kuvaesitys vaatii JavaScriptin."
 
 #: modules/widgets/milestone/class-milestone-widget.php:693
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Time"
 msgstr "Aika"
 
@@ -2878,12 +2866,13 @@ msgid "Tumblr"
 msgstr "Tumblr"
 
 #: modules/sharedaddy/sharing-sources.php:735 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Twitter"
 msgstr "Twitter"
 
-#: modules/sharedaddy/sharing-sources.php:1465
 #: modules/sitemaps/sitemap-stylist.php:68
+#: modules/sharedaddy/sharing-sources.php:1465
 msgid "URL"
 msgstr "URL"
 
@@ -2903,8 +2892,8 @@ msgstr "Nimesi"
 msgid "Your blog does not currently have any published posts."
 msgstr "Blogissasi ei ole tällä hetkellä yhtään julkaistua artikkelia."
 
-#: modules/related-posts/jetpack-related-posts.php:1550
-#: modules/related-posts/jetpack-related-posts.php:1573
+#: modules/related-posts/jetpack-related-posts.php:1559
+#: modules/related-posts/jetpack-related-posts.php:1582
 msgctxt "in {category/tag name}"
 msgid "In \"%s\""
 msgstr "Kategoriassa \"%s\""
@@ -2959,21 +2948,21 @@ msgctxt "share to"
 msgid "Twitter"
 msgstr "Twitter"
 
-#: modules/related-posts/jetpack-related-posts.php:620 _inc/build/admin.js:52
+#: modules/related-posts/jetpack-related-posts.php:629 _inc/build/admin.js:61
 msgid "Show related content after posts"
 msgstr "Näytä aiheeseen liittyvä sisältö artikkelien lopussa"
 
-#: modules/related-posts/jetpack-related-posts.php:1259
+#: modules/related-posts/jetpack-related-posts.php:1268
 msgid "Untitled Post"
 msgstr "Artikkeli ilman nimeä"
 
-#: modules/related-posts/jetpack-related-posts.php:1594
+#: modules/related-posts/jetpack-related-posts.php:1603
 msgid "With 1 comment"
 msgid_plural "With %s comments"
 msgstr[0] "1 kommentti"
 msgstr[1] "%s kommenttia"
 
-#: modules/related-posts/jetpack-related-posts.php:1599
+#: modules/related-posts/jetpack-related-posts.php:1608
 msgid "Similar post"
 msgstr "Samankaltainen artikkeli"
 
@@ -3104,19 +3093,19 @@ msgstr "Kuvaesitystä ei voitu käynnistää. Yritä päivittää sivu tai katso
 msgid "Tweets by @%s"
 msgstr "Tviitit: @%s"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2461 modules/sso.php:252
+#: _inc/lib/class.core-rest-api-endpoints.php:2604 modules/sso.php:253
 msgid "Require Two-Step Authentication"
 msgstr "Edellytä kaksivaiheista oikeellisuuden tarkistusta"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2468 modules/sso.php:282
+#: _inc/lib/class.core-rest-api-endpoints.php:2611 modules/sso.php:283
 msgid "Match by Email"
 msgstr "Tee vastaavuus sähköpostilla"
 
-#: modules/sso.php:422
+#: modules/sso.php:423
 msgid "Cannot deal with cookie redirects, as headers are already sent."
 msgstr "Keksien edelleenohjausta ei voi käsitellä koska headerit on jo lähetetty."
 
-#: modules/sso.php:535 modules/sso.php:887
+#: modules/sso.php:536 modules/sso.php:888
 msgid "Log in with WordPress.com"
 msgstr "Kirjaudu WordPress.com tunnuksilla"
 
@@ -3150,12 +3139,11 @@ msgstr "Napsauta ja automaattinen esitys käynnistyy!"
 msgid "Click to Press This!"
 msgstr "Napsauta jotta julkaiset tämän!"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2340
-#: modules/subscriptions/views.php:597
+#: _inc/lib/class.core-rest-api-endpoints.php:2483
 #: modules/post-by-email/class-jetpack-post-by-email.php:101
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: modules/subscriptions/views.php:602 _inc/blocks/editor.js:28
 #: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Email Address"
 msgstr "Sähköpostiosoite"
 
@@ -3166,12 +3154,13 @@ msgstr "Sähköpostiosoite"
 msgid "Last Modified"
 msgstr "Viimeksi muokattu"
 
-#: modules/masterbar/admin-menu/class-admin-menu.php:247 _inc/build/admin.js:52
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:91
+#: _inc/build/admin.js:61
 msgid "Media"
 msgstr "Media"
 
-#: modules/videopress/class.videopress-player.php:308
 #: modules/post-by-email/class-jetpack-post-by-email.php:117
+#: modules/videopress/class.videopress-player.php:308
 msgid "More information"
 msgstr "Lisätietoja"
 
@@ -3180,20 +3169,20 @@ msgid "No reply from Jetpack servers"
 msgstr "Jetpackin palvelimet eivät vastaa"
 
 #. translators: %s: Number of pending plugin updates.
-#: modules/masterbar/admin-menu/class-admin-menu.php:509
-#: modules/masterbar/masterbar/class-masterbar.php:1278
-#: modules/calypsoify/class-jetpack-calypsoify.php:256
+#: modules/masterbar/masterbar/class-masterbar.php:1363
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:358
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:204
 msgid "Plugins"
 msgstr "Lisäosat"
 
-#: modules/related-posts/jetpack-related-posts.php:591
+#: modules/related-posts/jetpack-related-posts.php:600
 msgid "Preview:"
 msgstr "Esikatsele:"
 
 #: modules/related-posts/class.related-posts-customize.php:50
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Related Posts"
 msgstr "Aiheeseen liittyvät artikkelit"
 
@@ -3202,16 +3191,16 @@ msgid "Related posts"
 msgstr "Aiheeseen liittyvät artikkelit"
 
 #: modules/sharedaddy/sharing-sources.php:1477
-#: modules/widgets/simple-payments/form.php:181 _inc/build/admin.js:52
+#: modules/widgets/simple-payments/form.php:181 _inc/build/admin.js:61
 msgid "Save"
 msgstr "Tallenna"
 
-#: modules/widgets/facebook-likebox.php:167
-#: modules/widgets/gravatar-profile.php:277
-#: modules/widgets/milestone/class-milestone-widget.php:656
 #: modules/sitemaps/sitemap-stylist.php:307
 #: modules/sitemaps/sitemap-stylist.php:447
 #: modules/sitemaps/sitemap-stylist.php:588
+#: modules/widgets/gravatar-profile.php:277
+#: modules/widgets/facebook-likebox.php:167
+#: modules/widgets/milestone/class-milestone-widget.php:656
 msgid "Title"
 msgstr "Otsikko"
 
@@ -3236,13 +3225,13 @@ msgstr "Poista käytöstä Artikkeli sähköpostitse (Post by Email)"
 msgid "To use Post By Email, you need to link your %s account to your WordPress.com account."
 msgstr "Kun haluat käyttää Artikkeli sähköpostitse (Post by Email)-toimintoa, %s-tili on liitettävä WordPress.com-tiliisi."
 
-#: modules/publicize/publicize-jetpack.php:84
 #: modules/post-by-email/class-jetpack-post-by-email.php:138
+#: modules/publicize/publicize-jetpack.php:84
 msgid "If you don't have a WordPress.com account yet, you can sign up for free in just a few seconds."
 msgstr "Jos sinulle ei ole vielä WordPress.com tiliä, voit rekisteröityä muutamassa sekunnissa."
 
-#: modules/publicize/publicize-jetpack.php:90
 #: modules/post-by-email/class-jetpack-post-by-email.php:141
+#: modules/publicize/publicize-jetpack.php:90
 msgid "Link account with WordPress.com"
 msgstr "Yhdistä tili WordPress.comiin"
 
@@ -3258,11 +3247,11 @@ msgstr "Artikkeli sähköpostitse -osoitteen uudelleenluonti ei onnistunut. Yrit
 msgid "Unable to disable your Post By Email address. Please try again later."
 msgstr "Artikkeli sähköpostitse-osoitetta ei kyetty poistamaan käytöstä. Yritä myöhemmin uudelleen, ole hyvä."
 
-#: views/admin/network-settings.php:8 modules/protect/shared-functions.php:143
+#: modules/protect/shared-functions.php:143 views/admin/network-settings.php:8
 msgid "One of your IP addresses was not valid."
 msgstr "Jokin IP-osoitteista ei kelpaa."
 
-#: views/admin/network-settings.php:38 _inc/build/admin.js:52
+#: views/admin/network-settings.php:38 _inc/build/admin.js:61
 msgid "Your current IP: %s"
 msgstr "Käytössä oleva IP-osoite on: %s"
 
@@ -3298,19 +3287,19 @@ msgstr "Ensijainen blogi ei ole kytketty WordPress.com palveluun. Luo yhteys jot
 msgid "Error connecting to WordPress.com. Code: %1$s, %2$s"
 msgstr "Virhe yhdistettäessä WordPress.com palveluun. Koodi: %1$s, %2$s"
 
-#: modules/protect.php:622
+#: modules/protect.php:623
 msgid "Login Blocked by Jetpack"
 msgstr "Jetpack esti kirjautumisen"
 
-#: modules/protect.php:691
+#: modules/protect.php:692
 msgid "Your API key is invalid"
 msgstr "Rajapinnan/API-avain ei kelpaa"
 
-#: modules/protect.php:695
+#: modules/protect.php:696
 msgid "No API key"
 msgstr "Rajapinnan/API-avainta ei ole"
 
-#: modules/protect.php:699
+#: modules/protect.php:700
 msgid "There was an error contacting Jetpack servers."
 msgstr "Tapahtui virhe yritettäessä yhteyttä Jetpack palvelimiin."
 
@@ -3364,21 +3353,22 @@ msgid "This connection is working correctly."
 msgstr "Yhteys toimii oikein."
 
 #: class.jetpack-network-sites-list-table.php:105
-#: class.jetpack-network-sites-list-table.php:122 _inc/build/admin.js:71
+#: class.jetpack-network-sites-list-table.php:122 _inc/build/admin.js:52
 msgid "Disconnect"
 msgstr "Katkaise yhteys"
 
-#: extensions/blocks/premium-content/premium-content.php:94
 #: class.jetpack-network-sites-list-table.php:116
 #: class.jetpack-network-sites-list-table.php:121
-#: modules/theme-tools/social-links.php:125 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/theme-tools/social-links.php:125
+#: extensions/blocks/premium-content/premium-content.php:95
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:80
 msgid "Connect"
 msgstr "Liitä"
 
 #: modules/publicize/ui.php:300 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Before you hit Publish, please refresh the following connection(s) to make sure we can Publicize your post:"
 msgstr "Ennen kuin painat Julkaise, päivitä seuraava yhteys jotta varmasti voimme Kasvattaa sen julkisuutta:"
 
@@ -3402,14 +3392,15 @@ msgstr "Yhdistä kohteeseen"
 msgid "Connect and share your posts on %s"
 msgstr "Yhdistä ja jaa artikkelit %s palvelussa"
 
+#: modules/related-posts/jetpack-related-posts.php:486
+#: modules/related-posts/jetpack-related-posts.php:546
+#: modules/related-posts/jetpack-related-posts.php:655
 #: modules/related-posts/class.related-posts-customize.php:178
-#: modules/related-posts/jetpack-related-posts.php:477
-#: modules/related-posts/jetpack-related-posts.php:537
-#: modules/related-posts/jetpack-related-posts.php:646 _inc/build/admin.js:52
+#: _inc/build/admin.js:61
 msgid "Related"
 msgstr "Aiheeseen liittyy"
 
-#: modules/related-posts/jetpack-related-posts.php:618
+#: modules/related-posts/jetpack-related-posts.php:627
 msgid "Hide related content after posts"
 msgstr "Piilota aiheeseen liittyvä sisältö artikkelien lopusta"
 
@@ -3418,6 +3409,7 @@ msgid "Custom CSS"
 msgstr "Mukautettu CSS-muotoilu"
 
 #: modules/post-by-email/class-jetpack-post-by-email.php:98
+#: _inc/build/admin.js:61
 msgid "Post by Email"
 msgstr "Artikkeli sähköpostitse (Post by Email)"
 
@@ -3425,17 +3417,12 @@ msgstr "Artikkeli sähköpostitse (Post by Email)"
 msgid "Tiled Galleries"
 msgstr "Galleria ruudukot"
 
-#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:115
-#: modules/masterbar/admin-menu/class-admin-menu.php:424
-#: modules/masterbar/masterbar/class-masterbar.php:1194
+#: modules/masterbar/masterbar/class-masterbar.php:1279
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:192
 msgid "Themes"
 msgstr "Teemat"
 
-#: modules/masterbar/admin-menu/class-admin-menu.php:466
-msgid "Menus"
-msgstr "Valikot"
-
-#: _inc/lib/class.core-rest-api-endpoints.php:2331
+#: _inc/lib/class.core-rest-api-endpoints.php:2474
 msgid "Receive Monitor Email Notifications."
 msgstr "Ota vastaan Seuranta (Monitor)-moduulin ilmoituksia."
 
@@ -3455,8 +3442,7 @@ msgid ""
 msgstr "Kun olet ottanut Karusellin käyttöön, kaikki vakio WordPress galleriat jotka olet upottanut artikkelieihin tai sivuille tulevat käynnistämään ihanan valokuvien selaus kokemuksen. Siinä on mahdollisuus kommentointiin ja EXIF-metatiedot kuvasta. "
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:163
-#: modules/stats.php:439 modules/stats.php:582 modules/stats.php:991
-#: _inc/build/admin.js:80
+#: modules/stats.php:446 modules/stats.php:589 _inc/build/admin.js:80
 msgid "Site Stats"
 msgstr "Sivuston tilastot"
 
@@ -3541,15 +3527,15 @@ msgid "Site Stats"
 msgstr "Sivuston tilastot"
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:266
-#: modules/publicize/ui.php:97
+#: modules/publicize/ui.php:97 _inc/build/admin.js:61
 msgid "Publicize"
 msgstr "Kasvata julkisuutta"
 
-#: modules/notes.php:199 modules/masterbar/masterbar/class-masterbar.php:413
-#: modules/masterbar/masterbar/class-masterbar.php:419
-#: modules/masterbar/masterbar/class-masterbar.php:723 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/notes.php:200 modules/masterbar/masterbar/class-masterbar.php:500
+#: modules/masterbar/masterbar/class-masterbar.php:506
+#: modules/masterbar/masterbar/class-masterbar.php:810 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Notifications"
 msgstr "Ilmoitukset"
 
@@ -3691,8 +3677,7 @@ msgstr "Liittyvät artikkelit (Related posts)"
 msgid "%1$s at %2$s"
 msgstr "%1$s  %2$s"
 
-#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:118
-#: modules/masterbar/admin-menu/class-admin-menu.php:425
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:193
 #: modules/custom-post-types/testimonial.php:446
 msgid "Customize"
 msgstr "Mukauta"
@@ -3705,30 +3690,30 @@ msgstr "Artikkelikuvat"
 msgid "Gallery"
 msgstr "Galleria"
 
-#: modules/likes.php:476
+#: modules/likes.php:504
 msgid "Like"
 msgstr "Tykkää"
 
-#: modules/likes.php:470 modules/likes.php:471
+#: modules/likes.php:498 modules/likes.php:499
 msgid "Like this:"
 msgstr "Tykkää tästä:"
 
-#: modules/likes.php:434 modules/likes/jetpack-likes-settings.php:46
-#: modules/widgets/top-posts.php:107
+#: modules/widgets/top-posts.php:107 modules/likes.php:456
+#: modules/likes/jetpack-likes-settings.php:46
 msgid "Likes"
 msgstr "Tykkäykset"
 
-#: modules/likes.php:476 modules/comment-likes.php:188
-#: class.jetpack-connection-banner.php:200
+#: modules/comment-likes.php:228 modules/likes.php:504
+#: class.jetpack-connection-banner.php:229
 msgid "Loading..."
 msgstr "Lataa..."
 
-#: modules/masterbar/masterbar/class-masterbar.php:1356
+#: modules/masterbar/masterbar/class-masterbar.php:1441
 msgid "Menu"
 msgstr "Valikko"
 
-#: modules/theme-tools/compat/twentynineteen.php:203
 #: modules/theme-tools/compat/twentytwenty.php:268
+#: modules/theme-tools/compat/twentynineteen.php:203
 #: modules/infinite-scroll/infinity.php:840
 msgid "Older posts"
 msgstr "Vanhemmat artikkelit"
@@ -3744,17 +3729,15 @@ msgid "Settings have been saved"
 msgstr "Asetukset tallennettu."
 
 #: _inc/lib/core-api/class.jetpack-core-api-site-endpoints.php:277
-#: modules/publicize/ui.php:56 modules/sharedaddy/sharing.php:100
-#: modules/sharedaddy/sharedaddy.php:143
-#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:234
-#: modules/masterbar/masterbar/class-masterbar.php:1240
-#: modules/likes/jetpack-likes-settings.php:181 _inc/build/admin.js:52
+#: modules/masterbar/masterbar/class-masterbar.php:1325
+#: modules/sharedaddy/sharing.php:100 modules/sharedaddy/sharedaddy.php:143
+#: modules/publicize/ui.php:56 modules/likes/jetpack-likes-settings.php:181
+#: _inc/build/admin.js:61
 msgid "Sharing"
 msgstr "Jakaminen"
 
-#: modules/publicize/ui.php:55 modules/publicize/ui.php:73
 #: modules/sharedaddy/sharing.php:99 modules/sharedaddy/sharing.php:232
-#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:234
+#: modules/publicize/ui.php:55 modules/publicize/ui.php:73
 #: modules/likes/jetpack-likes-settings.php:181
 #: modules/likes/jetpack-likes-settings.php:193
 msgid "Sharing Settings"
@@ -3778,7 +3761,7 @@ msgstr "Vieritä sivun ylälaitaan"
 msgid "Proudly powered by WordPress"
 msgstr "Moottorina toimii WordPress"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2282
+#: _inc/lib/class.core-rest-api-endpoints.php:2425
 #: modules/infinite-scroll.php:76
 msgid "Use Google Analytics with Infinite Scroll"
 msgstr "Käytä Google Analytics -palvelua Rajattoman vierityksen kanssa."
@@ -3788,39 +3771,39 @@ msgid "Likes and Shares"
 msgstr "Tykkäykset ja jakamiset"
 
 #: modules/likes/jetpack-likes-settings.php:80 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Show likes."
 msgstr "Näytä tykkäykset."
 
 #: modules/sharedaddy/sharedaddy.php:169
 #: modules/likes/jetpack-likes-settings.php:170 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Show sharing buttons."
 msgstr "Näytä jakamisen painikkeet."
 
-#: modules/likes.php:196
+#: modules/likes.php:203
 msgid "Likes Notifications"
 msgstr "Ilmoitukset tykkäyksestä"
 
-#: modules/subscriptions.php:317 modules/likes.php:197
+#: modules/subscriptions.php:318 modules/likes.php:204
 msgid "Email me whenever"
 msgstr "Lähetä minulle sähköposti-ilmoitus"
 
-#: modules/likes.php:236
+#: modules/likes.php:249
 msgid "Someone likes one of my posts"
 msgstr "Ilmoitus lähetetään, kun joku on tykännyt jostakin artikkelista."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2291
+#: _inc/lib/class.core-rest-api-endpoints.php:2434
 #: modules/likes/jetpack-likes-settings.php:492
 msgid "WordPress.com Likes are"
 msgstr "WordPress.com tykkäykset"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2299
+#: _inc/lib/class.core-rest-api-endpoints.php:2442
 #: modules/likes/jetpack-likes-settings.php:498
 msgid "On for all posts"
 msgstr "Käytössä kaikille artikkeleille"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2300
+#: _inc/lib/class.core-rest-api-endpoints.php:2443
 #: modules/likes/jetpack-likes-settings.php:504
 msgid "Turned on per post"
 msgstr "Asetetaan erikseen kullekin artikkelille"
@@ -3862,8 +3845,8 @@ msgstr "<span>%d</span> bloggaajaa tykkää tästä:"
 
 #: modules/markdown/easy-markdown.php:256
 #: modules/markdown/easy-markdown.php:258 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Markdown"
 msgstr "Markdown-tekstimuotoilu"
 
@@ -3876,7 +3859,7 @@ msgstr "Käytä Markdown-tekstimuotoilua artikkeleissa ja sivuissa."
 msgid "Learn more about Markdown."
 msgstr "Lisätietoja Markdown-tekstimuotoilusta."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2315
+#: _inc/lib/class.core-rest-api-endpoints.php:2458
 #: modules/markdown/easy-markdown.php:296
 msgid "Use Markdown for comments."
 msgstr "Käytä Markdown-tekstimuotoilua kommenteissa."
@@ -3898,7 +3881,7 @@ msgstr "Käyttäjäkokemusluettelossa ei ole käyttäjäkokemuksia. Voit aloitta
 msgid "Gravatar Hovercards"
 msgstr "Gravatar-kortit"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2257
+#: _inc/lib/class.core-rest-api-endpoints.php:2400
 #: modules/gravatar-hovercards.php:62
 msgid "View people's profiles when you mouse over their Gravatars"
 msgstr "Kun Gravatar-kuvaa osoitetaan, näytetään henkilön profiili."
@@ -3907,7 +3890,7 @@ msgstr "Kun Gravatar-kuvaa osoitetaan, näytetään henkilön profiili."
 msgid "Put your mouse over your Gravatar to check out your profile."
 msgstr "Siirrä hiiren kohdistin oman Gravatar-kuvasi päälle - voit tarkastaa oman profiilisi."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2275
+#: _inc/lib/class.core-rest-api-endpoints.php:2418
 msgid "To infinity and beyond"
 msgstr "Äärettömyyteen ja kauemmaksi"
 
@@ -3929,11 +3912,11 @@ msgstr "Olemme vaihtaneet tämän valinnan napsauta-ja-vieritä versioon koska s
 msgid "%s px"
 msgstr "%s pikseliä"
 
-#: modules/masterbar/admin-menu/class-admin-menu.php:541
-#: modules/custom-post-types/testimonial.php:299
-#: modules/custom-post-types/portfolios.php:269
-#: modules/custom-post-types/comics.php:230
+#: modules/masterbar/admin-menu/class-wpcom-admin-menu.php:300
 #: modules/widgets/simple-payments/form.php:46
+#: modules/custom-post-types/comics.php:230
+#: modules/custom-post-types/portfolios.php:269
+#: modules/custom-post-types/testimonial.php:299
 msgid "Add New"
 msgstr "Lisää uusi"
 
@@ -3961,16 +3944,16 @@ msgstr "CSS-versiohistoria"
 msgid "CSS Stylesheet Editor"
 msgstr "CSS-tyyliohjemuokkain"
 
-#: views/admin/deactivation-dialog.php:53
-#: modules/sharedaddy/sharing-sources.php:699
 #: modules/custom-css/custom-css.php:1117
 #: modules/custom-css/custom-css.php:1208
 #: modules/custom-css/custom-css.php:1249
+#: modules/sharedaddy/sharing-sources.php:699
+#: modules/widgets/simple-payments/form.php:182
 #: modules/contact-form/grunion-editor-view.php:290
-#: modules/widgets/simple-payments/form.php:182 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
-#: _inc/build/admin.js:71
+#: views/admin/deactivation-dialog.php:53 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:52 _inc/build/admin.js:61
 msgid "Cancel"
 msgstr "Peruuta"
 
@@ -3978,46 +3961,40 @@ msgstr "Peruuta"
 msgid "Choose from the most used tags"
 msgstr "Valitse eniten käytetyistä avainsanoista"
 
-#: modules/custom-post-types/testimonial.php:348
-#: modules/custom-post-types/portfolios.php:380
-#: modules/custom-post-types/nova.php:270
 #: modules/custom-post-types/comics.php:312
+#: modules/custom-post-types/portfolios.php:380
+#: modules/custom-post-types/testimonial.php:348
+#: modules/custom-post-types/nova.php:275
 msgid "Custom field deleted."
 msgstr "Avainkenttä poistettu"
 
-#: modules/custom-post-types/testimonial.php:347
-#: modules/custom-post-types/portfolios.php:379
-#: modules/custom-post-types/nova.php:269
 #: modules/custom-post-types/comics.php:311
+#: modules/custom-post-types/portfolios.php:379
+#: modules/custom-post-types/testimonial.php:347
+#: modules/custom-post-types/nova.php:274
 msgid "Custom field updated."
 msgstr "Avainkenttä päivitetty"
 
-#: modules/custom-post-types/nova.php:871
+#: modules/custom-post-types/nova.php:876
 msgid "DOWN"
 msgstr "Alas"
 
-#: modules/theme-tools/content-options/customizer.php:74
 #: modules/custom-css/custom-css.php:1060
+#: modules/theme-tools/content-options/customizer.php:74
 #: modules/widgets/eu-cookie-law/form.php:19
 #: modules/widgets/eu-cookie-law/form.php:56
 msgid "Default"
 msgstr "Oletus"
 
-#: _inc/lib/icalendar-reader.php:775 modules/custom-post-types/nova.php:980
-#: modules/widgets/simple-payments/form.php:103
+#: _inc/lib/icalendar-reader.php:775 modules/sitemaps/sitemap-stylist.php:449
 #: modules/widgets/milestone/class-milestone-widget.php:661
-#: modules/sitemaps/sitemap-stylist.php:449
+#: modules/widgets/simple-payments/form.php:103
+#: modules/custom-post-types/nova.php:985
 msgid "Description"
 msgstr "Kuvaus"
 
-#: modules/custom-css/custom-css-4.7.php:138
-#: modules/custom-css/custom-css-4.7.php:141
-#: modules/custom-css/custom-css.php:904
-msgid "Edit CSS"
-msgstr "CSS-muokkain"
-
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:219
+#: modules/custom-post-types/nova.php:224
 msgid "Edit Menu Item"
 msgstr "Muokkaa valikon kohtaa"
 
@@ -4026,15 +4003,15 @@ msgid "Edit Project"
 msgstr "Muokkaa projektia"
 
 #. translators: Publish box date format, see https://php.net/date
-#: modules/custom-post-types/testimonial.php:357
-#: modules/custom-post-types/portfolios.php:389
-#: modules/custom-post-types/nova.php:284
 #: modules/custom-post-types/comics.php:321
+#: modules/custom-post-types/portfolios.php:389
+#: modules/custom-post-types/testimonial.php:357
+#: modules/custom-post-types/nova.php:289
 msgid "M j, Y @ G:i"
 msgstr "j.n.Y \\k\\l\\o G.i"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:209
+#: modules/custom-post-types/nova.php:214
 msgid "Menu Item"
 msgstr "Valikon kohta"
 
@@ -4049,26 +4026,25 @@ msgstr "Avainsanoja ei löytynyt"
 #: modules/custom-css/custom-css-4.7.php:757
 #: modules/custom-css/custom-css.php:1191
 #: modules/custom-css/custom-css.php:1196 modules/widgets/image-widget.php:243
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
-#: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "None"
 msgstr "Ei mitään"
 
-#: modules/publicize/publicize-jetpack.php:531
-#: modules/publicize/publicize-jetpack.php:634 modules/publicize/ui.php:625
-#: modules/publicize/ui.php:653 modules/custom-css/custom-css.php:1116
+#: modules/custom-css/custom-css.php:1116
 #: modules/custom-css/custom-css.php:1207
-#: modules/custom-css/custom-css.php:1248
+#: modules/custom-css/custom-css.php:1248 modules/publicize/ui.php:625
+#: modules/publicize/ui.php:653 modules/publicize/publicize-jetpack.php:531
+#: modules/publicize/publicize-jetpack.php:634
 msgid "OK"
 msgstr "OK"
 
-#: modules/custom-post-types/nova.php:530
+#: modules/custom-post-types/nova.php:535
 msgid "Order"
 msgstr "Järjestys"
 
-#: modules/masterbar/masterbar/class-masterbar.php:1115
-#: modules/masterbar/masterbar/class-masterbar.php:1128
+#: modules/masterbar/masterbar/class-masterbar.php:1200
+#: modules/masterbar/masterbar/class-masterbar.php:1213
 #: modules/custom-post-types/portfolios.php:267
 #: modules/custom-post-types/portfolios.php:445
 msgid "Portfolio"
@@ -4076,8 +4052,8 @@ msgstr "Portfolio"
 
 #: modules/custom-css/custom-css.php:1267
 #: modules/custom-post-types/comics.php:272 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Preview"
 msgstr "Esikatsele"
 
@@ -4130,13 +4106,13 @@ msgstr "Näytä enemmän"
 msgid "Stylesheet saved."
 msgstr "Tyyliohje tallennettu."
 
-#: modules/custom-post-types/portfolios.php:873
+#: modules/custom-post-types/portfolios.php:873 _inc/build/admin.js:61
 msgid "Tags"
 msgstr "Avainsanat"
 
-#: modules/custom-post-types/nova.php:527 modules/widgets/flickr/form.php:77
 #: modules/sitemaps/sitemap-stylist.php:306
-#: modules/sitemaps/sitemap-stylist.php:446
+#: modules/sitemaps/sitemap-stylist.php:446 modules/widgets/flickr/form.php:77
+#: modules/custom-post-types/nova.php:532
 msgid "Thumbnail"
 msgstr "Pienoiskuva"
 
@@ -4144,11 +4120,11 @@ msgstr "Pienoiskuva"
 msgid "Types"
 msgstr "tyypit"
 
-#: modules/custom-post-types/nova.php:869
+#: modules/custom-post-types/nova.php:874
 msgid "UP"
 msgstr "Ylös"
 
-#: modules/custom-post-types/nova.php:863
+#: modules/custom-post-types/nova.php:868
 msgid "Uncategorized"
 msgstr "Yleinen"
 
@@ -4156,7 +4132,7 @@ msgstr "Yleinen"
 msgid "Update Project Tag"
 msgstr "Päivitä projektin avainsana"
 
-#: modules/custom-post-types/nova.php:860
+#: modules/custom-post-types/nova.php:865
 msgid "edit"
 msgstr "Muokkaa"
 
@@ -4267,293 +4243,293 @@ msgid "Invalid or expired nonce."
 msgstr "Kertakäyttöavain ei ole kelvollinen tai on vanhentunut."
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:128
+#: modules/custom-post-types/nova.php:133
 msgid "Menu Item Labels"
 msgstr "Menun tuotteen tunnukset"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:130
+#: modules/custom-post-types/nova.php:135
 msgid "Menu Item Label"
 msgstr "Menun tuotteen tunnus"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:132
+#: modules/custom-post-types/nova.php:137
 msgid "Search Menu Item Labels"
 msgstr "Etsi menun tuotteen tunnusta"
 
-#: modules/custom-post-types/nova.php:133
+#: modules/custom-post-types/nova.php:138
 msgid "Popular Labels"
 msgstr "Suositut tunnukset"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:135
+#: modules/custom-post-types/nova.php:140
 msgid "All Menu Item Labels"
 msgstr "Kaikki menun tuotteen tunnukset"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:137
+#: modules/custom-post-types/nova.php:142
 msgid "Edit Menu Item Label"
 msgstr "Muokkaa menun tuotteen tunnusta"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:139
+#: modules/custom-post-types/nova.php:144
 msgid "View Menu Item Label"
 msgstr "Näytä menun tuotteen tunnus"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:141
+#: modules/custom-post-types/nova.php:146
 msgid "Update Menu Item Label"
 msgstr "Päivitä menun tuotteen tunnus"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:143
+#: modules/custom-post-types/nova.php:148
 msgid "Add New Menu Item Label"
 msgstr "Lisää uusi menun tuotteen tunnus"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:145
+#: modules/custom-post-types/nova.php:150
 msgid "New Menu Item Label Name"
 msgstr "Uusi menun tuotteen tunnuksen nimi"
 
-#: modules/custom-post-types/nova.php:146
+#: modules/custom-post-types/nova.php:151
 msgid "For example, spicy, favorite, etc. <br /> Separate Labels with commas"
 msgstr "Esimerkiksi mausteinen, suosikki, jne. <br /> Erota tunnukset pilkulla"
 
-#: modules/custom-post-types/nova.php:147
+#: modules/custom-post-types/nova.php:152
 msgid "Add or remove Labels"
 msgstr "Lisää tai poista tunnuksia"
 
-#: modules/custom-post-types/nova.php:148
+#: modules/custom-post-types/nova.php:153
 msgid "Choose from the most used Labels"
 msgstr "Valitse useimmin käytetyista tunnuksista"
 
-#: modules/custom-post-types/nova.php:152
+#: modules/custom-post-types/nova.php:157
 msgid "No Labels found"
 msgstr "Tunnuksia ei löytynyt"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:161
+#: modules/custom-post-types/nova.php:166
 msgid "Menu Sections"
 msgstr "Menun osastot"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:163
+#: modules/custom-post-types/nova.php:168
 msgid "Menu Section"
 msgstr "Menun osasto"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:165
+#: modules/custom-post-types/nova.php:170
 msgid "Search Menu Sections"
 msgstr "Etsi menun osastot"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:167
+#: modules/custom-post-types/nova.php:172
 msgid "All Menu Sections"
 msgstr "Kaikki menun osastot"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:169
+#: modules/custom-post-types/nova.php:174
 msgid "Parent Menu Section"
 msgstr "Ylemmän tason osasto menussa"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:171
+#: modules/custom-post-types/nova.php:176
 msgid "Parent Menu Section:"
 msgstr "Ylemmän tason osasto menussa:"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:173
+#: modules/custom-post-types/nova.php:178
 msgid "Edit Menu Section"
 msgstr "Muokkaa menun osastoa"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:175
+#: modules/custom-post-types/nova.php:180
 msgid "View Menu Section"
 msgstr "Näytä menun osasto"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:177
+#: modules/custom-post-types/nova.php:182
 msgid "Update Menu Section"
 msgstr "Päivitä menun osasto"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:179
+#: modules/custom-post-types/nova.php:184
 msgid "Add New Menu Section"
 msgstr "Lisää uusi menun osasto"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:181
+#: modules/custom-post-types/nova.php:186
 msgid "New Menu Sections Name"
 msgstr "Uusi menun osaston nimi"
 
-#: modules/custom-post-types/nova.php:203
+#: modules/custom-post-types/nova.php:208
 msgid "Items on your restaurant's menu"
 msgstr "Tuotteet ravintolasi menussa"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:207
-#: modules/custom-post-types/nova.php:213
+#: modules/custom-post-types/nova.php:212
+#: modules/custom-post-types/nova.php:218
 msgid "Menu Items"
 msgstr "Menun tuotteet"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:211
+#: modules/custom-post-types/nova.php:216
 msgid "Food Menus"
 msgstr "Ruokien menu"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:215
+#: modules/custom-post-types/nova.php:220
 msgid "Add One Item"
 msgstr "Lisää yksi tuote"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:217
+#: modules/custom-post-types/nova.php:222
 msgid "Add Menu Item"
 msgstr "Lisää menuun tuote"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:221
+#: modules/custom-post-types/nova.php:226
 msgid "New Menu Item"
 msgstr "Uusi menun tuote"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:223
+#: modules/custom-post-types/nova.php:228
 msgid "View Menu Item"
 msgstr "Näytä menun tuote"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:225
+#: modules/custom-post-types/nova.php:230
 msgid "Search Menu Items"
 msgstr "Etsi menun tuotetta"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:227
+#: modules/custom-post-types/nova.php:232
 msgid "No Menu Items found"
 msgstr "Menun tuotetta ei löytynyt"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:229
+#: modules/custom-post-types/nova.php:234
 msgid "No Menu Items found in Trash"
 msgstr "Roskakorista ei löytynyt menun tuotetta"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:268
+#: modules/custom-post-types/nova.php:273
 msgid "Menu item updated. <a href=\"%s\">View item</a>"
 msgstr "Menun tuote päivitetty. <a href=\"%s\">Näytä tuote</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:272
+#: modules/custom-post-types/nova.php:277
 msgid "Menu item updated."
 msgstr "Menun tuote päivitetty."
 
 #. translators: %s: date and time of the revision
-#: modules/custom-post-types/nova.php:274
+#: modules/custom-post-types/nova.php:279
 msgid "Menu item restored to revision from %s"
 msgstr "Menun tuote palautettu versioon %s."
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:276
+#: modules/custom-post-types/nova.php:281
 msgid "Menu item published. <a href=\"%s\">View item</a>"
 msgstr "Menun tuote julkuistu. <a href=\"%s\">Näytä tuote</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:278
+#: modules/custom-post-types/nova.php:283
 msgid "Menu item saved."
 msgstr "Menun tuote tallennettu."
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:280
+#: modules/custom-post-types/nova.php:285
 msgid "Menu item submitted. <a target=\"_blank\" href=\"%s\">Preview item</a>"
 msgstr "Menun tuote lähetetty. <a target=\"_blank\" href=\"%s\">Esikatsele tuote</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:282
+#: modules/custom-post-types/nova.php:287
 msgid "Menu item scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview item</a>"
 msgstr "Menun tuote ajastettu: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Esikatsele tuote</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:286
+#: modules/custom-post-types/nova.php:291
 msgid "Menu item draft updated. <a target=\"_blank\" href=\"%s\">Preview item</a>"
 msgstr "Menun tuotteen luonnos päivitetty. <a target=\"_blank\" href=\"%s\">Esikatsele tuote</a>"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:314
+#: modules/custom-post-types/nova.php:319
 msgid "Enter the menu item's name here"
 msgstr "Kirjoita menun/ruokalistan nimi tähän"
 
 #. translators: Placehoder is a number of items.
-#: modules/custom-post-types/nova.php:338
-#: modules/custom-post-types/nova.php:352
+#: modules/custom-post-types/nova.php:343
+#: modules/custom-post-types/nova.php:357
 msgid "%1$d Food Menu Item"
 msgid_plural "%1$d Food Menu Items"
 msgstr[0] "%1$d Ruokatuote"
 msgstr[1] "%1$d Ruokatuotetta"
 
-#: modules/custom-post-types/nova.php:445
-#: modules/custom-post-types/nova.php:446
-#: modules/custom-post-types/nova.php:961
+#: modules/custom-post-types/nova.php:450
+#: modules/custom-post-types/nova.php:451
+#: modules/custom-post-types/nova.php:966
 msgid "Add Many Items"
 msgstr "Lisää useita tuotteita"
 
 #. translators: this is about a food menu
-#: modules/custom-post-types/nova.php:508
+#: modules/custom-post-types/nova.php:513
 msgid "Menu Items re-ordered."
 msgstr "Menun tuotteet järjestetty uudelleen."
 
-#: modules/custom-post-types/nova.php:528
+#: modules/custom-post-types/nova.php:533
 msgid "Labels"
 msgstr "Tunnukset"
 
-#: modules/custom-post-types/nova.php:529
-#: modules/custom-post-types/nova.php:978
-#: modules/custom-post-types/nova.php:1023
-#: modules/custom-post-types/nova.php:1029
-#: modules/widgets/simple-payments/form.php:113 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/widgets/simple-payments/form.php:113
+#: modules/custom-post-types/nova.php:534
+#: modules/custom-post-types/nova.php:983
+#: modules/custom-post-types/nova.php:1028
+#: modules/custom-post-types/nova.php:1034 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Price"
 msgstr "Hinta"
 
-#: modules/custom-post-types/nova.php:596
-#: modules/custom-post-types/nova.php:657
+#: modules/custom-post-types/nova.php:601
+#: modules/custom-post-types/nova.php:662
 msgid "Save New Order"
 msgstr "Tallenna uusi järjestys"
 
-#: modules/custom-post-types/nova.php:869
+#: modules/custom-post-types/nova.php:874
 msgid "Move menu section up"
 msgstr "Siirrä menun osasto ylöspäin"
 
-#: modules/custom-post-types/nova.php:871
+#: modules/custom-post-types/nova.php:876
 msgid "Move menu section down"
 msgstr "Siirrä menun osasto alaspäin"
 
-#: modules/custom-post-types/nova.php:963
+#: modules/custom-post-types/nova.php:968
 msgid "Use the <kbd>TAB</kbd> key on your keyboard to move between colums and the <kbd>ENTER</kbd> or <kbd>RETURN</kbd> key to save each row and move on to the next."
 msgstr "Käytä näppäimistön <kbd>TAB</kbd>-näppäintä kun haluat siirtyä sarakkeiden välillä ja <kbd>ENTER</kbd> tai <kbd>RETURN</kbd>-näppäintä tallentamaan kunkin rivin ja siirtymään samalla seuraavalle riville."
 
-#: modules/custom-post-types/nova.php:966
+#: modules/custom-post-types/nova.php:971
 msgid "Add to section:"
 msgstr "Lisää osastoon:"
 
-#: modules/custom-post-types/nova.php:979
+#: modules/custom-post-types/nova.php:984
 msgid "Labels: <small>spicy, favorite, etc. <em>Separate Labels with commas</em></small>"
 msgstr "Tunnukset: <small>mausteinen, suosikki, jne. <em>Erota tunnukset pilkulla</em></small>"
 
-#: modules/custom-post-types/nova.php:1001
+#: modules/custom-post-types/nova.php:1006
 msgid "New Row"
 msgstr "Uusi rivi"
 
-#: modules/custom-post-types/nova.php:1010
+#: modules/custom-post-types/nova.php:1015
 msgid "Add These New Menu Items"
 msgstr "Lisää nämä uudet menun tuotteet"
 
-#: modules/custom-post-types/nova.php:1097
-#: modules/custom-post-types/nova.php:1116
+#: modules/custom-post-types/nova.php:1102
+#: modules/custom-post-types/nova.php:1121
 msgctxt "Nova label separator"
 msgid ", "
 msgstr ", "
 
-#: modules/custom-post-types/nova.php:1118
+#: modules/custom-post-types/nova.php:1123
 msgid "No Labels"
 msgstr "Ei tunnuksia"
 
@@ -4701,13 +4677,13 @@ msgstr "Projektin kohdan luonnos päivitetty. <a target=\"_blank\" href=\"%s\">E
 msgid "Your Portfolio Archive currently has no entries. You can start creating them on your dashboard."
 msgstr "Portfolioluettelo on tyhjä. Voit aloittaa niiden luomisen hallintapaneelissa."
 
-#: modules/masterbar/masterbar/class-masterbar.php:1079
-#: modules/masterbar/masterbar/class-masterbar.php:1092
+#: modules/masterbar/masterbar/class-masterbar.php:1164
+#: modules/masterbar/masterbar/class-masterbar.php:1177
 #: modules/custom-post-types/testimonial.php:120
 #: modules/custom-post-types/testimonial.php:295
 #: modules/custom-post-types/testimonial.php:297
 #: modules/custom-post-types/testimonial.php:462
-#: modules/custom-post-types/testimonial.php:468 _inc/build/admin.js:52
+#: modules/custom-post-types/testimonial.php:468 _inc/build/admin.js:61
 msgid "Testimonials"
 msgstr "Käyttäjäkokemus"
 
@@ -4882,25 +4858,26 @@ msgstr "Vain kuvia voidaan tässä siirtää palvelimelle."
 msgid "Your upload didn't complete; try again later or cross your fingers and try again right now."
 msgstr "Palvelimelle siirto ei valmistunut; yritä myöhemmin uudelleen tai risti sormet ja kokeile heti uudelleen."
 
-#: modules/carousel/jetpack-carousel.php:293
+#. translators: %s is replaced with a field name in the form, e.g. "Email"
+#: modules/carousel/jetpack-carousel.php:357
 msgid "%s (Required)"
 msgstr "%s (Vaaditaan)"
 
 #. translators: %s is the name of a form field
-#: modules/contact-form/grunion-contact-form.php:3400
+#: modules/contact-form/grunion-contact-form.php:3435
 msgid "%s is required"
 msgstr "%s vaaditaan"
 
 #. translators: %s is the name of a form field
-#: modules/contact-form/grunion-contact-form.php:3386
+#: modules/contact-form/grunion-contact-form.php:3421
 msgid "%s requires a valid email address"
 msgstr "%s vaatii oikean sähköpostiosoitteen"
 
-#: extensions/blocks/revue/revue.php:72
-#: modules/contact-form/grunion-contact-form.php:3708
-#: modules/contact-form/grunion-editor-view.php:94 _inc/blocks/editor.js:14
-#: _inc/blocks/editor-beta.js:14 _inc/blocks/editor-no-post-editor.js:14
-#: _inc/blocks/editor-experimental.js:14
+#: modules/contact-form/grunion-contact-form.php:3743
+#: modules/contact-form/grunion-editor-view.php:94
+#: extensions/blocks/revue/revue.php:72 _inc/blocks/editor.js:14
+#: _inc/blocks/editor-no-post-editor.js:14
+#: _inc/blocks/editor-experimental.js:14 _inc/blocks/editor-beta.js:14
 msgid "(required)"
 msgstr "(Vaaditaan)"
 
@@ -4913,20 +4890,20 @@ msgstr "Lisää"
 msgid "Add Contact Form"
 msgstr "Lisää yhteydenottolomake"
 
-#: modules/contact-form/grunion-contact-form.php:911
+#: modules/contact-form/grunion-contact-form.php:932
 msgid "All posts"
 msgstr "Kaikki artikkelit"
 
-#: modules/carousel/jetpack-carousel.php:786
+#: modules/carousel/jetpack-carousel.php:960
 msgid "Background color"
 msgstr "Taustan väri"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2170
-#: modules/carousel/jetpack-carousel.php:890
+#: _inc/lib/class.core-rest-api-endpoints.php:2305
+#: modules/carousel/jetpack-carousel.php:1064
 msgid "Black"
 msgstr "Musta"
 
-#: modules/carousel/jetpack-carousel.php:271
+#: modules/carousel/jetpack-carousel.php:270
 msgid "Camera"
 msgstr "Kamera"
 
@@ -4934,57 +4911,57 @@ msgstr "Kamera"
 msgid "Cancel reply"
 msgstr "Peruuta vastaus"
 
-#: modules/carousel/jetpack-carousel.php:288
+#. translators: %s is replaced with the user's display name
+#: modules/carousel/jetpack-carousel.php:414
 msgid "Commenting as %s"
 msgstr "Kirjoita nimellä %s"
 
-#: modules/carousel/jetpack-carousel.php:792
-#: modules/masterbar/admin-menu/class-admin-menu.php:389
-#: modules/masterbar/masterbar/class-masterbar.php:1064
-#: modules/comments/admin.php:72 modules/widgets/rsslinks-widget.php:102
-#: modules/widgets/rsslinks-widget.php:180 _inc/build/admin.js:52
+#: modules/masterbar/masterbar/class-masterbar.php:1149
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:138
+#: modules/widgets/rsslinks-widget.php:102
+#: modules/widgets/rsslinks-widget.php:180 modules/comments/admin.php:72
+#: modules/carousel/jetpack-carousel.php:966 _inc/build/admin.js:52
 msgid "Comments"
 msgstr "Kommentit"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2210
-#: modules/comments/admin.php:55
-#: modules/search/class-jetpack-search-customize.php:72
+#: _inc/lib/class.core-rest-api-endpoints.php:2353
+#: modules/search/class-jetpack-search-customize.php:73
 #: modules/widgets/twitter-timeline.php:574
-#: modules/widgets/eu-cookie-law/form.php:237
+#: modules/widgets/eu-cookie-law/form.php:237 modules/comments/admin.php:55
 msgid "Dark"
 msgstr "Tumma"
 
-#: modules/contact-form/admin.php:238
-#: modules/contact-form/grunion-contact-form.php:2479
-#: modules/contact-form/grunion-editor-view.php:227
-#: modules/widgets/search.php:939 modules/widgets/search.php:977
 #: modules/widgets/milestone/class-milestone-widget.php:666
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: modules/widgets/search.php:926 modules/widgets/search.php:964
+#: modules/contact-form/admin.php:231
+#: modules/contact-form/grunion-contact-form.php:2501
+#: modules/contact-form/grunion-editor-view.php:227 _inc/blocks/editor.js:28
 #: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Date"
 msgstr "Päivämäärä"
 
-#: modules/contact-form/admin.php:112 modules/contact-form/admin.php:327
-#: modules/contact-form/admin.php:426
+#: modules/contact-form/admin.php:112 modules/contact-form/admin.php:320
+#: modules/contact-form/admin.php:419
 msgid "Delete Permanently"
 msgstr "Poista pysyvästi"
 
-#: modules/contact-form/admin.php:325 modules/contact-form/admin.php:424
+#: modules/contact-form/admin.php:318 modules/contact-form/admin.php:417
 msgid "Delete this item permanently"
 msgstr "Poista tämä kohde pysyvästi"
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
-#: modules/carousel/jetpack-carousel.php:295
-#: modules/contact-form/grunion-contact-form.php:1982
-#: modules/contact-form/grunion-contact-form.php:2473
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1081
+#: modules/widgets/social-icons.php:556
+#: modules/widgets/simple-payments/form.php:147
+#: modules/carousel/jetpack-carousel.php:421
+#: modules/contact-form/grunion-contact-form.php:2004
+#: modules/contact-form/grunion-contact-form.php:2495
 #: modules/contact-form/grunion-form-view.php:215
 #: modules/contact-form/grunion-editor-view.php:88
-#: modules/contact-form/grunion-editor-view.php:220
-#: modules/widgets/simple-payments/form.php:147
-#: modules/widgets/social-icons.php:556 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/contact-form/grunion-editor-view.php:220 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Email"
 msgstr "Sähköpostiosoite"
 
@@ -4992,26 +4969,26 @@ msgstr "Sähköpostiosoite"
 msgid "Email notifications"
 msgstr "Sähköposti-ilmoitukset"
 
-#: modules/contact-form/admin.php:820
+#: modules/contact-form/admin.php:813
 msgid "Empty Spam"
 msgstr "Poista roskaviestit"
 
-#: extensions/blocks/revue/revue.php:151 modules/subscriptions/views.php:342
-#: modules/contact-form/grunion-form-view.php:259 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/contact-form/grunion-form-view.php:259
+#: modules/subscriptions/views.php:339 extensions/blocks/revue/revue.php:151
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Enter your email address"
 msgstr "Syötä sähköpostiosoitteesi"
 
-#: modules/contact-form/admin.php:695
+#: modules/contact-form/admin.php:688
 msgid "Error in moving to Trash."
 msgstr "Roskakoriin siirto ei onnistunut."
 
-#: modules/contact-form/admin.php:687
+#: modules/contact-form/admin.php:680
 msgid "Error in restoring from Trash."
 msgstr "Roskakorista palauttaminen ei onnistunut."
 
-#: modules/contact-form/grunion-contact-form.php:2094
+#: modules/contact-form/grunion-contact-form.php:2116
 msgid "Error!"
 msgstr "Virhe!"
 
@@ -5023,7 +5000,7 @@ msgstr "Virhe: syötä kelvollinen sähköpostiosoite"
 msgid "Error: please fill the required fields (name, email)."
 msgstr "Virhe: syötä tiedot vaadittuihin kenttiin (nimi, sähköposti)."
 
-#: modules/contact-form/grunion-contact-form.php:839
+#: modules/contact-form/grunion-contact-form.php:860
 msgid "Feedback discarded."
 msgstr "Palaute hylätty."
 
@@ -5031,11 +5008,11 @@ msgstr "Palaute hylätty."
 msgid "Feedback(s) marked as spam"
 msgstr "Palaute merkitty roskapostiksi"
 
-#: modules/contact-form/admin.php:236
+#: modules/contact-form/admin.php:229
 msgid "From"
 msgstr "Lähettäjä"
 
-#: modules/contact-form/grunion-contact-form.php:2951
+#: modules/contact-form/grunion-contact-form.php:2979
 msgid "IP Address:"
 msgstr "IP-osoite:"
 
@@ -5059,7 +5036,13 @@ msgctxt "Label for HTML form \"Name\" field in contact form builder"
 msgid "Name"
 msgstr "Nimi"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2195
+#: modules/masterbar/masterbar/class-masterbar.php:478 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+msgid "Language"
+msgstr "Kieli"
+
+#: _inc/lib/class.core-rest-api-endpoints.php:2338
 #: modules/comments/admin.php:50 modules/comments/comments.php:247
 msgid "Leave a Reply"
 msgstr "Vastaa"
@@ -5068,11 +5051,10 @@ msgstr "Vastaa"
 msgid "Leave a Reply to %s"
 msgstr "Vastaa käyttäjälle %s"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2209
-#: modules/comments/admin.php:54
-#: modules/search/class-jetpack-search-customize.php:71
+#: _inc/lib/class.core-rest-api-endpoints.php:2352
+#: modules/search/class-jetpack-search-customize.php:72
 #: modules/widgets/twitter-timeline.php:571
-#: modules/widgets/eu-cookie-law/form.php:226
+#: modules/widgets/eu-cookie-law/form.php:226 modules/comments/admin.php:54
 msgid "Light"
 msgstr "Vaalea"
 
@@ -5081,48 +5063,45 @@ msgctxt "Link to edit an HTML form field in contact form builder"
 msgid "edit"
 msgstr "muokkaa"
 
-#: modules/carousel/jetpack-carousel.php:263
+#: modules/carousel/jetpack-carousel.php:262
 msgid "Loading Comments..."
 msgstr "Ladataan kommentteja..."
 
-#: modules/contact-form/admin.php:418
+#: modules/contact-form/admin.php:411
 msgid "Mark this message as NOT spam"
 msgstr "Palauta tämä viesti roskaviesteistä"
 
-#: modules/contact-form/admin.php:358
+#: modules/contact-form/admin.php:351
 msgid "Mark this message as spam"
 msgstr "Merkitse tämä viesti roskaksi"
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
-#: modules/contact-form/admin.php:237
-#: modules/contact-form/grunion-contact-form.php:1991
-#: modules/contact-form/grunion-contact-form.php:2485
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1081
+#: modules/contact-form/admin.php:230
+#: modules/contact-form/grunion-contact-form.php:2013
+#: modules/contact-form/grunion-contact-form.php:2507
 #: modules/contact-form/grunion-editor-view.php:90 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Message"
 msgstr "Viesti"
 
-#: modules/contact-form/grunion-contact-form.php:600
-#: modules/contact-form/grunion-contact-form.php:2112
+#: modules/contact-form/grunion-contact-form.php:621
+#: modules/contact-form/grunion-contact-form.php:1986 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Message Sent"
 msgstr "Viesti lähetetty"
 
-#: modules/contact-form/admin.php:226 modules/contact-form/admin.php:720
+#: modules/contact-form/admin.php:219 modules/contact-form/admin.php:713
 msgid "Messages"
 msgstr "Viestit"
-
-#: modules/contact-form/grunion-contact-form.php:177
-#: modules/contact-form/grunion-contact-form.php:178
-msgid "No feedback found"
-msgstr "Ei palautteita."
 
 #: modules/contact-form/grunion-form-view.php:226
 #: modules/contact-form/grunion-editor-view.php:249
 msgid "Options"
 msgstr "Asetukset"
 
-#: modules/carousel/jetpack-carousel.php:261
+#: modules/carousel/jetpack-carousel.php:260
 msgid "Post Comment"
 msgstr "Lähetä kommentti"
 
@@ -5131,33 +5110,29 @@ msgstr "Lähetä kommentti"
 msgid "Required?"
 msgstr "Vaaditaanko?"
 
-#: modules/contact-form/admin.php:322
+#: modules/contact-form/admin.php:315
 msgid "Restore"
 msgstr "Palauta"
 
-#: modules/contact-form/admin.php:320
+#: modules/contact-form/admin.php:313
 msgid "Restore this item from the Trash"
 msgstr "Palauta tämä kohde roskakorista"
 
-#: modules/contact-form/grunion-contact-form.php:176
-msgid "Search Feedback"
-msgstr "Etsi palautteita"
-
-#: modules/contact-form/grunion-contact-form.php:2959
+#: modules/contact-form/grunion-contact-form.php:2987
 msgid "Sent by a verified %s user."
 msgstr "Lähetetty varmistetulta  %s-käyttäjältä."
 
-#: modules/contact-form/admin.php:746
+#: modules/contact-form/admin.php:739
 msgid "Spam"
 msgstr "Roskaviestit"
 
-#: modules/contact-form/grunion-contact-form.php:215
+#: modules/contact-form/grunion-contact-form.php:216
 msgid "Spam <span class=\"count\">(%s)</span>"
 msgid_plural "Spam <span class=\"count\">(%s)</span>"
 msgstr[0] "Roskaviesti <span class=\"count\">(%s)</span>"
 msgstr[1] "Roskaviestit <span class=\"count\">(%s)</span>"
 
-#: modules/contact-form/grunion-contact-form.php:1987
+#: modules/contact-form/grunion-contact-form.php:2009
 msgid "Subject"
 msgstr "Aihe"
 
@@ -5165,11 +5140,11 @@ msgstr "Aihe"
 msgid "Submitting Comment%s"
 msgstr "Lähetetään kommenttia%s"
 
-#: modules/contact-form/grunion-contact-form.php:2467
+#: modules/contact-form/grunion-contact-form.php:2489
 #: modules/contact-form/grunion-form-view.php:218
 #: modules/contact-form/grunion-editor-view.php:218 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Text"
 msgstr "Teksti"
 
@@ -5178,66 +5153,66 @@ msgctxt "This HTML form field is marked as required by the user in contact form 
 msgid "(required)"
 msgstr "(Vaaditaan)"
 
-#: modules/contact-form/grunion-contact-form.php:2950
+#: modules/contact-form/grunion-contact-form.php:2978
 msgid "Time:"
 msgstr "Aika:"
 
-#: modules/contact-form/admin.php:365 modules/contact-form/admin.php:367
-#: modules/contact-form/admin.php:731
+#: modules/contact-form/admin.php:358 modules/contact-form/admin.php:360
+#: modules/contact-form/admin.php:724
 msgid "Trash"
 msgstr "Roskakoriin"
 
-#: modules/carousel/jetpack-carousel.php:264
+#: modules/carousel/jetpack-carousel.php:263
 msgid "View full size <span class=\"photo-size\">%1$s<span class=\"photo-size-times\">&times;</span>%2$s</span>"
 msgstr "Katso täysikokoisena <span class=\"photo-size\">%1$s<span class=\"photo-size-times\">&times;</span>%2$s</span>"
 
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
-#: modules/carousel/jetpack-carousel.php:299
-#: modules/contact-form/grunion-contact-form.php:1983
-#: modules/contact-form/grunion-contact-form.php:2476
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1081
+#: modules/carousel/jetpack-carousel.php:429
+#: modules/contact-form/grunion-contact-form.php:2005
+#: modules/contact-form/grunion-contact-form.php:2498
 #: modules/contact-form/grunion-form-view.php:220
 #: modules/contact-form/grunion-editor-view.php:89
 #: modules/contact-form/grunion-editor-view.php:221 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Website"
 msgstr "Kotisivu"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2171
-#: modules/carousel/jetpack-carousel.php:891
+#: _inc/lib/class.core-rest-api-endpoints.php:2306
+#: modules/carousel/jetpack-carousel.php:1065
 msgid "White"
 msgstr "Valkoinen"
 
-#: modules/carousel/jetpack-carousel.php:262
+#: modules/carousel/jetpack-carousel.php:261
 msgid "Write a Comment..."
 msgstr "Kirjoita kommentti..."
 
-#: modules/contact-form/grunion-contact-form.php:3593
-#: modules/contact-form/grunion-contact-form.php:3613
-#: modules/contact-form/grunion-contact-form.php:3615
+#: modules/contact-form/grunion-contact-form.php:3628
+#: modules/contact-form/grunion-contact-form.php:3648
+#: modules/contact-form/grunion-contact-form.php:3650
 #: modules/contact-form/grunion-editor-view.php:156 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Yes"
 msgstr "Kyllä"
 
-#: modules/contact-form/admin.php:163 modules/contact-form/admin.php:597
+#: modules/contact-form/admin.php:163 modules/contact-form/admin.php:590
 msgid "You are not allowed to manage this item."
 msgstr "Sinulla ei ole oikeuksia hallita tätä kohdetta."
 
-#: modules/contact-form/admin.php:683
+#: modules/contact-form/admin.php:676
 msgid "You are not allowed to move this item out of the Trash."
 msgstr "Sinulla ei ole oikeuksia poistaa tätä pois roskiksesta."
 
-#: modules/contact-form/admin.php:691
+#: modules/contact-form/admin.php:684
 msgid "You are not allowed to move this item to the Trash."
 msgstr "Sinulla ei ole oikeutta siirtää tätä kohdetta roskakoriin."
 
-#: modules/carousel/jetpack-carousel.php:269
+#: modules/carousel/jetpack-carousel.php:268
 msgid "Your comment was approved."
 msgstr "Kommenttisi hyväksyttiin."
 
-#: modules/contact-form/grunion-contact-form.php:2113
+#: modules/contact-form/grunion-contact-form.php:2135
 msgid "go back"
 msgstr "palaa takaisin"
 
@@ -5246,108 +5221,108 @@ msgctxt "noun"
 msgid "Comment"
 msgstr "Kommentti"
 
-#: modules/carousel/jetpack-carousel.php:265
+#: modules/carousel/jetpack-carousel.php:264
 msgid "Please be sure to submit some text with your comment."
 msgstr "Varmista, että liität jotain tekstiä kommenttiisi, ole hyvä."
 
-#: modules/carousel/jetpack-carousel.php:266
+#: modules/carousel/jetpack-carousel.php:265
 msgid "Please provide an email address to comment."
 msgstr "Anna sähköpostiosoitteesi kommenttiin, ole hyvä."
 
-#: modules/carousel/jetpack-carousel.php:267
+#: modules/carousel/jetpack-carousel.php:266
 msgid "Please provide your name to comment."
 msgstr "Anna nimesi kommenttiin, ole hyvä."
 
-#: modules/carousel/jetpack-carousel.php:268
+#: modules/carousel/jetpack-carousel.php:267
 msgid "Sorry, but there was an error posting your comment. Please try again later."
 msgstr "Pahoittelemme koska kommentin lähettämisessä tapahtui virhe. Yritä myöhemmin uudelleen, ole hyvä."
 
-#: modules/carousel/jetpack-carousel.php:270
+#: modules/carousel/jetpack-carousel.php:269
 msgid "Your comment is in moderation."
 msgstr "Kommentti on arvioitavana."
 
-#: modules/carousel/jetpack-carousel.php:272
+#: modules/carousel/jetpack-carousel.php:271
 msgid "Aperture"
 msgstr "Aukko"
 
-#: modules/carousel/jetpack-carousel.php:273
+#: modules/carousel/jetpack-carousel.php:272
 msgid "Shutter Speed"
 msgstr "Sulkimen nopeus"
 
-#: modules/carousel/jetpack-carousel.php:274
+#: modules/carousel/jetpack-carousel.php:273
 msgid "Focal Length"
 msgstr "Polttoväli"
 
-#: modules/carousel/jetpack-carousel.php:291
+#: modules/carousel/jetpack-carousel.php:387
 msgid "You must be <a href=\"#\" class=\"jp-carousel-comment-login\">logged in</a> to post a comment."
 msgstr "Kommenttien kirjoittaminen edellyttää että <a href=\"#\" class=\"jp-carousel-comment-login\">olet kirjautunut</a>."
 
-#: modules/carousel/jetpack-carousel.php:613
+#: modules/carousel/jetpack-carousel.php:727
 msgid "Missing attachment ID."
 msgstr "Liitteen tunnus/ID puuttuu"
 
-#: modules/carousel/jetpack-carousel.php:658
+#: modules/carousel/jetpack-carousel.php:832
 msgid "Nonce verification failed."
 msgstr "Kertakäyttöavaimen varmistus epäonnistui."
 
-#: modules/carousel/jetpack-carousel.php:666
+#: modules/carousel/jetpack-carousel.php:840
 msgid "Missing target blog ID."
 msgstr "Kohde blogin tunnus/ID puuttuu"
 
-#: modules/carousel/jetpack-carousel.php:670
+#: modules/carousel/jetpack-carousel.php:844
 msgid "Missing target post ID."
 msgstr "Kohde artikkelin tunnus/ID puuttuu"
 
-#: modules/carousel/jetpack-carousel.php:674
+#: modules/carousel/jetpack-carousel.php:848
 msgid "No comment text was submitted."
 msgstr "Kommenttitekstiä ei lähetetty."
 
-#: modules/carousel/jetpack-carousel.php:691
+#: modules/carousel/jetpack-carousel.php:865
 msgid "Comments on this post are closed."
 msgstr "Artikkelin kommentointi on suljettu."
 
-#: modules/carousel/jetpack-carousel.php:705
+#: modules/carousel/jetpack-carousel.php:879
 msgid "Sorry, but we could not authenticate your request."
 msgstr "Pahoittelemme, mutta emme voineet varmentaa pyyntöä."
 
-#: modules/carousel/jetpack-carousel.php:718
+#: modules/carousel/jetpack-carousel.php:892
 msgid "Please provide your name."
 msgstr "Anna nimesi, ole hyvä."
 
-#: modules/carousel/jetpack-carousel.php:725
+#: modules/carousel/jetpack-carousel.php:899
 msgid "Please provide an email address."
 msgstr "Anna sähköpostiosoite, ole hyvä."
 
-#: modules/carousel/jetpack-carousel.php:732
+#: modules/carousel/jetpack-carousel.php:906
 msgid "Please provide a valid email address."
 msgstr "Anna kelvollinen sähköpostiosoite, ole hyvä."
 
-#: modules/carousel/jetpack-carousel.php:779
+#: modules/carousel/jetpack-carousel.php:953
 msgid "Image Gallery Carousel"
 msgstr "Gallerian Kuvakaruselli"
 
-#: modules/carousel/jetpack-carousel.php:782
+#: modules/carousel/jetpack-carousel.php:956
 msgid "Enable carousel"
 msgstr "Ota käyttöön Karuselli"
 
-#: modules/carousel/jetpack-carousel.php:789
+#: modules/carousel/jetpack-carousel.php:963
 msgid "Metadata"
 msgstr "Metatiedot"
 
-#: modules/carousel/jetpack-carousel.php:880
+#: modules/carousel/jetpack-carousel.php:1054
 msgid "Show map of photo location in carousel, when available."
 msgstr "Näytä karusellissä kartta jossa on kuvauspaikka, kun saatavilla."
 
-#: modules/carousel/jetpack-carousel.php:901
+#: modules/carousel/jetpack-carousel.php:1075
 msgid "Display images in full-size carousel slideshow."
 msgstr "Näytä kuvat täyskokoisessa karusellikuvaesityksessä."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2211
+#: _inc/lib/class.core-rest-api-endpoints.php:2354
 #: modules/comments/admin.php:56
 msgid "Transparent"
 msgstr "Läpinäkyvä"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2193
+#: _inc/lib/class.core-rest-api-endpoints.php:2336
 #: modules/comments/admin.php:81
 msgid "Greeting Text"
 msgstr "Tervehdysviesti"
@@ -5376,45 +5351,36 @@ msgstr "Turvallisuusmerkki ei kelpaa."
 msgid "Mark as Spam"
 msgstr "Merkitse roskapostiksi"
 
-#: modules/contact-form/admin.php:457
-#: modules/contact-form/grunion-contact-form.php:2867
+#: modules/contact-form/admin.php:450
+#: modules/contact-form/grunion-contact-form.php:2895
 msgctxt "{$date_format} \\a\\t {$time_format}"
 msgid "%1$s \\a\\t %2$s"
 msgstr "%1$s \\k\\l\\o %2$s"
 
-#: modules/contact-form/admin.php:836
+#: modules/contact-form/admin.php:829
 msgid "Check for Spam"
 msgstr "Tarkasta roskapostin varalta"
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-instagram-gallery.php:115
-#: modules/contact-form/grunion-contact-form.php:592 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/contact-form/grunion-contact-form.php:613 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "An error occurred. Please try again later."
 msgstr "Tapahtui virhe. Yritä myöhemmin uudelleen, ole hyvä."
 
-#: modules/contact-form/grunion-contact-form.php:442
-#: modules/contact-form/grunion-contact-form.php:903
-msgid "Export feedback as CSV"
-msgstr "Vie palaute CSV-tiedostona"
-
-#: modules/contact-form/grunion-contact-form.php:909
-msgid "Select feedback to download"
-msgstr "Valitse ladattava palaute"
-
-#: modules/contact-form/grunion-contact-form.php:916
+#: modules/contact-form/grunion-contact-form.php:937
 msgid "Download"
 msgstr "Lataa"
 
-#: modules/contact-form/grunion-contact-form.php:1005
-#: modules/contact-form/grunion-contact-form.php:1689
+#: modules/contact-form/grunion-contact-form.php:1026
+#: modules/contact-form/grunion-contact-form.php:1710
 #: modules/contact-form/grunion-form-view.php:56 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Contact Form"
 msgstr "Yhteydenottolomake"
 
-#: modules/contact-form/grunion-contact-form.php:2952
+#: modules/contact-form/grunion-contact-form.php:2980
 msgid "Contact Form URL:"
 msgstr "Yhteydenottolomakkeen verkko-osoite:"
 
@@ -5422,21 +5388,21 @@ msgstr "Yhteydenottolomakkeen verkko-osoite:"
 msgid "Jetpack's Carousel has been disabled, because another plugin or your theme is overriding the [gallery] shortcode."
 msgstr "Jetpackin Karuselli on poistettu käytöstä, koska toinen lisäosa tai teema ohittaa [galleria] lyhytkoodin."
 
-#: modules/carousel/jetpack-carousel.php:260
+#: modules/carousel/jetpack-carousel.php:259
 msgid "Comment"
 msgstr "Kommentti"
 
-#: modules/contact-form/grunion-contact-form.php:1945
+#: modules/contact-form/grunion-contact-form.php:1966
 msgctxt "%1$s = blog name"
 msgid "%1$s Sidebar"
 msgstr "%1$s sivupalkki"
 
-#: modules/contact-form/grunion-contact-form.php:1948
+#: modules/contact-form/grunion-contact-form.php:1969
 msgctxt "%1$s = blog name, %2$s = post title"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: modules/contact-form/grunion-contact-form.php:2965
+#: modules/contact-form/grunion-contact-form.php:2993
 msgid "Sent by an unverified visitor to your site."
 msgstr "Varmentamatton sivuston vierailija lähetti."
 
@@ -5548,11 +5514,11 @@ msgstr "Uusi kenttä"
 msgid "Field type"
 msgstr "Kentän laji"
 
-#: modules/contact-form/grunion-contact-form.php:2488
+#: modules/contact-form/grunion-contact-form.php:2510
 #: modules/contact-form/grunion-form-view.php:212
 #: modules/contact-form/grunion-editor-view.php:223 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Checkbox"
 msgstr "Valintaruutu"
 
@@ -5563,15 +5529,15 @@ msgstr "Pudotusvalikko"
 
 #: modules/contact-form/grunion-form-view.php:217
 #: modules/contact-form/grunion-editor-view.php:226 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Radio"
 msgstr "Valintapainike"
 
 #: modules/contact-form/grunion-form-view.php:219
 #: modules/contact-form/grunion-editor-view.php:222 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Textarea"
 msgstr "Tekstialue"
 
@@ -5618,7 +5584,7 @@ msgstr "Kyllä. Voit lukea palautteen milloin vain napsauttamallamalla \"%1$s\"-
 msgid "Click here"
 msgstr "Napsauta tästä"
 
-#: _inc/lib/class-jetpack-podcast-helper.php:344 functions.opengraph.php:204
+#: _inc/lib/class-jetpack-podcast-helper.php:348 functions.opengraph.php:206
 msgid "(no title)"
 msgstr "(ei otsikkoa)"
 
@@ -5630,30 +5596,30 @@ msgstr "Albumi"
 msgid "Artist"
 msgstr "Esittäjä"
 
-#: class.jetpack.php:3955
+#: class.jetpack.php:4083
 msgid "For more information:"
 msgstr "Muuta tukea"
 
-#: class.jetpack.php:3925 modules/theme-tools/site-breadcrumbs.php:58
+#: modules/theme-tools/site-breadcrumbs.php:58 class.jetpack.php:4053
 msgid "Home"
 msgstr "Etusivu"
 
-#: class.jetpack.php:3205
+#: class.jetpack.php:3304
 msgid "Jetpack requires WordPress version %s or later."
 msgstr "Jetpack vaatii WordPressin version %s tai uudemman."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:82
 #: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:109
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:84
 msgid "No plugins found."
 msgstr "Lisäosia ei löytynyt."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:143
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:237
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:158
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:240
 msgid "Plugin activated."
 msgstr "Lisäosa aktivoitu."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:181
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:283
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:207
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:290
 msgid "Plugin deactivated."
 msgstr "Lisäosa poistettu käytöstä."
 
@@ -5662,13 +5628,13 @@ msgstr "Lisäosa poistettu käytöstä."
 msgid "Post by %s."
 msgstr "Käyttäjän %s artikkelit."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:178
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:280
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:202
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:287
 msgid "There was an error deactivating your plugin"
 msgstr "Lisäosan käytöstäpoistamisessa tapahtui virhe."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:360
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:414
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:382
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:436
 msgid "There was an error updating your plugin"
 msgstr "Lisäosan päivittämisessä tapahtui virhe."
 
@@ -5677,14 +5643,14 @@ msgstr "Lisäosan päivittämisessä tapahtui virhe."
 msgid "There was an error updating your theme"
 msgstr "Teeman päivittämisessä tapahtui virhe."
 
-#: sal/class.json-api-post-base.php:400
+#: sal/class.json-api-post-base.php:396
 #: json-endpoints/class.wpcom-json-api-post-endpoint.php:69
 msgid "This post is password protected."
 msgstr "Tämä kirjoitus on suojattu salasanalla."
 
 #: functions.gallery.php:92 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Type"
 msgstr "Tyyppi"
 
@@ -5700,36 +5666,31 @@ msgstr "Sinun täytyy määrittää olemassa oleva toiminto"
 msgid "Twitter Site Tag"
 msgstr "Twitter-sivuston tunnus"
 
-#: _inc/lib/class.core-rest-api-endpoints.php:2425
+#: _inc/lib/class.core-rest-api-endpoints.php:2568
 #: class.jetpack-twitter-cards.php:325
 msgid "The Twitter username of the owner of this site's domain."
 msgstr "Tämän sivuston verkkotunnuksen omistajan Twitter käyttäjätunnus."
 
-#. Plugin Name of the plugin
-#: class.jetpack.php:3927 class.jetpack.php:3940
-msgid "Jetpack by WordPress.com"
-msgstr "Jetpack by WordPress.com"
-
-#: class.jetpack.php:3956
+#: class.jetpack.php:4084
 msgid "Jetpack FAQ"
 msgstr "Jetpack UKK/FAQ"
 
-#: class.jetpack.php:3957
+#: modules/stats.php:1386 class.jetpack.php:4085
 msgid "Jetpack Support"
 msgstr "Jetpack tuki"
 
-#: class.jetpack.php:4558
+#: class.jetpack.php:4676
 msgid "Is this site private?"
 msgstr "Onko tämä sivusto yksityinen (hakukoneet kielletty)?"
 
-#: class.jetpack.php:4564
+#: class.jetpack.php:4682
 msgctxt "%l = list of Jetpack module/feature names"
 msgid "Like your site's RSS feeds, %l allows access to your posts and other content to third parties."
 msgid_plural "Like your site's RSS feeds, %l allow access to your posts and other content to third parties."
 msgstr[0] "Kuten sivuston RSS-syötteet, myös %l sallii kolmansien osapuolten pääsyn artikkeleihin ja muuhun sisältöön."
 msgstr[1] "Kuten sivuston RSS-syötteet, myös %l sallii kolmansien osapuolten pääsyn artikkeleihin ja muuhun sisältöön."
 
-#: class.jetpack.php:4581
+#: class.jetpack.php:4699
 msgctxt "%1$s = deactivation URL, %2$s = \"Deactivate {list of Jetpack module/feature names}"
 msgid "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating this feature</a>."
 msgid_plural "If your site is not publicly accessible, consider <a href=\"%1$s\" title=\"%2$s\">deactivating these features</a>."
@@ -5737,102 +5698,102 @@ msgstr[0] "Jos sivusto ei ole tarkoitettu julkiseksi, voit harkita <a href=\"%1$
 msgstr[1] "Jos sivusto ei ole tarkoitettu julkiseksi, voit harkita <a href=\"%1$s\" title=\"%2$s\">näiden palvelujen poistamista käytöstä</a>."
 
 #. translators: %s is a URL
-#: class.jetpack.php:1802
+#: class.jetpack.php:1850
 msgid "You are currently running a development version of Jetpack. <a href=\"%s\" target=\"_blank\">Submit your feedback</a>"
 msgstr "Käytät nyt Jetpackin kehitysversiota. <a href=\"%s\" target=\"_blank\">Lähetä palautetta</a>"
 
-#: class.jetpack.php:3488
+#: class.jetpack.php:3606
 msgid "First param must be string or empty"
 msgstr "Ensimmäinen parametri on oltava merkkijono tai tyhjä"
 
-#: class.jetpack.php:3492
+#: class.jetpack.php:3610
 msgid "Second param must be numeric or empty"
 msgstr "Toinen parametri on oltava numero tai tyhjä"
 
-#: class.jetpack.php:3669 class.jetpack.php:3685
+#: class.jetpack.php:3797 class.jetpack.php:3813
 msgid "Jetpack contains the most recent version of the old &#8220;%1$s&#8221; plugin."
 msgstr "Jetpackissä on vanhan &#8220;%1$s&#8221; lisäosan uusin versio."
 
-#: class.jetpack.php:3928
+#: class.jetpack.php:4056
 msgid "Jetpack supercharges your self-hosted WordPress site with the awesome cloud power of WordPress.com."
 msgstr "Jetpack kiihdyttää itse ylläpidetyn WordPress sivuston hämmästyttävällä WordPress.comin pilvivoimalla."
 
-#: class.jetpack.php:3929
+#: class.jetpack.php:4057
 msgid "On this page, you are able to view the modules available within Jetpack, learn more about them, and activate or deactivate them as needed."
 msgstr "Tällä sivulla voit katsoa Jetpackissa olevia moduuleja, oppia niistä lisää ja sen jälkeen ottaa niitä käyttöön tarpeen mukaan."
 
-#: class.jetpack.php:3941
+#: class.jetpack.php:4069
 msgid "You can activate or deactivate individual Jetpack modules to suit your needs."
 msgstr "Voit ottaa käyttöön tai poistaa käytöstä yksittäisiä Jetpackin moduuleja tarpeesi mukaan."
 
-#: class.jetpack.php:3943
+#: class.jetpack.php:4071
 msgid "Each module has an Activate or Deactivate link so you can toggle one individually."
 msgstr "Jokaisessa moduulissa on Ota käyttöön tai Poista käytöstä linkki joten voit vaihtaa niiden tilaa yksittäin."
 
-#: class.jetpack.php:3944
+#: class.jetpack.php:4072
 msgid "Using the checkboxes next to each module, you can select multiple modules to toggle via the Bulk Actions menu at the top of the list."
 msgstr "Jokaisen moduulin vieressä on valintaruutu. Voit valita useita moduuleja ja vaihtaa niiden tilaa Massatoiminnot valikosta, sivun ylälaidassa."
 
-#: class.jetpack.php:3946
+#: class.jetpack.php:4074
 msgid "Using the tools on the right, you can search for specific modules, filter by module categories or which are active, or change the sorting order."
 msgstr "Oikealla olevilla työkaluilla voit etsiä tiettyä moduulia, suodattaa moduuleja kategorian ja käytössä/ei käytössä tilan perusteella tai muuttaa lajittelujärjestystä."
 
-#: class.jetpack-connection-banner.php:508
+#: class.jetpack-connection-banner.php:537
 msgid "<strong>Jetpack is activated!</strong> Each site on your network must be connected individually by an admin on that site."
 msgstr "<strong>Jetpack on käytössä!</strong> Jokaisen verkostosi sivuston pääkäyttäjän on kytkettävä erikseen kyseinen sivusto. "
 
 #. translators: %s is the URL to the "Sites" panel on wordpress.com.
-#: class.jetpack.php:4433
+#: class.jetpack.php:4551
 msgid "You are all set! Your site can now be managed from <a href=\"%s\" target=\"_blank\">wordpress.com/sites</a>."
 msgstr "Olet valmis! Sivustoa voidaan nyt hallita osoitteessa <a href=\"%s\" target=\"_blank\">wordpress.com/sites</a>."
 
-#: class.jetpack.php:4435
+#: class.jetpack.php:4553
 msgid "Manage has been activated for you!"
 msgstr "Hallinta on otettu käyttöön sinulle!"
 
-#: class.jetpack.php:4460
+#: class.jetpack.php:4578
 msgid "Jetpack contains the most recent version of the old %l plugin."
 msgid_plural "Jetpack contains the most recent versions of the old %l plugins."
 msgstr[0] "Jetpackissä on vanhan %l lisäosan uusin versio."
 msgstr[1] "Jetpackissä on vanhojen %l lisäosien uusin versio."
 
-#: class.jetpack.php:4471
+#: class.jetpack.php:4589
 msgid "The old version has been deactivated and can be removed from your site."
 msgid_plural "The old versions have been deactivated and can be removed from your site."
 msgstr[0] "Vanha versio on poistettu käytöstä ja voidaan poistaa sivustolta."
 msgstr[1] "Vanhat versiot on poistettu käytöstä ja ne voidaan poistaa sivustolta."
 
-#: class.jetpack.php:4598
+#: class.jetpack.php:4716
 msgctxt "%l = list of Jetpack module/feature names"
 msgid "Deactivate %l"
 msgstr "Poista käytöstä %l"
 
-#: class.jetpack.php:5906
+#: class.jetpack.php:6047
 msgid "You must connect your Jetpack plugin to WordPress.com to use this feature."
 msgstr "Jetpack lisäosa on yhdistettävä WordPress.com palveluun jotta voit käyttää tätä ominaisuutta."
 
-#: class.jetpack.php:5909
+#: class.jetpack.php:6050
 msgid "Someone may be trying to trick you into giving them access to your site.  Or it could be you just encountered a bug :).  Either way, please close this window."
 msgstr "Joku yrittää saada sinulta väärin perustein pääsylupaa sivustollesi. Tai sitten kohtasit vain virheen ohjelmassa :). Kummassakin tapauksessa, sulje tämä ikkuna."
 
-#: class.jetpack.php:5982
+#: class.jetpack.php:6123
 msgid "The authorization process expired.  Please go back and try again."
 msgstr "Valtuutustapahtuma vanheni. Palaa ja yritä uudelleen, ole hyvä."
 
-#: class.jetpack.php:6022
+#: class.jetpack.php:6163
 msgid "%s wants to access your site&#8217;s data.  Log in to authorize that access."
 msgstr "%s haluaa pääsyn sivustosi tietoihin. Kirjaudu ja valtuuta tuo pyyntö."
 
-#: class.jetpack.php:4074
+#: class.jetpack.php:4189
 msgid "Deactivate Jetpack"
 msgstr "Poista Jetpack käytöstä"
 
-#: class.jetpack.php:7015
+#: class.jetpack.php:7156
 msgctxt "{#} Blocked malicious login attempts -- number is on a prior line, text is a caption."
 msgid "Blocked malicious login attempts"
 msgstr "Pahansuovat kirjautumisyritykset estettiin"
 
-#: class.jetpack.php:7031
+#: class.jetpack.php:7172
 msgid "Protect helps to keep you secure from brute-force login attacks."
 msgstr "Suojaa moduuli auttaa sivustoa suojautumaan raakavoimahyökkäyksiä vastaan."
 
@@ -5840,7 +5801,7 @@ msgstr "Suojaa moduuli auttaa sivustoa suojautumaan raakavoimahyökkäyksiä vas
 msgid "Thumbnail Grid"
 msgstr "Pikkukuvat ruudukossa"
 
-#: json-endpoints/class.wpcom-json-api-autosave-post-v1-1-endpoint.php:112
+#: json-endpoints/class.wpcom-json-api-autosave-post-v1-1-endpoint.php:132
 msgid "Autosave encountered an unexpected error"
 msgstr "Automaattisessa tallennuksessa tapahtui odottamaton virhe"
 
@@ -5894,11 +5855,11 @@ msgstr "Jetpack moduuli on jo poistettu käytöstä."
 msgid "There was an error while deactivating the module."
 msgstr "Tapahtui virhe kun moduulia otettiin pois käyttöstä."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:301
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:315
 msgid "This user is not authorized to manage plugins network wide."
 msgstr "Käyttäjällä ei ole lupa hallita lisäosia verkoston laajuisesti."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:310
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-endpoint.php:324
 msgid "You are required to specify a plugin to activate."
 msgstr "On annettava lisäosa joka otetaan käyttöön."
 
@@ -5907,32 +5868,32 @@ msgid "There was an error installing your plugin"
 msgstr "Lisäosan asentamisessa tapahtui virhe"
 
 #: _inc/lib/plugins.php:86
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-new-endpoint.php:114
-#: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:61
 #: json-endpoints/jetpack/class.jetpack-json-api-themes-new-endpoint.php:61
+#: json-endpoints/jetpack/class.jetpack-json-api-themes-install-endpoint.php:61
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-new-endpoint.php:116
 msgid "An unknown error occurred during installation"
 msgstr "Asennuksen aikana tapahtui tuntematon virhe"
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:89
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-install-endpoint.php:91
 msgid "The plugin is already installed"
 msgstr "Lisäosa on jo asennettu"
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:208
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:211
 msgid "The Plugin is already active."
 msgstr "Lisäosa on jo käytössä."
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:120
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:214
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-v1-2-endpoint.php:132
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:217
 msgid "Plugin can only be Network Activated"
 msgstr "Lisäosa voidaan ottaa käyttöön vain verkostossa"
 
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:268
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:275
 msgid "The Plugin is already deactivated."
 msgstr "Lisäosa on jo poistettu käytöstä."
 
 #: json-endpoints/jetpack/class.jetpack-json-api-themes-modify-endpoint.php:101
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:326
-#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:387
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:340
+#: json-endpoints/jetpack/class.jetpack-json-api-plugins-modify-endpoint.php:409
 msgid "No update needed"
 msgstr "Päivitystä ei tarvita"
 
@@ -5980,24 +5941,24 @@ msgstr "Teema on jo asennettu"
 msgid "There was an error while getting the update data for this site."
 msgstr "Sivuston päivitystietojen noutamisessa tapahtui virhe."
 
+#: _inc/lib/admin-pages/class-jetpack-about-page.php:352
 #: class.jetpack-modules-list-table.php:115
-#: class.jetpack-modules-list-table.php:215
-#: class.jetpack-modules-list-table.php:284
-#: _inc/lib/admin-pages/class-jetpack-about-page.php:352 _inc/build/admin.js:52
+#: class.jetpack-modules-list-table.php:218
+#: class.jetpack-modules-list-table.php:287 _inc/build/admin.js:61
 msgid "Activate"
 msgstr "Ota käyttöön"
 
-#: class.jetpack-cli.php:523
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:96
-#: modules/vaultpress.php:27 _inc/build/admin.js:52 _inc/build/admin.js:60
+#: class.jetpack-cli.php:536 modules/vaultpress.php:27 _inc/build/admin.js:61
+#: _inc/build/admin.js:69
 msgid "Active"
 msgstr "Käytössä"
 
-#: class.jetpack-modules-list-table.php:143
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:95
-#: modules/widgets/upcoming-events.php:60 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/widgets/upcoming-events.php:60
+#: class.jetpack-modules-list-table.php:146 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "All"
 msgstr "Kaikki"
 
@@ -6006,35 +5967,38 @@ msgid "Connected"
 msgstr "Yhdistetty"
 
 #: class.jetpack-modules-list-table.php:113
-#: class.jetpack-modules-list-table.php:216
-#: class.jetpack-modules-list-table.php:296
+#: class.jetpack-modules-list-table.php:219
+#: class.jetpack-modules-list-table.php:299
 msgid "Deactivate"
 msgstr "Poista käytöstä"
 
-#: class.jetpack-network-sites-list-table.php:62 modules/publicize/ui.php:517
-#: modules/publicize/ui.php:525 modules/custom-css/custom-css.php:1061
+#: class.jetpack-network-sites-list-table.php:62
+#: modules/custom-css/custom-css.php:1061
 #: modules/custom-css/custom-css.php:1192
-#: modules/custom-css/custom-css.php:1222 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: modules/custom-css/custom-css.php:1222 modules/publicize/ui.php:517
+#: modules/publicize/ui.php:525 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:61
 msgid "Edit"
 msgstr "Muokkaa"
 
-#: modules/contact-form/grunion-contact-form.php:174
-#: modules/contact-form/grunion-contact-form.php:175
-#: modules/contact-form/grunion-contact-form.php:1036
-#: modules/contact-form/grunion-contact-form.php:1054
-#: modules/contact-form/grunion-contact-form.php:1124
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:153
+#: modules/contact-form/grunion-contact-form.php:444
+#: modules/contact-form/grunion-contact-form.php:445
+#: modules/contact-form/grunion-contact-form.php:1057
+#: modules/contact-form/grunion-contact-form.php:1075
+#: modules/contact-form/grunion-contact-form.php:1145
 #: modules/contact-form/grunion-form-view.php:191
-#: modules/calypsoify/class-jetpack-calypsoify.php:191
-#: modules/calypsoify/class-jetpack-calypsoify.php:256
 msgid "Feedback"
 msgstr "Palaute"
 
+#. Plugin Name of the plugin
 #: _inc/lib/debugger/class-jetpack-cxn-test-base.php:427
 #: _inc/lib/debugger/class-jetpack-debug-data.php:105
 #: _inc/lib/debugger/debug-functions.php:88
-#: modules/masterbar/admin-menu/class-admin-menu.php:684
+#: modules/masterbar/admin-menu/class-admin-menu.php:457 class.jetpack.php:4055
+#: class.jetpack.php:4068
 msgid "Jetpack"
 msgstr "Jetpack"
 
@@ -6046,29 +6010,29 @@ msgstr "Jetpack asetukset"
 msgid "Jetpack Sites"
 msgstr "Jetpack sivustot"
 
-#: class.jetpack.php:7438 class.jetpack.php:7459 class.jetpack.php:7480
-#: modules/protect.php:187 modules/custom-content-types.php:44
-#: modules/custom-post-types/testimonial.php:155
-#: modules/custom-post-types/portfolios.php:140 _inc/build/admin.js:80
+#: modules/custom-content-types.php:44 modules/protect.php:187
+#: modules/custom-post-types/portfolios.php:140
+#: modules/custom-post-types/testimonial.php:155 class.jetpack.php:7584
+#: class.jetpack.php:7605 class.jetpack.php:7626 _inc/build/admin.js:80
 msgid "Learn More"
 msgstr "Lue lisää"
 
-#: class.jetpack-modules-list-table.php:208
-#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1080
-#: modules/carousel/jetpack-carousel.php:297
-#: modules/contact-form/grunion-contact-form.php:1981
-#: modules/contact-form/grunion-contact-form.php:2470
+#: _inc/lib/core-api/class.jetpack-core-api-module-endpoints.php:1081
+#: modules/carousel/jetpack-carousel.php:425
+#: modules/contact-form/grunion-contact-form.php:2003
+#: modules/contact-form/grunion-contact-form.php:2492
 #: modules/contact-form/grunion-form-view.php:216
 #: modules/contact-form/grunion-editor-view.php:87
 #: modules/contact-form/grunion-editor-view.php:219
-#: modules/custom-post-types/nova.php:977 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: modules/custom-post-types/nova.php:982
+#: class.jetpack-modules-list-table.php:211 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Name"
 msgstr "Nimi"
 
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:102
-#: _inc/build/instant-search/jp-search-main.bundle.js:9
+#: _inc/build/instant-search/jp-search-main.bundle.js:1
 msgid "Newest"
 msgstr "Uusimmat"
 
@@ -6082,26 +6046,28 @@ msgstr "Suositut"
 
 #. translators: Jetpack sidebar menu item.
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:92
-#: class.jetpack.php:7467 modules/masterbar/admin-menu/class-admin-menu.php:699
-#: modules/masterbar/masterbar/class-masterbar.php:508
-#: modules/widgets/search.php:70 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:80
-#: _inc/build/instant-search/jp-search-main.bundle.js:9
+#: modules/masterbar/masterbar/class-masterbar.php:595
+#: modules/masterbar/admin-menu/class-admin-menu.php:463
+#: modules/widgets/search.php:71 class.jetpack.php:7613
+#: _inc/blocks/editor.js:28 _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/instant-search/jp-search.chunk-main-payload-a35aa49a0dfc317ef141.js:1
+#: _inc/build/admin.js:80
 msgid "Search"
 msgstr "Etsi"
 
-#: class.jetpack-network.php:298
+#: _inc/lib/admin-pages/class.jetpack-react-page.php:138
+#: _inc/lib/admin-pages/class.jetpack-admin-page.php:335
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:22
-#: _inc/lib/admin-pages/class.jetpack-react-page.php:70
-#: _inc/lib/admin-pages/class.jetpack-admin-page.php:337 class.jetpack.php:3938
-#: class.jetpack.php:4015 modules/publicize/ui.php:517
+#: modules/masterbar/masterbar/class-masterbar.php:1414
+#: modules/masterbar/admin-menu/class-domain-only-admin-menu.php:39
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:246
 #: modules/sharedaddy/sharedaddy.php:217 modules/sharedaddy/sharedaddy.php:224
-#: modules/masterbar/admin-menu/class-admin-menu.php:621
-#: modules/masterbar/masterbar/class-masterbar.php:1329
-#: _inc/blocks/editor.js:28 _inc/blocks/editor-beta.js:28
+#: modules/publicize/ui.php:517 class.jetpack-network.php:298
+#: class.jetpack.php:4066 class.jetpack.php:4143 _inc/blocks/editor.js:28
 #: _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28 _inc/build/admin.js:52
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
+#: _inc/build/admin.js:52 _inc/build/admin.js:61
 msgid "Settings"
 msgstr "Asetukset"
 
@@ -6121,7 +6087,7 @@ msgstr "Sivustot"
 msgid "Sort by:"
 msgstr "Lajittele:"
 
-#: class.jetpack.php:4016 modules/sharedaddy/sharedaddy.php:225
+#: modules/sharedaddy/sharedaddy.php:225 class.jetpack.php:4144
 msgid "Support"
 msgstr "Tuki"
 
@@ -6129,7 +6095,7 @@ msgstr "Tuki"
 msgid "Trouble with Jetpack?"
 msgstr "Ongelmia Jetpackin kanssa?"
 
-#: class.jetpack-cli.php:770
+#: class.jetpack-cli.php:783
 msgid "Value"
 msgstr "Arvo"
 
@@ -6141,14 +6107,14 @@ msgstr "Näytä:"
 msgid "Search Modules…"
 msgstr "Etsi moduulia…"
 
-#: class.jetpack-modules-list-table.php:125
+#: class.jetpack-modules-list-table.php:128
 msgid "No Modules Found"
 msgstr "Moduuleja ei löytynyt"
 
 #. translators: %s is the post author
-#: functions.opengraph.php:509 class.jetpack-twitter-cards.php:165
-#: class.jetpack-twitter-cards.php:172 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-experimental.js:28
+#: class.jetpack-twitter-cards.php:165 class.jetpack-twitter-cards.php:172
+#: functions.opengraph.php:522 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Visit the post for more."
 msgstr "Lisää artikkelissa, tutustu."
 
@@ -6162,8 +6128,12 @@ msgstr "Videoartikkeli tekijältä %s"
 msgid "Video post."
 msgstr "Videoartikkeli."
 
-#: class.jetpack-cli.php:524
+#: class.jetpack.php:4138
+msgid "My Jetpack"
+msgstr "Oma Jetpack"
+
 #: _inc/lib/admin-pages/class.jetpack-settings-page.php:97
+#: class.jetpack-cli.php:537
 msgid "Inactive"
 msgstr "Ei käytössä"
 
@@ -6171,12 +6141,12 @@ msgstr "Ei käytössä"
 msgid "Alphabetical"
 msgstr "Aakkosten mukaan"
 
-#: class.jetpack-admin.php:207 modules/stats.php:591 modules/stats.php:1114
-#: modules/plugin-search.php:241 modules/plugin-search.php:549
+#: class.jetpack-admin.php:211 modules/stats.php:598 modules/stats.php:1137
+#: modules/plugin-search.php:241 modules/plugin-search.php:563
 msgid "Configure"
 msgstr "Määritä"
 
-#: class.jetpack.php:3958
+#: class.jetpack.php:4086
 msgid "Jetpack Debugging Center"
 msgstr "Jetpack testauskeskus"
 
@@ -6234,15 +6204,14 @@ msgstr "Jos saat 404-viestin, ota yhteyttä palvelimen ylläpitäjään. Heidän
 msgid "The primary connection is owned by <strong>%s</strong>'s WordPress.com account."
 msgstr "Ensisijainen yhteys on liitetty <strong>%s</strong> WordPress.com-tunnukseen."
 
-#: class.jetpack-cli.php:136 class.jetpack-cli.php:1245
-#: class.jetpack-cli.php:1341 class.jetpack-cli.php:1440
-#: class.jetpack-cli.php:1620
+#: class.jetpack-cli.php:136 class.jetpack-cli.php:1258
+#: class.jetpack-cli.php:1354 class.jetpack-cli.php:1453
 msgid "Jetpack is not currently connected to WordPress.com"
 msgstr "Jetpack ei ole nyt yhdistettynä WordPress.com palveluun"
 
 #. translators: %s is a command like "prompt"
-#: class.jetpack-cli.php:47 class.jetpack-cli.php:196 class.jetpack-cli.php:273
-#: class.jetpack-cli.php:582 class.jetpack-cli.php:714
+#: class.jetpack-cli.php:47 class.jetpack-cli.php:196 class.jetpack-cli.php:286
+#: class.jetpack-cli.php:595 class.jetpack-cli.php:727
 msgid "%s is not a valid command."
 msgstr "%s ei ole kelvollinen käsky."
 
@@ -6277,112 +6246,107 @@ msgstr "Anna kelvollinen käyttäjä."
 msgid "Please specify a user by either ID, username, or email."
 msgstr "Anna käyttäjän tunnus/ID, käyttäjätunnus tai sähköposti."
 
-#: class.jetpack-cli.php:242
+#: class.jetpack-cli.php:255
 msgid "Please specify if you would like to disconnect a blog or user."
 msgstr "Tarkenna jos haluat katkaista yhteyden blogiin tai käyttäjään."
 
 #. translators: This is the result of an action. The option named %s was reset
-#: class.jetpack-cli.php:308 class.jetpack-cli.php:320
+#: class.jetpack-cli.php:321 class.jetpack-cli.php:333
 msgid "%s option reset"
 msgstr "%s valinta asetettu perustilaan"
 
-#: class.jetpack-cli.php:312
+#: class.jetpack-cli.php:325
 msgid "Resetting the jetpack options stored in wp_options...\n"
 msgstr "Asetetaan wp_options [tauluun] tallennettuja Jetpack asetuksia perustilaan...\n"
 
-#: class.jetpack-cli.php:324
+#: class.jetpack-cli.php:337
 msgid "Resetting default modules...\n"
 msgstr "Oletusmoduuleja asetetaan perustilaan...\n"
 
-#: class.jetpack-cli.php:330 class.jetpack-cli.php:338
-#: _inc/lib/class.core-rest-api-endpoints.php:2111
+#: _inc/lib/class.core-rest-api-endpoints.php:2245 class.jetpack-cli.php:343
+#: class.jetpack-cli.php:351
 msgid "Modules reset to default."
 msgstr "Moduulit asetettu perustilaan."
 
 #. translators: %s is a module slug like "stats"
-#: class.jetpack-cli.php:494
+#: class.jetpack-cli.php:507
 msgid "%s is not a valid module."
 msgstr "%s ei ole kelvollinen moduuli."
 
-#: class.jetpack-cli.php:507
+#: class.jetpack-cli.php:520
 msgid "Please specify a valid module."
 msgstr "Anna kelvollinen moduuli."
 
 #. translators: %s is the name of a Jetpack module
-#: class.jetpack-cli.php:534 _inc/build/admin.js:80
+#: class.jetpack-cli.php:547 _inc/build/admin.js:80
 msgid "%s has been activated."
 msgstr "%s on otettu käyttöön."
 
-#: class.jetpack-cli.php:543
+#: class.jetpack-cli.php:556
 msgid "All modules activated!"
 msgstr "Kaikki moduulit on käytössä!"
 
 #. translators: %s is the name of a Jetpack module
-#: class.jetpack-cli.php:550
+#: class.jetpack-cli.php:563
 msgid "%s has been deactivated."
 msgstr "%s on poistettu käytöstä."
 
-#: class.jetpack-cli.php:554
+#: class.jetpack-cli.php:567
 msgid "All modules deactivated!"
 msgstr "Kaikki moduulit on poistettu käytöstä!"
 
-#: class.jetpack-cli.php:675
+#: class.jetpack-cli.php:688
 msgid "No command found."
 msgstr "Käskyä ei löydy."
 
-#: class.jetpack-cli.php:732
+#: class.jetpack-cli.php:745
 msgid "Option not found or is empty.  Use \"list\" to list option names"
 msgstr "Valintaa ei löydy tai se on tyhjä. Käytä \"listaa\" ja listaa valintojen nimet"
 
 #. translators: %s is the option name
-#: class.jetpack-cli.php:748
+#: class.jetpack-cli.php:761
 msgid "Deleted option: %s"
 msgstr "Poistettiin valinta: %s"
 
-#: class.jetpack-cli.php:756
+#: class.jetpack-cli.php:769
 msgid "Sorry, no updating arrays at this time"
 msgstr "Pahoittelemme, matriiseja ei nyt päivitetä"
 
-#: class.jetpack-cli.php:770 _inc/blocks/editor.js:28
-#: _inc/blocks/editor-beta.js:28 _inc/blocks/editor-no-post-editor.js:28
-#: _inc/blocks/editor-experimental.js:28
+#: class.jetpack-cli.php:783 _inc/blocks/editor.js:28
+#: _inc/blocks/editor-no-post-editor.js:28
+#: _inc/blocks/editor-experimental.js:28 _inc/blocks/editor-beta.js:28
 msgid "Option"
 msgstr "Valinta"
 
-#: class.jetpack-cli.php:788
+#: class.jetpack-cli.php:801
 msgctxt "a variable command that a user can write, provided in the printed instructions"
 msgid "option"
 msgstr "valinta"
 
-#: class.jetpack-cli.php:789
+#: class.jetpack-cli.php:802
 msgctxt "the value that they want to update the option to"
 msgid "value"
 msgstr "arvo"
 
-#: class.jetpack-cli.php:792
+#: class.jetpack-cli.php:805
 msgctxt "'get', 'delete', and 'update' are commands - do not translate."
 msgid "Above are your options. You may 'get', 'delete', and 'update' them."
 msgstr "Yllä on valinnat. Voit 'hakea', 'poistaa' ja 'päivittää' niitä."
 
-#: class.jetpack-cli.php:796
+#: class.jetpack-cli.php:809
 msgctxt "'wp jetpack options' is a command - do not translate."
 msgid "Type 'wp jetpack options' for more info."
 msgstr "Kun haluat lisää tietoja, kirjoita 'wp jetpack options'."
 
-#: class.jetpack-cli.php:2058
+#: class.jetpack-cli.php:2071
 msgid "Action cancelled. Have a question?"
 msgstr "Toimenpide peruttiin. Onko kysyttävää?"
 
 #. translators: %s is the site URL
-#: class.jetpack-cli.php:227
+#: class.jetpack-cli.php:229
 msgid "Jetpack has been successfully disconnected for %s."
 msgstr "%s Jetpack yhteys on katkaistu."
 
-#: class.jetpack-cli.php:235
+#: class.jetpack-cli.php:239
 msgid "User has been successfully disconnected."
 msgstr "Käyttäjän yhteys on katkaistu. "
-
-#. translators: %s is a username
-#: class.jetpack-cli.php:238
-msgid "User %s could not be disconnected. Are you sure they're connected currently?"
-msgstr "%s käyttäjän yhteyttä ei voitu katkaista. Oletko varma että yhteys on nyt käytössä?"
