@@ -43,7 +43,7 @@ msgstr "Заяўленне канфідэнцыйнасці Akismet"
 msgid "Privacy"
 msgstr "Канфідэнцыйнасць"
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Гэты сайт выкарыстоўвае Akismet для барацьбы са спамам. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Даведайцеся пра тое, яе апрацоўваюцца вашы дадзеныя</a>."
 
@@ -51,7 +51,7 @@ msgstr "Гэты сайт выкарыстоўвае Akismet для бараць
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Мы збіраем звесткі пра наведвальнікаў, якія пакідаюць каментарыі на сайтах, што выкарыстоўваюць анты-спам паслугі ад Akismet. Звесткі, якія мы збіраем, залежаць ад таго, як карыстальнік наладзіў Akismet на сайце, але ж найчасцей за ўсё ўключаюць IP-адрас, імя карыстальніцкага агента, рэферал і URL сайта (разам са звесткамі, якія пакідае сам каментатар (напрыклад: імя, імя карыстальніка, адрас пошты і каментарый)."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "Каментарый адхілены."
 
@@ -136,7 +136,7 @@ msgstr "Хочаце <a href=\"%s\">праверыць каментарыі, я�
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Akismet зараз абараняе ваш сайт ад спама. Атрымайце асалоду ад пісання!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Наладзіць уліковы запіс Akismet"
 
@@ -174,7 +174,7 @@ msgstr[0] "Akismet праверыў %s каментарыў."
 msgstr[1] "Akismet праверыў %s каментарыя."
 msgstr[2] "Akismet праверыў %s каментарыяў."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "Каментарый не знойдзены."
 
@@ -521,11 +521,11 @@ msgstr[2] ""
 msgid "Past six months"
 msgstr "Апошнія шэсць месяцаў"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Калі ласка, <a href=\"%1$s\">абнавіце WordPress</a> да бягучай версіі альбо <a href=\"%2$s\">перайдзіце да версіі Akismet 2.4</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s патрабуе WordPress %s альбо навей."
 

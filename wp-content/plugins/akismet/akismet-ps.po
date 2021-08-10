@@ -186,7 +186,7 @@ msgstr "د سپم لپاره کنترول"
 msgid "Upgrade"
 msgstr "لوړول"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "مهرباني وکړئ <a href=\"%1$s\">ورډپرېس لوړ کړئ</a> وروستۍ نسخې ته، یا هم د <a href=\"%2$s\">د اکېسمېټ لګون نسخه ۲.۴ ته ټيټه کړئ</a>."
 
@@ -301,7 +301,7 @@ msgstr "<a href=\"%s\">اکېسمېټ</a> ستاسو بلاګ ته د سپم د�
 msgid "You need to enter an API key to activate the Akismet service on your site."
 msgstr "تاسو بايد د API کيلي ورکړئ چې Akismet چوپړ پر خپله پاڼه چلن کړئ."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "اکېسمېټ %s غواړي ورډ پرېس %s یا لوړ."
 

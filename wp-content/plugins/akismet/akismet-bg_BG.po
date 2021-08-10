@@ -63,7 +63,7 @@ msgstr "Akismet съобщение за поверителност"
 msgid "Privacy"
 msgstr "Поверителност"
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Този сайт използва Akismet за намаляване на спама. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Научете как се обработват данните ви за коментари</a>."
 
@@ -71,7 +71,7 @@ msgstr "Този сайт използва Akismet за намаляване н�
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Събираме информация за посетители, които коментират в сайта, които използват нашата услуга за защита срещу спам Akismet. Информацията, която събираме, зависи от начина, по който Потребителят използва Akismet за сайта, но обикновено включва IP адреса, потребителския агент, препращащия и URL на сайта на коментатора (заедно с друга информация, предоставена директно от коментатора, като името, потребителското име, имейла адрес и самия коментар)."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "Коментарът е отхвърлен."
 
@@ -160,7 +160,7 @@ msgstr "Желате ли <a href=\"%s\">проверите чакащите к�
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Akismet защитава вашият сайт от спам. Весело блогване!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Настройте вашият Akismet профил"
 
@@ -196,7 +196,7 @@ msgid_plural "Akismet checked %s comments."
 msgstr[0] "Akismet провери %s коментар."
 msgstr[1] "Akismet провери %s коментари."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "Коментарът не е намерен."
 
@@ -537,11 +537,11 @@ msgstr[1] ""
 msgid "Past six months"
 msgstr "Последните шест месеца"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Моля <a href=\"%1$s\">обновете WordPress</a> до последната версия или <a href=\"%2$s\">преминете на версия 2.4 на Akismet</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s изисква версия на WordPress %s или по-висока."
 

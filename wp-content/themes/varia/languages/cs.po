@@ -7,11 +7,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-04-20T01:56:05+00:00\n"
-"PO-Revision-Date: 2021-04-19 15:13:53+0000\n"
+"POT-Creation-Date: 2021-06-04T02:19:06+00:00\n"
+"PO-Revision-Date: 2021-05-25 02:18:16+0000\n"
 "Language: cs_CZ\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: template-parts/content/content-none.php:16
+msgid "No Posts Found"
+msgstr "Nebyly nalezeny žádné příspěvky"
 
 #: functions.php:489
 msgid "Content Options"
@@ -97,18 +101,13 @@ msgstr "Variabilní návrhový systém pro weby WordPress vytvořený společnos
 msgid "View more posts"
 msgstr "Zobrazte více příspěvků"
 
-#: template-parts/content/content-none.php:39
+#: template-parts/content/content-none.php:40
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Je nám líto, ale nic takového jsme nenašli. Zkuste to prosím znovu s jinými klíčovými slovy."
 
-#: template-parts/content/content-none.php:46
+#: template-parts/content/content-none.php:47
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Nenašli jsme to, co hledáte. Zkuste vyhledávání."
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content/content-none.php:26
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Připraveni vytvořit Váš první příspěvek ? <a href=\"%1$s\">Začněte tady</a>."
 
 #: single.php:38
 msgid "Next Post"
@@ -125,10 +124,6 @@ msgstr "Předchozí příspěvek"
 #: single.php:42
 msgid "Previous post:"
 msgstr "Předchozí příspěvek:"
-
-#: template-parts/content/content-none.php:16
-msgid "Nothing Found"
-msgstr "Nic nenalezeno"
 
 #: template-parts/content/content-excerpt.php:18
 #: template-parts/content/content-testimonial-excerpt.php:18
@@ -373,26 +368,9 @@ msgstr "Komentáře nejsou povoleny."
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr "Jedna myšlenka na &ldquo;%1$s&rdquo;"
 
-#: classes/class-varia-walker-comment.php:100
-msgid "Your comment is awaiting moderation."
-msgstr "Komentář čeká na schválení."
-
 #: 404.php:24
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "Vypadá to, že tady nic není. Možná zkusit vyhledávání ?"
-
-#. translators: 1: comment date, 2: comment time
-#: classes/class-varia-walker-comment.php:87
-msgid "%1$s at %2$s"
-msgstr "%1$s (%2$s)"
-
-#: classes/class-varia-walker-comment.php:95
-msgid "Edit"
-msgstr "Upravit"
-
-#: classes/class-varia-walker-comment.php:67
-msgid "%s <span class=\"screen-reader-text says\">says:</span>"
-msgstr "%s <span class=\"screen-reader-text says\">řekl/a:</span>"
 
 #: 404.php:20
 msgid "Oops! That page can&rsquo;t be found."

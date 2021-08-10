@@ -7,19 +7,64 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-04-20T01:56:20+00:00\n"
-"PO-Revision-Date: 2021-04-19 15:10:48+0000\n"
+"POT-Creation-Date: 2021-07-21T02:36:35+00:00\n"
+"PO-Revision-Date: 2021-07-20 10:54:04+0000\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:31
+msgid "Add or publish Posts"
+msgstr "Aggiungi o pubblica articoli"
+
+#: template-parts/content/content-none.php:25
+msgid "Your site is set to show the the most recent posts on your homepage - but you don't have any Posts published."
+msgstr "Il tuo sito è impostato per mostrare gli articoli più recenti sulla tua homepage, ma non hai alcun articolo pubblicato."
+
+#: template-parts/content/content-none.php:16
+msgid "No Posts Found"
+msgstr "Nessun articolo trovato."
+
+#: functions.php:510
+msgid "Check to display a featured image at the top of your pages when they have one."
+msgstr "Seleziona per visualizzare un'immagine in evidenza nella parte superiore delle tue pagine quando è presente una."
+
+#: functions.php:509
+msgid "Show the featured image on pages"
+msgstr "Mostra le immagini in evidenza sulle pagine"
+
+#: functions.php:489
+msgid "Content Options"
+msgstr "Opzioni dei contenuti"
+
+#: functions.php:469
+msgid "Check to hide the site menu & widgets in the footer, if your homepage is set to display a static page."
+msgstr "Seleziona per nascondere menu e widget del sito nel piè di pagina, se la tua homepage è impostata per mostrare una pagina statica."
+
+#: functions.php:468
+msgid "Hide the Site Footer Menu & Widgets"
+msgstr "Nascondi il menu e i widget del piè di pagina del sito"
+
+#: functions.php:445
+msgid "Check to hide the site header, if your homepage is set to display a static page."
+msgstr "Seleziona per nascondere l'intestazione del sito, se la tua pagina è impostata per mostrare una pagina statica."
+
+#: functions.php:444
+msgid "Hide the Site Header"
+msgstr "Nascondi l'intestazione del sito"
 
 #: functions.php:195
 msgid "Tertiary"
 msgstr "Terziario"
 
-#: functions.php:489
-msgid "Content Options"
-msgstr "Opzioni dei contenuti"
+#: functions.php:385
+msgid "Display mobile menu on the side"
+msgstr "Visualizza il menu per dispositivi mobili su un lato"
+
+#: functions.php:377
+msgid "Mobile Settings"
+msgstr "Impostazioni sui dispositivi mobili"
 
 #: inc/wpcom.php:72
 msgid "In order to ensure people can read your site, try to maintain a strong contrast ratio between the colors you choose here. <a href=\"%s\" target=\"_blank\">Learn more about color contrast</a>."
@@ -29,22 +74,17 @@ msgstr "Scegli un forte contrasto tra i colori, per permettere agli utenti di le
 msgid "Color Accessibility Warning"
 msgstr "Attenzione ai colori"
 
-#: functions.php:182
-msgid "Foreground"
-msgstr "Primo piano"
-
 #: functions.php:187
 msgid "Background"
 msgstr "Sfondo"
 
+#: functions.php:182
+msgid "Foreground"
+msgstr "Primo piano"
+
 #: inc/woocommerce.php:221
 msgid "View your shopping list"
 msgstr "Visualizza i tuoi acquisti"
-
-#. translators: %s: Name of current post.
-#: inc/template-functions.php:196
-msgid "Continue reading %s"
-msgstr "Continua a leggere %s"
 
 #: inc/woocommerce.php:217
 msgid "Cart"
@@ -62,56 +102,48 @@ msgstr[1] "%d elementi"
 msgid "View your shopping cart"
 msgstr "Visualizza il tuo carrello"
 
-#: image.php:25
-msgid "Previous Image"
-msgstr "Immagine precedente"
+#. translators: %s: Name of current post.
+#: inc/template-functions.php:196
+msgid "Continue reading %s"
+msgstr "Continua a leggere %s"
 
 #: image.php:26
 msgid "Next Image"
 msgstr "Immagine successiva"
 
-#. translators: %s: Name of current post. Only visible to screen readers
-#: template-parts/content/content-single.php:33
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Continua a leggere <span class=\"screen-reader-text\"> \"%s\"</span>"
+#: image.php:25
+msgid "Previous Image"
+msgstr "Immagine precedente"
+
+#. Theme URI of the theme
+msgid "https://github.com/Automattic/themes/tree/master/varia"
+msgstr "https://github.com/Automattic/themes/tree/master/varia"
+
+#. Description of the theme
+msgid "A variable-based design system for WordPress sites built with Gutenberg."
+msgstr "Un sistema del design basato sulla variabile per i siti WordPress creati con Gutenberg."
+
+#: template-parts/post/author-bio.php:26
+msgid "View more posts"
+msgstr "Visualizza più articoli"
 
 #. translators: %s: post author
 #: template-parts/post/author-bio.php:17
 msgid "Published by %s"
 msgstr "Pubblicato da %s"
 
-#: template-parts/post/author-bio.php:26
-msgid "View more posts"
-msgstr "Visualizza più articoli"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content/content-single.php:33
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Continua a leggere <span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: template-parts/content/content-none.php:39
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Spiacente, nulla corrisponde ai termini della tua ricerca. Riprova con parole chiave diverse."
-
-#: template-parts/content/content-none.php:46
+#: template-parts/content/content-none.php:47
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Non riusciamo a trovare quello che cerchi. Forse eseguire una ricerca potrebbe essere di aiuto."
 
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content/content-none.php:26
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Sei pronto a pubblicare il tuo primo articolo? <a href=\"%1$s\">Comincia da qui</a>."
-
-#: single.php:38
-msgid "Next Post"
-msgstr "Articolo successivo"
-
-#: single.php:39
-msgid "Next post:"
-msgstr "Articolo successivo:"
-
-#: single.php:41
-msgid "Previous Post"
-msgstr "Articolo precedente"
-
-#: single.php:42
-msgid "Previous post:"
-msgstr "Articolo precedente:"
+#: template-parts/content/content-none.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Spiacente, nulla corrisponde ai termini della tua ricerca. Riprova con parole chiave diverse."
 
 #: template-parts/content/content-excerpt.php:18
 #: template-parts/content/content-testimonial-excerpt.php:18
@@ -120,25 +152,26 @@ msgctxt "post"
 msgid "Featured"
 msgstr "Post in evidenza"
 
-#: template-parts/content/content-none.php:16
-msgid "Nothing Found"
-msgstr "Nessun risultato"
+#: single.php:42
+msgid "Previous post:"
+msgstr "Articolo precedente:"
 
-#. translators: %s: Name of current post. Only visible to screen readers.
-#. translators: %s: Name of current post. Only visible to screen readers
-#: inc/template-tags.php:120
-#: inc/template-tags.php:185
-#: template-parts/content/content-page.php:44
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "Modifica <span class=\"screen-reader-text\">%s</span>"
+#: single.php:41
+msgid "Previous Post"
+msgstr "Articolo precedente"
 
-#: inc/template-tags.php:294
-msgid "Newer posts"
-msgstr "Articoli seguenti"
+#: single.php:39
+msgid "Next post:"
+msgstr "Articolo successivo:"
 
-#: inc/template-tags.php:298
-msgid "Older posts"
-msgstr "Articoli più vecchi"
+#: single.php:38
+msgid "Next Post"
+msgstr "Articolo successivo"
+
+#. translators: %s: parent post link
+#: single.php:31
+msgid "<span class=\"meta-nav\">Published in</span><br /><span class=\"post-title\">%s</span>"
+msgstr "<span class=\"meta-nav\">Pubblicato su</span><br /><span class=\"post-title\">%s</span>"
 
 #: search.php:25
 msgid "Search results for:"
@@ -152,10 +185,31 @@ msgstr "Spunta la casella per nascondere il titolo della pagina, se la tua home 
 msgid "Hide Homepage Title"
 msgstr "Nascondi il titolo della home page"
 
+#: inc/template-tags.php:298
+msgid "Older posts"
+msgstr "Articoli più vecchi"
+
+#: inc/template-tags.php:294
+msgid "Newer posts"
+msgstr "Articoli seguenti"
+
 #. translators: %s: Name of current post. Only visible to screen readers.
-#: inc/template-tags.php:63
-msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "Lascia un commento<span class=\"screen-reader-text\"> su %s</span>"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:120
+#: inc/template-tags.php:185
+#: template-parts/content/content-page.php:44
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Modifica <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:104
+#: inc/template-tags.php:169
+msgid "Tags:"
+msgstr "Tag:"
+
+#: inc/template-tags.php:92
+#: inc/template-tags.php:157
+msgid "Posted in"
+msgstr "Pubblicato in: "
 
 #. translators: used between list items, there is a space after the comma.
 #: inc/template-tags.php:86
@@ -165,28 +219,18 @@ msgstr "Lascia un commento<span class=\"screen-reader-text\"> su %s</span>"
 msgid ", "
 msgstr ", "
 
-#: inc/template-tags.php:92
-#: inc/template-tags.php:157
-msgid "Posted in"
-msgstr "Pubblicato in: "
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: inc/template-tags.php:63
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lascia un commento<span class=\"screen-reader-text\"> su %s</span>"
 
-#: inc/template-tags.php:104
-#: inc/template-tags.php:169
-msgid "Tags:"
-msgstr "Tag:"
+#: inc/template-tags.php:46
+msgid "Posted by"
+msgstr "Pubblicato da"
 
-#: inc/template-functions.php:108
-msgid "Monthly Archives: "
-msgstr "Archivi mensili:"
-
-#: inc/template-functions.php:108
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr "F Y"
-
-#: inc/template-functions.php:110
-msgid "Daily Archives: "
-msgstr "Archivi giornalieri:"
+#: inc/template-functions.php:124
+msgid "Archives:"
+msgstr "Archivi:"
 
 #. translators: %s: Post type singular name
 #. translators: %s: Taxonomy singular name
@@ -195,44 +239,59 @@ msgstr "Archivi giornalieri:"
 msgid "%s Archives"
 msgstr "Archivi per %s:"
 
-#: inc/template-functions.php:124
-msgid "Archives:"
-msgstr "Archivi:"
+#: inc/template-functions.php:110
+msgid "Daily Archives: "
+msgstr "Archivi giornalieri:"
 
-#: inc/template-tags.php:46
-msgid "Posted by"
-msgstr "Pubblicato da"
+#: inc/template-functions.php:108
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
 
-#: image.php:76
-msgctxt "Used before full size attachment link."
-msgid "Full size"
-msgstr "Dimensione reale"
-
-#: image.php:93
-msgctxt "Parent post link"
-msgid "<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">%title</span>"
-msgstr "<span class=\"meta-nav\">Pubblicato in</span><br><span class=\"post-title\">%title</span>"
-
-#: inc/template-functions.php:102
-msgid "Tag Archives: "
-msgstr "Archivi dei tag:"
-
-#: inc/template-functions.php:104
-msgid "Author Archives: "
-msgstr "Archivi dell'autore:"
-
-#: inc/template-functions.php:106
-msgid "Yearly Archives: "
-msgstr "Archivi annuali:"
+#: inc/template-functions.php:108
+msgid "Monthly Archives: "
+msgstr "Archivi mensili:"
 
 #: inc/template-functions.php:106
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
+#: inc/template-functions.php:106
+msgid "Yearly Archives: "
+msgstr "Archivi annuali:"
+
+#: inc/template-functions.php:104
+msgid "Author Archives: "
+msgstr "Archivi dell'autore:"
+
+#: inc/template-functions.php:102
+msgid "Tag Archives: "
+msgstr "Archivi dei tag:"
+
 #: inc/template-functions.php:100
 msgid "Category Archives: "
 msgstr "Archivi della categoria: "
+
+#: inc/back-compat.php:39
+#: inc/back-compat.php:53
+#: inc/back-compat.php:73
+msgid "Varia requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr "Varia richiede almeno la versione 4.7 di WordPress. Stai utilizzando la versione %s Aggiorna e prova di nuovo."
+
+#: image.php:93
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><br><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Pubblicato in</span><br><span class=\"post-title\">%title</span>"
+
+#: image.php:76
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Dimensione reale"
+
+#: image.php:62
+msgid "Page"
+msgstr "Pagina"
 
 #: image.php:58
 #: template-parts/content/content-page.php:30
@@ -240,10 +299,6 @@ msgstr "Archivi della categoria: "
 #: template-parts/content/content.php:36
 msgid "Pages:"
 msgstr "Pagine: "
-
-#: image.php:62
-msgid "Page"
-msgstr "Pagina"
 
 #: inc/woocommerce.php:219
 #: template-parts/header/site-navigation.php:21
@@ -255,81 +310,85 @@ msgstr "chiuso"
 msgid "expanded"
 msgstr "esteso"
 
-#: header.php:31
-msgid "Skip to content"
-msgstr "Vai al contenuto"
+#: template-parts/header/site-navigation.php:17
+msgid "Menu"
+msgstr "Menu"
 
 #: template-parts/header/site-navigation.php:13
 msgid "Main Navigation"
 msgstr "Navigazione principale"
 
-#: template-parts/header/site-navigation.php:17
-msgid "Menu"
-msgstr "Menu"
+#: header.php:31
+msgid "Skip to content"
+msgstr "Vai al contenuto"
+
+#: functions.php:241
+msgid "Add widgets here to appear in your footer."
+msgstr "Aggiungi i widget qui per farli apparire nel tuo footer."
 
 #: functions.php:239
 #: template-parts/footer/footer-widgets.php:12
 msgid "Footer"
 msgstr "Pié di pagina"
 
-#: functions.php:241
-msgid "Add widgets here to appear in your footer."
-msgstr "Aggiungi i widget qui per farli apparire nel tuo footer."
+#: functions.php:177
+msgid "Secondary"
+msgstr "Secondario"
 
-#: functions.php:131
-msgid "S"
-msgstr "S"
+#: functions.php:149
+msgid "XL"
+msgstr "XL"
 
-#: functions.php:136
-msgid "Normal"
-msgstr "Normale"
-
-#: functions.php:137
-msgid "M"
-msgstr "M"
-
-#: functions.php:142
-msgid "Large"
+#: functions.php:148
+msgid "Huge"
 msgstr "Grande"
 
 #: functions.php:143
 msgid "L"
 msgstr "L"
 
-#: functions.php:148
-msgid "Huge"
+#: functions.php:142
+msgid "Large"
 msgstr "Grande"
 
-#: functions.php:149
-msgid "XL"
-msgstr "XL"
+#: functions.php:137
+msgid "M"
+msgstr "M"
 
-#: functions.php:177
-msgid "Secondary"
-msgstr "Secondario"
+#: functions.php:136
+msgid "Normal"
+msgstr "Normale"
 
-#: template-parts/footer/site-name.php:9
-msgid "https://wordpress.org/"
-msgstr "http://wordpress.org/"
+#: functions.php:131
+msgid "S"
+msgstr "S"
 
-#: functions.php:72
-#: functions.php:172
-msgid "Primary"
-msgstr "Primario"
-
-#: functions.php:73
-#: template-parts/footer/footer-navigation.php:2
-msgid "Footer Menu"
-msgstr "Menu piè di pagina"
+#: functions.php:130
+msgid "Small"
+msgstr "Piccolo"
 
 #: functions.php:74
 #: template-parts/header/social-navigation.php:2
 msgid "Social Links Menu"
 msgstr "Menu link social"
 
-#: functions.php:130
-msgid "Small"
-msgstr "Piccolo"
+#: functions.php:73
+#: template-parts/footer/footer-navigation.php:2
+msgid "Footer Menu"
+msgstr "Menu piè di pagina"
+
+#: functions.php:72
+#: functions.php:172
+msgid "Primary"
+msgstr "Primario"
+
+#: template-parts/footer/site-name.php:9
+msgid "https://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:41
@@ -339,30 +398,14 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Un pensiero riguardo &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s pensieri riguardo &ldquo;%2$s&rdquo;"
 
-#: comments.php:66
-msgid "Comments are closed."
-msgstr "I commenti sono chiusi."
-
-#: classes/class-varia-walker-comment.php:100
-msgid "Your comment is awaiting moderation."
-msgstr "Il tuo commento deve ancora venire moderato."
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Una opinione su \"%1$s\""
 
 #: 404.php:24
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "Sembra che non ci sia nulla. Provare una ricerca?"
-
-#: classes/class-varia-walker-comment.php:67
-msgid "%s <span class=\"screen-reader-text says\">says:</span>"
-msgstr "%s <span class=\"screen-reader-text says\">ha detto:</span>"
-
-#. translators: 1: comment date, 2: comment time
-#: classes/class-varia-walker-comment.php:87
-msgid "%1$s at %2$s"
-msgstr "%1$s alle %2$s"
-
-#: classes/class-varia-walker-comment.php:95
-msgid "Edit"
-msgstr "Modifica"
 
 #: 404.php:20
 msgid "Oops! That page can&rsquo;t be found."

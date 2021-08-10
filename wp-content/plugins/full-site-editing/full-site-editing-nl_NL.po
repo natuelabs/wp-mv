@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WordPress.com Editing Toolkit - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-09 07:47:43+0000\n"
+"PO-Revision-Date: 2021-05-28 17:42:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: nl\n"
 "Project-Id-Version: Plugins - WordPress.com Editing Toolkit - Stable (latest release)\n"
+
+#: block-patterns/class-block-patterns-from-api.php:70
+msgid "Text"
+msgstr "Tekst"
 
 #. translators: separates all but the last two sponsor names; needs a space at
 #. the end.
@@ -28,6 +32,10 @@ msgstr "Start je site"
 #: coming-soon/fallback-coming-soon-page.php:280
 msgid "Build a website. Sell your stuff. Write a blog. And so much more."
 msgstr "Bouw een site. Verkoop je spullen. Schrijf een blog. En zoveel meer."
+
+#: block-patterns/class-block-patterns-from-api.php:69
+msgid "Quotes"
+msgstr "Citaten"
 
 #. Plugin Name of the plugin
 msgid "WordPress.com Editing Toolkit"
@@ -98,6 +106,7 @@ msgstr "Leeg"
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:145
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/edit.js:730
 msgid "Load more posts"
 msgstr "Meer berichten laden"
 
@@ -107,8 +116,8 @@ msgid " and "
 msgstr " en "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:246
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:30
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:67
 msgctxt "post author"
@@ -116,8 +125,8 @@ msgid " and "
 msgstr " en "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:223
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:18
 msgctxt "post author"
 msgid "by"
@@ -131,7 +140,7 @@ msgstr "Er is iets fout gegaan. Vernieuw de pagina en/of probeer het opnieuw."
 msgid "Loading..."
 msgstr "Laden..."
 
-#: dotcom-fse/class-full-site-editing.php:265
+#: dotcom-fse/class-full-site-editing.php:266
 msgid "Page Layout"
 msgstr "Pagina lay-out"
 
@@ -143,7 +152,7 @@ msgstr "WordPress pictogram"
 msgid "Proudly powered by WordPress"
 msgstr "Mogelijk gemaakt door WordPress"
 
-#: dotcom-fse/class-full-site-editing.php:624
+#: dotcom-fse/class-full-site-editing.php:625
 msgid "WordPress Footer Credit"
 msgstr "WordPress inhoud footer credits"
 
@@ -177,20 +186,20 @@ msgctxt "Default page title"
 msgid "About"
 msgstr "Over"
 
-#: dotcom-fse/class-full-site-editing.php:575
+#: dotcom-fse/class-full-site-editing.php:576
 msgid "Template Types cannon be deleted."
 msgstr "Template typen kunnen niet worden verwijderd."
 
-#: dotcom-fse/class-full-site-editing.php:537
+#: dotcom-fse/class-full-site-editing.php:538
 msgid "Templates cannot be moved to drafts."
 msgstr "Templates kunnen niet naar concepten worden verplaatst."
 
-#: dotcom-fse/class-full-site-editing.php:523
+#: dotcom-fse/class-full-site-editing.php:524
 msgid "Templates cannot be deleted."
 msgstr "Templates kunnen niet worden verwijderd."
 
 #. translators: %s: "Back to Post", "Back to Page", "Back to Template", etc.
-#: dotcom-fse/class-full-site-editing.php:271
+#: dotcom-fse/class-full-site-editing.php:272
 msgid "Back to %s"
 msgstr "Terug naar %s"
 

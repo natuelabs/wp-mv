@@ -38,7 +38,7 @@ msgstr "Akismet kunne ikke sjekke denne kommentaren, men vil automatisk forsøke
 msgid "Comment was caught by %s."
 msgstr "Kommentaren ble fanget av %s."
 
-#: class.akismet.php:569
+#: class.akismet.php:575
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "Akismet er ikke konfigurert. Vennligst oppgi en API-nøkkel."
 
@@ -94,7 +94,7 @@ msgstr "Personvern-varsel fra Akismet"
 msgid "Privacy"
 msgstr "Personvern"
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Dette nettstedet bruker Akismet for å redusere spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Lær om hvordan dine kommentar-data prosesseres</a>."
 
@@ -102,7 +102,7 @@ msgstr "Dette nettstedet bruker Akismet for å redusere spam. <a href=\"%s\" tar
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Vi samler inn informasjon og besøkende som kommenterer på nettsteder som bruker Akismet antispam-tjenesten. Informasjonen vi samler inn avhenger av hvordan administartoren setter opp Aksimet for nettstedet, men typisk inkluderer det den kommenterendes IP-adresse, brukeragent, refererende side og nettstedets URL (sammen med annen informasjon som er opgitt av den komenterende, som navn, brukernavn, epost-adresse og kommentaren i seg selv)."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "Kommentar forkastet"
 
@@ -191,7 +191,7 @@ msgstr "Ønsker du å <a href=\"%s\">sjekke ventende kommentarer</a>?"
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Akismet beskytter nå ditt nettsted mot spam. God blogging!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Sett opp din Akismet-konto"
 
@@ -231,7 +231,7 @@ msgstr[1] "Akismet sjekket %s kommentarer."
 msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
 msgstr "Det var ingen kommentarer å sjekke. Akismet vil bare sjekke kommentarer som venter på moderering."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "Finner ikke kommentar."
 
@@ -572,11 +572,11 @@ msgstr[1] "Spaminnhold blokkert"
 msgid "Past six months"
 msgstr "Siste seks måneder"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Vennligst <a href=\"%1$s\">oppgrader WordPress</a> til en nyere versjon eller <a href=\"%2$s\">nedgrader til versjon 2.4 av utvidelsen Akismet</a>.."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s krever WordPress %s eller nyere."
 

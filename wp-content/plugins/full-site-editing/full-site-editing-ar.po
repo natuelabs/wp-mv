@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WordPress.com Editing Toolkit - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-16 14:54:08+0000\n"
+"PO-Revision-Date: 2021-06-15 08:58:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: ar\n"
 "Project-Id-Version: Plugins - WordPress.com Editing Toolkit - Stable (latest release)\n"
+
+#: block-patterns/class-block-patterns-from-api.php:70
+msgid "Text"
+msgstr "نصّ"
 
 #. translators: separates all but the last two sponsor names; needs a space at
 #. the end.
@@ -28,6 +32,10 @@ msgstr "ابدأ موقع الويب الخاص بك"
 #: coming-soon/fallback-coming-soon-page.php:280
 msgid "Build a website. Sell your stuff. Write a blog. And so much more."
 msgstr "أنشئ موقعًا على الويب. قم ببيع الأشياء الخاصة بك. كتابة مدونة. وأكثر من ذلك بكثير."
+
+#: block-patterns/class-block-patterns-from-api.php:69
+msgid "Quotes"
+msgstr "الإقتباسات"
 
 #. Plugin Name of the plugin
 msgid "WordPress.com Editing Toolkit"
@@ -98,6 +106,7 @@ msgstr "فارغ"
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:145
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/edit.js:730
 msgid "Load more posts"
 msgstr "تحميل المزيد من المقالات"
 
@@ -107,8 +116,8 @@ msgid " and "
 msgstr " و "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:246
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:30
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:67
 msgctxt "post author"
@@ -116,8 +125,8 @@ msgid " and "
 msgstr " و "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:223
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:18
 msgctxt "post author"
 msgid "by"
@@ -131,7 +140,7 @@ msgstr "هناك خطأ ما. يرجى إعادة تحميل الصفحة و/أ�
 msgid "Loading..."
 msgstr "جارٍ التحميل ..."
 
-#: dotcom-fse/class-full-site-editing.php:265
+#: dotcom-fse/class-full-site-editing.php:266
 msgid "Page Layout"
 msgstr "تخطيط الصفحة"
 
@@ -143,7 +152,7 @@ msgstr "أيقونة ووردبريس"
 msgid "Proudly powered by WordPress"
 msgstr "بكل فخر مشغلة من قِبل ووردبريس"
 
-#: dotcom-fse/class-full-site-editing.php:624
+#: dotcom-fse/class-full-site-editing.php:625
 msgid "WordPress Footer Credit"
 msgstr "رصيد تذييل ووردبريس"
 
@@ -177,20 +186,20 @@ msgctxt "Default page title"
 msgid "About"
 msgstr "نبذة عن"
 
-#: dotcom-fse/class-full-site-editing.php:575
+#: dotcom-fse/class-full-site-editing.php:576
 msgid "Template Types cannon be deleted."
 msgstr "يتعذر حذف أنواع القوالب."
 
-#: dotcom-fse/class-full-site-editing.php:537
+#: dotcom-fse/class-full-site-editing.php:538
 msgid "Templates cannot be moved to drafts."
 msgstr "يتعذر نقل القالب إلى المسودات."
 
-#: dotcom-fse/class-full-site-editing.php:523
+#: dotcom-fse/class-full-site-editing.php:524
 msgid "Templates cannot be deleted."
 msgstr "يتعذر حذف القوالب."
 
 #. translators: %s: "Back to Post", "Back to Page", "Back to Template", etc.
-#: dotcom-fse/class-full-site-editing.php:271
+#: dotcom-fse/class-full-site-editing.php:272
 msgid "Back to %s"
 msgstr "العودة إلى %s"
 
@@ -384,7 +393,7 @@ msgstr "عرض جميع المقالات"
 #. translators: 1: link to WP admin new post page.
 #: posts-list-block/templates/no-posts.php:17
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "هل أنت جاهز لنشر أول مقالة لك؟ <a href=\"%1$s\">ابدأ من هنا</a>."
+msgstr "هل أنت مستعدّ لنشر مقالتك الأولى؟ <a href=\"%1$s\">ابدأ من هنا</a>."
 
 #: posts-list-block/templates/no-posts.php:11
 msgid "There are currently no posts to display."

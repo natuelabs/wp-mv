@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WordPress.com Editing Toolkit - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-23 18:05:57+0000\n"
+"PO-Revision-Date: 2021-07-06 04:21:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: zh_TW\n"
 "Project-Id-Version: Plugins - WordPress.com Editing Toolkit - Stable (latest release)\n"
+
+#: block-patterns/class-block-patterns-from-api.php:70
+msgid "Text"
+msgstr "文字"
 
 #. translators: separates all but the last two sponsor names; needs a space at
 #. the end.
@@ -28,6 +32,10 @@ msgstr "著手打造網站"
 #: coming-soon/fallback-coming-soon-page.php:280
 msgid "Build a website. Sell your stuff. Write a blog. And so much more."
 msgstr "架設網站、 銷售商品、 撰寫網誌， 還有許多其他功能等你發掘。"
+
+#: block-patterns/class-block-patterns-from-api.php:69
+msgid "Quotes"
+msgstr "引文"
 
 #. Plugin Name of the plugin
 msgid "WordPress.com Editing Toolkit"
@@ -98,6 +106,7 @@ msgstr "空白頁面"
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:145
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/edit.js:730
 msgid "Load more posts"
 msgstr "載入更多文章"
 
@@ -107,8 +116,8 @@ msgid " and "
 msgstr " 及 "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:246
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:30
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:67
 msgctxt "post author"
@@ -116,8 +125,8 @@ msgid " and "
 msgstr " 及 "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:223
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:18
 msgctxt "post author"
 msgid "by"
@@ -131,7 +140,7 @@ msgstr "執行時發生錯誤。請重新整理頁面後再試一次。"
 msgid "Loading..."
 msgstr "正在載入..."
 
-#: dotcom-fse/class-full-site-editing.php:265
+#: dotcom-fse/class-full-site-editing.php:266
 msgid "Page Layout"
 msgstr "頁面版面配置"
 
@@ -143,7 +152,7 @@ msgstr "WordPress 圖示"
 msgid "Proudly powered by WordPress"
 msgstr "本站採用 WordPress 建置"
 
-#: dotcom-fse/class-full-site-editing.php:624
+#: dotcom-fse/class-full-site-editing.php:625
 msgid "WordPress Footer Credit"
 msgstr "WordPress 頁尾資訊"
 
@@ -177,20 +186,20 @@ msgctxt "Default page title"
 msgid "About"
 msgstr "關於"
 
-#: dotcom-fse/class-full-site-editing.php:575
+#: dotcom-fse/class-full-site-editing.php:576
 msgid "Template Types cannon be deleted."
 msgstr "範本類型無法刪除。"
 
-#: dotcom-fse/class-full-site-editing.php:537
+#: dotcom-fse/class-full-site-editing.php:538
 msgid "Templates cannot be moved to drafts."
 msgstr "範本無法移動至草稿。"
 
-#: dotcom-fse/class-full-site-editing.php:523
+#: dotcom-fse/class-full-site-editing.php:524
 msgid "Templates cannot be deleted."
 msgstr "範本無法刪除。"
 
 #. translators: %s: "Back to Post", "Back to Page", "Back to Template", etc.
-#: dotcom-fse/class-full-site-editing.php:271
+#: dotcom-fse/class-full-site-editing.php:272
 msgid "Back to %s"
 msgstr "返回 [%s]"
 

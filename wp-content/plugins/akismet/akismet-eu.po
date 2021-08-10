@@ -63,7 +63,7 @@ msgstr "Akismeten pribatutasun oharra"
 msgid "Privacy"
 msgstr "Pribatutasuna"
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Gune honek Akismet erabiltzen du zaborra murrizteko. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Ikusi nola prozesatzen diren zure erantzunen datuak</a>."
 
@@ -71,7 +71,7 @@ msgstr "Gune honek Akismet erabiltzen du zaborra murrizteko. <a href=\"%s\" targ
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Akismet anti-spam zerbitzua erabiltzen duten guneetan iruzkinak uzten dituzten erabiltzaileen inguruko informazioa biltzen dugu. Biltzen dugun informazio hori gunearen jabeak Akismet konfiguratu duen moduaren araberakoa da, baina normalean erantzuna utzi duenaren IP helbidea, nabigatzailea, erreferentziako lotura eta gunearen esteka izaten dira, iruzkigileak zuzenean emandako informazioarekin batera, hau da: izena, erabiltzaile izena, e-posta helbidea eta iruzkina bera."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "Iruzkina baztertuta."
 
@@ -160,7 +160,7 @@ msgstr "Nahi al duzu <a href=\"%s\">zain dauden erantzunak aztertzea</a>?"
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Akismet zure gunea babesten ari da zaborraren aurka. Zoriontsu blogeatu!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Konfiguratu zure Akismet kontua"
 
@@ -196,7 +196,7 @@ msgid_plural "Akismet checked %s comments."
 msgstr[0] "Akismetek iruzkin %s egiaztatu du."
 msgstr[1] "Akismetek %s iruzkinn egiaztatu ditu."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "Ez da iruzkina aurkitu."
 
@@ -537,11 +537,11 @@ msgstr[1] ""
 msgid "Past six months"
 msgstr "Azken sei hilabeteak"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "<a href=\"%1$s\">Eguneratu WordPress</a> egungo bertsiora mesedez edo bestela <a href=\"%2$s\">Akismet plugina 2.4 bertsio zaharragora pasatu beharko duzu</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s-k WordPress %s edo berriagoa behar du."
 

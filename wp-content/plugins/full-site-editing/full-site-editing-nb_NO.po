@@ -80,6 +80,7 @@ msgstr "Blank"
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:145
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/edit.js:730
 msgid "Load more posts"
 msgstr "Last flere innlegg"
 
@@ -89,8 +90,8 @@ msgid " and "
 msgstr " og "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:246
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:30
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:67
 msgctxt "post author"
@@ -98,8 +99,8 @@ msgid " and "
 msgstr " og "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:223
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:18
 msgctxt "post author"
 msgid "by"
@@ -113,7 +114,7 @@ msgstr "Noe gikk galt. Vennligst oppfrisk siden og forsøk igjen."
 msgid "Loading..."
 msgstr "Laster..."
 
-#: dotcom-fse/class-full-site-editing.php:265
+#: dotcom-fse/class-full-site-editing.php:266
 msgid "Page Layout"
 msgstr "Sideoppsett"
 
@@ -125,7 +126,7 @@ msgstr "WordPress-ikon"
 msgid "Proudly powered by WordPress"
 msgstr "Stolt drevet av WordPress"
 
-#: dotcom-fse/class-full-site-editing.php:624
+#: dotcom-fse/class-full-site-editing.php:625
 msgid "WordPress Footer Credit"
 msgstr "Kreditering av WordPress i sidebunn"
 
@@ -160,7 +161,7 @@ msgid "About"
 msgstr "Om"
 
 #. translators: %s: "Back to Post", "Back to Page", "Back to Template", etc.
-#: dotcom-fse/class-full-site-editing.php:271
+#: dotcom-fse/class-full-site-editing.php:272
 msgid "Back to %s"
 msgstr "Tilbake til %s"
 
@@ -168,15 +169,15 @@ msgstr "Tilbake til %s"
 msgid "Invalid parent type."
 msgstr "Ugyldig foreldertype."
 
-#: dotcom-fse/class-full-site-editing.php:575
+#: dotcom-fse/class-full-site-editing.php:576
 msgid "Template Types cannon be deleted."
 msgstr "Maltyper kan ikke slettes."
 
-#: dotcom-fse/class-full-site-editing.php:537
+#: dotcom-fse/class-full-site-editing.php:538
 msgid "Templates cannot be moved to drafts."
 msgstr "Maltyper kan ikke flyttes til papirkurven."
 
-#: dotcom-fse/class-full-site-editing.php:523
+#: dotcom-fse/class-full-site-editing.php:524
 msgid "Templates cannot be deleted."
 msgstr "Maler kan ikke slettes."
 

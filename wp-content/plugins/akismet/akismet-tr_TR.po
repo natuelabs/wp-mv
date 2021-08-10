@@ -34,7 +34,7 @@ msgstr "Akismet bu yorumu kontrol edemedi ancak daha sonra otomatik olarak tekra
 msgid "Comment was caught by %s."
 msgstr "Yorum %s tarafından yakalandı."
 
-#: class.akismet.php:569
+#: class.akismet.php:575
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "Akismet yapılandırılmadı. Lütfen bir API anahtarı girin."
 
@@ -104,7 +104,7 @@ msgstr "Sitenizdeki istenmeyen girdilerden kurtulun"
 msgid "Would you like to <a href=\"%s\">check pending comments</a>?"
 msgstr "Bekleyen yorumları <a href=\"%s\">denetlemek</a> ister misiniz?"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Akismet hesabınızı kurun"
 
@@ -116,7 +116,7 @@ msgstr "Detaylı i̇statistikler"
 msgid "Statistics"
 msgstr "İstatistikler"
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "Yorum bulunamadı."
 
@@ -427,11 +427,11 @@ msgstr[1] "İstenmeyen yorum engellendi"
 msgid "Past six months"
 msgstr "Son altı ay"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Lütfen WordPress&#8217;i <a href=\"%1$s\">güncel sürüme yükseltin</a>, veya Akismet eklentisini <a href=\"%2$s\">2.4 sürümüne indirin</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s, WordPress %s veya daha yüksek sürüm gerektirir."
 

@@ -67,7 +67,7 @@ msgstr "اطلاعیه حفظ حریم خصوصی اکیسمت"
 msgid "Privacy"
 msgstr "حریم خصوصی"
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "این سایت از اکیسمت برای کاهش هرزنامه استفاده می کند. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">بیاموزید که چگونه اطلاعات دیدگاه های شما پردازش می‌شوند</a>."
 
@@ -75,7 +75,7 @@ msgstr "این سایت از اکیسمت برای کاهش هرزنامه اس�
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "ما اطلاعاتی را درباره بازدیدکنندگان سایت‌هایی که از خدمات ضدهرزنامه اکیسمت ما استفاده می‌کنند، جمع آوری می کنیم. اطلاعات جمع آوری شده ما بستگی به نحوه تنظیم کاربر اکیسمت برای سایت دارد، اما معمولاً آدرس IP، نام کاربری، ارجاع دهنده و آدرس سایت (همراه با سایر اطلاعاتی که به طور مستقیم توسط دیدگاه گذار ارائه می شود مانند نام، نام کاربری، آدرس ایمیل و دیدگاهش) را شامل می شود."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "نظر حذف شد."
 
@@ -164,7 +164,7 @@ msgstr "آیا میخواهید تا <a href=\"%s\">دیدگاه های منتظ
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "اکیسمت، اکنون محافظ از سایت شما از هرزنامه است. وبلاگ نویسی شادی داشته باشید!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "حساب کاربری اکیسمت خود را تنظیم نمائید"
 
@@ -198,7 +198,7 @@ msgid "Akismet checked %s comment."
 msgid_plural "Akismet checked %s comments."
 msgstr[0] "اکیسمت %s دیدگاه را بررسی کرد."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "دیدگاه پیدا نشد."
 
@@ -529,11 +529,11 @@ msgstr[0] "هرزنامه مسدود شده"
 msgid "Past six months"
 msgstr "شش ماه گذشته"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "لطفا <a href=\"%1$s\">وردپرس</a> را به نسخه فعلی ارتقا دهید، یا <a href=\"%2$s\">افزونه اکیسمت را به نسخه 2.4 تنزل ارتقا دهید</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "اکیسمت %s نیاز به وردپرس %s یا بالاتر دارد."
 

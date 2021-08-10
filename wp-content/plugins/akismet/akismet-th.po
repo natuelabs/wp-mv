@@ -453,11 +453,11 @@ msgstr "Akismet พบว่าความเห็นนี้เป็นส�
 msgid "Akismet cleared this comment during an automatic retry."
 msgstr "Akismet ล้างความเห็นนี้ระหว่างการลองใหม่อัตโนมัติ"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s ต้องการเวิร์ดเพรสรุ่น %s หรือสูงกว่า"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "โปรด <a href=\"%1$s\">อัปเกรดเวิร์ดเพรส</a> มายังรุ่นปัจจุบัน หรือ <a href=\"%2$s\"> ดาวน์เกรดปลั๊กอิน Akismet มายังรุ่น 2.4</a>"
 

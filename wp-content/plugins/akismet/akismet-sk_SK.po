@@ -38,7 +38,7 @@ msgstr "Akismet nedokázal skontrolovať tento komentár, no pokúsi sa o to nes
 msgid "Comment was caught by %s."
 msgstr "Komentár zachytil %s."
 
-#: class.akismet.php:569
+#: class.akismet.php:575
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "Akismet nie je nakonfigurovaný. Zadajte API kľúč."
 
@@ -94,7 +94,7 @@ msgstr "Upozornenie o ochrane osobných údajov Akismet"
 msgid "Privacy"
 msgstr "Súkromie"
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Táto webová stránka používa Akismet na redukciu spamu. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Získajte viac informácií o tom, ako sú vaše údaje z komentárov spracovávané</a>."
 
@@ -102,7 +102,7 @@ msgstr "Táto webová stránka používa Akismet na redukciu spamu. <a href=\"%s
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Zbierame informácie o návštevníkoch, ktorí pridávajú komentáre na webových stránkach používajúcich službu Akismet anti-spam. Zhromažďované informácie závisia od spôsobu, akým si používateľ nastaví Akismet na svojej webovej stránke, no zvyčajne zahŕňajú komentujúceho IP adresu, prehliadač, odkazujúcu stránku a URL webovej stránky (vrátane ďalších informácií, ktoré poskytne priamo komentujúci, ako napríklad meno, používateľské meno, e-mailová adresa a samotný text komentáru)."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "Komentár odstránený."
 
@@ -191,7 +191,7 @@ msgstr "Želáte si <a href=\"%s\">skontrolovať neschválené komentáre</a>?"
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Vaša webová stránka je odteraz chránená proti spamu pomocou pluginu Akismet. Veľa šťastie v blogovaní!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Nastavte si váš Akismet účet"
 
@@ -233,7 +233,7 @@ msgstr[2] "Akismet skontroloval %s komentárov."
 msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
 msgstr "Nenašli sa žiadne komentáre na kontrolu. Akismet kontroluje iba komentáre, ktoré sa nachádzajú vo fronte na schválenie."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "Komentár nebol nájdený."
 
@@ -584,11 +584,11 @@ msgstr[2] ""
 msgid "Past six months"
 msgstr "Posledných 7 mesiacov"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Prosím <a href=\"%1$s\">aktualizujte WordPress</a>na aktuálnu verziu, alebo <a href=\"%2$s\">maimštalujte verziu 2.4 Akismet modulu</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s vyžaduje verziu WordPress %s alebo novšiu."
 

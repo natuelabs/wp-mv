@@ -38,7 +38,7 @@ msgstr "Akismet njejo mógał toś ten komentar pśekontrolěrowaś, ale wopytaj
 msgid "Comment was caught by %s."
 msgstr "Komentar jo se wótpopadnuł wót %s."
 
-#: class.akismet.php:569
+#: class.akismet.php:575
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "Akismet njejo konfigurěrowany. Pšosym zapódajśo API-kluc."
 
@@ -94,7 +94,7 @@ msgstr "Powěźeńka priwatnosći Akismet"
 msgid "Privacy"
 msgstr "Priwatnosć"
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Toś to sedło Akismet wužywa, aby spam reducěrowało. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Zgońśo, kak se waše komentarowe daty pśeźěłuju</a>."
 
@@ -102,7 +102,7 @@ msgstr "Toś to sedło Akismet wužywa, aby spam reducěrowało. <a href=\"%s\" 
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Gromaźimy informacije w woglědowarjach, kótarež komentary na sedłach zawóstajaju, kótarež našu antispamowu słužbu Akismet wužywaju. Informacije, kótarež gromaźimy, wót togo wótwisuju, kak wužywaŕ Akismet za sedło konfigurěrujo, wopśimuju pak zwětšego IP-adresu komentatora, useragent, referrer a URL sedła (mimo drugich informacijow, kótarež komentator direktnje pódawa, na pśikład jogo mě, wužywaŕske mě, e-mailowu adresu a komentar sam)."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "Komentar jo se zachyśił."
 
@@ -191,7 +191,7 @@ msgstr "Cośo <a href=\"%s\">felujuce komentary kontrolěrowaś</a>?"
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Akismet něnto wašo sedło pśed spamom šćita. Wjasołe blogowanje!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Konfigurěrujśo swójo konto Akismet"
 
@@ -235,7 +235,7 @@ msgstr[3] "Akismet jo pśeglědał %s komentarow."
 msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
 msgstr "Njedaju žedne komentary za kontrolu. Akismet buźo jano komentary kontrolěrowaś, kótarež na moderaciju cakaju."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "Komentar njejo se namakał."
 
@@ -596,11 +596,11 @@ msgstr[3] "Spamowe komentary su se zablokěrowali"
 msgid "Past six months"
 msgstr "Zachadne šesć mjasecow"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Pšosym <a href=\"%1$s\">aktualizěrujśo WordPress</a> na aktualnu wersiju abo <a href=\"%2$s\">wužywajśo staršu wersiju 2.4 tykaca Akismet</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s se WordPress %s abo nowšy pomina."
 

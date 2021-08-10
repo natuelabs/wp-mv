@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-04-17T04:27:26+00:00\n"
+"POT-Creation-Date: 2021-05-25T02:18:45+00:00\n"
 "PO-Revision-Date: 2021-04-17 04:26:46+0000\n"
 "Language: kab_DZ\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -88,18 +88,13 @@ msgstr "Isuffeɣ-it-id %s"
 msgid "A variable-based design system for WordPress sites built with Gutenberg."
 msgstr "Anagraw n ufeṣṣel yebnan ɣef yimettiyen i yismal n WordPress i d-yebnan sGutenberg."
 
-#: template-parts/content/content-none.php:39
+#: template-parts/content/content-none.php:40
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Surfaɣ, ulac acu i yenmeɣran aked yirmawen n unadi-inek. Ttxil-k eɛreḍ s wawalen-nniḍen."
 
-#: template-parts/content/content-none.php:46
+#: template-parts/content/content-none.php:47
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Yettban-d amzum akken ayen tettnadiḍ ulac-it. Eɛreḍ s unadi."
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content/content-none.php:26
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Twejdeḍ iwakken ad d-tsuffeɣeḍ amagrad-inek amezwaru ? <a href=\"%1$s\">Bdu dagi</a>."
 
 #: single.php:38
 msgid "Next Post"
@@ -108,10 +103,6 @@ msgstr "Amagrad uḍfir"
 #: single.php:41
 msgid "Previous Post"
 msgstr "Amagrad uzwir"
-
-#: template-parts/content/content-none.php:16
-msgid "Nothing Found"
-msgstr "Ulac acu d-nufa"
 
 #: single.php:42
 msgid "Previous post:"

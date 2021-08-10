@@ -54,7 +54,7 @@ msgstr "被數百萬人採用，Akismet可能是世界上<strong>從垃圾文字
 msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started, just go to <a href=\"admin.php?page=akismet-key-config\">your Akismet Settings page</a> to set up your API key."
 msgstr "被數百萬人採用，Akismet可能是世界上<strong>從垃圾文字中保護你的網誌</strong>最好的方法。它更在你睡覺時保護你的網站。以開始，只需前往<a href=\"admin.php?page=akismet-key-config\">你的Akismet設定頁</a>以設定你的API金鑰。"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "設定你的Akismet帳戶"
 
@@ -84,7 +84,7 @@ msgstr[0] "Akismet檢查了%s個評論"
 msgid "Failed to connect to Akismet."
 msgstr "無法連接到 Akismet。"
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "找不到評論。"
 
@@ -625,11 +625,11 @@ msgstr "經過自動重新檢查，Akismet 捕獲這是垃圾評論。"
 msgid "Akismet cleared this comment during an automatic retry."
 msgstr "Akismet 在自動重試時已清除此評論。"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s 需要 WordPress %s 或以上版本。"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "請將 <a href=\"%1$s\">WordPress 升級</a>至最新版本，或<a href=\"%2$s\">將 Akismet 外掛程式降級為 2.4 版</a>。"
 

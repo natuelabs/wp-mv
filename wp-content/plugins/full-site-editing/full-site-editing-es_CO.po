@@ -29,6 +29,10 @@ msgstr "Iniciar tu web"
 msgid "Build a website. Sell your stuff. Write a blog. And so much more."
 msgstr "Crea una web, vende tus cosas, escribe un blog y mucho más."
 
+#: block-patterns/class-block-patterns-from-api.php:69
+msgid "Quotes"
+msgstr "Citas"
+
 #. Plugin Name of the plugin
 msgid "WordPress.com Editing Toolkit"
 msgstr "Herramienta de edición de WordPress.com"
@@ -98,6 +102,7 @@ msgstr "En blanco"
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:145
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/edit.js:730
 msgid "Load more posts"
 msgstr "Cargar más entradas"
 
@@ -107,8 +112,8 @@ msgid " and "
 msgstr " y "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:246
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:30
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:67
 msgctxt "post author"
@@ -116,8 +121,8 @@ msgid " and "
 msgstr " y "
 
 #: newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/view.php:223
-#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/dist/blog-posts-block-editor.js:6
+#: newspack-blocks/dist/carousel-block-editor.js:6
 #: newspack-blocks/synced-newspack-blocks/shared/js/utils.js:18
 msgctxt "post author"
 msgid "by"
@@ -131,7 +136,7 @@ msgstr "Algo ha ido mal. Por favor, recarga la página y/o inténtalo de nuevo."
 msgid "Loading..."
 msgstr "Cargando..."
 
-#: dotcom-fse/class-full-site-editing.php:265
+#: dotcom-fse/class-full-site-editing.php:266
 msgid "Page Layout"
 msgstr "Diseño de la página"
 
@@ -143,7 +148,7 @@ msgstr "Icono de WordPress"
 msgid "Proudly powered by WordPress"
 msgstr "Funciona gracias a WordPress"
 
-#: dotcom-fse/class-full-site-editing.php:624
+#: dotcom-fse/class-full-site-editing.php:625
 msgid "WordPress Footer Credit"
 msgstr "Acreditación de WordPress en el pie de página"
 
@@ -177,20 +182,20 @@ msgctxt "Default page title"
 msgid "About"
 msgstr "Acerca de"
 
-#: dotcom-fse/class-full-site-editing.php:575
+#: dotcom-fse/class-full-site-editing.php:576
 msgid "Template Types cannon be deleted."
 msgstr "No se pueden borrar los tipos de plantillas."
 
-#: dotcom-fse/class-full-site-editing.php:537
+#: dotcom-fse/class-full-site-editing.php:538
 msgid "Templates cannot be moved to drafts."
 msgstr "Las plantillas no se pueden mover a borradores."
 
-#: dotcom-fse/class-full-site-editing.php:523
+#: dotcom-fse/class-full-site-editing.php:524
 msgid "Templates cannot be deleted."
 msgstr "No se pueden borrar las plantillas."
 
 #. translators: %s: "Back to Post", "Back to Page", "Back to Template", etc.
-#: dotcom-fse/class-full-site-editing.php:271
+#: dotcom-fse/class-full-site-editing.php:272
 msgid "Back to %s"
 msgstr "Volver a %s"
 

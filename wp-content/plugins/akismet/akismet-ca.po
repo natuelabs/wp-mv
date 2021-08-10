@@ -38,7 +38,7 @@ msgstr "L'Akismet no ha pogut comprovar aquest comentari però tornarà a intent
 msgid "Comment was caught by %s."
 msgstr "El comentari ha estat detectat per %s."
 
-#: class.akismet.php:569
+#: class.akismet.php:575
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "L'Akismet no està configurat. Introdueix una clau d’API."
 
@@ -94,7 +94,7 @@ msgstr "Avís de privacitat d'Akismet"
 msgid "Privacy"
 msgstr "Privacitat "
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Aquest lloc utilitza Akismet per reduir els comentaris brossa. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Apreneu com es processen les dades dels comentaris</a>."
 
@@ -102,7 +102,7 @@ msgstr "Aquest lloc utilitza Akismet per reduir els comentaris brossa. <a href=\
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Recopilem informació sobre els visitants que comenten en els llocs que utilitzen el nostre servei contra el correu brossa d'Akismet. Li informem que el que recopilem depen de com l'usuari configura Akismet per al lloc, però generalment inclou la direcció IP del comentarista, l'agent de l'usuari, el referent i l'URL del lloc (juntament amb una altra informació proporcionada directament pel comentarista, com el seu nom, el seu nom d'usuari, el seu correu electrònic, la direcció i el comentari en si)."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "S'ha descartat el comentari."
 
@@ -191,7 +191,7 @@ msgstr "Voleu <a href=\"%s\">comprovar comentaris pendents</a>?"
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Akismet ara està protegint el vostre lloc web front a la brossa."
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Configureu el compte d'Akismet"
 
@@ -231,7 +231,7 @@ msgstr[1] "Akismet ha comprovat %s comentaris."
 msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
 msgstr "No hi ha comentaris per comprovar. Akisment només comprovarà comentaris pendents de moderar."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "No s'ha trobat el comentari."
 
@@ -572,11 +572,11 @@ msgstr[1] ""
 msgid "Past six months"
 msgstr "Els últims sis mesos"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "<a href=\"%1$s\">Actualitzeu el WordPress</a> a la versió actual, o <a href=\"%2$s\">desactualitzeu l'extensió de l'Akismet a la versió 2.4</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "L'Akismet %s requereix el WordPress %s o superior."
 

@@ -38,7 +38,7 @@ msgstr "Akismet не зміг перевірити цей коментар, ал
 msgid "Comment was caught by %s."
 msgstr "Коментар спійманий %s."
 
-#: class.akismet.php:569
+#: class.akismet.php:575
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "Akismet не сконфігурований. Вам потрібно ввести ключ API."
 
@@ -94,7 +94,7 @@ msgstr "Akismet повідомлення про конфіденційність
 msgid "Privacy"
 msgstr "Конфіденційність"
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Цей сайт використовує Akismet для зменшення спаму.  <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\"> Дізнайтеся, як обробляються ваші дані коментарів</a>."
 
@@ -102,7 +102,7 @@ msgstr "Цей сайт використовує Akismet для зменшенн
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Ми збираємо інформацію про відвідувачів, які коментують сайти, що використовують нашу службу анти-спаму Akismet. Інформація, яку ми збираємо, залежить від того, як користувач налаштував Akismet для сайту, але зазвичай включає в себе IP-адресу, агента користувача, реферер та URL-адресу коментаря (разом з іншою інформацією, яка безпосередньо надана коментатором, такими як їх ім'я, ім'я користувача, електронна адреса і сам коментар)."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "Коментар відкинутий."
 
@@ -191,7 +191,7 @@ msgstr "Хочете <a href=\"%s\">перевірити коментарі в �
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Akismet тепер захищає ваш сайт від спаму. Щасливого блогінгу!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Налаштуйте свій обліковий запис Akismet"
 
@@ -233,7 +233,7 @@ msgstr[2] "Akismet перевірив %s коментарів."
 msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
 msgstr "Немає коментарів для перевірки. Akismet буде перевіряти тільки коментарі в черзі очікування."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "Коментар не знайдено."
 
@@ -584,11 +584,11 @@ msgstr[2] "Спаму заблоковано"
 msgid "Past six months"
 msgstr "За шість місяців"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Будь ласка, <a href=\"%1$s\">оновіть WordPress</a> до поточної версії, або <a href=\"%2$s\">поверніться до використання Akismet версії 2.4</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s вимагає WordPress %s або вище."
 

@@ -46,7 +46,7 @@ msgstr "Viltu  <a href=\"%s\">fara yfir athugasemdir á bið</a>?"
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Akismet ver nú vefin þinn fyrir amapóstum. Skemmtu þér við að blogga!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Setja upp Akismet reikninginn þinn"
 
@@ -82,7 +82,7 @@ msgid_plural "Akismet checked %s comments."
 msgstr[0] "Akismet fór yfir %s athugasemd."
 msgstr[1] "Akismet fór yfir %s athugasemdir."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "Athugasemd fannst ekki."
 
@@ -419,11 +419,11 @@ msgstr[1] "Amapóstar stoppaðir"
 msgid "Past six months"
 msgstr "Síðustu sex mánuðir"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Vinsamlegast <a href=\"%1$s\">uppfærðu WordPress</a> í nýjustu útgáfu, eða <a href=\"%2$s\">færðu Akismet niður í útgáfu 2.4 af viðbótinni</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s þarf WordPress %s eða nýrra."
 

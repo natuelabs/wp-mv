@@ -7,11 +7,28 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-04-27T01:57:50+00:00\n"
-"PO-Revision-Date: 2021-04-26 15:13:03+0000\n"
+"POT-Creation-Date: 2021-06-10T02:18:13+00:00\n"
+"PO-Revision-Date: 2021-06-09 13:59:02+0000\n"
 "Language: sv_SE\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/content-none.php:31
+msgid "Add or publish Posts"
+msgstr "Lägg till eller publicera inlägg"
+
+#: template-parts/content/content-none.php:25
+msgid "Your site is set to show the the most recent posts on your homepage - but you don't have any Posts published."
+msgstr "Din webbplats är inställd på att visa de senaste inläggen på din startsida - men du har inga inlägg publicerade."
+
+#: template-parts/content/content-none.php:16
+msgid "No Posts Found"
+msgstr "Inga inlägg hittades"
+
+#: functions.php:510
+msgid "Check to display a featured image at the top of your pages when they have one."
+msgstr "Kryssa i för att visa en utvald bild högst upp på dina sidor när de har en."
 
 #: functions.php:509
 msgid "Show the featured image on pages"
@@ -20,6 +37,10 @@ msgstr "Visa den utvalda bilden på sidor"
 #: functions.php:489
 msgid "Content Options"
 msgstr "Innehållsalternativ"
+
+#: functions.php:469
+msgid "Check to hide the site menu & widgets in the footer, if your homepage is set to display a static page."
+msgstr "Kryssa i för att dölja webbplatsens menyer och widgetar i sidfoten om din startsida är inställd på att visa en statisk sida."
 
 #: functions.php:468
 msgid "Hide the Site Footer Menu & Widgets"
@@ -116,22 +137,13 @@ msgstr "Publicerad av %s"
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Fortsätt läsa <span class=\"screen-reader-text\">%s</span>"
 
-#: template-parts/content/content-none.php:46
+#: template-parts/content/content-none.php:47
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Det verkar som att vi inte kan hitta det du letar efter. Prova att göra en sökning."
 
-#: template-parts/content/content-none.php:39
+#: template-parts/content/content-none.php:40
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Inget matchade dina söktermer. Försök igen med några andra nyckelord."
-
-#. translators: 1: link to WP admin new post page.
-#: template-parts/content/content-none.php:26
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
-
-#: template-parts/content/content-none.php:16
-msgid "Nothing Found"
-msgstr "Inget hittat"
 
 #: template-parts/content/content-excerpt.php:18
 #: template-parts/content/content-testimonial-excerpt.php:18
@@ -372,7 +384,7 @@ msgstr "Primär"
 
 #: template-parts/footer/site-name.php:9
 msgid "https://wordpress.org/"
-msgstr "https://wordpress.org/"
+msgstr "https://sv.wordpress.org/"
 
 #: comments.php:66
 msgid "Comments are closed."
@@ -391,26 +403,9 @@ msgstr[1] "%1$s reaktioner till &ldquo;%2$s&rdquo;"
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr "En tanke på &ldquo;%1$s&rdquo;"
 
-#: classes/class-varia-walker-comment.php:100
-msgid "Your comment is awaiting moderation."
-msgstr "Din kommentar inväntar granskning."
-
-#: classes/class-varia-walker-comment.php:95
-msgid "Edit"
-msgstr "Redigera"
-
-#. translators: 1: comment date, 2: comment time
-#: classes/class-varia-walker-comment.php:87
-msgid "%1$s at %2$s"
-msgstr "%1$s kl. %2$s"
-
-#: classes/class-varia-walker-comment.php:67
-msgid "%s <span class=\"screen-reader-text says\">says:</span>"
-msgstr "%s <span class=\"screen-reader-text says\">säger:</span>"
-
 #: 404.php:24
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Det verkar inte som något kunde hittas för den här platsen. Testa en sökning kanske?"
+msgstr "Det verkar som om inget hittades på denna plats. Kanske prova en sökning?"
 
 #: 404.php:20
 msgid "Oops! That page can&rsquo;t be found."

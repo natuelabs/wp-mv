@@ -38,7 +38,7 @@ msgstr "Akismet-i s’qe në gjendje të rikontrollonte këtë koment, por do t�
 msgid "Comment was caught by %s."
 msgstr "U kap koment nga %s."
 
-#: class.akismet.php:569
+#: class.akismet.php:575
 msgid "Akismet is not configured. Please enter an API key."
 msgstr "Akismet-i s’është i formësuar. Ju lutemi, jepni një kyç API."
 
@@ -94,7 +94,7 @@ msgstr "Njoftim privatësie Akismet"
 msgid "Privacy"
 msgstr "Privatësi"
 
-#: class.akismet.php:1516
+#: class.akismet.php:1616
 msgid "This site uses Akismet to reduce spam. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Learn how your comment data is processed</a>."
 msgstr "Ky sajt përdor Akismet-in për të pakësuar numrin e mesazheve të padëshiruara. <a href=\"%s\" target=\"_blank\" rel=\"nofollow noopener\">Mësoni se si  përpunohen të dhënat e komentit tuaj</a>."
 
@@ -102,7 +102,7 @@ msgstr "Ky sajt përdor Akismet-in për të pakësuar numrin e mesazheve të pad
 msgid "We collect information about visitors who comment on Sites that use our Akismet anti-spam service. The information we collect depends on how the User sets up Akismet for the Site, but typically includes the commenter's IP address, user agent, referrer, and Site URL (along with other information directly provided by the commenter such as their name, username, email address, and the comment itself)."
 msgstr "Ne grumbullojmë të dhëna rreth vizitorëve që komentojnë në Sajte që përdorim shërbimin tonë kundër mesazhesh të padëshiruar, Akismet. Të dhënat që grumbullojmë varen nga formësimi që Përdoruesi i ka bërë Akismet-it për Sajtin, por zakonisht përfshijnë adresën IP të komentuesit, agjentin e përdoruesit, referuesin, dhe URL-në e Sajtit (tok me të dhëna të tjera të furnizuara nga vetë komentuesi, të tilla si emri i tij, emri i përdoruesit, adresa email, dhe vetëm komenti)."
 
-#: class.akismet.php:244
+#: class.akismet.php:250
 msgid "Comment discarded."
 msgstr "Komenti u hodh tej."
 
@@ -191,7 +191,7 @@ msgstr "Do të donit të <a href=\"%s\">kontrollonit komentet e mbajtura pezull<
 msgid "Akismet is now protecting your site from spam. Happy blogging!"
 msgstr "Akismet-i tani është duke e mbrojtur sajtin tuaj nga mesazhe të padëshiruar. Blogim të mbarë!"
 
-#: views/notice.php:14 views/setup.php:3
+#: views/setup.php:3 views/notice.php:14
 msgid "Set up your Akismet account"
 msgstr "Rregulloni llogarinë tuaj Akismet"
 
@@ -231,7 +231,7 @@ msgstr[1] "Akismet-i kontrolloi %s komente."
 msgid "There were no comments to check. Akismet will only check comments awaiting moderation."
 msgstr "S’pati komente për t’i kontrolluar. Akismet-i do të kontrollojë vetëm komentet në pritje të shqyrtimit."
 
-#: class.akismet.php:575
+#: class.akismet.php:581
 msgid "Comment not found."
 msgstr "S’u gjet koment."
 
@@ -572,11 +572,11 @@ msgstr[1] "U bllokuan të padëshiruara"
 msgid "Past six months"
 msgstr "Gjashtë muajt e fundit"
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "Ju lutemi, <a href=\"%1$s\">përmirësojeni WordPress-in</a> me versionin e tanishëm, ose <a href=\"%2$s\">kaloni te versioni 2.4 i shtojcës Akismet</a>."
 
-#: class.akismet.php:1364
+#: class.akismet.php:1370
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s lyp WordPress %s ose më sipër."
 

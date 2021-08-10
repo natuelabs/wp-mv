@@ -15,27 +15,23 @@ import { useDispatch, useSelect } from '@wordpress/data';
 import { createPortal, useEffect, useState, useRef } from '@wordpress/element';
 import { recordTracksEvent } from '@automattic/calypso-analytics';
 import { __ } from '@wordpress/i18n';
+import { useLocale } from '@automattic/i18n-utils';
 
 function LaunchWpcomWelcomeTour() {
 	const portalParent = useRef( document.createElement( 'div' ) ).current;
 	const { show, isNewPageLayoutModalOpen, isManuallyOpened } = useSelect( ( select ) => ( {
 		show: select( 'automattic/wpcom-welcome-guide' ).isWelcomeGuideShown(),
-		// Handle the case where the new page layout modal is initialized and open
+		// Handle the case where the new page pattern modal is initialized and open
 		isNewPageLayoutModalOpen:
 			select( 'automattic/starter-page-layouts' ) &&
 			select( 'automattic/starter-page-layouts' ).isOpen(),
 		isManuallyOpened: select( 'automattic/wpcom-welcome-guide' ).isWelcomeGuideManuallyOpened(),
 	} ) );
 
-	const { closeGeneralSidebar } = useDispatch( 'core/edit-post' );
+	const localeSlug = useLocale();
 
 	// Preload first card image (others preloaded after open state confirmed)
-	new window.Image().src = getTourContent()[ 0 ].imgSrc;
-
-	// Hide editor sidebar first time user sees the editor
-	useEffect( () => {
-		show && closeGeneralSidebar();
-	}, [ closeGeneralSidebar, show ] );
+	new window.Image().src = getTourContent( localeSlug )[ 0 ].imgSrc;
 
 	useEffect( () => {
 		if ( ! show && ! isNewPageLayoutModalOpen ) {
@@ -62,7 +58,8 @@ function LaunchWpcomWelcomeTour() {
 }
 
 function WelcomeTourFrame() {
-	const cardContent = getTourContent();
+	const localeSlug = useLocale();
+	const cardContent = getTourContent( localeSlug );
 	const [ isMinimized, setIsMinimized ] = useState( false );
 	const [ currentCardIndex, setCurrentCardIndex ] = useState( 0 );
 	const [ justMaximized, setJustMaximized ] = useState( false );
